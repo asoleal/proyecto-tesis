@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber build/0000"] 1737669990.46718 "build/0000.bcf" "build/0000.bbl" "build/0000" 1737669995.69048 0
+["biber build/0000"] 1737675618.51658 "build/0000.bcf" "build/0000.bbl" "build/0000" 1737675624.63763 0
   "Referencias.bib" 1737667464.32862 5835 c6eb5a2f36363df3a87edeaa94138d38 ""
-  "bibliografia_tesis_leal.bib" 1737669979.22797 18313 a7b5f1c73ddd56f85950c5cf5d3357a7 ""
-  "build/0000.bcf" 1737669995.5419 134487 fa6eba65becf0a7fb5a97e62ea1f071d "pdflatex"
+  "bibliografia_tesis_leal.bib" 1737675589.77245 30827 231487caaadf6d539519aa11a5f657cb ""
+  "build/0000.bcf" 1737675624.48714 135092 ecad33f010bd8dec38bcab24c30bd08c "pdflatex"
   (generated)
   "build/0000.bbl"
   "build/0000.blg"
   (rewritten before read)
-["pdflatex"] 1737669993.74755 "/home/Dairo/Documentos/proyecto_leal/proyecto-tesis/0000.tex" "build/0000.pdf" "0000" 1737669995.69087 0
+["pdflatex"] 1737675622.29094 "/home/Dairo/Documentos/proyecto_leal/proyecto-tesis/0000.tex" "build/0000.pdf" "0000" 1737675624.63898 0
   "/home/Dairo/Documentos/proyecto_leal/proyecto-tesis/0000.tex" 1737664298.13551 12419 e0bc6869398860cd63c37cad2ad1d378 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1736268207 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1736268207 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -216,17 +216,17 @@
   "00Objetivos.tex" 1737600252.88205 19 51789a636a022023656e9b55b4a18c51 ""
   "08Apendice01.tex" 1737600252.88205 21 06654a75da26ec8b67798fd286e8377d ""
   "Justificacion.tex" 1737600252.88205 25 93d92fbf8ec2f9a0514064f4470c1d74 ""
-  "Planteamiento.tex" 1737669989.03833 2436 bc4cc866d913ea233f8a059ac747d15b ""
+  "Planteamiento.tex" 1737675615.88091 3579 00f086bffdf49853079b9cc14b21f965 ""
   "Pregunta.tex" 1737600252.88205 37 52e419a88d9c19cda8a175919ee830d7 ""
-  "build/0000.aux" 1737669995.5319 5588 38e74c690b1bc25fdda576408552d4e0 "pdflatex"
-  "build/0000.bbl" 1737669991.75843 130868 a7f4673246f9eb474a08fb56959c8d32 "biber build/0000"
-  "build/0000.out" 1737669995.53857 770 b7a405e5fafaf5e7a56543ad33e0642d "pdflatex"
-  "build/0000.run.xml" 1737669995.5419 2407 0987e5e2d777bee2f9f456714d6e0574 "pdflatex"
-  "build/00Objetivos.aux" 1737669995.21522 4610 c6647f382631d3bdcc70ffa4f60abb51 "pdflatex"
-  "build/08Apendice01.aux" 1737669995.22189 4618 6c31b2e4875f7b23b8eb4321f9faebd3 "pdflatex"
-  "build/Justificacion.aux" 1737669995.20189 4617 cf4b14a952705847c78e1ca51a66904b "pdflatex"
-  "build/Planteamiento.aux" 1737669995.19522 4616 58592c243bf023ab36fb5482ba9d37fd "pdflatex"
-  "build/Pregunta.aux" 1737669995.20855 4624 99f3caeb23c3a37bc8a67d9594aa6d0d "pdflatex"
+  "build/0000.aux" 1737675624.47714 7284 a46454fd20c809ec09b3cb7e08b76519 "pdflatex"
+  "build/0000.bbl" 1737675619.92737 183524 7640430533efdf38a171c23ed0cbb4ff "biber build/0000"
+  "build/0000.out" 1737675624.48714 770 b7a405e5fafaf5e7a56543ad33e0642d "pdflatex"
+  "build/0000.run.xml" 1737675624.49048 2407 0987e5e2d777bee2f9f456714d6e0574 "pdflatex"
+  "build/00Objetivos.aux" 1737675624.05383 4610 330989e12bcd24cf73a0f6d0ac18312a "pdflatex"
+  "build/08Apendice01.aux" 1737675624.06383 4618 3f24303428b20d555910b17322de0d0b "pdflatex"
+  "build/Justificacion.aux" 1737675624.03383 4617 f54f101c37f9840b188db36f49008324 "pdflatex"
+  "build/Planteamiento.aux" 1737675624.02383 4616 ef44de15a429987f511c3bcef001fc73 "pdflatex"
+  "build/Pregunta.aux" 1737675624.04383 4624 50a52af76660a25c0367223fb4d265c8 "pdflatex"
   "simplekv.tex" 1737600252.88539 10100 b9a5b7cf0b5690a6fd8e88ca507eec2a ""
   (generated)
   "build/0000.aux"

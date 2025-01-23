@@ -3078,7 +3078,14 @@
     <bcf:citekey order="7" intorder="3">barragan2017nutritional</bcf:citekey>
     <bcf:citekey order="8" intorder="1">Surendra2016</bcf:citekey>
     <bcf:citekey order="8" intorder="2">amrulReviewOrganicWaste2022</bcf:citekey>
-    <bcf:citekey order="9" intorder="1" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">rajRealTimeEstimation2023</bcf:citekey>
+    <bcf:citekey order="9" intorder="2">duobieneDevelopmentWirelessSensor2022</bcf:citekey>
+    <bcf:citekey order="9" intorder="3">yavariArtEMonArtificialIntelligence2023</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">weichertReviewMachineLearning2019</bcf:citekey>
+    <bcf:citekey order="10" intorder="2">chenOptimizationModelProcess2021</bcf:citekey>
+    <bcf:citekey order="10" intorder="3">liuOptimizingDataPipelines2023</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">kamilaris2017review</bcf:citekey>
+    <bcf:citekey order="12" intorder="1" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
