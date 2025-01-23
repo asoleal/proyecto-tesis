@@ -1,0 +1,19 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'build/0000.blg'
+[340] biber:340> INFO - === mié ene 22, 2025, 22:02:30
+[402] Biber.pm:419> INFO - Reading 'build/0000.bcf'
+[588] Biber.pm:976> INFO - Using all citekeys in bib section 0
+[635] Biber.pm:4419> INFO - Processing section 0
+[656] Biber.pm:4610> INFO - Looking for bibtex file 'Referencias.bib' for section 0
+[659] bibtex.pm:1713> INFO - LaTeX decoding ...
+[697] bibtex.pm:1519> INFO - Found BibTeX data source 'Referencias.bib'
+[951] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[951] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[951] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[995] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[996] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[996] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[1025] bbl.pm:660> INFO - Writing 'build/0000.bbl' with encoding 'UTF-8'
+[1039] bbl.pm:763> INFO - Output to build/0000.bbl
+[1040] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_wuMm/a20f060712aedbb6689faee50de82126_10223.utf8, line 29, warning: 2 characters of junk seen at toplevel
+[1040] Biber.pm:133> INFO - WARNINGS: 1
