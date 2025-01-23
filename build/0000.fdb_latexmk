@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber build/0000"] 1737664363.99808 "build/0000.bcf" "build/0000.bbl" "build/0000" 1737664368.51225 0
-  "Referencias.bib" 1737664298.35217 5835 ee73c67c2b73db45cbb9c3e69597cbce ""
-  "bibliografia_tesis_leal.bib" 1737664246.20146 3245 f8877d60078f0cbc5591d077ed3e8cd7 ""
-  "build/0000.bcf" 1737664368.36652 133318 d3d27816d0e9e38657a658b28d753b93 "pdflatex"
+["biber build/0000"] 1737669990.46718 "build/0000.bcf" "build/0000.bbl" "build/0000" 1737669995.69048 0
+  "Referencias.bib" 1737667464.32862 5835 c6eb5a2f36363df3a87edeaa94138d38 ""
+  "bibliografia_tesis_leal.bib" 1737669979.22797 18313 a7b5f1c73ddd56f85950c5cf5d3357a7 ""
+  "build/0000.bcf" 1737669995.5419 134487 fa6eba65becf0a7fb5a97e62ea1f071d "pdflatex"
   (generated)
   "build/0000.bbl"
   "build/0000.blg"
   (rewritten before read)
-["pdflatex"] 1737664366.74575 "/home/Dairo/Documentos/proyecto_leal/proyecto-tesis/0000.tex" "build/0000.pdf" "0000" 1737664368.51264 0
+["pdflatex"] 1737669993.74755 "/home/Dairo/Documentos/proyecto_leal/proyecto-tesis/0000.tex" "build/0000.pdf" "0000" 1737669995.69087 0
   "/home/Dairo/Documentos/proyecto_leal/proyecto-tesis/0000.tex" 1737664298.13551 12419 e0bc6869398860cd63c37cad2ad1d378 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1736268207 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1736268207 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -23,6 +23,7 @@
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecss2488.tfm" 1736268207 3584 35554f1c76e12d64b184420fc7dc5758 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecsx2488.tfm" 1736268207 3584 8530f700a3778253a0a6d6639fda16c7 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecti0700.tfm" 1736268207 3072 b90b057319ce008920857c32d19eeb4d ""
+  "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecti1000.tfm" 1736268207 3072 3bce340d4c075dffe6d4ec732b4c32fe ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1736268207 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1736268207 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb" 1736268207 143961 201304b65f97bc643fbd0bcf0685d1fe ""
@@ -34,6 +35,7 @@
   "/usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb" 1736268207 136101 f533469f523533d38317ab5729d00c8a ""
   "/usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx2488.pfb" 1736268207 142843 cf43d58e8ac9c4319486799accfedabf ""
   "/usr/share/texmf-dist/fonts/type1/public/cm-super/sfti0700.pfb" 1736268207 184338 71ec80cd6b45d5405da0f23c65ebdef8 ""
+  "/usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb" 1736268207 186554 e8f0fa8ca05e038f257a06405232745f ""
   "/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1736268207 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1736268207 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/share/texmf-dist/tex/generic/babel-spanish/spanish.ldf" 1736268207 26965 3b6d1655ad716f98e788b1fb9f2e87b8 ""
@@ -214,17 +216,17 @@
   "00Objetivos.tex" 1737600252.88205 19 51789a636a022023656e9b55b4a18c51 ""
   "08Apendice01.tex" 1737600252.88205 21 06654a75da26ec8b67798fd286e8377d ""
   "Justificacion.tex" 1737600252.88205 25 93d92fbf8ec2f9a0514064f4470c1d74 ""
-  "Planteamiento.tex" 1737664361.68309 1865 dfac58ac9424ac5a33a6bf9582e4c94a ""
+  "Planteamiento.tex" 1737669989.03833 2436 bc4cc866d913ea233f8a059ac747d15b ""
   "Pregunta.tex" 1737600252.88205 37 52e419a88d9c19cda8a175919ee830d7 ""
-  "build/0000.aux" 1737664368.35652 2649 bafe14c752bd59c98ba2268faab9a022 "pdflatex"
-  "build/0000.bbl" 1737664364.99981 71726 4f1b747c3d87d1c2ef7a33d959c9f4c2 "biber build/0000"
-  "build/0000.out" 1737664368.36319 770 b7a405e5fafaf5e7a56543ad33e0642d "pdflatex"
-  "build/0000.run.xml" 1737664368.36652 2407 0987e5e2d777bee2f9f456714d6e0574 "pdflatex"
-  "build/00Objetivos.aux" 1737664368.18319 4609 e2469f6340eb2713906716534cb08421 "pdflatex"
-  "build/08Apendice01.aux" 1737664368.18985 4617 7a7e1f0d2d4c1eda13b77f770be2c7bd "pdflatex"
-  "build/Justificacion.aux" 1737664368.16985 4616 fc18981f2253e54b296e0973ea553f7c "pdflatex"
-  "build/Planteamiento.aux" 1737664368.16319 4615 020d468bbbd9a419285007d50579609a "pdflatex"
-  "build/Pregunta.aux" 1737664368.17652 4623 9c661691ae8fe1494fe49547681c9cac "pdflatex"
+  "build/0000.aux" 1737669995.5319 5588 38e74c690b1bc25fdda576408552d4e0 "pdflatex"
+  "build/0000.bbl" 1737669991.75843 130868 a7f4673246f9eb474a08fb56959c8d32 "biber build/0000"
+  "build/0000.out" 1737669995.53857 770 b7a405e5fafaf5e7a56543ad33e0642d "pdflatex"
+  "build/0000.run.xml" 1737669995.5419 2407 0987e5e2d777bee2f9f456714d6e0574 "pdflatex"
+  "build/00Objetivos.aux" 1737669995.21522 4610 c6647f382631d3bdcc70ffa4f60abb51 "pdflatex"
+  "build/08Apendice01.aux" 1737669995.22189 4618 6c31b2e4875f7b23b8eb4321f9faebd3 "pdflatex"
+  "build/Justificacion.aux" 1737669995.20189 4617 cf4b14a952705847c78e1ca51a66904b "pdflatex"
+  "build/Planteamiento.aux" 1737669995.19522 4616 58592c243bf023ab36fb5482ba9d37fd "pdflatex"
+  "build/Pregunta.aux" 1737669995.20855 4624 99f3caeb23c3a37bc8a67d9594aa6d0d "pdflatex"
   "simplekv.tex" 1737600252.88539 10100 b9a5b7cf0b5690a6fd8e88ca507eec2a ""
   (generated)
   "build/0000.aux"
