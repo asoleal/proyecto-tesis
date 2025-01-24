@@ -10,8 +10,8 @@
 
 %Usando el paquete BibLaTeX
 %Cita normal con \cite[página]{} y cita con paréntesis \parencite[página]{}
-\usepackage[utf8]{inputenc}
 % Configuración de BibLaTeX
+\usepackage[utf8]{inputenc}
 %\usepackage[backend=biber,style=apa,maxcitenames=2,maxbibnames=99,giveninits=true,uniquename=false]{biblatex}
 %\addbibresource{Referencias.bib}
 \usepackage[backend=biber,style=apa,maxcitenames=2,maxbibnames=99,giveninits=true,uniquename=false]{biblatex}
@@ -47,6 +47,7 @@
 
 % Carácteres especiales
 \usepackage{fontenc}
+\usepackage{comment}
 
 % Evita ligadura li & fl
 \usepackage{microtype}
@@ -335,8 +336,10 @@ myedge/.style={->, -{Latex[#1]}}
 %Use \include para incluir desde una página nueva e \input para incluir sin salto de página
 % Archivos incluidos
 \include{Planteamiento}
-\include{Justificacion}
+
 \include{Pregunta}
+\include{Justificacion}
+
 \include{00Objetivos}
 %\include{01Seccion01}
 %\include{02Seccion02}
