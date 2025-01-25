@@ -3093,7 +3093,9 @@
     <bcf:citekey order="15" intorder="2">Bermudez2023</bcf:citekey>
     <bcf:citekey order="16" intorder="1">Diener2011</bcf:citekey>
     <bcf:citekey order="16" intorder="2">Salam2022</bcf:citekey>
-    <bcf:citekey order="17" intorder="1" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">FAO2021</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">IPCC2014</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">IPCC2014</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

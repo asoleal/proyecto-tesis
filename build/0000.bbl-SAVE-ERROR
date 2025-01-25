@@ -1,0 +1,3627 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{amrulReviewOrganicWaste2022}{article}{}
+      \name{author}{6}{}{%
+        {{hash=007b45351fc6aa278391a19ab3af5d73}{%
+           family={Amrul},
+           familyi={A\bibinitperiod},
+           given={Nur\bibnamedelima Fardilla},
+           giveni={N\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=04fc3298af1786011f2289721cc41525}{%
+           family={Kabir\bibnamedelima Ahmad},
+           familyi={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Irfana},
+           giveni={I\bibinitperiod}}}%
+        {{hash=c7fc8f0d6e812929aec6b620d7e75388}{%
+           family={Ahmad\bibnamedelima Basri},
+           familyi={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Noor\bibnamedelima Ezlin},
+           giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=96404c13278fa1d4aea0af62c8e17b72}{%
+           family={Suja},
+           familyi={S\bibinitperiod},
+           given={Fatihah},
+           giveni={F\bibinitperiod}}}%
+        {{hash=9aa1d108fb172255a97f98368408410f}{%
+           family={Abdul\bibnamedelima Jalil},
+           familyi={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={Nurul\bibnamedelima Ain},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ae161179eeb0dc4b3b4a2c7cc09ba446}{%
+           family={Azman},
+           familyi={A\bibinitperiod},
+           given={Nur\bibnamedelima Asyiqin},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{094ea627ac089105e2c10c3b5695a216}
+      \strng{fullhash}{3b686f27de8e492db9100c5b1c4a38de}
+      \strng{bibnamehash}{3b686f27de8e492db9100c5b1c4a38de}
+      \strng{authorbibnamehash}{3b686f27de8e492db9100c5b1c4a38de}
+      \strng{authornamehash}{094ea627ac089105e2c10c3b5695a216}
+      \strng{authorfullhash}{3b686f27de8e492db9100c5b1c4a38de}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The increase in solid waste generation is caused primarily by the global population growth that resulted in urban sprawl, economic development, and consumerism. Poor waste management has adverse impacts on the environment and human health. The recent years have seen increasing interest in using black soldier fly (BSF), Hermetia illucens, as an organic waste converter. Black soldier fly larvae (BSFL) feed voraciously on various types of organic waste, including food wastes, agro-industrial by-products, and chicken and dairy manure, and reduce the initial weight of the organic waste by about 50\% in a shorter period than conventional composting. The main components of the BSFL system are the larvero, where the larvae feed and grow, and the fly house, where the adults BSF live and reproduce. It is essential to have a rearing facility that maintains the healthy adult and larval BSF to provide a sufficient and continuous supply of offspring for organic waste treatment. The BSF organic waste processing facility consists of waste pre-processing, BSFL biowaste treatment, the separation of BSFL from the process residue, and larvae and residue refinement into marketable products. BSFL digest the nutrients in the wastes and convert them into beneficial proteins and fats used to produce animal feed, and BSFL residue can be used as an organic fertilizer. This review summarizes the BSFL treatment process to provide an in-depth understanding of the value of its by-products as animal feed and organic fertilizer.}
+      \field{issn}{2071-1050}
+      \field{issue}{8}
+      \field{journaltitle}{Sustainability}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{8}
+      \field{title}{A {{Review}} of {{Organic Waste Treatment Using Black Soldier Fly}} ({{Hermetia}} Illucens)}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{14}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{4565}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/su14084565
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/TKX8HNK4/Amrul et al. - 2022 - A Review of Organic Waste Treatment Using Black Soldier Fly (Hermetia illucens).pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2071-1050/14/8/4565
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2071-1050/14/8/4565
+      \endverb
+      \keyw{bioconversion,black soldier fly,composting,organic waste management}
+    \endentry
+    \entry{barragan2017nutritional}{article}{}
+      \name{author}{3}{}{%
+        {{hash=014ad5855465ed38e4f88b86642a1e8b}{%
+           family={Barragan-Fonseca},
+           familyi={B\bibinithyphendelim F\bibinitperiod},
+           given={Karol\bibnamedelima B},
+           giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=32d02fb2cd483d0fd44d35825c19f20d}{%
+           family={Dicke},
+           familyi={D\bibinitperiod},
+           given={Marcel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=edc8346193f0a314aa56f519242a6191}{%
+           family={Loon},
+           familyi={L\bibinitperiod},
+           given={Joop\bibnamedelima JA},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wageningen Academic Publishers}%
+      }
+      \strng{namehash}{d9663a9f1a877f2cdb583d52003c9141}
+      \strng{fullhash}{a770dbeb4cd663ac7b0854a9287884b9}
+      \strng{bibnamehash}{a770dbeb4cd663ac7b0854a9287884b9}
+      \strng{authorbibnamehash}{a770dbeb4cd663ac7b0854a9287884b9}
+      \strng{authornamehash}{d9663a9f1a877f2cdb583d52003c9141}
+      \strng{authorfullhash}{a770dbeb4cd663ac7b0854a9287884b9}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Insects as Food and Feed}
+      \field{number}{2}
+      \field{title}{Nutritional value of the black soldier fly (Hermetia illucens L.) and its suitability as animal feed--a review}
+      \field{volume}{3}
+      \field{year}{2017}
+      \field{pages}{105\bibrangedash 120}
+      \range{pages}{16}
+    \endentry
+    \entry{Bermudez2023}{article}{}
+      \name{author}{2}{}{%
+        {{hash=23a2bce439981fc48da1391b6d3c738e}{%
+           family={Bermúdez-Serrano},
+           familyi={B\bibinithyphendelim S\bibinitperiod},
+           given={I.\bibnamedelimi M.},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=86dc0cd3a111c8373a3cca7a6859cede}{%
+           family={Sánchez-Velázquez},
+           familyi={S\bibinithyphendelim V\bibinitperiod},
+           given={O.\bibnamedelimi A.},
+           giveni={O\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f7c4af3af3093680e8612939e04e11a}
+      \strng{fullhash}{8f7c4af3af3093680e8612939e04e11a}
+      \strng{bibnamehash}{8f7c4af3af3093680e8612939e04e11a}
+      \strng{authorbibnamehash}{8f7c4af3af3093680e8612939e04e11a}
+      \strng{authornamehash}{8f7c4af3af3093680e8612939e04e11a}
+      \strng{authorfullhash}{8f7c4af3af3093680e8612939e04e11a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientia Agropecuaria}
+      \field{number}{4}
+      \field{title}{Aprovechamiento integral de la Mosca Soldado Negra: Bioconversión, sostenibilidad y desafíos emergentes}
+      \field{volume}{14}
+      \field{year}{2023}
+      \field{pages}{571\bibrangedash 590}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.xxxx/sciagro.v14i4.xxxxx
+      \endverb
+    \endentry
+    \entry{Chan2024}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=c739b4372bf8802e6b381fa8b3df2984}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={Y.\bibnamedelimi C.},
+           giveni={Y\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {UTAR}%
+      }
+      \strng{namehash}{c739b4372bf8802e6b381fa8b3df2984}
+      \strng{fullhash}{c739b4372bf8802e6b381fa8b3df2984}
+      \strng{bibnamehash}{c739b4372bf8802e6b381fa8b3df2984}
+      \strng{authorbibnamehash}{c739b4372bf8802e6b381fa8b3df2984}
+      \strng{authornamehash}{c739b4372bf8802e6b381fa8b3df2984}
+      \strng{authorfullhash}{c739b4372bf8802e6b381fa8b3df2984}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Smart and sustainable IOT based humidity and temperature control system for vegetable/fruit storage}
+      \field{type}{phdthesis}
+      \field{year}{2024}
+      \true{nocite}
+    \endentry
+    \entry{chenOptimizationModelProcess2021}{article}{}
+      \name{author}{8}{}{%
+        {{hash=903372eaacb45870dfe218898004c259}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yineng},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f4c60115604ea6b546c339db1d4786cc}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Xinghui},
+           giveni={X\bibinitperiod}}}%
+        {{hash=b3a45cb41e97743f5f6e2ea40f9cf068}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Kui},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e3ff22fe4ab21bec6fb17a301a0cef99}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Yanbin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f70953dd91ef46ddf74f0200078906cf}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Yuechao},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=39b9b647ff3e2a95e3e50d20ef90a152}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod}}}%
+        {{hash=8d3ec72af81e1e1ce9959c6e4fb0d29c}{%
+           family={Zou},
+           familyi={Z\bibinitperiod},
+           given={Zhuoyang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=1a21a1edce4822cfced9a66afe2d292e}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Ting},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9feed51d699980d46b4c1ff45aa846c}
+      \strng{fullhash}{5e4a53499593848d7da787719f71e7f8}
+      \strng{bibnamehash}{5e4a53499593848d7da787719f71e7f8}
+      \strng{authorbibnamehash}{5e4a53499593848d7da787719f71e7f8}
+      \strng{authornamehash}{a9feed51d699980d46b4c1ff45aa846c}
+      \strng{authorfullhash}{5e4a53499593848d7da787719f71e7f8}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A traceability system can quickly and accurately query product supply chain circulation information. It is difficult to obtain processing information and achieve sharing due to the big data, long duration, large amount of equipment and scattered and easily lost processing information. In tracing the application of the case-based reasoning (CBR) to product processing, we can solve the problem of establishing an accurate and complete mathematical model between the processing information and product quality defects by finding a target record in a large amount of historical data. The traceability model of ontology and CBR uses the web ontology language (OWL) for case representation to simplify the CBR framework for big data, classifies process data and standardizes information storage. A joint optimization algorithm based on the genetic algorithm (GA) and CBR is proposed to establish an optimization model of process traceability, which is applied to case retrieval and reuse. This algorithm optimizes the genetic operator by combining the optimal preservation strategy and roulette selection method and uses an exponential-scale transformation method to stretch the fitness function. The experiments show that the optimized traceability model can infer information from garbled codes, wrong codes and missing messages to quickly determine the problematic products, thus effectively improving the traceability accuracy of product processing.}
+      \field{eventtitle}{{{IEEE Sensors Journal}}}
+      \field{issn}{1558-1748}
+      \field{journaltitle}{IEEE Sensors Journal}
+      \field{month}{11}
+      \field{number}{22}
+      \field{title}{An {{Optimization Model}} for {{Process Traceability}} in {{Case-Based Reasoning Based}} on {{Ontology}} and the {{Genetic Algorithm}}}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{21}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{25123\bibrangedash 25132}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/JSEN.2021.3065757
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/7FVRC3Q3/9376946.html
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/abstract/document/9376946
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/abstract/document/9376946
+      \endverb
+      \keyw{CBR,Cognition,GA,Genetic algorithms,Ontologies,Ontology,Optimization,processing information,Production,Quality assessment,Raw materials,traceability optimization}
+    \endentry
+    \entry{Chia2019}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=29364875711b488b1d18ffca6b466aa7}{%
+           family={Chia},
+           familyi={C\bibinitperiod},
+           given={S.\bibnamedelimi Y.},
+           giveni={S\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {Wageningen University}%
+        {Research}%
+      }
+      \strng{namehash}{29364875711b488b1d18ffca6b466aa7}
+      \strng{fullhash}{29364875711b488b1d18ffca6b466aa7}
+      \strng{bibnamehash}{29364875711b488b1d18ffca6b466aa7}
+      \strng{authorbibnamehash}{29364875711b488b1d18ffca6b466aa7}
+      \strng{authornamehash}{29364875711b488b1d18ffca6b466aa7}
+      \strng{authorfullhash}{29364875711b488b1d18ffca6b466aa7}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Black soldier fly larvae as a sustainable animal feed ingredient in Kenya}
+      \field{type}{phdthesis}
+      \field{year}{2019}
+    \endentry
+    \entry{Diener2011}{article}{}
+      \name{author}{3}{}{%
+        {{hash=07d368ff11207ecf86c2d39488fe7788}{%
+           family={Diener},
+           familyi={D\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b8c85ac3322439c7b713ebca215ed83a}{%
+           family={Zurbrügg},
+           familyi={Z\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0ccf0cb3e44d23900dddaa7fa170eeb3}{%
+           family={Tockner},
+           familyi={T\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{fae3c7417c6ccdcdd56af9b1533308ac}
+      \strng{fullhash}{f0466fd81e328039c3f2d4268b1111ba}
+      \strng{bibnamehash}{f0466fd81e328039c3f2d4268b1111ba}
+      \strng{authorbibnamehash}{f0466fd81e328039c3f2d4268b1111ba}
+      \strng{authornamehash}{fae3c7417c6ccdcdd56af9b1533308ac}
+      \strng{authorfullhash}{f0466fd81e328039c3f2d4268b1111ba}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Waste Management \& Research}
+      \field{number}{5}
+      \field{title}{Conversion of organic material by black soldier fly larvae: Establishing optimal feeding rates}
+      \field{volume}{29}
+      \field{year}{2011}
+      \field{pages}{494\bibrangedash 498}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1177/0734242X10366090
+      \endverb
+    \endentry
+    \entry{duobieneDevelopmentWirelessSensor2022}{article}{}
+      \name{author}{7}{}{%
+        {{hash=b66292f918d33ad9473f67acac9d6182}{%
+           family={Duobiene},
+           familyi={D\bibinitperiod},
+           given={Shathya},
+           giveni={S\bibinitperiod}}}%
+        {{hash=26cf5c3fb8f297e8649caaa2ca23ce84}{%
+           family={Ratautas},
+           familyi={R\bibinitperiod},
+           given={Karolis},
+           giveni={K\bibinitperiod}}}%
+        {{hash=086e94b1615b586a8c1125f140559491}{%
+           family={Trusovas},
+           familyi={T\bibinitperiod},
+           given={Romualdas},
+           giveni={R\bibinitperiod}}}%
+        {{hash=73724d0edb90c45a6f91fb27d58f71f0}{%
+           family={Ragulis},
+           familyi={R\bibinitperiod},
+           given={Paulius},
+           giveni={P\bibinitperiod}}}%
+        {{hash=4b3f74e44fa0b6b36c19e3f4ebdbea27}{%
+           family={Šlekas},
+           familyi={Š\bibinitperiod},
+           given={Gediminas},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e59a0995812f235f80b34515aec64512}{%
+           family={Simniškis},
+           familyi={S\bibinitperiod},
+           given={Rimantas},
+           giveni={R\bibinitperiod}}}%
+        {{hash=55c06afed173b521eb41bdfda5c419ce}{%
+           family={Račiukaitis},
+           familyi={R\bibinitperiod},
+           given={Gediminas},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{3caaced2637425b3e275303933f2b5b3}
+      \strng{fullhash}{e182b1514a11ba0a196f4e3a0890d55a}
+      \strng{bibnamehash}{e182b1514a11ba0a196f4e3a0890d55a}
+      \strng{authorbibnamehash}{e182b1514a11ba0a196f4e3a0890d55a}
+      \strng{authornamehash}{3caaced2637425b3e275303933f2b5b3}
+      \strng{authorfullhash}{e182b1514a11ba0a196f4e3a0890d55a}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Internet of Things (IoT) technology and its applications are turning real-world things into smart objects, integrating everything under a common infrastructure to manage performance through a software application and offering upgrades with integrated web servers in a timely manner. Quality of life, the green economy, and pollution management in society require comprehensive environmental monitoring systems with easy-to-use features and maintenance. This research suggests implementing a wireless sensor network with embedded sensor nodes manufactured using the Selective Surface Activation Induced by Laser technology. Such technology allows the integration of electrical circuits with free-form plastic sensor housing. In this work, a low-cost asynchronous web server for monitoring temperature and humidity sensors connected to the ESP32 Wi-Fi module has been developed. Data from sensor nodes across the facility are collected and displayed in real-time charts on a web server. Multiple web clients on the same network can access the sensor data. The energy to the sensor nodes could be powered by harvesting energy from surrounding sources of electromagnetic radiation. This automated and self-powered system monitors environmental and climatic factors, helps with timely action, and benefits sensor design by allowing antenna and rf-circuit formation on various plastics, even on the body of the device itself. It also provides greater flexibility in hardware modification and rapid large-scale deployment.}
+      \field{day}{18}
+      \field{issn}{1424-8220}
+      \field{journaltitle}{Sensors}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{14}
+      \field{shortjournal}{Sensors}
+      \field{title}{Development of {{Wireless Sensor Network}} for {{Environment Monitoring}} and {{Its Implementation Using SSAIL Technology}}}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{22}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{5343}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s22145343
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/D7QU3UV9/Duobiene et al. - 2022 - Development of Wireless Sensor Network for Environment Monitoring and Its Implementation Using SSAIL.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1424-8220/22/14/5343
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1424-8220/22/14/5343
+      \endverb
+    \endentry
+    \entry{FAO2020}{report}{}
+      \name{author}{1}{}{%
+        {{hash=4807e0aebe86c17f559853f35515b533}{%
+           family={{FAO}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Rome}%
+      }
+      \strng{namehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{fullhash}{4807e0aebe86c17f559853f35515b533}
+      \strng{bibnamehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{authorbibnamehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{authornamehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{authorfullhash}{4807e0aebe86c17f559853f35515b533}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{18}
+      \field{series}{FAOSTAT Analytical Brief Series}
+      \field{title}{Emissions due to agriculture. Global, regional and country trends 2000–2018}
+      \field{type}{techreport}
+      \field{year}{2020}
+      \true{nocite}
+    \endentry
+    \entry{fawzyStrategiesMitigationClimate2020}{article}{}
+      \name{author}{4}{}{%
+        {{hash=882ebecf9f8a5588a6a60098d8dd50f3}{%
+           family={Fawzy},
+           familyi={F\bibinitperiod},
+           given={Samer},
+           giveni={S\bibinitperiod}}}%
+        {{hash=653807f8836f3ab9326cba04e9a8e75b}{%
+           family={Osman},
+           familyi={O\bibinitperiod},
+           given={Ahmed\bibnamedelima I.},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=c7e2989d9d276cdcff204bfacca2e8de}{%
+           family={Doran},
+           familyi={D\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f8affd5c6ae97c9df325acac4a2dc550}{%
+           family={Rooney},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima W.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{81975c141c1df9deeb58f0a7d7b7eae3}
+      \strng{fullhash}{b3f8cdf5f2364b290a1a644af18bacd3}
+      \strng{bibnamehash}{b3f8cdf5f2364b290a1a644af18bacd3}
+      \strng{authorbibnamehash}{b3f8cdf5f2364b290a1a644af18bacd3}
+      \strng{authornamehash}{81975c141c1df9deeb58f0a7d7b7eae3}
+      \strng{authorfullhash}{b3f8cdf5f2364b290a1a644af18bacd3}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Climate change is defined as the shift in climate patterns mainly caused by greenhouse gas emissions from natural systems and human activities. So far, anthropogenic activities have caused about 1.0~°C of global warming above the pre-industrial level and this is likely to reach 1.5~°C between 2030 and 2052 if the current emission rates persist. In 2018, the world encountered 315 cases of natural disasters which are mainly related to the climate. Approximately 68.5 million people were affected, and economic losses amounted to \$131.7 billion, of which storms, floods, wildfires and droughts accounted for approximately 93\%. Economic losses attributed to wildfires in 2018 alone are almost equal to the collective losses from wildfires incurred over the past decade, which is quite alarming. Furthermore, food, water, health, ecosystem, human habitat and infrastructure have been identified as the most vulnerable sectors under climate attack. In 2015, the Paris agreement was introduced with the main objective of limiting global temperature increase to 2~°C by 2100 and pursuing efforts to limit the increase to 1.5~°C. This article reviews the main strategies for climate change abatement, namely conventional mitigation, negative emissions and radiative forcing geoengineering. Conventional mitigation technologies focus on reducing fossil-based CO2 emissions. Negative emissions technologies are aiming to capture and sequester atmospheric carbon to~reduce carbon dioxide levels. Finally, geoengineering techniques of radiative forcing alter the earth’s radiative energy budget to stabilize or reduce global temperatures. It is evident that conventional mitigation efforts alone are not sufficient to meet the targets stipulated by the Paris agreement; therefore, the utilization of alternative routes appears inevitable. While various technologies presented may still be at an early stage of development, biogenic-based sequestration techniques are to a certain extent mature and can be deployed immediately.}
+      \field{day}{1}
+      \field{issn}{1610-3661}
+      \field{journaltitle}{Environmental Chemistry Letters}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{6}
+      \field{shortjournal}{Environ Chem Lett}
+      \field{shorttitle}{Strategies for Mitigation of Climate Change}
+      \field{title}{Strategies for Mitigation of Climate Change: A Review}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{18}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2069\bibrangedash 2094}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1007/s10311-020-01059-w
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/2W7YSFCA/Fawzy et al. - 2020 - Strategies for mitigation of climate change a review.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10311-020-01059-w
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10311-020-01059-w
+      \endverb
+      \keyw{Carbon dioxide removal,Climate change mitigation,Decarbonization technologies,Environmental Chemistry,Geoengineering,Negative emissions technologies,Radiative forcing geoengineering technologies}
+    \endentry
+    \entry{filonchyk2024greenhouse}{article}{}
+      \name{author}{5}{}{%
+        {{hash=8caa1323f1f71c608f63475e5d27a8fa}{%
+           family={Filonchyk},
+           familyi={F\bibinitperiod},
+           given={Mikalai},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f7a9f3e3fa37ca6dc38910717ad252d7}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={Michael\bibnamedelima P},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=7045b694006805850548dafcfc3bd3e3}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Lifeng},
+           giveni={L\bibinitperiod}}}%
+        {{hash=698c1d258ce3e365a4606a8f7ddb9ff7}{%
+           family={Hurynovich},
+           familyi={H\bibinitperiod},
+           given={Volha},
+           giveni={V\bibinitperiod}}}%
+        {{hash=ae31170eaf42c18409aa164a618b50b2}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{fca3bbf91ca1bf29629eaff05eb2ac43}
+      \strng{fullhash}{be5bccecde5988fab63e7f918bf9a788}
+      \strng{bibnamehash}{be5bccecde5988fab63e7f918bf9a788}
+      \strng{authorbibnamehash}{be5bccecde5988fab63e7f918bf9a788}
+      \strng{authornamehash}{fca3bbf91ca1bf29629eaff05eb2ac43}
+      \strng{authorfullhash}{be5bccecde5988fab63e7f918bf9a788}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science of The Total Environment}
+      \field{title}{Greenhouse gases emissions and global climate change: Examining the influence of CO2, CH4, and N2O}
+      \field{year}{2024}
+      \field{pages}{173359}
+      \range{pages}{1}
+    \endentry
+    \entry{foodandagricultureorganizationoftheunitednationsfaoEmissionsDueAgriculture2020}{report}{}
+      \name{author}{1}{}{%
+        {{hash=837fc316b81710902fb989d5c22eb034}{%
+           family={{Food and Agriculture Organization of the United Nations (FAO)}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Rome, Italy}%
+      }
+      \strng{namehash}{837fc316b81710902fb989d5c22eb034}
+      \strng{fullhash}{837fc316b81710902fb989d5c22eb034}
+      \strng{bibnamehash}{837fc316b81710902fb989d5c22eb034}
+      \strng{authorbibnamehash}{837fc316b81710902fb989d5c22eb034}
+      \strng{authornamehash}{837fc316b81710902fb989d5c22eb034}
+      \strng{authorfullhash}{837fc316b81710902fb989d5c22eb034}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{number}{18}
+      \field{title}{Emissions Due to Agriculture {{Global}}, Regional and Country Trends 2000–2018}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/PBIDVKV3/Emissions due to agriculture.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://openknowledge.fao.org/server/api/core/bitstreams/cc09fbbc-eb1d-436b-a88a-bed42a1f12f3/content
+      \endverb
+      \verb{url}
+      \verb https://openknowledge.fao.org/server/api/core/bitstreams/cc09fbbc-eb1d-436b-a88a-bed42a1f12f3/content
+      \endverb
+    \endentry
+    \entry{FAO2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=837fc316b81710902fb989d5c22eb034}{%
+           family={{Food and Agriculture Organization of the United Nations (FAO)}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{837fc316b81710902fb989d5c22eb034}
+      \strng{fullhash}{837fc316b81710902fb989d5c22eb034}
+      \strng{bibnamehash}{837fc316b81710902fb989d5c22eb034}
+      \strng{authorbibnamehash}{837fc316b81710902fb989d5c22eb034}
+      \strng{authornamehash}{837fc316b81710902fb989d5c22eb034}
+      \strng{authorfullhash}{837fc316b81710902fb989d5c22eb034}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Food and Agriculture Organization of the United Nations}
+      \field{note}{Disponible en: https://www.fao.org/, Consultado 15 de enero}
+      \field{title}{Agricultural Waste Management: Challenges and Opportunities}
+      \field{year}{2021}
+    \endentry
+    \entry{guthrieImpactAmmoniaEmissions2018}{article}{}
+      \name{author}{4}{ul=4}{%
+        {{hash=17a6aeda44d4f926a3f1e979e325648e}{%
+           family={Guthrie},
+           familyi={G\bibinitperiod},
+           given={Susan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=aa86a40c3df47a8b999679b2c988a49b}{%
+           family={Giles},
+           familyi={G\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9552bd4ab7e4fef41af060634a5d07e7}{%
+           family={Dunkerley},
+           familyi={D\bibinitperiod},
+           given={Fay},
+           giveni={F\bibinitperiod}}}%
+        {{hash=0e8d8fe6efb9b885db3a44abd6cf5221}{%
+           family={Tabaqchali},
+           familyi={T\bibinitperiod},
+           given={Hadeel},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{86dda23736894392fc1de34c9e0b518e}
+      \strng{fullhash}{86dda23736894392fc1de34c9e0b518e}
+      \strng{bibnamehash}{86dda23736894392fc1de34c9e0b518e}
+      \strng{authorbibnamehash}{86dda23736894392fc1de34c9e0b518e}
+      \strng{authornamehash}{86dda23736894392fc1de34c9e0b518e}
+      \strng{authorfullhash}{86dda23736894392fc1de34c9e0b518e}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{RAND Corporation}
+      \field{langid}{english}
+      \field{title}{The Impact of Ammonia Emissions from Agriculture on Biodiversity}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{304}
+      \range{pages}{1}
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/D2Q63LCU/Guthrie et al. - The impact of ammonia emissions from agriculture on biodiversity.pdf
+      \endverb
+    \endentry
+    \entry{guthrieImpactAmmoniaEmissions2018a}{report}{}
+      \name{author}{7}{ul=4}{%
+        {{hash=17a6aeda44d4f926a3f1e979e325648e}{%
+           family={Guthrie},
+           familyi={G\bibinitperiod},
+           given={Susan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=aa86a40c3df47a8b999679b2c988a49b}{%
+           family={Giles},
+           familyi={G\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9552bd4ab7e4fef41af060634a5d07e7}{%
+           family={Dunkerley},
+           familyi={D\bibinitperiod},
+           given={Fay},
+           giveni={F\bibinitperiod}}}%
+        {{hash=0e8d8fe6efb9b885db3a44abd6cf5221}{%
+           family={Tabaqchali},
+           familyi={T\bibinitperiod},
+           given={Hadeel},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4a5ac59b79fe210490edfb0790a089b8}{%
+           family={Harshfield},
+           familyi={H\bibinitperiod},
+           given={Amelia},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c3a5be688f6d2797ba8366cd810434c0}{%
+           family={Ioppolo},
+           familyi={I\bibinitperiod},
+           given={Becky},
+           giveni={B\bibinitperiod}}}%
+        {{hash=491a8cce1194f746dd692a2ea01afbbf}{%
+           family={Manville},
+           familyi={M\bibinitperiod},
+           given={Catriona},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {RAND Corporation}%
+      }
+      \strng{namehash}{90947412f5a71eaea3ec899e6a8f19af}
+      \strng{fullhash}{8d9dbec3b29a5b882e574c0205360a59}
+      \strng{bibnamehash}{8d9dbec3b29a5b882e574c0205360a59}
+      \strng{authorbibnamehash}{8d9dbec3b29a5b882e574c0205360a59}
+      \strng{authornamehash}{90947412f5a71eaea3ec899e6a8f19af}
+      \strng{authorfullhash}{8d9dbec3b29a5b882e574c0205360a59}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Ammonia emissions in the UK have been rising since 2013, with the main source being agriculture. The impacts on biodiversity are significant and together with the costs to human health could be equivalent to over £700m per year in the UK by 2020.}
+      \field{day}{16}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{shorttitle}{Impact of Ammonia Emissions from Agriculture on Biodiversity}
+      \field{title}{Impact of Ammonia Emissions from Agriculture on Biodiversity: {{An}} Evidence Synthesis}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.rand.org/pubs/research_reports/RR2695.html
+      \endverb
+      \verb{url}
+      \verb https://www.rand.org/pubs/research_reports/RR2695.html
+      \endverb
+      \keyw{Agricultural Sciences,Biology and Life Sciences,Environmental Pollution,Environmental Regulation,Research,United Kingdom}
+    \endentry
+    \entry{IPCC2014}{book}{}
+      \name{author}{1}{}{%
+        {{hash=676f7b9b8e5bb30500c01e2385e59174}{%
+           family={{IPCC}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{676f7b9b8e5bb30500c01e2385e59174}
+      \strng{fullhash}{676f7b9b8e5bb30500c01e2385e59174}
+      \strng{bibnamehash}{676f7b9b8e5bb30500c01e2385e59174}
+      \strng{authorbibnamehash}{676f7b9b8e5bb30500c01e2385e59174}
+      \strng{authornamehash}{676f7b9b8e5bb30500c01e2385e59174}
+      \strng{authorfullhash}{676f7b9b8e5bb30500c01e2385e59174}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{11: Agriculture, Forestry and Other Land Use (AFOLU)}
+      \field{title}{Climate Change 2014: Mitigation of Climate Change. Contribution of Working Group III to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change}
+      \field{year}{2014}
+    \endentry
+    \entry{Kabange2023}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{7}{ul=7}{%
+        {{hash=b931f6b8d31599e6e3ea38c67f21f47d}{%
+           family={Kabange},
+           familyi={K\bibinitperiod},
+           given={N.\bibnamedelimi R.},
+           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=ca66680ecbb595faf347e4096f46da93}{%
+           family={Kwon},
+           familyi={K\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=58af86b4bd9a0bc53e782fe9fa23d7da}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={S.\bibnamedelimi M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=c84f1dadd0472114f5f0b37a2528dba9}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=0bfe3542f2f56bc2fe5380a863bb6b50}{%
+           family={Cha},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=5de1ee8be02450d136e79b70ae9c7303}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e5a7bd235818499e6c100cc1efc019b1}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{253aacec7bf9a68c7e4f95b08b452e7e}
+      \strng{fullhash}{253aacec7bf9a68c7e4f95b08b452e7e}
+      \strng{bibnamehash}{253aacec7bf9a68c7e4f95b08b452e7e}
+      \strng{authorbibnamehash}{253aacec7bf9a68c7e4f95b08b452e7e}
+      \strng{authornamehash}{253aacec7bf9a68c7e4f95b08b452e7e}
+      \strng{authorfullhash}{253aacec7bf9a68c7e4f95b08b452e7e}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sustainability}
+      \field{number}{22}
+      \field{title}{Mitigating Greenhouse Gas Emissions from Crop Production and Management Practices, and Livestock: A Review}
+      \field{volume}{15}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{15889}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/su152215889
+      \endverb
+    \endentry
+    \entry{kabangeMitigatingGreenhouseGas2023}{article}{}
+      \name{author}{10}{ul=7}{%
+        {{hash=737e907e76031909e5a4e1b14f970d55}{%
+           family={Kabange},
+           familyi={K\bibinitperiod},
+           given={Nkulu\bibnamedelima Rolly},
+           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=1608768d6b7121c426a6d5f22ba7c935}{%
+           family={Kwon},
+           familyi={K\bibinitperiod},
+           given={Youngho},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=5ea3a47116b3cdc59b70f9fe4d16e4a5}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={So-Myeong},
+           giveni={S\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=e23925f70ed8f9e0170e14bdd0ec12ec}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Ju-Won},
+           giveni={J\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=e67b397e6c5199749daf8491996e46b0}{%
+           family={Cha},
+           familyi={C\bibinitperiod},
+           given={Jin-Kyung},
+           giveni={J\bibinithyphendelim K\bibinitperiod}}}%
+        {{hash=fc6e84dfb93b2c2d3ce7b3d6edb9841d}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Hyeonjin},
+           giveni={H\bibinitperiod}}}%
+        {{hash=2834808c48f7e7388179b5ce1309b6cc}{%
+           family={Dzorkpe},
+           familyi={D\bibinitperiod},
+           given={Gamenyah\bibnamedelima Daniel},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=2ec38e9ef70656a2ff11b6e02a865e77}{%
+           family={Shin},
+           familyi={S\bibinitperiod},
+           given={Dongjin},
+           giveni={D\bibinitperiod}}}%
+        {{hash=75308adb65722e97fc77440c3001b899}{%
+           family={Oh},
+           familyi={O\bibinitperiod},
+           given={Ki-Won},
+           giveni={K\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=a857acac7072a363a2f70abdb55c1927}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jong-Hee},
+           giveni={J\bibinithyphendelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{163dc9d61f6eb4d92875a314e829035d}
+      \strng{fullhash}{0d9072b6d92d913d38d26b058a3d3b67}
+      \strng{bibnamehash}{0d9072b6d92d913d38d26b058a3d3b67}
+      \strng{authorbibnamehash}{0d9072b6d92d913d38d26b058a3d3b67}
+      \strng{authornamehash}{163dc9d61f6eb4d92875a314e829035d}
+      \strng{authorfullhash}{0d9072b6d92d913d38d26b058a3d3b67}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Agriculture is the second most important greenhouse gas (GHG: methane (CH4) and nitrous oxide (N2O) emissions)-emitting sector after the energy sector. Agriculture is also recognized as the source and sink of GHGs. The share of agriculture to the global GHG emission records has been widely investigated, but the impact on our food production systems has been overlooked for decades until the recent climate crisis. Livestock production and feed, nitrogen-rich fertilizers and livestock manure application, crop residue burning, as well as water management in flood-prone cultivation areas are components of agriculture that produce and emit most GHGs. Although agriculture produces 72–89\% less GHGs than other sectors, it is believed that reducing GHG emissions in agriculture would considerably lower its share of the global GHG emission records, which may lead to enormous benefits for the environment and food production systems. However, several diverging and controversial views questioning the actual role of plants in the current global GHG budget continue to nourish the debate globally. We must acknowledge that considering the beneficial roles of major GHGs to plants at a certain level of accumulation, implementing GHG mitigation measures from agriculture is indeed a complex task. This work provides a comprehensive review of agriculture-related GHG production and emission mechanisms, as well as GHG mitigation measures regarded as potential solutions available in the literature. This review also discusses in depth the significance and the dynamics of mitigation measures regarded as game changers with a high potential to enhance, in a sustainable manner, the resilience of agricultural systems. Some of the old but essential agricultural practices and livestock feed techniques are revived and discussed. Agricultural GHG mitigation approaches discussed in this work can serve as game changers in the attempt to reduce GHG emissions and alleviate the impact of climate change through sustainable agriculture and informed decision-making.}
+      \field{issn}{2071-1050}
+      \field{issue}{22}
+      \field{journaltitle}{Sustainability}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{22}
+      \field{shorttitle}{Mitigating {{Greenhouse Gas Emissions}} from {{Crop Production}} and {{Management Practices}}, and {{Livestock}}}
+      \field{title}{Mitigating {{Greenhouse Gas Emissions}} from {{Crop Production}} and {{Management Practices}}, and {{Livestock}}: {{A Review}}}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{15}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{15889}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/su152215889
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/3IA86KIG/Kabange et al. - 2023 - Mitigating Greenhouse Gas Emissions from Crop Production and Management Practices, and Livestock A.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2071-1050/15/22/15889
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2071-1050/15/22/15889
+      \endverb
+      \keyw{biochar,crop residue management,environment,game changer,greenhouse gas,livestock feed,nitrogen,sustainability}
+    \endentry
+    \entry{kamilaris2017review}{article}{}
+      \name{author}{3}{}{%
+        {{hash=eb16d14d23f09fd1365230c0230110f7}{%
+           family={Kamilaris},
+           familyi={K\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=28c3f1424571147dba1930005f078c9f}{%
+           family={Kartakoullis},
+           familyi={K\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=14df65df9cd29060cebc17c44cf4bfe2}{%
+           family={Prenafeta-Boldú},
+           familyi={P\bibinithyphendelim B\bibinitperiod},
+           given={Francesc\bibnamedelima X},
+           giveni={F\bibinitperiod\bibinitdelim X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{77c4a23614e916bd4e67f76a3e39d26f}
+      \strng{fullhash}{b04aacd31dd8839c183a6d062c50c4c6}
+      \strng{bibnamehash}{b04aacd31dd8839c183a6d062c50c4c6}
+      \strng{authorbibnamehash}{b04aacd31dd8839c183a6d062c50c4c6}
+      \strng{authornamehash}{77c4a23614e916bd4e67f76a3e39d26f}
+      \strng{authorfullhash}{b04aacd31dd8839c183a6d062c50c4c6}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers and Electronics in Agriculture}
+      \field{title}{A review on the practice of big data analysis in agriculture}
+      \field{volume}{143}
+      \field{year}{2017}
+      \field{pages}{23\bibrangedash 37}
+      \range{pages}{15}
+    \endentry
+    \entry{Leddin2024}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1dc1db8af5ad5062e416c9e597dd1ae7}{%
+           family={Leddin},
+           familyi={L\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{1dc1db8af5ad5062e416c9e597dd1ae7}
+      \strng{fullhash}{1dc1db8af5ad5062e416c9e597dd1ae7}
+      \strng{bibnamehash}{1dc1db8af5ad5062e416c9e597dd1ae7}
+      \strng{authorbibnamehash}{1dc1db8af5ad5062e416c9e597dd1ae7}
+      \strng{authornamehash}{1dc1db8af5ad5062e416c9e597dd1ae7}
+      \strng{authorfullhash}{1dc1db8af5ad5062e416c9e597dd1ae7}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Gastro Hep Advances}
+      \field{title}{The impact of climate change, pollution and biodiversity loss on digestive health and disease}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.1016/j.gastha.2024.01.018
+      \endverb
+    \endentry
+    \entry{liuOptimizingDataPipelines2023}{article}{}
+      \name{author}{10}{}{%
+        {{hash=7dbcd223db163eb1fc0b2e4f844602cd}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod}}}%
+        {{hash=71f98191f23062364914ac3be11fe3a3}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Kwanghyun},
+           giveni={K\bibinitperiod}}}%
+        {{hash=61fb0c95c8ae896f2ee51a3d7c124174}{%
+           family={Psallidas},
+           familyi={P\bibinitperiod},
+           given={Fotis},
+           giveni={F\bibinitperiod}}}%
+        {{hash=02b7406ac387944ec641f11aa2f0b24e}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Xiaoyong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=08e4c9bdb40305a24ef7f9261776b992}{%
+           family={Mo},
+           familyi={M\bibinitperiod},
+           given={Jinghui},
+           giveni={J\bibinitperiod}}}%
+        {{hash=21f922ddca99e4a59e6942caa2935a6f}{%
+           family={Sen},
+           familyi={S\bibinitperiod},
+           given={Rathijit},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2fbc6ed34c68b1254c0f4198922870f6}{%
+           family={Interlandi},
+           familyi={I\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9d1d4f8eb1bff277126aee762b8d8f2a}{%
+           family={Karanasos},
+           familyi={K\bibinitperiod},
+           given={Konstantinos},
+           giveni={K\bibinitperiod}}}%
+        {{hash=474e56597e0df375ac3d01b82fcabcac}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Yuanyuan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=31c077e559a283ee87ef458bd339073f}{%
+           family={Camacho-Rodríguez},
+           familyi={C\bibinithyphendelim R\bibinitperiod},
+           given={Jesús},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{037e6926e09ea313bacbdfaffec60461}
+      \strng{fullhash}{cfdbfa48cf9e57335dfb93a3b21e05fd}
+      \strng{bibnamehash}{cfdbfa48cf9e57335dfb93a3b21e05fd}
+      \strng{authorbibnamehash}{cfdbfa48cf9e57335dfb93a3b21e05fd}
+      \strng{authornamehash}{037e6926e09ea313bacbdfaffec60461}
+      \strng{authorfullhash}{cfdbfa48cf9e57335dfb93a3b21e05fd}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Data pipelines (i.e., converting raw data to features) are critical for machine learning (ML) models, yet their development and management is time-consuming. Feature stores have recently emerged as a new "DBMS-for-ML" with the premise of enabling data scientists and engineers to define and manage their data pipelines. While current feature stores fulfill their promise from a functionality perspective, they are resource-hungry---with ample opportunities for implementing database-style optimizations to enhance their performance. In this paper, we propose a novel set of optimizations specifically targeted for point-in-time join, which is a critical operation in data pipelines. We implement these optimizations on top of Feathr: a widely-used feature store, and evaluate them on use cases from both the TPCx-AI benchmark and real-world online retail scenarios. Our thorough experimental analysis shows that our optimizations can accelerate data pipelines by up to 3× over state-of-the-art baselines.}
+      \field{journaltitle}{Proc. VLDB Endow.}
+      \field{title}{Optimizing {{Data Pipelines}} for {{Machine Learning}} in {{Feature Stores}}}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{16}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{4230\bibrangedash 4239}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.14778/3625054.3625060
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/DFJ2EXDE/6b9d0226350d524187a2b5525c20e3de.html
+      \endverb
+      \verb{urlraw}
+      \verb https://consensus.app/papers/optimizing-data-pipelines-for-machine-learning-in-feature-liu-park/6b9d0226350d524187a2b5525c20e3de/
+      \endverb
+      \verb{url}
+      \verb https://consensus.app/papers/optimizing-data-pipelines-for-machine-learning-in-feature-liu-park/6b9d0226350d524187a2b5525c20e3de/
+      \endverb
+    \endentry
+    \entry{lynchAgriculturesContributionClimate2021}{article}{}
+      \name{author}{4}{}{%
+        {{hash=7fbb54472b7d7841c21e90f5138c8ef8}{%
+           family={Lynch},
+           familyi={L\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=21765732070967281dea941c99f3497e}{%
+           family={Cain},
+           familyi={C\bibinitperiod},
+           given={Michelle},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9e916ed86ef79266c63ae5c0a356fcfc}{%
+           family={Frame},
+           familyi={F\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e4889abdfa83c8a069943d1e91e718bf}{%
+           family={Pierrehumbert},
+           familyi={P\bibinitperiod},
+           given={Raymond},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers}%
+      }
+      \strng{namehash}{23c96784426f0dc89803ea80d3228303}
+      \strng{fullhash}{20bfdef19a60881619ba3676c05b10f0}
+      \strng{bibnamehash}{20bfdef19a60881619ba3676c05b10f0}
+      \strng{authorbibnamehash}{20bfdef19a60881619ba3676c05b10f0}
+      \strng{authornamehash}{23c96784426f0dc89803ea80d3228303}
+      \strng{authorfullhash}{20bfdef19a60881619ba3676c05b10f0}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{$<$}p{$>$}Agriculture is a significant contributor to anthropogenic global warming, and reducing agricultural emissions—largely methane and nitrous oxide—could play a significant role in climate change mitigation. However, there are important differences between carbon dioxide (CO\textsubscript{2}), which is a stock pollutant, and methane (CH\textsubscript{4}), which is predominantly a flow pollutant. These dynamics mean that conventional reporting of aggregated CO\textsubscript{2}-equivalent emission rates is highly ambiguous and does not straightforwardly reflect historical or anticipated contributions to global temperature change. As a result, the roles and responsibilities of different sectors emitting different gases are similarly obscured by the common means of communicating emission reduction scenarios using CO\textsubscript{2}-equivalence. We argue for a shift in how we report agricultural greenhouse gas emissions and think about their mitigation to better reflect the distinct roles of different greenhouse gases. Policy-makers, stakeholders, and society at large should also be reminded that the role of agriculture in climate mitigation is a much broader topic than climate science alone can inform, including considerations of economic and technical feasibility, preferences for food supply and land-use, and notions of fairness and justice. A more nuanced perspective on the impacts of different emissions could aid these conversations.{$<$}/p{$>$}}
+      \field{day}{3}
+      \field{issn}{2571-581X}
+      \field{journaltitle}{Frontiers in Sustainable Food Systems}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{shortjournal}{Front. Sustain. Food Syst.}
+      \field{title}{Agriculture's {{Contribution}} to {{Climate Change}} and {{Role}} in {{Mitigation Is Distinct From Predominantly Fossil CO2-Emitting Sectors}}}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{4}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.3389/fsufs.2020.518039
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/N4WPYT8R/Lynch et al. - 2021 - Agriculture's Contribution to Climate Change and Role in Mitigation Is Distinct From Predominantly F.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2020.518039/full
+      \endverb
+      \verb{url}
+      \verb https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2020.518039/full
+      \endverb
+      \keyw{Carbon Dioxide,Climate chage,climate policy,Methane,Nitrous Oxide}
+    \endentry
+    \entry{NacionesUnidas2015}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=289d6d295de5d9f9e01197fab2b80b67}{%
+           family={{Naciones Unidas}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{289d6d295de5d9f9e01197fab2b80b67}
+      \strng{fullhash}{289d6d295de5d9f9e01197fab2b80b67}
+      \strng{bibnamehash}{289d6d295de5d9f9e01197fab2b80b67}
+      \strng{authorbibnamehash}{289d6d295de5d9f9e01197fab2b80b67}
+      \strng{authornamehash}{289d6d295de5d9f9e01197fab2b80b67}
+      \strng{authorfullhash}{289d6d295de5d9f9e01197fab2b80b67}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{United Nations Statistic Division}
+      \field{note}{Disponible en: https://unstats.un.org/sdgs/ (consultado el [fecha])}
+      \field{title}{Objetivos de desarrollo sostenible}
+      \field{year}{2015}
+      \true{nocite}
+    \endentry
+    \entry{nugrohoBioconversionBiowasteBlack2023}{article}{}
+      \name{author}{6}{}{%
+        {{hash=b81b4f5a8281451f29ef792f9743e51e}{%
+           family={Nugroho},
+           familyi={N\bibinitperiod},
+           given={Rudy\bibnamedelima Agung},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2c0273a2cd7ef0b934e9d9c4cd764445}{%
+           family={Rofiq},
+           familyi={R\bibinitperiod},
+           given={Muhammad\bibnamedelima Nasir},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=e90f4cf6ab48babc89c14cc781fdce7a}{%
+           family={Santoso},
+           familyi={S\bibinitperiod},
+           given={Arif\bibnamedelima Dwi},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=3a71d8c0da58aa9c4257842e127e3342}{%
+           family={Yanuar},
+           familyi={Y\bibinitperiod},
+           given={Ahmad\bibnamedelima Ismed},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=3668ec3f47c5cae1edee3ab11d438a3e}{%
+           family={Hanifa},
+           familyi={H\bibinitperiod},
+           given={Rahmania},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9542118c1f1a8b0f84f895bc9a8cc366}{%
+           family={Nadirah},
+           familyi={N\bibinitperiod},
+           given={Nadirah},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{961e00d7bd4c6a93704afb154447ad67}
+      \strng{fullhash}{128f0623225c48f7be1ae0a9654cca2f}
+      \strng{bibnamehash}{128f0623225c48f7be1ae0a9654cca2f}
+      \strng{authorbibnamehash}{128f0623225c48f7be1ae0a9654cca2f}
+      \strng{authornamehash}{961e00d7bd4c6a93704afb154447ad67}
+      \strng{authorfullhash}{128f0623225c48f7be1ae0a9654cca2f}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Background: Hermetia illucens L. have gained popularity in recent years as an environmentally friendly response to both the present and potential future food/feed crisis. The larvae of H. illucens L., or black soldier fly larvae (BSFL), is an alternative solution to tackle the issue of organic waste bioconversion. However, understanding the environmental loads associated with biowaste bioconversion using BSFL to produce dried BSFL is a pivotal point to keep the environment sustainable. This study reported a life cycle assessment (LCA) of the biowaste bioconversion process of BSFL and determined the environment impact analysis to make recommendations for modifications to lessen environmental consequences., Methods: The methodology used is life cycle assessment (LCA), which includes: (a) system boundary determination (gate-to-gate), starting from biowaste production, biowaste bioconversion, prepupae and BSFL frass production. The system boundary of the dried BSFL production is designed for both the processing and production of one cycle of BSFL; (b) life cycle inventory activities carried out at PT Biomagg Sinergi Internasional, Depok, West Java, Indonesia; (c) conducting life cycle impact assessment on five environmental impact categories namely global warming potential (GWP), acidification (AC), terrestrial eutrophication (TE), fossil fuel depletion (FFE), eco-toxicity (ET); and (d) interpretation of the assessment result. The LCA is conducted using openLCA 1.11 software and TRACI 2.1 impact assessment method., Results: The impact values of GWP, AC, TE, FFE, and ET, per 100 kg of BSFL dried production was 6.687 kg CO 2 eq; 0.029 kg SO 2-eq; 0.092 kg N-eq; 16.732 MJ surplus; 121.231 CTUe. Production of prepupa had the highest hotspots in these emissions, followed dried BSFL production., Conclusions: Efforts to reduce environmental impacts that can be done are by implementing an integrated rearing system using substrate from a single type of known substrate for BSFL and using alternative drying methods for BSFL dried production.}
+      \field{day}{11}
+      \field{eprinttype}{pmid}
+      \field{issn}{2046-1402}
+      \field{journaltitle}{F1000Research}
+      \field{month}{7}
+      \field{shortjournal}{F1000Res}
+      \field{shorttitle}{Bioconversion of Biowaste by Black Soldier Fly Larvae ( {{Hermetia}} Illucens {{L}}.) for Dried Larvae Production}
+      \field{title}{Bioconversion of Biowaste by Black Soldier Fly Larvae ( {{Hermetia}} Illucens {{L}}.) for Dried Larvae Production: {{A}} Life Cycle Assessment and Environmental Impact Analysis}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{12}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{814}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.12688/f1000research.132371.1
+      \endverb
+      \verb{eprint}
+      \verb 37675399
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/SBMEFIAP/Nugroho et al. - 2023 - Bioconversion of biowaste by black soldier fly larvae ( Hermetia illucens L.) for dried larvae produ.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10477724/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10477724/
+      \endverb
+    \endentry
+    \entry{nunesRisingThreatAtmospheric2023}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a3844a6647b729db96e7e558413e1289}{%
+           family={Nunes},
+           familyi={N\bibinitperiod},
+           given={Leonel\bibnamedelimb J.\bibnamedelimi R.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{a3844a6647b729db96e7e558413e1289}
+      \strng{fullhash}{a3844a6647b729db96e7e558413e1289}
+      \strng{bibnamehash}{a3844a6647b729db96e7e558413e1289}
+      \strng{authorbibnamehash}{a3844a6647b729db96e7e558413e1289}
+      \strng{authornamehash}{a3844a6647b729db96e7e558413e1289}
+      \strng{authorfullhash}{a3844a6647b729db96e7e558413e1289}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The increasing levels of carbon dioxide (CO2) in the atmosphere have become a major environmental challenge due to their contribution to global warming. The primary drivers of the increase in atmospheric CO2 concentrations are the combustion of fossil fuels, deforestation, agricultural practices, or the production of cement, which play a significant role in the increase of CO2 concentration in the atmosphere. However, efforts are being made to mitigate the negative effects of CO2 emissions, including carbon capture and storage (CCS) technologies that aim to capture CO2 from industrial processes and store it in underground geological formations. Methane, another potent greenhouse gas, is another major contributor to climate change and is mainly produced by agricultural activities such as livestock farming and rice cultivation. To address this, sustainable agricultural practices, such as reducing meat consumption and adopting climate-smart farming techniques, are crucial. Ultimately, a sustainable future can be secured for the planet and future generations by implementing effective measures, such as the use of sustainable energy sources, improvements in energy efficiency, responsible land use practices, and reducing the emissions of both CO2 and methane.}
+      \field{issn}{2076-3298}
+      \field{issue}{4}
+      \field{journaltitle}{Environments}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{4}
+      \field{shorttitle}{The {{Rising Threat}} of {{Atmospheric CO2}}}
+      \field{title}{The {{Rising Threat}} of {{Atmospheric CO2}}: {{A Review}} on the {{Causes}}, {{Impacts}}, and {{Mitigation Strategies}}}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{10}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{66}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/environments10040066
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/VWZP8D9A/Nunes - 2023 - The Rising Threat of Atmospheric CO2 A Review on the Causes, Impacts, and Mitigation Strategies.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2076-3298/10/4/66
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2076-3298/10/4/66
+      \endverb
+      \keyw{carbon capture and storage,climate change,CO<sub>2</sub> emissions,greenhouse gases,mitigation}
+    \endentry
+    \entry{Quy2022}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{7}{}{%
+        {{hash=56b20b92e490e169c03beefc824cf658}{%
+           family={Quy},
+           familyi={Q\bibinitperiod},
+           given={V.\bibnamedelimi K.},
+           giveni={V\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=7179e338ed4a346a1bee3c13de5d96ae}{%
+           family={Hau},
+           familyi={H\bibinitperiod},
+           given={N.\bibnamedelimi V.},
+           giveni={N\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=930fc756c3b72878050fda1cb0ebedae}{%
+           family={Anh},
+           familyi={A\bibinitperiod},
+           given={D.\bibnamedelimi V.},
+           giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=732fef12138c4ded10cf88e586b70bee}{%
+           family={Quy},
+           familyi={Q\bibinitperiod},
+           given={N.\bibnamedelimi M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=308241121b3af68352d96e4e1ccc0d46}{%
+           family={Ban},
+           familyi={B\bibinitperiod},
+           given={N.\bibnamedelimi T.},
+           giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=dc7a1f33d96d102099a2381fc9ef02d4}{%
+           family={Lanza},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=36db81ab2777f258f39f31f3c77ae09e}{%
+           family={Muzirafuti},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{fa37cae3c1dc84551c4450007d1d90b5}
+      \strng{fullhash}{69eee9e4f0df861117a3ba1af7433670}
+      \strng{bibnamehash}{69eee9e4f0df861117a3ba1af7433670}
+      \strng{authorbibnamehash}{69eee9e4f0df861117a3ba1af7433670}
+      \strng{authornamehash}{fa37cae3c1dc84551c4450007d1d90b5}
+      \strng{authorfullhash}{69eee9e4f0df861117a3ba1af7433670}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Sciences}
+      \field{number}{7}
+      \field{title}{IoT-enabled smart agriculture: architecture, applications, and challenges}
+      \field{volume}{12}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{3396}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/app12073396
+      \endverb
+    \endentry
+    \entry{rajRealTimeEstimation2023}{article}{}
+      \name{author}{2}{}{%
+        {{hash=421c1587f0d31252ea869ae924ec0fc2}{%
+           family={Raj},
+           familyi={R\bibinitperiod},
+           given={Krishna},
+           giveni={K\bibinitperiod}}}%
+        {{hash=df3f49f39e474720143653783b16c3ef}{%
+           family={Srivastava},
+           familyi={S\bibinitperiod},
+           given={Ajeet\bibnamedelima Kumar},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{ddfb27bc30b817b54295b53e630ff9ea}
+      \strng{fullhash}{ddfb27bc30b817b54295b53e630ff9ea}
+      \strng{bibnamehash}{ddfb27bc30b817b54295b53e630ff9ea}
+      \strng{authorbibnamehash}{ddfb27bc30b817b54295b53e630ff9ea}
+      \strng{authornamehash}{ddfb27bc30b817b54295b53e630ff9ea}
+      \strng{authorfullhash}{ddfb27bc30b817b54295b53e630ff9ea}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{IoT integrated Sensor Fusion is utilised in this work to estimate greenhouse gas (GHG) emissions. A system is proposed that utilizes IoT devices and environmental sensors to monitor and manage environmental impact efficiently in real-time. IoT-enabled sensors are strategically placed in industrial sites, metropolitan centres, and natural landscapes. These sensors measure CO2, methane, nitrous oxide, and meteorology. Sensor fusion and real time data monitoring are the main contribution of this research work. The technology decreases uncertainty and improves estimation accuracy by integrating sensor data. Machine learning algorithms analyse fused sensor data and create predictive models. These models allow the system to extrapolate emission estimates beyond sensor locations, providing a comprehensive view of GHG emissions across geographies. IoT integration with sensor fusion and digital signal processing (DSP) allows real-time data transmission and remote monitoring. This continuously collects and processes emission data to quickly identify pollution hotspots and conduct emission reduction actions. The system's precision, real-time capabilities, scalability, and adaptability make it ideal for local air quality monitoring, regional emission tracking, and global climate change assessments. Finally, this research uses sensor fusion and IoT technology to estimate GHG emissions. The technology provides accurate, real-time emission estimations from several sensors, aiding environmental monitoring and sustainable development. This strategy could help mitigate climate change and create a green future.}
+      \field{journaltitle}{2023 International Conference on Data Science \& Informatics (ICDSI)}
+      \field{title}{Real {{Time Estimation}} of {{GHG Emissions Using IoT Integrated Sensor Fusion}}}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{286\bibrangedash 290}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ICDSI60108.2023.00061
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/ILXB3KTP/255ff4030d8755b090ee0836904df064.html
+      \endverb
+      \verb{urlraw}
+      \verb https://consensus.app/papers/real-time-estimation-of-ghg-emissions-using-iot-integrated-raj-srivastava/255ff4030d8755b090ee0836904df064/
+      \endverb
+      \verb{url}
+      \verb https://consensus.app/papers/real-time-estimation-of-ghg-emissions-using-iot-integrated-raj-srivastava/255ff4030d8755b090ee0836904df064/
+      \endverb
+    \endentry
+    \entry{Salam2022}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{7}{}{%
+        {{hash=7cc071aa60d048c1d77db4652d834a02}{%
+           family={Salam},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=66df57ee0c003233503e2a322378293b}{%
+           family={Shahzadi},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1b2ced9ee7249adaa22940124d959652}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e47cf7f474c82538326e8813368c29c7}{%
+           family={Alam},
+           familyi={A\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=013062c8d8d4d7b3444e338486091d90}{%
+           family={Nabi},
+           familyi={N\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2de3a50fde6670df84b2f389cea737fc}{%
+           family={Dezhi},
+           familyi={D\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0d35dd9e66c14d086bbe0b82d4988933}{%
+           family={Bilal},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{08ecfca87b7d305ec36aa82123d5b94b}
+      \strng{fullhash}{ff93b51a88a23d34ee55406f0f3448cb}
+      \strng{bibnamehash}{ff93b51a88a23d34ee55406f0f3448cb}
+      \strng{authorbibnamehash}{ff93b51a88a23d34ee55406f0f3448cb}
+      \strng{authornamehash}{08ecfca87b7d305ec36aa82123d5b94b}
+      \strng{authorfullhash}{ff93b51a88a23d34ee55406f0f3448cb}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Environmental Technology \& Innovation}
+      \field{title}{Effect of different environmental conditions on the growth and development of Black Soldier Fly Larvae and its utilization in solid waste management and pollution mitigation}
+      \field{volume}{28}
+      \field{year}{2022}
+      \field{pages}{102649}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.eti.2022.102649
+      \endverb
+    \endentry
+    \entry{Smith2014}{inbook}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{7}{}{%
+        {{hash=c342db8790160caeee74c4a0b7d43a0e}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=5c566bfe3640f9905cdf30199bb65417}{%
+           family={Bustamante},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8cc7ee40dc4207ac92475b9c124bd6d9}{%
+           family={Ahammad},
+           familyi={A\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=51951bd7b5cbb212619c5e71e68e4b90}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=32de7f7ffc430ab53501fac80899ff65}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b187e9267fcc85fcb2f191c00f2e2fd3}{%
+           family={Elsiddig},
+           familyi={E\bibinitperiod},
+           given={E.\bibnamedelimi A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ce3efb5cbbd8019c1ea590730cc52a1c}{%
+           family={Bolwig},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{c4b5ac7a221a95f31f8bfaca6d9b2a00}
+      \strng{fullhash}{e7492fe463f9edd05d76c61608dfe5ed}
+      \strng{bibnamehash}{e7492fe463f9edd05d76c61608dfe5ed}
+      \strng{authorbibnamehash}{e7492fe463f9edd05d76c61608dfe5ed}
+      \strng{authornamehash}{c4b5ac7a221a95f31f8bfaca6d9b2a00}
+      \strng{authorfullhash}{e7492fe463f9edd05d76c61608dfe5ed}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Climate Change 2014: Mitigation of Climate Change. Contribution of Working Group III to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change}
+      \field{title}{Agriculture, forestry and other land use (AFOLU)}
+      \field{year}{2014}
+      \field{pages}{811\bibrangedash 922}
+      \range{pages}{112}
+    \endentry
+    \entry{Surendra2016}{article}{}
+      \name{author}{5}{}{%
+        {{hash=b76f99e51da550f96869aa572fb6b2c8}{%
+           family={Surendra},
+           familyi={S\bibinitperiod},
+           given={K.\bibnamedelimi C.},
+           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=0a2e4b6c56571008da5841daa97ac9d6}{%
+           family={Olivier},
+           familyi={O\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=595434f7c86fb7d54795e3e26185b839}{%
+           family={Tomberlin},
+           familyi={T\bibinitperiod},
+           given={J.\bibnamedelimi K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=fbd5808b7037dacb6cc72a93b0eb062a}{%
+           family={Jha},
+           familyi={J\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8ab47bf1b53189c48d87ad18cbe25cd7}{%
+           family={Khanal},
+           familyi={K\bibinitperiod},
+           given={S.\bibnamedelimi K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{2623fee76f971e69c1fbd992b423fea1}
+      \strng{fullhash}{799f90bce79a802cbfa513d03cc35afc}
+      \strng{bibnamehash}{799f90bce79a802cbfa513d03cc35afc}
+      \strng{authorbibnamehash}{799f90bce79a802cbfa513d03cc35afc}
+      \strng{authornamehash}{2623fee76f971e69c1fbd992b423fea1}
+      \strng{authorfullhash}{799f90bce79a802cbfa513d03cc35afc}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Renewable Energy}
+      \field{title}{Bioconversion of organic wastes into biodiesel and animal feed via insect farming}
+      \field{volume}{98}
+      \field{year}{2016}
+      \field{pages}{197\bibrangedash 202}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.renene.2016.03.022
+      \endverb
+    \endentry
+    \entry{weichertReviewMachineLearning2019}{article}{}
+      \name{author}{6}{}{%
+        {{hash=e05589d9cc1199287c541addb187a578}{%
+           family={Weichert},
+           familyi={W\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=6c7f4ff2cd9a3c342b86b18170d09bcc}{%
+           family={Link},
+           familyi={L\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7809ae086e72ae25b99ebf4668ef56ed}{%
+           family={Stoll},
+           familyi={S\bibinitperiod},
+           given={Anke},
+           giveni={A\bibinitperiod}}}%
+        {{hash=375ed2d71dff610cdc77e2eb8d3af9af}{%
+           family={Rüping},
+           familyi={R\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6957ed61c629b32c95ddf42ed53a61b1}{%
+           family={Ihlenfeldt},
+           familyi={I\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=77721ad2d67cb75bba2ff4c8ad5801ea}{%
+           family={Wrobel},
+           familyi={W\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2589e0b55911f0d1a9b7145560215676}
+      \strng{fullhash}{0c4cb08c13ece92e669f049830e2aa0e}
+      \strng{bibnamehash}{0c4cb08c13ece92e669f049830e2aa0e}
+      \strng{authorbibnamehash}{0c4cb08c13ece92e669f049830e2aa0e}
+      \strng{authornamehash}{2589e0b55911f0d1a9b7145560215676}
+      \strng{authorfullhash}{0c4cb08c13ece92e669f049830e2aa0e}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Due to the advances in the digitalization process of the manufacturing industry and the resulting available data, there is tremendous progress and large interest in integrating machine learning and optimization methods on the shop floor in order to improve production processes. Additionally, a shortage of resources leads to increasing acceptance of new approaches, such as machine learning to save energy, time, and resources, and avoid waste. After describing possible occurring data types in the manufacturing world, this study covers the majority of relevant literature from 2008 to 2018 dealing with machine learning and optimization approaches for product quality or process improvement in the manufacturing industry. The review shows that there is hardly any correlation between the used data, the amount of data, the machine learning algorithms, the used optimizers, and the respective problem from the production. The detailed correlations between these criteria and the recent progress made in this area as well as the issues that are still unsolved are discussed in this paper.}
+      \field{journaltitle}{The International Journal of Advanced Manufacturing Technology}
+      \field{title}{A Review of Machine Learning for the Optimization of Production Processes}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{104}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1889\bibrangedash 1902}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1007/s00170-019-03988-5
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/JHAGC7WA/c1713be4e66d5ba3b4bc28fbbbc3ea2b.html
+      \endverb
+      \verb{urlraw}
+      \verb https://consensus.app/papers/a-review-of-machine-learning-for-the-optimization-of-weichert-link/c1713be4e66d5ba3b4bc28fbbbc3ea2b/
+      \endverb
+      \verb{url}
+      \verb https://consensus.app/papers/a-review-of-machine-learning-for-the-optimization-of-weichert-link/c1713be4e66d5ba3b4bc28fbbbc3ea2b/
+      \endverb
+    \endentry
+    \entry{yavariArtEMonArtificialIntelligence2023}{article}{}
+      \name{author}{9}{}{%
+        {{hash=7820cdd0fded7b4dc015d3a859c6bb1c}{%
+           family={Yavari},
+           familyi={Y\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fa8341cf697820c24c7d83ed3210efe7}{%
+           family={Mirza},
+           familyi={M\bibinitperiod},
+           given={Irfan\bibnamedelima Baig},
+           giveni={I\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=b65d2b306acff6ef7d3432e0f001972c}{%
+           family={Bagha},
+           familyi={B\bibinitperiod},
+           given={Hamid},
+           giveni={H\bibinitperiod}}}%
+        {{hash=df1c088f88c4000af103ccceeaeab34b}{%
+           family={Korala},
+           familyi={K\bibinitperiod},
+           given={Harindu},
+           giveni={H\bibinitperiod}}}%
+        {{hash=87d8196a0cd47b6df4f13b0723c9c25d}{%
+           family={Dia},
+           familyi={D\bibinitperiod},
+           given={Hussein},
+           giveni={H\bibinitperiod}}}%
+        {{hash=510a005904ba83006c293e9ed278f2ec}{%
+           family={Scifleet},
+           familyi={S\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7277e01df2d802722c180d1402c0b209}{%
+           family={Sargent},
+           familyi={S\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1bb75f49d9614bdb79d24b6da86de5e8}{%
+           family={Tjung},
+           familyi={T\bibinitperiod},
+           given={Caroline},
+           giveni={C\bibinitperiod}}}%
+        {{hash=c1198e777f9008054fd8de2d71b3859d}{%
+           family={Shafiei},
+           familyi={S\bibinitperiod},
+           given={Mahnaz},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{b393dde4543869fb7fd4a5c9208b1fb5}
+      \strng{fullhash}{dbf4abdcce2af9a5c0fecac331bbe814}
+      \strng{bibnamehash}{dbf4abdcce2af9a5c0fecac331bbe814}
+      \strng{authorbibnamehash}{dbf4abdcce2af9a5c0fecac331bbe814}
+      \strng{authornamehash}{b393dde4543869fb7fd4a5c9208b1fb5}
+      \strng{authorfullhash}{dbf4abdcce2af9a5c0fecac331bbe814}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Greenhouse gas (GHG) emissions reporting and sustainability are increasingly important for businesses around the world. Yet the lack of a single standardised method of measurement, when coupled with an inability to understand the true state of emissions in complex logistics activities, presents enormous barriers for businesses to understanding the extent of their emissions footprint. One of the traditional approaches to accurately capturing and monitoring gas emissions in logistics is through using gas sensors. However, connecting, maintaining, and operating gas sensors on moving vehicles in different road and weather conditions is a large and costly challenge. This paper presents the development and evaluation of a reliable and accurate sensing technique for GHG emissions collection (or monitoring) in real-time, employing the Internet of Things (IoT) and Artificial Intelligence (AI) to eliminate or reduce the usage of gas sensors, using reliable and cost-effective solutions.}
+      \field{issn}{1424-8220}
+      \field{issue}{18}
+      \field{journaltitle}{Sensors}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{18}
+      \field{shorttitle}{{{ArtEMon}}}
+      \field{title}{{{ArtEMon}}: {{Artificial Intelligence}} and {{Internet}} of {{Things Powered Greenhouse Gas Sensing}} for {{Real-Time Emissions Monitoring}}}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{23}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{7971}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s23187971
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/MQ7Z8FC8/Yavari et al. - 2023 - ArtEMon Artificial Intelligence and Internet of Things Powered Greenhouse Gas Sensing for Real-Time.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1424-8220/23/18/7971
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1424-8220/23/18/7971
+      \endverb
+      \keyw{AI,emissions,greenhouse gas,IoT,supply chain,sustainable logistics}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{amrulReviewOrganicWaste2022}{article}{}
+      \name{author}{6}{}{%
+        {{hash=007b45351fc6aa278391a19ab3af5d73}{%
+           family={Amrul},
+           familyi={A\bibinitperiod},
+           given={Nur\bibnamedelima Fardilla},
+           giveni={N\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=04fc3298af1786011f2289721cc41525}{%
+           family={Kabir\bibnamedelima Ahmad},
+           familyi={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Irfana},
+           giveni={I\bibinitperiod}}}%
+        {{hash=c7fc8f0d6e812929aec6b620d7e75388}{%
+           family={Ahmad\bibnamedelima Basri},
+           familyi={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Noor\bibnamedelima Ezlin},
+           giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=96404c13278fa1d4aea0af62c8e17b72}{%
+           family={Suja},
+           familyi={S\bibinitperiod},
+           given={Fatihah},
+           giveni={F\bibinitperiod}}}%
+        {{hash=9aa1d108fb172255a97f98368408410f}{%
+           family={Abdul\bibnamedelima Jalil},
+           familyi={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={Nurul\bibnamedelima Ain},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ae161179eeb0dc4b3b4a2c7cc09ba446}{%
+           family={Azman},
+           familyi={A\bibinitperiod},
+           given={Nur\bibnamedelima Asyiqin},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{094ea627ac089105e2c10c3b5695a216}
+      \strng{fullhash}{3b686f27de8e492db9100c5b1c4a38de}
+      \strng{bibnamehash}{3b686f27de8e492db9100c5b1c4a38de}
+      \strng{authorbibnamehash}{3b686f27de8e492db9100c5b1c4a38de}
+      \strng{authornamehash}{094ea627ac089105e2c10c3b5695a216}
+      \strng{authorfullhash}{3b686f27de8e492db9100c5b1c4a38de}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The increase in solid waste generation is caused primarily by the global population growth that resulted in urban sprawl, economic development, and consumerism. Poor waste management has adverse impacts on the environment and human health. The recent years have seen increasing interest in using black soldier fly (BSF), Hermetia illucens, as an organic waste converter. Black soldier fly larvae (BSFL) feed voraciously on various types of organic waste, including food wastes, agro-industrial by-products, and chicken and dairy manure, and reduce the initial weight of the organic waste by about 50\% in a shorter period than conventional composting. The main components of the BSFL system are the larvero, where the larvae feed and grow, and the fly house, where the adults BSF live and reproduce. It is essential to have a rearing facility that maintains the healthy adult and larval BSF to provide a sufficient and continuous supply of offspring for organic waste treatment. The BSF organic waste processing facility consists of waste pre-processing, BSFL biowaste treatment, the separation of BSFL from the process residue, and larvae and residue refinement into marketable products. BSFL digest the nutrients in the wastes and convert them into beneficial proteins and fats used to produce animal feed, and BSFL residue can be used as an organic fertilizer. This review summarizes the BSFL treatment process to provide an in-depth understanding of the value of its by-products as animal feed and organic fertilizer.}
+      \field{issn}{2071-1050}
+      \field{issue}{8}
+      \field{journaltitle}{Sustainability}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{8}
+      \field{title}{A {{Review}} of {{Organic Waste Treatment Using Black Soldier Fly}} ({{Hermetia}} Illucens)}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{14}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{4565}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/su14084565
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/TKX8HNK4/Amrul et al. - 2022 - A Review of Organic Waste Treatment Using Black Soldier Fly (Hermetia illucens).pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2071-1050/14/8/4565
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2071-1050/14/8/4565
+      \endverb
+      \keyw{bioconversion,black soldier fly,composting,organic waste management}
+    \endentry
+    \entry{barragan2017nutritional}{article}{}
+      \name{author}{3}{}{%
+        {{hash=014ad5855465ed38e4f88b86642a1e8b}{%
+           family={Barragan-Fonseca},
+           familyi={B\bibinithyphendelim F\bibinitperiod},
+           given={Karol\bibnamedelima B},
+           giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=32d02fb2cd483d0fd44d35825c19f20d}{%
+           family={Dicke},
+           familyi={D\bibinitperiod},
+           given={Marcel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=edc8346193f0a314aa56f519242a6191}{%
+           family={Loon},
+           familyi={L\bibinitperiod},
+           given={Joop\bibnamedelima JA},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wageningen Academic Publishers}%
+      }
+      \strng{namehash}{d9663a9f1a877f2cdb583d52003c9141}
+      \strng{fullhash}{a770dbeb4cd663ac7b0854a9287884b9}
+      \strng{bibnamehash}{a770dbeb4cd663ac7b0854a9287884b9}
+      \strng{authorbibnamehash}{a770dbeb4cd663ac7b0854a9287884b9}
+      \strng{authornamehash}{d9663a9f1a877f2cdb583d52003c9141}
+      \strng{authorfullhash}{a770dbeb4cd663ac7b0854a9287884b9}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Insects as Food and Feed}
+      \field{number}{2}
+      \field{title}{Nutritional value of the black soldier fly (Hermetia illucens L.) and its suitability as animal feed--a review}
+      \field{volume}{3}
+      \field{year}{2017}
+      \field{pages}{105\bibrangedash 120}
+      \range{pages}{16}
+    \endentry
+    \entry{Bermudez2023}{article}{}
+      \name{author}{2}{}{%
+        {{hash=23a2bce439981fc48da1391b6d3c738e}{%
+           family={Bermúdez-Serrano},
+           familyi={B\bibinithyphendelim S\bibinitperiod},
+           given={I.\bibnamedelimi M.},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=86dc0cd3a111c8373a3cca7a6859cede}{%
+           family={Sánchez-Velázquez},
+           familyi={S\bibinithyphendelim V\bibinitperiod},
+           given={O.\bibnamedelimi A.},
+           giveni={O\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f7c4af3af3093680e8612939e04e11a}
+      \strng{fullhash}{8f7c4af3af3093680e8612939e04e11a}
+      \strng{bibnamehash}{8f7c4af3af3093680e8612939e04e11a}
+      \strng{authorbibnamehash}{8f7c4af3af3093680e8612939e04e11a}
+      \strng{authornamehash}{8f7c4af3af3093680e8612939e04e11a}
+      \strng{authorfullhash}{8f7c4af3af3093680e8612939e04e11a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientia Agropecuaria}
+      \field{number}{4}
+      \field{title}{Aprovechamiento integral de la Mosca Soldado Negra: Bioconversión, sostenibilidad y desafíos emergentes}
+      \field{volume}{14}
+      \field{year}{2023}
+      \field{pages}{571\bibrangedash 590}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.xxxx/sciagro.v14i4.xxxxx
+      \endverb
+    \endentry
+    \entry{Chan2024}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=c739b4372bf8802e6b381fa8b3df2984}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={Y.\bibnamedelimi C.},
+           giveni={Y\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {UTAR}%
+      }
+      \strng{namehash}{c739b4372bf8802e6b381fa8b3df2984}
+      \strng{fullhash}{c739b4372bf8802e6b381fa8b3df2984}
+      \strng{bibnamehash}{c739b4372bf8802e6b381fa8b3df2984}
+      \strng{authorbibnamehash}{c739b4372bf8802e6b381fa8b3df2984}
+      \strng{authornamehash}{c739b4372bf8802e6b381fa8b3df2984}
+      \strng{authorfullhash}{c739b4372bf8802e6b381fa8b3df2984}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Smart and sustainable IOT based humidity and temperature control system for vegetable/fruit storage}
+      \field{type}{phdthesis}
+      \field{year}{2024}
+      \true{nocite}
+    \endentry
+    \entry{chenOptimizationModelProcess2021}{article}{}
+      \name{author}{8}{}{%
+        {{hash=903372eaacb45870dfe218898004c259}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yineng},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f4c60115604ea6b546c339db1d4786cc}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Xinghui},
+           giveni={X\bibinitperiod}}}%
+        {{hash=b3a45cb41e97743f5f6e2ea40f9cf068}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Kui},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e3ff22fe4ab21bec6fb17a301a0cef99}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Yanbin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f70953dd91ef46ddf74f0200078906cf}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Yuechao},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=39b9b647ff3e2a95e3e50d20ef90a152}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod}}}%
+        {{hash=8d3ec72af81e1e1ce9959c6e4fb0d29c}{%
+           family={Zou},
+           familyi={Z\bibinitperiod},
+           given={Zhuoyang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=1a21a1edce4822cfced9a66afe2d292e}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Ting},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9feed51d699980d46b4c1ff45aa846c}
+      \strng{fullhash}{5e4a53499593848d7da787719f71e7f8}
+      \strng{bibnamehash}{5e4a53499593848d7da787719f71e7f8}
+      \strng{authorbibnamehash}{5e4a53499593848d7da787719f71e7f8}
+      \strng{authornamehash}{a9feed51d699980d46b4c1ff45aa846c}
+      \strng{authorfullhash}{5e4a53499593848d7da787719f71e7f8}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A traceability system can quickly and accurately query product supply chain circulation information. It is difficult to obtain processing information and achieve sharing due to the big data, long duration, large amount of equipment and scattered and easily lost processing information. In tracing the application of the case-based reasoning (CBR) to product processing, we can solve the problem of establishing an accurate and complete mathematical model between the processing information and product quality defects by finding a target record in a large amount of historical data. The traceability model of ontology and CBR uses the web ontology language (OWL) for case representation to simplify the CBR framework for big data, classifies process data and standardizes information storage. A joint optimization algorithm based on the genetic algorithm (GA) and CBR is proposed to establish an optimization model of process traceability, which is applied to case retrieval and reuse. This algorithm optimizes the genetic operator by combining the optimal preservation strategy and roulette selection method and uses an exponential-scale transformation method to stretch the fitness function. The experiments show that the optimized traceability model can infer information from garbled codes, wrong codes and missing messages to quickly determine the problematic products, thus effectively improving the traceability accuracy of product processing.}
+      \field{eventtitle}{{{IEEE Sensors Journal}}}
+      \field{issn}{1558-1748}
+      \field{journaltitle}{IEEE Sensors Journal}
+      \field{month}{11}
+      \field{number}{22}
+      \field{title}{An {{Optimization Model}} for {{Process Traceability}} in {{Case-Based Reasoning Based}} on {{Ontology}} and the {{Genetic Algorithm}}}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{21}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{25123\bibrangedash 25132}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/JSEN.2021.3065757
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/7FVRC3Q3/9376946.html
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/abstract/document/9376946
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/abstract/document/9376946
+      \endverb
+      \keyw{CBR,Cognition,GA,Genetic algorithms,Ontologies,Ontology,Optimization,processing information,Production,Quality assessment,Raw materials,traceability optimization}
+    \endentry
+    \entry{Chia2019}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=29364875711b488b1d18ffca6b466aa7}{%
+           family={Chia},
+           familyi={C\bibinitperiod},
+           given={S.\bibnamedelimi Y.},
+           giveni={S\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {Wageningen University}%
+        {Research}%
+      }
+      \strng{namehash}{29364875711b488b1d18ffca6b466aa7}
+      \strng{fullhash}{29364875711b488b1d18ffca6b466aa7}
+      \strng{bibnamehash}{29364875711b488b1d18ffca6b466aa7}
+      \strng{authorbibnamehash}{29364875711b488b1d18ffca6b466aa7}
+      \strng{authornamehash}{29364875711b488b1d18ffca6b466aa7}
+      \strng{authorfullhash}{29364875711b488b1d18ffca6b466aa7}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Black soldier fly larvae as a sustainable animal feed ingredient in Kenya}
+      \field{type}{phdthesis}
+      \field{year}{2019}
+    \endentry
+    \entry{Diener2011}{article}{}
+      \name{author}{3}{}{%
+        {{hash=07d368ff11207ecf86c2d39488fe7788}{%
+           family={Diener},
+           familyi={D\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b8c85ac3322439c7b713ebca215ed83a}{%
+           family={Zurbrügg},
+           familyi={Z\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0ccf0cb3e44d23900dddaa7fa170eeb3}{%
+           family={Tockner},
+           familyi={T\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{fae3c7417c6ccdcdd56af9b1533308ac}
+      \strng{fullhash}{f0466fd81e328039c3f2d4268b1111ba}
+      \strng{bibnamehash}{f0466fd81e328039c3f2d4268b1111ba}
+      \strng{authorbibnamehash}{f0466fd81e328039c3f2d4268b1111ba}
+      \strng{authornamehash}{fae3c7417c6ccdcdd56af9b1533308ac}
+      \strng{authorfullhash}{f0466fd81e328039c3f2d4268b1111ba}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Waste Management \& Research}
+      \field{number}{5}
+      \field{title}{Conversion of organic material by black soldier fly larvae: Establishing optimal feeding rates}
+      \field{volume}{29}
+      \field{year}{2011}
+      \field{pages}{494\bibrangedash 498}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1177/0734242X10366090
+      \endverb
+    \endentry
+    \entry{duobieneDevelopmentWirelessSensor2022}{article}{}
+      \name{author}{7}{}{%
+        {{hash=b66292f918d33ad9473f67acac9d6182}{%
+           family={Duobiene},
+           familyi={D\bibinitperiod},
+           given={Shathya},
+           giveni={S\bibinitperiod}}}%
+        {{hash=26cf5c3fb8f297e8649caaa2ca23ce84}{%
+           family={Ratautas},
+           familyi={R\bibinitperiod},
+           given={Karolis},
+           giveni={K\bibinitperiod}}}%
+        {{hash=086e94b1615b586a8c1125f140559491}{%
+           family={Trusovas},
+           familyi={T\bibinitperiod},
+           given={Romualdas},
+           giveni={R\bibinitperiod}}}%
+        {{hash=73724d0edb90c45a6f91fb27d58f71f0}{%
+           family={Ragulis},
+           familyi={R\bibinitperiod},
+           given={Paulius},
+           giveni={P\bibinitperiod}}}%
+        {{hash=4b3f74e44fa0b6b36c19e3f4ebdbea27}{%
+           family={Šlekas},
+           familyi={Š\bibinitperiod},
+           given={Gediminas},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e59a0995812f235f80b34515aec64512}{%
+           family={Simniškis},
+           familyi={S\bibinitperiod},
+           given={Rimantas},
+           giveni={R\bibinitperiod}}}%
+        {{hash=55c06afed173b521eb41bdfda5c419ce}{%
+           family={Račiukaitis},
+           familyi={R\bibinitperiod},
+           given={Gediminas},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{3caaced2637425b3e275303933f2b5b3}
+      \strng{fullhash}{e182b1514a11ba0a196f4e3a0890d55a}
+      \strng{bibnamehash}{e182b1514a11ba0a196f4e3a0890d55a}
+      \strng{authorbibnamehash}{e182b1514a11ba0a196f4e3a0890d55a}
+      \strng{authornamehash}{3caaced2637425b3e275303933f2b5b3}
+      \strng{authorfullhash}{e182b1514a11ba0a196f4e3a0890d55a}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Internet of Things (IoT) technology and its applications are turning real-world things into smart objects, integrating everything under a common infrastructure to manage performance through a software application and offering upgrades with integrated web servers in a timely manner. Quality of life, the green economy, and pollution management in society require comprehensive environmental monitoring systems with easy-to-use features and maintenance. This research suggests implementing a wireless sensor network with embedded sensor nodes manufactured using the Selective Surface Activation Induced by Laser technology. Such technology allows the integration of electrical circuits with free-form plastic sensor housing. In this work, a low-cost asynchronous web server for monitoring temperature and humidity sensors connected to the ESP32 Wi-Fi module has been developed. Data from sensor nodes across the facility are collected and displayed in real-time charts on a web server. Multiple web clients on the same network can access the sensor data. The energy to the sensor nodes could be powered by harvesting energy from surrounding sources of electromagnetic radiation. This automated and self-powered system monitors environmental and climatic factors, helps with timely action, and benefits sensor design by allowing antenna and rf-circuit formation on various plastics, even on the body of the device itself. It also provides greater flexibility in hardware modification and rapid large-scale deployment.}
+      \field{day}{18}
+      \field{issn}{1424-8220}
+      \field{journaltitle}{Sensors}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{14}
+      \field{shortjournal}{Sensors}
+      \field{title}{Development of {{Wireless Sensor Network}} for {{Environment Monitoring}} and {{Its Implementation Using SSAIL Technology}}}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{22}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{5343}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s22145343
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/D7QU3UV9/Duobiene et al. - 2022 - Development of Wireless Sensor Network for Environment Monitoring and Its Implementation Using SSAIL.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1424-8220/22/14/5343
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1424-8220/22/14/5343
+      \endverb
+    \endentry
+    \entry{FAO2020}{report}{}
+      \name{author}{1}{}{%
+        {{hash=4807e0aebe86c17f559853f35515b533}{%
+           family={{FAO}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Rome}%
+      }
+      \strng{namehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{fullhash}{4807e0aebe86c17f559853f35515b533}
+      \strng{bibnamehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{authorbibnamehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{authornamehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{authorfullhash}{4807e0aebe86c17f559853f35515b533}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{18}
+      \field{series}{FAOSTAT Analytical Brief Series}
+      \field{title}{Emissions due to agriculture. Global, regional and country trends 2000–2018}
+      \field{type}{techreport}
+      \field{year}{2020}
+      \true{nocite}
+    \endentry
+    \entry{fawzyStrategiesMitigationClimate2020}{article}{}
+      \name{author}{4}{}{%
+        {{hash=882ebecf9f8a5588a6a60098d8dd50f3}{%
+           family={Fawzy},
+           familyi={F\bibinitperiod},
+           given={Samer},
+           giveni={S\bibinitperiod}}}%
+        {{hash=653807f8836f3ab9326cba04e9a8e75b}{%
+           family={Osman},
+           familyi={O\bibinitperiod},
+           given={Ahmed\bibnamedelima I.},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=c7e2989d9d276cdcff204bfacca2e8de}{%
+           family={Doran},
+           familyi={D\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f8affd5c6ae97c9df325acac4a2dc550}{%
+           family={Rooney},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima W.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{81975c141c1df9deeb58f0a7d7b7eae3}
+      \strng{fullhash}{b3f8cdf5f2364b290a1a644af18bacd3}
+      \strng{bibnamehash}{b3f8cdf5f2364b290a1a644af18bacd3}
+      \strng{authorbibnamehash}{b3f8cdf5f2364b290a1a644af18bacd3}
+      \strng{authornamehash}{81975c141c1df9deeb58f0a7d7b7eae3}
+      \strng{authorfullhash}{b3f8cdf5f2364b290a1a644af18bacd3}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Climate change is defined as the shift in climate patterns mainly caused by greenhouse gas emissions from natural systems and human activities. So far, anthropogenic activities have caused about 1.0~°C of global warming above the pre-industrial level and this is likely to reach 1.5~°C between 2030 and 2052 if the current emission rates persist. In 2018, the world encountered 315 cases of natural disasters which are mainly related to the climate. Approximately 68.5 million people were affected, and economic losses amounted to \$131.7 billion, of which storms, floods, wildfires and droughts accounted for approximately 93\%. Economic losses attributed to wildfires in 2018 alone are almost equal to the collective losses from wildfires incurred over the past decade, which is quite alarming. Furthermore, food, water, health, ecosystem, human habitat and infrastructure have been identified as the most vulnerable sectors under climate attack. In 2015, the Paris agreement was introduced with the main objective of limiting global temperature increase to 2~°C by 2100 and pursuing efforts to limit the increase to 1.5~°C. This article reviews the main strategies for climate change abatement, namely conventional mitigation, negative emissions and radiative forcing geoengineering. Conventional mitigation technologies focus on reducing fossil-based CO2 emissions. Negative emissions technologies are aiming to capture and sequester atmospheric carbon to~reduce carbon dioxide levels. Finally, geoengineering techniques of radiative forcing alter the earth’s radiative energy budget to stabilize or reduce global temperatures. It is evident that conventional mitigation efforts alone are not sufficient to meet the targets stipulated by the Paris agreement; therefore, the utilization of alternative routes appears inevitable. While various technologies presented may still be at an early stage of development, biogenic-based sequestration techniques are to a certain extent mature and can be deployed immediately.}
+      \field{day}{1}
+      \field{issn}{1610-3661}
+      \field{journaltitle}{Environmental Chemistry Letters}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{6}
+      \field{shortjournal}{Environ Chem Lett}
+      \field{shorttitle}{Strategies for Mitigation of Climate Change}
+      \field{title}{Strategies for Mitigation of Climate Change: A Review}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{18}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2069\bibrangedash 2094}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1007/s10311-020-01059-w
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/2W7YSFCA/Fawzy et al. - 2020 - Strategies for mitigation of climate change a review.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10311-020-01059-w
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10311-020-01059-w
+      \endverb
+      \keyw{Carbon dioxide removal,Climate change mitigation,Decarbonization technologies,Environmental Chemistry,Geoengineering,Negative emissions technologies,Radiative forcing geoengineering technologies}
+    \endentry
+    \entry{filonchyk2024greenhouse}{article}{}
+      \name{author}{5}{}{%
+        {{hash=8caa1323f1f71c608f63475e5d27a8fa}{%
+           family={Filonchyk},
+           familyi={F\bibinitperiod},
+           given={Mikalai},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f7a9f3e3fa37ca6dc38910717ad252d7}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={Michael\bibnamedelima P},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=7045b694006805850548dafcfc3bd3e3}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Lifeng},
+           giveni={L\bibinitperiod}}}%
+        {{hash=698c1d258ce3e365a4606a8f7ddb9ff7}{%
+           family={Hurynovich},
+           familyi={H\bibinitperiod},
+           given={Volha},
+           giveni={V\bibinitperiod}}}%
+        {{hash=ae31170eaf42c18409aa164a618b50b2}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{fca3bbf91ca1bf29629eaff05eb2ac43}
+      \strng{fullhash}{be5bccecde5988fab63e7f918bf9a788}
+      \strng{bibnamehash}{be5bccecde5988fab63e7f918bf9a788}
+      \strng{authorbibnamehash}{be5bccecde5988fab63e7f918bf9a788}
+      \strng{authornamehash}{fca3bbf91ca1bf29629eaff05eb2ac43}
+      \strng{authorfullhash}{be5bccecde5988fab63e7f918bf9a788}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science of The Total Environment}
+      \field{title}{Greenhouse gases emissions and global climate change: Examining the influence of CO2, CH4, and N2O}
+      \field{year}{2024}
+      \field{pages}{173359}
+      \range{pages}{1}
+    \endentry
+    \entry{foodandagricultureorganizationoftheunitednationsfaoEmissionsDueAgriculture2020}{report}{}
+      \name{author}{1}{}{%
+        {{hash=837fc316b81710902fb989d5c22eb034}{%
+           family={{Food and Agriculture Organization of the United Nations (FAO)}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Rome, Italy}%
+      }
+      \strng{namehash}{837fc316b81710902fb989d5c22eb034}
+      \strng{fullhash}{837fc316b81710902fb989d5c22eb034}
+      \strng{bibnamehash}{837fc316b81710902fb989d5c22eb034}
+      \strng{authorbibnamehash}{837fc316b81710902fb989d5c22eb034}
+      \strng{authornamehash}{837fc316b81710902fb989d5c22eb034}
+      \strng{authorfullhash}{837fc316b81710902fb989d5c22eb034}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{number}{18}
+      \field{title}{Emissions Due to Agriculture {{Global}}, Regional and Country Trends 2000–2018}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/PBIDVKV3/Emissions due to agriculture.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://openknowledge.fao.org/server/api/core/bitstreams/cc09fbbc-eb1d-436b-a88a-bed42a1f12f3/content
+      \endverb
+      \verb{url}
+      \verb https://openknowledge.fao.org/server/api/core/bitstreams/cc09fbbc-eb1d-436b-a88a-bed42a1f12f3/content
+      \endverb
+    \endentry
+    \entry{FAO2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=837fc316b81710902fb989d5c22eb034}{%
+           family={{Food and Agriculture Organization of the United Nations (FAO)}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{837fc316b81710902fb989d5c22eb034}
+      \strng{fullhash}{837fc316b81710902fb989d5c22eb034}
+      \strng{bibnamehash}{837fc316b81710902fb989d5c22eb034}
+      \strng{authorbibnamehash}{837fc316b81710902fb989d5c22eb034}
+      \strng{authornamehash}{837fc316b81710902fb989d5c22eb034}
+      \strng{authorfullhash}{837fc316b81710902fb989d5c22eb034}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Food and Agriculture Organization of the United Nations}
+      \field{note}{Disponible en: https://www.fao.org/, Consultado 15 de enero}
+      \field{title}{Agricultural Waste Management: Challenges and Opportunities}
+      \field{year}{2021}
+    \endentry
+    \entry{guthrieImpactAmmoniaEmissions2018}{article}{}
+      \name{author}{4}{ul=4}{%
+        {{hash=17a6aeda44d4f926a3f1e979e325648e}{%
+           family={Guthrie},
+           familyi={G\bibinitperiod},
+           given={Susan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=aa86a40c3df47a8b999679b2c988a49b}{%
+           family={Giles},
+           familyi={G\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9552bd4ab7e4fef41af060634a5d07e7}{%
+           family={Dunkerley},
+           familyi={D\bibinitperiod},
+           given={Fay},
+           giveni={F\bibinitperiod}}}%
+        {{hash=0e8d8fe6efb9b885db3a44abd6cf5221}{%
+           family={Tabaqchali},
+           familyi={T\bibinitperiod},
+           given={Hadeel},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{86dda23736894392fc1de34c9e0b518e}
+      \strng{fullhash}{86dda23736894392fc1de34c9e0b518e}
+      \strng{bibnamehash}{86dda23736894392fc1de34c9e0b518e}
+      \strng{authorbibnamehash}{86dda23736894392fc1de34c9e0b518e}
+      \strng{authornamehash}{86dda23736894392fc1de34c9e0b518e}
+      \strng{authorfullhash}{86dda23736894392fc1de34c9e0b518e}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{RAND Corporation}
+      \field{langid}{english}
+      \field{title}{The Impact of Ammonia Emissions from Agriculture on Biodiversity}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{304}
+      \range{pages}{1}
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/D2Q63LCU/Guthrie et al. - The impact of ammonia emissions from agriculture on biodiversity.pdf
+      \endverb
+    \endentry
+    \entry{guthrieImpactAmmoniaEmissions2018a}{report}{}
+      \name{author}{7}{ul=4}{%
+        {{hash=17a6aeda44d4f926a3f1e979e325648e}{%
+           family={Guthrie},
+           familyi={G\bibinitperiod},
+           given={Susan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=aa86a40c3df47a8b999679b2c988a49b}{%
+           family={Giles},
+           familyi={G\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9552bd4ab7e4fef41af060634a5d07e7}{%
+           family={Dunkerley},
+           familyi={D\bibinitperiod},
+           given={Fay},
+           giveni={F\bibinitperiod}}}%
+        {{hash=0e8d8fe6efb9b885db3a44abd6cf5221}{%
+           family={Tabaqchali},
+           familyi={T\bibinitperiod},
+           given={Hadeel},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4a5ac59b79fe210490edfb0790a089b8}{%
+           family={Harshfield},
+           familyi={H\bibinitperiod},
+           given={Amelia},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c3a5be688f6d2797ba8366cd810434c0}{%
+           family={Ioppolo},
+           familyi={I\bibinitperiod},
+           given={Becky},
+           giveni={B\bibinitperiod}}}%
+        {{hash=491a8cce1194f746dd692a2ea01afbbf}{%
+           family={Manville},
+           familyi={M\bibinitperiod},
+           given={Catriona},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {RAND Corporation}%
+      }
+      \strng{namehash}{90947412f5a71eaea3ec899e6a8f19af}
+      \strng{fullhash}{8d9dbec3b29a5b882e574c0205360a59}
+      \strng{bibnamehash}{8d9dbec3b29a5b882e574c0205360a59}
+      \strng{authorbibnamehash}{8d9dbec3b29a5b882e574c0205360a59}
+      \strng{authornamehash}{90947412f5a71eaea3ec899e6a8f19af}
+      \strng{authorfullhash}{8d9dbec3b29a5b882e574c0205360a59}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Ammonia emissions in the UK have been rising since 2013, with the main source being agriculture. The impacts on biodiversity are significant and together with the costs to human health could be equivalent to over £700m per year in the UK by 2020.}
+      \field{day}{16}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{shorttitle}{Impact of Ammonia Emissions from Agriculture on Biodiversity}
+      \field{title}{Impact of Ammonia Emissions from Agriculture on Biodiversity: {{An}} Evidence Synthesis}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.rand.org/pubs/research_reports/RR2695.html
+      \endverb
+      \verb{url}
+      \verb https://www.rand.org/pubs/research_reports/RR2695.html
+      \endverb
+      \keyw{Agricultural Sciences,Biology and Life Sciences,Environmental Pollution,Environmental Regulation,Research,United Kingdom}
+    \endentry
+    \entry{IPCC2014}{book}{}
+      \name{author}{1}{}{%
+        {{hash=676f7b9b8e5bb30500c01e2385e59174}{%
+           family={{IPCC}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{676f7b9b8e5bb30500c01e2385e59174}
+      \strng{fullhash}{676f7b9b8e5bb30500c01e2385e59174}
+      \strng{bibnamehash}{676f7b9b8e5bb30500c01e2385e59174}
+      \strng{authorbibnamehash}{676f7b9b8e5bb30500c01e2385e59174}
+      \strng{authornamehash}{676f7b9b8e5bb30500c01e2385e59174}
+      \strng{authorfullhash}{676f7b9b8e5bb30500c01e2385e59174}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{11: Agriculture, Forestry and Other Land Use (AFOLU)}
+      \field{title}{Climate Change 2014: Mitigation of Climate Change. Contribution of Working Group III to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change}
+      \field{year}{2014}
+    \endentry
+    \entry{Kabange2023}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{7}{ul=7}{%
+        {{hash=b931f6b8d31599e6e3ea38c67f21f47d}{%
+           family={Kabange},
+           familyi={K\bibinitperiod},
+           given={N.\bibnamedelimi R.},
+           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=ca66680ecbb595faf347e4096f46da93}{%
+           family={Kwon},
+           familyi={K\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=58af86b4bd9a0bc53e782fe9fa23d7da}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={S.\bibnamedelimi M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=c84f1dadd0472114f5f0b37a2528dba9}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=0bfe3542f2f56bc2fe5380a863bb6b50}{%
+           family={Cha},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=5de1ee8be02450d136e79b70ae9c7303}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e5a7bd235818499e6c100cc1efc019b1}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{253aacec7bf9a68c7e4f95b08b452e7e}
+      \strng{fullhash}{253aacec7bf9a68c7e4f95b08b452e7e}
+      \strng{bibnamehash}{253aacec7bf9a68c7e4f95b08b452e7e}
+      \strng{authorbibnamehash}{253aacec7bf9a68c7e4f95b08b452e7e}
+      \strng{authornamehash}{253aacec7bf9a68c7e4f95b08b452e7e}
+      \strng{authorfullhash}{253aacec7bf9a68c7e4f95b08b452e7e}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sustainability}
+      \field{number}{22}
+      \field{title}{Mitigating Greenhouse Gas Emissions from Crop Production and Management Practices, and Livestock: A Review}
+      \field{volume}{15}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{15889}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/su152215889
+      \endverb
+    \endentry
+    \entry{kabangeMitigatingGreenhouseGas2023}{article}{}
+      \name{author}{10}{ul=7}{%
+        {{hash=737e907e76031909e5a4e1b14f970d55}{%
+           family={Kabange},
+           familyi={K\bibinitperiod},
+           given={Nkulu\bibnamedelima Rolly},
+           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=1608768d6b7121c426a6d5f22ba7c935}{%
+           family={Kwon},
+           familyi={K\bibinitperiod},
+           given={Youngho},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=5ea3a47116b3cdc59b70f9fe4d16e4a5}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={So-Myeong},
+           giveni={S\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=e23925f70ed8f9e0170e14bdd0ec12ec}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Ju-Won},
+           giveni={J\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=e67b397e6c5199749daf8491996e46b0}{%
+           family={Cha},
+           familyi={C\bibinitperiod},
+           given={Jin-Kyung},
+           giveni={J\bibinithyphendelim K\bibinitperiod}}}%
+        {{hash=fc6e84dfb93b2c2d3ce7b3d6edb9841d}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Hyeonjin},
+           giveni={H\bibinitperiod}}}%
+        {{hash=2834808c48f7e7388179b5ce1309b6cc}{%
+           family={Dzorkpe},
+           familyi={D\bibinitperiod},
+           given={Gamenyah\bibnamedelima Daniel},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=2ec38e9ef70656a2ff11b6e02a865e77}{%
+           family={Shin},
+           familyi={S\bibinitperiod},
+           given={Dongjin},
+           giveni={D\bibinitperiod}}}%
+        {{hash=75308adb65722e97fc77440c3001b899}{%
+           family={Oh},
+           familyi={O\bibinitperiod},
+           given={Ki-Won},
+           giveni={K\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=a857acac7072a363a2f70abdb55c1927}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jong-Hee},
+           giveni={J\bibinithyphendelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{163dc9d61f6eb4d92875a314e829035d}
+      \strng{fullhash}{0d9072b6d92d913d38d26b058a3d3b67}
+      \strng{bibnamehash}{0d9072b6d92d913d38d26b058a3d3b67}
+      \strng{authorbibnamehash}{0d9072b6d92d913d38d26b058a3d3b67}
+      \strng{authornamehash}{163dc9d61f6eb4d92875a314e829035d}
+      \strng{authorfullhash}{0d9072b6d92d913d38d26b058a3d3b67}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Agriculture is the second most important greenhouse gas (GHG: methane (CH4) and nitrous oxide (N2O) emissions)-emitting sector after the energy sector. Agriculture is also recognized as the source and sink of GHGs. The share of agriculture to the global GHG emission records has been widely investigated, but the impact on our food production systems has been overlooked for decades until the recent climate crisis. Livestock production and feed, nitrogen-rich fertilizers and livestock manure application, crop residue burning, as well as water management in flood-prone cultivation areas are components of agriculture that produce and emit most GHGs. Although agriculture produces 72–89\% less GHGs than other sectors, it is believed that reducing GHG emissions in agriculture would considerably lower its share of the global GHG emission records, which may lead to enormous benefits for the environment and food production systems. However, several diverging and controversial views questioning the actual role of plants in the current global GHG budget continue to nourish the debate globally. We must acknowledge that considering the beneficial roles of major GHGs to plants at a certain level of accumulation, implementing GHG mitigation measures from agriculture is indeed a complex task. This work provides a comprehensive review of agriculture-related GHG production and emission mechanisms, as well as GHG mitigation measures regarded as potential solutions available in the literature. This review also discusses in depth the significance and the dynamics of mitigation measures regarded as game changers with a high potential to enhance, in a sustainable manner, the resilience of agricultural systems. Some of the old but essential agricultural practices and livestock feed techniques are revived and discussed. Agricultural GHG mitigation approaches discussed in this work can serve as game changers in the attempt to reduce GHG emissions and alleviate the impact of climate change through sustainable agriculture and informed decision-making.}
+      \field{issn}{2071-1050}
+      \field{issue}{22}
+      \field{journaltitle}{Sustainability}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{22}
+      \field{shorttitle}{Mitigating {{Greenhouse Gas Emissions}} from {{Crop Production}} and {{Management Practices}}, and {{Livestock}}}
+      \field{title}{Mitigating {{Greenhouse Gas Emissions}} from {{Crop Production}} and {{Management Practices}}, and {{Livestock}}: {{A Review}}}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{15}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{15889}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/su152215889
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/3IA86KIG/Kabange et al. - 2023 - Mitigating Greenhouse Gas Emissions from Crop Production and Management Practices, and Livestock A.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2071-1050/15/22/15889
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2071-1050/15/22/15889
+      \endverb
+      \keyw{biochar,crop residue management,environment,game changer,greenhouse gas,livestock feed,nitrogen,sustainability}
+    \endentry
+    \entry{kamilaris2017review}{article}{}
+      \name{author}{3}{}{%
+        {{hash=eb16d14d23f09fd1365230c0230110f7}{%
+           family={Kamilaris},
+           familyi={K\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=28c3f1424571147dba1930005f078c9f}{%
+           family={Kartakoullis},
+           familyi={K\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=14df65df9cd29060cebc17c44cf4bfe2}{%
+           family={Prenafeta-Boldú},
+           familyi={P\bibinithyphendelim B\bibinitperiod},
+           given={Francesc\bibnamedelima X},
+           giveni={F\bibinitperiod\bibinitdelim X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{77c4a23614e916bd4e67f76a3e39d26f}
+      \strng{fullhash}{b04aacd31dd8839c183a6d062c50c4c6}
+      \strng{bibnamehash}{b04aacd31dd8839c183a6d062c50c4c6}
+      \strng{authorbibnamehash}{b04aacd31dd8839c183a6d062c50c4c6}
+      \strng{authornamehash}{77c4a23614e916bd4e67f76a3e39d26f}
+      \strng{authorfullhash}{b04aacd31dd8839c183a6d062c50c4c6}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers and Electronics in Agriculture}
+      \field{title}{A review on the practice of big data analysis in agriculture}
+      \field{volume}{143}
+      \field{year}{2017}
+      \field{pages}{23\bibrangedash 37}
+      \range{pages}{15}
+    \endentry
+    \entry{Leddin2024}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1dc1db8af5ad5062e416c9e597dd1ae7}{%
+           family={Leddin},
+           familyi={L\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{1dc1db8af5ad5062e416c9e597dd1ae7}
+      \strng{fullhash}{1dc1db8af5ad5062e416c9e597dd1ae7}
+      \strng{bibnamehash}{1dc1db8af5ad5062e416c9e597dd1ae7}
+      \strng{authorbibnamehash}{1dc1db8af5ad5062e416c9e597dd1ae7}
+      \strng{authornamehash}{1dc1db8af5ad5062e416c9e597dd1ae7}
+      \strng{authorfullhash}{1dc1db8af5ad5062e416c9e597dd1ae7}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Gastro Hep Advances}
+      \field{title}{The impact of climate change, pollution and biodiversity loss on digestive health and disease}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.1016/j.gastha.2024.01.018
+      \endverb
+    \endentry
+    \entry{liuOptimizingDataPipelines2023}{article}{}
+      \name{author}{10}{}{%
+        {{hash=7dbcd223db163eb1fc0b2e4f844602cd}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod}}}%
+        {{hash=71f98191f23062364914ac3be11fe3a3}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Kwanghyun},
+           giveni={K\bibinitperiod}}}%
+        {{hash=61fb0c95c8ae896f2ee51a3d7c124174}{%
+           family={Psallidas},
+           familyi={P\bibinitperiod},
+           given={Fotis},
+           giveni={F\bibinitperiod}}}%
+        {{hash=02b7406ac387944ec641f11aa2f0b24e}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Xiaoyong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=08e4c9bdb40305a24ef7f9261776b992}{%
+           family={Mo},
+           familyi={M\bibinitperiod},
+           given={Jinghui},
+           giveni={J\bibinitperiod}}}%
+        {{hash=21f922ddca99e4a59e6942caa2935a6f}{%
+           family={Sen},
+           familyi={S\bibinitperiod},
+           given={Rathijit},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2fbc6ed34c68b1254c0f4198922870f6}{%
+           family={Interlandi},
+           familyi={I\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9d1d4f8eb1bff277126aee762b8d8f2a}{%
+           family={Karanasos},
+           familyi={K\bibinitperiod},
+           given={Konstantinos},
+           giveni={K\bibinitperiod}}}%
+        {{hash=474e56597e0df375ac3d01b82fcabcac}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Yuanyuan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=31c077e559a283ee87ef458bd339073f}{%
+           family={Camacho-Rodríguez},
+           familyi={C\bibinithyphendelim R\bibinitperiod},
+           given={Jesús},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{037e6926e09ea313bacbdfaffec60461}
+      \strng{fullhash}{cfdbfa48cf9e57335dfb93a3b21e05fd}
+      \strng{bibnamehash}{cfdbfa48cf9e57335dfb93a3b21e05fd}
+      \strng{authorbibnamehash}{cfdbfa48cf9e57335dfb93a3b21e05fd}
+      \strng{authornamehash}{037e6926e09ea313bacbdfaffec60461}
+      \strng{authorfullhash}{cfdbfa48cf9e57335dfb93a3b21e05fd}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Data pipelines (i.e., converting raw data to features) are critical for machine learning (ML) models, yet their development and management is time-consuming. Feature stores have recently emerged as a new "DBMS-for-ML" with the premise of enabling data scientists and engineers to define and manage their data pipelines. While current feature stores fulfill their promise from a functionality perspective, they are resource-hungry---with ample opportunities for implementing database-style optimizations to enhance their performance. In this paper, we propose a novel set of optimizations specifically targeted for point-in-time join, which is a critical operation in data pipelines. We implement these optimizations on top of Feathr: a widely-used feature store, and evaluate them on use cases from both the TPCx-AI benchmark and real-world online retail scenarios. Our thorough experimental analysis shows that our optimizations can accelerate data pipelines by up to 3× over state-of-the-art baselines.}
+      \field{journaltitle}{Proc. VLDB Endow.}
+      \field{title}{Optimizing {{Data Pipelines}} for {{Machine Learning}} in {{Feature Stores}}}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{16}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{4230\bibrangedash 4239}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.14778/3625054.3625060
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/DFJ2EXDE/6b9d0226350d524187a2b5525c20e3de.html
+      \endverb
+      \verb{urlraw}
+      \verb https://consensus.app/papers/optimizing-data-pipelines-for-machine-learning-in-feature-liu-park/6b9d0226350d524187a2b5525c20e3de/
+      \endverb
+      \verb{url}
+      \verb https://consensus.app/papers/optimizing-data-pipelines-for-machine-learning-in-feature-liu-park/6b9d0226350d524187a2b5525c20e3de/
+      \endverb
+    \endentry
+    \entry{lynchAgriculturesContributionClimate2021}{article}{}
+      \name{author}{4}{}{%
+        {{hash=7fbb54472b7d7841c21e90f5138c8ef8}{%
+           family={Lynch},
+           familyi={L\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=21765732070967281dea941c99f3497e}{%
+           family={Cain},
+           familyi={C\bibinitperiod},
+           given={Michelle},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9e916ed86ef79266c63ae5c0a356fcfc}{%
+           family={Frame},
+           familyi={F\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e4889abdfa83c8a069943d1e91e718bf}{%
+           family={Pierrehumbert},
+           familyi={P\bibinitperiod},
+           given={Raymond},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers}%
+      }
+      \strng{namehash}{23c96784426f0dc89803ea80d3228303}
+      \strng{fullhash}{20bfdef19a60881619ba3676c05b10f0}
+      \strng{bibnamehash}{20bfdef19a60881619ba3676c05b10f0}
+      \strng{authorbibnamehash}{20bfdef19a60881619ba3676c05b10f0}
+      \strng{authornamehash}{23c96784426f0dc89803ea80d3228303}
+      \strng{authorfullhash}{20bfdef19a60881619ba3676c05b10f0}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{$<$}p{$>$}Agriculture is a significant contributor to anthropogenic global warming, and reducing agricultural emissions—largely methane and nitrous oxide—could play a significant role in climate change mitigation. However, there are important differences between carbon dioxide (CO\textsubscript{2}), which is a stock pollutant, and methane (CH\textsubscript{4}), which is predominantly a flow pollutant. These dynamics mean that conventional reporting of aggregated CO\textsubscript{2}-equivalent emission rates is highly ambiguous and does not straightforwardly reflect historical or anticipated contributions to global temperature change. As a result, the roles and responsibilities of different sectors emitting different gases are similarly obscured by the common means of communicating emission reduction scenarios using CO\textsubscript{2}-equivalence. We argue for a shift in how we report agricultural greenhouse gas emissions and think about their mitigation to better reflect the distinct roles of different greenhouse gases. Policy-makers, stakeholders, and society at large should also be reminded that the role of agriculture in climate mitigation is a much broader topic than climate science alone can inform, including considerations of economic and technical feasibility, preferences for food supply and land-use, and notions of fairness and justice. A more nuanced perspective on the impacts of different emissions could aid these conversations.{$<$}/p{$>$}}
+      \field{day}{3}
+      \field{issn}{2571-581X}
+      \field{journaltitle}{Frontiers in Sustainable Food Systems}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{shortjournal}{Front. Sustain. Food Syst.}
+      \field{title}{Agriculture's {{Contribution}} to {{Climate Change}} and {{Role}} in {{Mitigation Is Distinct From Predominantly Fossil CO2-Emitting Sectors}}}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{4}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.3389/fsufs.2020.518039
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/N4WPYT8R/Lynch et al. - 2021 - Agriculture's Contribution to Climate Change and Role in Mitigation Is Distinct From Predominantly F.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2020.518039/full
+      \endverb
+      \verb{url}
+      \verb https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2020.518039/full
+      \endverb
+      \keyw{Carbon Dioxide,Climate chage,climate policy,Methane,Nitrous Oxide}
+    \endentry
+    \entry{NacionesUnidas2015}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=289d6d295de5d9f9e01197fab2b80b67}{%
+           family={{Naciones Unidas}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{289d6d295de5d9f9e01197fab2b80b67}
+      \strng{fullhash}{289d6d295de5d9f9e01197fab2b80b67}
+      \strng{bibnamehash}{289d6d295de5d9f9e01197fab2b80b67}
+      \strng{authorbibnamehash}{289d6d295de5d9f9e01197fab2b80b67}
+      \strng{authornamehash}{289d6d295de5d9f9e01197fab2b80b67}
+      \strng{authorfullhash}{289d6d295de5d9f9e01197fab2b80b67}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{United Nations Statistic Division}
+      \field{note}{Disponible en: https://unstats.un.org/sdgs/ (consultado el [fecha])}
+      \field{title}{Objetivos de desarrollo sostenible}
+      \field{year}{2015}
+      \true{nocite}
+    \endentry
+    \entry{nugrohoBioconversionBiowasteBlack2023}{article}{}
+      \name{author}{6}{}{%
+        {{hash=b81b4f5a8281451f29ef792f9743e51e}{%
+           family={Nugroho},
+           familyi={N\bibinitperiod},
+           given={Rudy\bibnamedelima Agung},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2c0273a2cd7ef0b934e9d9c4cd764445}{%
+           family={Rofiq},
+           familyi={R\bibinitperiod},
+           given={Muhammad\bibnamedelima Nasir},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=e90f4cf6ab48babc89c14cc781fdce7a}{%
+           family={Santoso},
+           familyi={S\bibinitperiod},
+           given={Arif\bibnamedelima Dwi},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=3a71d8c0da58aa9c4257842e127e3342}{%
+           family={Yanuar},
+           familyi={Y\bibinitperiod},
+           given={Ahmad\bibnamedelima Ismed},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=3668ec3f47c5cae1edee3ab11d438a3e}{%
+           family={Hanifa},
+           familyi={H\bibinitperiod},
+           given={Rahmania},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9542118c1f1a8b0f84f895bc9a8cc366}{%
+           family={Nadirah},
+           familyi={N\bibinitperiod},
+           given={Nadirah},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{961e00d7bd4c6a93704afb154447ad67}
+      \strng{fullhash}{128f0623225c48f7be1ae0a9654cca2f}
+      \strng{bibnamehash}{128f0623225c48f7be1ae0a9654cca2f}
+      \strng{authorbibnamehash}{128f0623225c48f7be1ae0a9654cca2f}
+      \strng{authornamehash}{961e00d7bd4c6a93704afb154447ad67}
+      \strng{authorfullhash}{128f0623225c48f7be1ae0a9654cca2f}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Background: Hermetia illucens L. have gained popularity in recent years as an environmentally friendly response to both the present and potential future food/feed crisis. The larvae of H. illucens L., or black soldier fly larvae (BSFL), is an alternative solution to tackle the issue of organic waste bioconversion. However, understanding the environmental loads associated with biowaste bioconversion using BSFL to produce dried BSFL is a pivotal point to keep the environment sustainable. This study reported a life cycle assessment (LCA) of the biowaste bioconversion process of BSFL and determined the environment impact analysis to make recommendations for modifications to lessen environmental consequences., Methods: The methodology used is life cycle assessment (LCA), which includes: (a) system boundary determination (gate-to-gate), starting from biowaste production, biowaste bioconversion, prepupae and BSFL frass production. The system boundary of the dried BSFL production is designed for both the processing and production of one cycle of BSFL; (b) life cycle inventory activities carried out at PT Biomagg Sinergi Internasional, Depok, West Java, Indonesia; (c) conducting life cycle impact assessment on five environmental impact categories namely global warming potential (GWP), acidification (AC), terrestrial eutrophication (TE), fossil fuel depletion (FFE), eco-toxicity (ET); and (d) interpretation of the assessment result. The LCA is conducted using openLCA 1.11 software and TRACI 2.1 impact assessment method., Results: The impact values of GWP, AC, TE, FFE, and ET, per 100 kg of BSFL dried production was 6.687 kg CO 2 eq; 0.029 kg SO 2-eq; 0.092 kg N-eq; 16.732 MJ surplus; 121.231 CTUe. Production of prepupa had the highest hotspots in these emissions, followed dried BSFL production., Conclusions: Efforts to reduce environmental impacts that can be done are by implementing an integrated rearing system using substrate from a single type of known substrate for BSFL and using alternative drying methods for BSFL dried production.}
+      \field{day}{11}
+      \field{eprinttype}{pmid}
+      \field{issn}{2046-1402}
+      \field{journaltitle}{F1000Research}
+      \field{month}{7}
+      \field{shortjournal}{F1000Res}
+      \field{shorttitle}{Bioconversion of Biowaste by Black Soldier Fly Larvae ( {{Hermetia}} Illucens {{L}}.) for Dried Larvae Production}
+      \field{title}{Bioconversion of Biowaste by Black Soldier Fly Larvae ( {{Hermetia}} Illucens {{L}}.) for Dried Larvae Production: {{A}} Life Cycle Assessment and Environmental Impact Analysis}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{12}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{814}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.12688/f1000research.132371.1
+      \endverb
+      \verb{eprint}
+      \verb 37675399
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/SBMEFIAP/Nugroho et al. - 2023 - Bioconversion of biowaste by black soldier fly larvae ( Hermetia illucens L.) for dried larvae produ.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10477724/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10477724/
+      \endverb
+    \endentry
+    \entry{nunesRisingThreatAtmospheric2023}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a3844a6647b729db96e7e558413e1289}{%
+           family={Nunes},
+           familyi={N\bibinitperiod},
+           given={Leonel\bibnamedelimb J.\bibnamedelimi R.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{a3844a6647b729db96e7e558413e1289}
+      \strng{fullhash}{a3844a6647b729db96e7e558413e1289}
+      \strng{bibnamehash}{a3844a6647b729db96e7e558413e1289}
+      \strng{authorbibnamehash}{a3844a6647b729db96e7e558413e1289}
+      \strng{authornamehash}{a3844a6647b729db96e7e558413e1289}
+      \strng{authorfullhash}{a3844a6647b729db96e7e558413e1289}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The increasing levels of carbon dioxide (CO2) in the atmosphere have become a major environmental challenge due to their contribution to global warming. The primary drivers of the increase in atmospheric CO2 concentrations are the combustion of fossil fuels, deforestation, agricultural practices, or the production of cement, which play a significant role in the increase of CO2 concentration in the atmosphere. However, efforts are being made to mitigate the negative effects of CO2 emissions, including carbon capture and storage (CCS) technologies that aim to capture CO2 from industrial processes and store it in underground geological formations. Methane, another potent greenhouse gas, is another major contributor to climate change and is mainly produced by agricultural activities such as livestock farming and rice cultivation. To address this, sustainable agricultural practices, such as reducing meat consumption and adopting climate-smart farming techniques, are crucial. Ultimately, a sustainable future can be secured for the planet and future generations by implementing effective measures, such as the use of sustainable energy sources, improvements in energy efficiency, responsible land use practices, and reducing the emissions of both CO2 and methane.}
+      \field{issn}{2076-3298}
+      \field{issue}{4}
+      \field{journaltitle}{Environments}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{4}
+      \field{shorttitle}{The {{Rising Threat}} of {{Atmospheric CO2}}}
+      \field{title}{The {{Rising Threat}} of {{Atmospheric CO2}}: {{A Review}} on the {{Causes}}, {{Impacts}}, and {{Mitigation Strategies}}}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{10}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{66}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/environments10040066
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/VWZP8D9A/Nunes - 2023 - The Rising Threat of Atmospheric CO2 A Review on the Causes, Impacts, and Mitigation Strategies.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2076-3298/10/4/66
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2076-3298/10/4/66
+      \endverb
+      \keyw{carbon capture and storage,climate change,CO<sub>2</sub> emissions,greenhouse gases,mitigation}
+    \endentry
+    \entry{Quy2022}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{7}{}{%
+        {{hash=56b20b92e490e169c03beefc824cf658}{%
+           family={Quy},
+           familyi={Q\bibinitperiod},
+           given={V.\bibnamedelimi K.},
+           giveni={V\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=7179e338ed4a346a1bee3c13de5d96ae}{%
+           family={Hau},
+           familyi={H\bibinitperiod},
+           given={N.\bibnamedelimi V.},
+           giveni={N\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=930fc756c3b72878050fda1cb0ebedae}{%
+           family={Anh},
+           familyi={A\bibinitperiod},
+           given={D.\bibnamedelimi V.},
+           giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=732fef12138c4ded10cf88e586b70bee}{%
+           family={Quy},
+           familyi={Q\bibinitperiod},
+           given={N.\bibnamedelimi M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=308241121b3af68352d96e4e1ccc0d46}{%
+           family={Ban},
+           familyi={B\bibinitperiod},
+           given={N.\bibnamedelimi T.},
+           giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=dc7a1f33d96d102099a2381fc9ef02d4}{%
+           family={Lanza},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=36db81ab2777f258f39f31f3c77ae09e}{%
+           family={Muzirafuti},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{fa37cae3c1dc84551c4450007d1d90b5}
+      \strng{fullhash}{69eee9e4f0df861117a3ba1af7433670}
+      \strng{bibnamehash}{69eee9e4f0df861117a3ba1af7433670}
+      \strng{authorbibnamehash}{69eee9e4f0df861117a3ba1af7433670}
+      \strng{authornamehash}{fa37cae3c1dc84551c4450007d1d90b5}
+      \strng{authorfullhash}{69eee9e4f0df861117a3ba1af7433670}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Sciences}
+      \field{number}{7}
+      \field{title}{IoT-enabled smart agriculture: architecture, applications, and challenges}
+      \field{volume}{12}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{3396}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/app12073396
+      \endverb
+    \endentry
+    \entry{rajRealTimeEstimation2023}{article}{}
+      \name{author}{2}{}{%
+        {{hash=421c1587f0d31252ea869ae924ec0fc2}{%
+           family={Raj},
+           familyi={R\bibinitperiod},
+           given={Krishna},
+           giveni={K\bibinitperiod}}}%
+        {{hash=df3f49f39e474720143653783b16c3ef}{%
+           family={Srivastava},
+           familyi={S\bibinitperiod},
+           given={Ajeet\bibnamedelima Kumar},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{ddfb27bc30b817b54295b53e630ff9ea}
+      \strng{fullhash}{ddfb27bc30b817b54295b53e630ff9ea}
+      \strng{bibnamehash}{ddfb27bc30b817b54295b53e630ff9ea}
+      \strng{authorbibnamehash}{ddfb27bc30b817b54295b53e630ff9ea}
+      \strng{authornamehash}{ddfb27bc30b817b54295b53e630ff9ea}
+      \strng{authorfullhash}{ddfb27bc30b817b54295b53e630ff9ea}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{IoT integrated Sensor Fusion is utilised in this work to estimate greenhouse gas (GHG) emissions. A system is proposed that utilizes IoT devices and environmental sensors to monitor and manage environmental impact efficiently in real-time. IoT-enabled sensors are strategically placed in industrial sites, metropolitan centres, and natural landscapes. These sensors measure CO2, methane, nitrous oxide, and meteorology. Sensor fusion and real time data monitoring are the main contribution of this research work. The technology decreases uncertainty and improves estimation accuracy by integrating sensor data. Machine learning algorithms analyse fused sensor data and create predictive models. These models allow the system to extrapolate emission estimates beyond sensor locations, providing a comprehensive view of GHG emissions across geographies. IoT integration with sensor fusion and digital signal processing (DSP) allows real-time data transmission and remote monitoring. This continuously collects and processes emission data to quickly identify pollution hotspots and conduct emission reduction actions. The system's precision, real-time capabilities, scalability, and adaptability make it ideal for local air quality monitoring, regional emission tracking, and global climate change assessments. Finally, this research uses sensor fusion and IoT technology to estimate GHG emissions. The technology provides accurate, real-time emission estimations from several sensors, aiding environmental monitoring and sustainable development. This strategy could help mitigate climate change and create a green future.}
+      \field{journaltitle}{2023 International Conference on Data Science \& Informatics (ICDSI)}
+      \field{title}{Real {{Time Estimation}} of {{GHG Emissions Using IoT Integrated Sensor Fusion}}}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{286\bibrangedash 290}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ICDSI60108.2023.00061
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/ILXB3KTP/255ff4030d8755b090ee0836904df064.html
+      \endverb
+      \verb{urlraw}
+      \verb https://consensus.app/papers/real-time-estimation-of-ghg-emissions-using-iot-integrated-raj-srivastava/255ff4030d8755b090ee0836904df064/
+      \endverb
+      \verb{url}
+      \verb https://consensus.app/papers/real-time-estimation-of-ghg-emissions-using-iot-integrated-raj-srivastava/255ff4030d8755b090ee0836904df064/
+      \endverb
+    \endentry
+    \entry{Salam2022}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{7}{}{%
+        {{hash=7cc071aa60d048c1d77db4652d834a02}{%
+           family={Salam},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=66df57ee0c003233503e2a322378293b}{%
+           family={Shahzadi},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1b2ced9ee7249adaa22940124d959652}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e47cf7f474c82538326e8813368c29c7}{%
+           family={Alam},
+           familyi={A\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=013062c8d8d4d7b3444e338486091d90}{%
+           family={Nabi},
+           familyi={N\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2de3a50fde6670df84b2f389cea737fc}{%
+           family={Dezhi},
+           familyi={D\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0d35dd9e66c14d086bbe0b82d4988933}{%
+           family={Bilal},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{08ecfca87b7d305ec36aa82123d5b94b}
+      \strng{fullhash}{ff93b51a88a23d34ee55406f0f3448cb}
+      \strng{bibnamehash}{ff93b51a88a23d34ee55406f0f3448cb}
+      \strng{authorbibnamehash}{ff93b51a88a23d34ee55406f0f3448cb}
+      \strng{authornamehash}{08ecfca87b7d305ec36aa82123d5b94b}
+      \strng{authorfullhash}{ff93b51a88a23d34ee55406f0f3448cb}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Environmental Technology \& Innovation}
+      \field{title}{Effect of different environmental conditions on the growth and development of Black Soldier Fly Larvae and its utilization in solid waste management and pollution mitigation}
+      \field{volume}{28}
+      \field{year}{2022}
+      \field{pages}{102649}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.eti.2022.102649
+      \endverb
+    \endentry
+    \entry{Smith2014}{inbook}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{7}{}{%
+        {{hash=c342db8790160caeee74c4a0b7d43a0e}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=5c566bfe3640f9905cdf30199bb65417}{%
+           family={Bustamante},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8cc7ee40dc4207ac92475b9c124bd6d9}{%
+           family={Ahammad},
+           familyi={A\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=51951bd7b5cbb212619c5e71e68e4b90}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=32de7f7ffc430ab53501fac80899ff65}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b187e9267fcc85fcb2f191c00f2e2fd3}{%
+           family={Elsiddig},
+           familyi={E\bibinitperiod},
+           given={E.\bibnamedelimi A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ce3efb5cbbd8019c1ea590730cc52a1c}{%
+           family={Bolwig},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{c4b5ac7a221a95f31f8bfaca6d9b2a00}
+      \strng{fullhash}{e7492fe463f9edd05d76c61608dfe5ed}
+      \strng{bibnamehash}{e7492fe463f9edd05d76c61608dfe5ed}
+      \strng{authorbibnamehash}{e7492fe463f9edd05d76c61608dfe5ed}
+      \strng{authornamehash}{c4b5ac7a221a95f31f8bfaca6d9b2a00}
+      \strng{authorfullhash}{e7492fe463f9edd05d76c61608dfe5ed}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Climate Change 2014: Mitigation of Climate Change. Contribution of Working Group III to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change}
+      \field{title}{Agriculture, forestry and other land use (AFOLU)}
+      \field{year}{2014}
+      \field{pages}{811\bibrangedash 922}
+      \range{pages}{112}
+    \endentry
+    \entry{Surendra2016}{article}{}
+      \name{author}{5}{}{%
+        {{hash=b76f99e51da550f96869aa572fb6b2c8}{%
+           family={Surendra},
+           familyi={S\bibinitperiod},
+           given={K.\bibnamedelimi C.},
+           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=0a2e4b6c56571008da5841daa97ac9d6}{%
+           family={Olivier},
+           familyi={O\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=595434f7c86fb7d54795e3e26185b839}{%
+           family={Tomberlin},
+           familyi={T\bibinitperiod},
+           given={J.\bibnamedelimi K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=fbd5808b7037dacb6cc72a93b0eb062a}{%
+           family={Jha},
+           familyi={J\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8ab47bf1b53189c48d87ad18cbe25cd7}{%
+           family={Khanal},
+           familyi={K\bibinitperiod},
+           given={S.\bibnamedelimi K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{2623fee76f971e69c1fbd992b423fea1}
+      \strng{fullhash}{799f90bce79a802cbfa513d03cc35afc}
+      \strng{bibnamehash}{799f90bce79a802cbfa513d03cc35afc}
+      \strng{authorbibnamehash}{799f90bce79a802cbfa513d03cc35afc}
+      \strng{authornamehash}{2623fee76f971e69c1fbd992b423fea1}
+      \strng{authorfullhash}{799f90bce79a802cbfa513d03cc35afc}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Renewable Energy}
+      \field{title}{Bioconversion of organic wastes into biodiesel and animal feed via insect farming}
+      \field{volume}{98}
+      \field{year}{2016}
+      \field{pages}{197\bibrangedash 202}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.renene.2016.03.022
+      \endverb
+    \endentry
+    \entry{weichertReviewMachineLearning2019}{article}{}
+      \name{author}{6}{}{%
+        {{hash=e05589d9cc1199287c541addb187a578}{%
+           family={Weichert},
+           familyi={W\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=6c7f4ff2cd9a3c342b86b18170d09bcc}{%
+           family={Link},
+           familyi={L\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7809ae086e72ae25b99ebf4668ef56ed}{%
+           family={Stoll},
+           familyi={S\bibinitperiod},
+           given={Anke},
+           giveni={A\bibinitperiod}}}%
+        {{hash=375ed2d71dff610cdc77e2eb8d3af9af}{%
+           family={Rüping},
+           familyi={R\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6957ed61c629b32c95ddf42ed53a61b1}{%
+           family={Ihlenfeldt},
+           familyi={I\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=77721ad2d67cb75bba2ff4c8ad5801ea}{%
+           family={Wrobel},
+           familyi={W\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2589e0b55911f0d1a9b7145560215676}
+      \strng{fullhash}{0c4cb08c13ece92e669f049830e2aa0e}
+      \strng{bibnamehash}{0c4cb08c13ece92e669f049830e2aa0e}
+      \strng{authorbibnamehash}{0c4cb08c13ece92e669f049830e2aa0e}
+      \strng{authornamehash}{2589e0b55911f0d1a9b7145560215676}
+      \strng{authorfullhash}{0c4cb08c13ece92e669f049830e2aa0e}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Due to the advances in the digitalization process of the manufacturing industry and the resulting available data, there is tremendous progress and large interest in integrating machine learning and optimization methods on the shop floor in order to improve production processes. Additionally, a shortage of resources leads to increasing acceptance of new approaches, such as machine learning to save energy, time, and resources, and avoid waste. After describing possible occurring data types in the manufacturing world, this study covers the majority of relevant literature from 2008 to 2018 dealing with machine learning and optimization approaches for product quality or process improvement in the manufacturing industry. The review shows that there is hardly any correlation between the used data, the amount of data, the machine learning algorithms, the used optimizers, and the respective problem from the production. The detailed correlations between these criteria and the recent progress made in this area as well as the issues that are still unsolved are discussed in this paper.}
+      \field{journaltitle}{The International Journal of Advanced Manufacturing Technology}
+      \field{title}{A Review of Machine Learning for the Optimization of Production Processes}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{104}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1889\bibrangedash 1902}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1007/s00170-019-03988-5
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/JHAGC7WA/c1713be4e66d5ba3b4bc28fbbbc3ea2b.html
+      \endverb
+      \verb{urlraw}
+      \verb https://consensus.app/papers/a-review-of-machine-learning-for-the-optimization-of-weichert-link/c1713be4e66d5ba3b4bc28fbbbc3ea2b/
+      \endverb
+      \verb{url}
+      \verb https://consensus.app/papers/a-review-of-machine-learning-for-the-optimization-of-weichert-link/c1713be4e66d5ba3b4bc28fbbbc3ea2b/
+      \endverb
+    \endentry
+    \entry{yavariArtEMonArtificialIntelligence2023}{article}{}
+      \name{author}{9}{}{%
+        {{hash=7820cdd0fded7b4dc015d3a859c6bb1c}{%
+           family={Yavari},
+           familyi={Y\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fa8341cf697820c24c7d83ed3210efe7}{%
+           family={Mirza},
+           familyi={M\bibinitperiod},
+           given={Irfan\bibnamedelima Baig},
+           giveni={I\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=b65d2b306acff6ef7d3432e0f001972c}{%
+           family={Bagha},
+           familyi={B\bibinitperiod},
+           given={Hamid},
+           giveni={H\bibinitperiod}}}%
+        {{hash=df1c088f88c4000af103ccceeaeab34b}{%
+           family={Korala},
+           familyi={K\bibinitperiod},
+           given={Harindu},
+           giveni={H\bibinitperiod}}}%
+        {{hash=87d8196a0cd47b6df4f13b0723c9c25d}{%
+           family={Dia},
+           familyi={D\bibinitperiod},
+           given={Hussein},
+           giveni={H\bibinitperiod}}}%
+        {{hash=510a005904ba83006c293e9ed278f2ec}{%
+           family={Scifleet},
+           familyi={S\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7277e01df2d802722c180d1402c0b209}{%
+           family={Sargent},
+           familyi={S\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1bb75f49d9614bdb79d24b6da86de5e8}{%
+           family={Tjung},
+           familyi={T\bibinitperiod},
+           given={Caroline},
+           giveni={C\bibinitperiod}}}%
+        {{hash=c1198e777f9008054fd8de2d71b3859d}{%
+           family={Shafiei},
+           familyi={S\bibinitperiod},
+           given={Mahnaz},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{b393dde4543869fb7fd4a5c9208b1fb5}
+      \strng{fullhash}{dbf4abdcce2af9a5c0fecac331bbe814}
+      \strng{bibnamehash}{dbf4abdcce2af9a5c0fecac331bbe814}
+      \strng{authorbibnamehash}{dbf4abdcce2af9a5c0fecac331bbe814}
+      \strng{authornamehash}{b393dde4543869fb7fd4a5c9208b1fb5}
+      \strng{authorfullhash}{dbf4abdcce2af9a5c0fecac331bbe814}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Greenhouse gas (GHG) emissions reporting and sustainability are increasingly important for businesses around the world. Yet the lack of a single standardised method of measurement, when coupled with an inability to understand the true state of emissions in complex logistics activities, presents enormous barriers for businesses to understanding the extent of their emissions footprint. One of the traditional approaches to accurately capturing and monitoring gas emissions in logistics is through using gas sensors. However, connecting, maintaining, and operating gas sensors on moving vehicles in different road and weather conditions is a large and costly challenge. This paper presents the development and evaluation of a reliable and accurate sensing technique for GHG emissions collection (or monitoring) in real-time, employing the Internet of Things (IoT) and Artificial Intelligence (AI) to eliminate or reduce the usage of gas sensors, using reliable and cost-effective solutions.}
+      \field{issn}{1424-8220}
+      \field{issue}{18}
+      \field{journaltitle}{Sensors}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{18}
+      \field{shorttitle}{{{ArtEMon}}}
+      \field{title}{{{ArtEMon}}: {{Artificial Intelligence}} and {{Internet}} of {{Things Powered Greenhouse Gas Sensing}} for {{Real-Time Emissions Monitoring}}}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{23}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{7971}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s23187971
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/MQ7Z8FC8/Yavari et al. - 2023 - ArtEMon Artificial Intelligence and Internet of Things Powered Greenhouse Gas Sensing for Real-Time.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1424-8220/23/18/7971
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1424-8220/23/18/7971
+      \endverb
+      \keyw{AI,emissions,greenhouse gas,IoT,supply chain,sustainable logistics}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

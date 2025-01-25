@@ -12,8 +12,7 @@
 %Cita normal con \cite[página]{} y cita con paréntesis \parencite[página]{}
 % Configuración de BibLaTeX
 \usepackage[utf8]{inputenc}
-%\usepackage[backend=biber,style=apa,maxcitenames=2,maxbibnames=99,giveninits=true,uniquename=false]{biblatex}
-%\addbibresource{Referencias.bib}
+\usepackage{chngcntr}
 \usepackage[backend=biber,style=apa,maxcitenames=2,maxbibnames=99,giveninits=true,uniquename=false]{biblatex}
 \addbibresource{Referencias.bib}
 \addbibresource{bibliografia_tesis_leal.bib}
@@ -37,11 +36,11 @@
 
 %Usando el paquete Natbib
 %Cita normal \cite[página]{} y cita con paréntesis \citep[página]{}
-%\usepackage{natbib}
 %\bibpunct{[}{]}{;}{\&}{.}{}
 %\bibliographystyle{dtvstyle}
 
 %Idioma del documento
+%\usepackage{natbib}
 %Use main para el idioma principal del documento
 \usepackage[spanish]{babel}
 
@@ -60,7 +59,7 @@
 \usepackage{epsfig,epic,eepic,threeparttable,amscd,here,lscape,tabularx,subfigure}
 \usepackage{tabu,array}
 \usepackage[rgb]{xcolor}
-
+\let\cleardoublepage\clearpage
 % Permite ver y configurar los parámetros de la página
 \usepackage{layout}
 %Hyperref permite ver las secciones del texto
@@ -139,8 +138,12 @@
 \titleformat{\subsubsection}[hang]{\sffamily\large}{\thesubsubsection}{0.5cm}{}
 \titleformat{\paragraph}[runin]{\sffamily\normalsize}{}{}{\emph}
 
+\counterwithout{subsubsection}{subsection}  % Elimina la dependencia de subsection
+\counterwithin{subsubsection}{chapter}      % Vincula subsubsection al chapter
+\renewcommand{\thesubsubsection}{\thechapter.\arabic{subsubsection}}
 %Coloca anexo o apéndice en la Tabla de contenido
 \usepackage[toc,page]{appendix}
+
 
 % Configuración de las páginas en twoside-mode
 % Permite ver y configurar los parámetros de la página
@@ -335,12 +338,11 @@ myedge/.style={->, -{Latex[#1]}}
 %Incluir secciones del documento de aqui en adelante
 %Use \include para incluir desde una página nueva e \input para incluir sin salto de página
 % Archivos incluidos
-\include{Planteamiento}
-
+\include{introduccion}
 \include{Pregunta}
-\include{Justificacion}
+\include{planteamiento}
+\input{antecedentes}
 
-\include{00Objetivos}
 %\include{01Seccion01}
 %\include{02Seccion02}
 %\include{03Seccion03}
@@ -363,7 +365,7 @@ myedge/.style={->, -{Latex[#1]}}
 
 % Nombre del documento donde se almacenan las referencias
 \printbibliography
-\nocite{*} % Incluye todas las referencias, incluso las no citadas
-\cleardoublepage
+%\nocite{*} % Incluye todas las referencias, incluso las no citadas
+
 
 \end{document}
