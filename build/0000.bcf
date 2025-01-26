@@ -3096,6 +3096,16 @@
     <bcf:citekey order="17" intorder="1">FAO2021</bcf:citekey>
     <bcf:citekey order="18" intorder="1">IPCC2014</bcf:citekey>
     <bcf:citekey order="19" intorder="1">IPCC2014</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">barragan2017nutritional</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">Diener2011</bcf:citekey>
+    <bcf:citekey order="21" intorder="2">Salam2022</bcf:citekey>
+    <bcf:citekey order="21" intorder="3">brunoValorizationOrganicWaste2025</bcf:citekey>
+    <bcf:citekey order="21" intorder="4">koyunogluBiofuelProductionUtilizing2024</bcf:citekey>
+    <bcf:citekey order="21" intorder="5">suryatiLauricAcidBlack2023</bcf:citekey>
+    <bcf:citekey order="21" intorder="6">siddiquiEnhancingBioconversionRate2024</bcf:citekey>
+    <bcf:citekey order="21" intorder="7">hamamAdvancesInsectIndustry2024</bcf:citekey>
+    <bcf:citekey order="21" intorder="8">sarangiFoodWasteFood2024</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">surendraRethinkingOrganicWastes2020a</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
