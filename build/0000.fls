@@ -436,6 +436,12 @@ INPUT ./subsecciones/la_mosca_soldado_negra.tex
 INPUT ./subsecciones/la_mosca_soldado_negra.tex
 INPUT subsecciones/la_mosca_soldado_negra.tex
 INPUT /usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecsi1440.tfm
+INPUT ./subsecciones/Avances_en_IoT_e_IA_para_la_gestión_sostenible_de_residuos.tex
+INPUT ./subsecciones/Avances_en_IoT_e_IA_para_la_gestión_sostenible_de_residuos.tex
+INPUT subsecciones/Avances_en_IoT_e_IA_para_la_gestión_sostenible_de_residuos.tex
+INPUT ./subsecciones/brechas_y_oportunidades.tex
+INPUT ./subsecciones/brechas_y_oportunidades.tex
+INPUT subsecciones/brechas_y_oportunidades.tex
 INPUT ./08Apendice01.tex
 INPUT ./08Apendice01.tex
 OUTPUT build/08Apendice01.aux

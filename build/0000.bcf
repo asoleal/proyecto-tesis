@@ -3105,7 +3105,15 @@
     <bcf:citekey order="21" intorder="6">siddiquiEnhancingBioconversionRate2024</bcf:citekey>
     <bcf:citekey order="21" intorder="7">hamamAdvancesInsectIndustry2024</bcf:citekey>
     <bcf:citekey order="21" intorder="8">sarangiFoodWasteFood2024</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">surendraRethinkingOrganicWastes2020a</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">Salam2022</bcf:citekey>
+    <bcf:citekey order="22" intorder="2">belperioAssessingSubstrateUtilization2024</bcf:citekey>
+    <bcf:citekey order="22" intorder="3">nayakHermetiaIllucensDiptera2024</bcf:citekey>
+    <bcf:citekey order="22" intorder="4">goldEffectsRearingSystem2022</bcf:citekey>
+    <bcf:citekey order="22" intorder="5">Chia2019</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">surendraRethinkingOrganicWastes2020a</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">kamilaris2017review</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">IPCC2014</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">IPCC2014</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
