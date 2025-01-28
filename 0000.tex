@@ -64,6 +64,8 @@
 \usepackage{layout}
 %Hyperref permite ver las secciones del texto
 \usepackage[hidelinks]{hyperref}
+\usepackage{enumitem} % Ensure this package is included for custom enumerate labels
+
 
 %Genera los comandos de la página de autoría
 \newcommand{\studentname}{}
@@ -342,6 +344,10 @@ myedge/.style={->, -{Latex[#1]}}
 \include{Pregunta}
 \include{planteamiento}
 \input{antecedentes}
+
+\input{Capitulos/objetivo_General.tex}
+
+\input{Capitulos/metodologia.tex}
 
 %\include{01Seccion01}
 %\include{02Seccion02}
