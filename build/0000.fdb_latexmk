@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber build/0000"] 1738022323.20386 "build/0000.bcf" "build/0000.bbl" "build/0000" 1738022330.60614 0
+["biber build/0000"] 1738022323.20386 "build/0000.bcf" "build/0000.bbl" "build/0000" 1738022368.46182 0
   "Referencias.bib" 1737667464.32862 5835 c6eb5a2f36363df3a87edeaa94138d38 ""
   "bibliografia_tesis_leal.bib" 1738021492.60691 59103 b571e7014248e35dace7044766f614a5 ""
-  "build/0000.bcf" 1738022330.42857 137190 df88349f878f204fdc52819ce9ec42f5 "pdflatex"
+  "build/0000.bcf" 1738022368.29173 137190 df88349f878f204fdc52819ce9ec42f5 "pdflatex"
   (generated)
   "build/0000.bbl"
   "build/0000.blg"
   (rewritten before read)
-["pdflatex"] 1738022327.54512 "/home/Dairo/Documentos/proyecto_leal/proyecto-tesis/0000.tex" "build/0000.pdf" "0000" 1738022330.60654 0
+["pdflatex"] 1738022365.56825 "/home/Dairo/Documentos/proyecto_leal/proyecto-tesis/0000.tex" "build/0000.pdf" "0000" 1738022368.46237 0
   "/home/Dairo/Documentos/proyecto_leal/proyecto-tesis/0000.tex" 1738020719.89577 12563 3e83e3a022e3cc3bcdc6e5ac205a8588 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1736268207 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1736268207 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -221,15 +221,15 @@
   "00Figuras/00f00EscudoUN2016.jpg" 1737600252.88205 73377 2cf13cf3133a86a4a9fd48c186a035df ""
   "08Apendice01.tex" 1737600252.88205 21 06654a75da26ec8b67798fd286e8377d ""
   "Pregunta.tex" 1737688347.21041 285 6c832b004c524a32db2d0ec12ac9c587 ""
-  "antecedentes.tex" 1738022209.9902 550 f730e0e8fadabeeec02ddfa7a208bc62 ""
-  "build/0000.aux" 1738022330.41191 12185 089ea5377c080e8686c709536806ab7a "pdflatex"
+  "antecedentes.tex" 1738022364.51172 551 eb13a40e0a866232747bbef31a26a8ae ""
+  "build/0000.aux" 1738022368.27506 12185 089ea5377c080e8686c709536806ab7a "pdflatex"
   "build/0000.bbl" 1738022324.74199 244628 572702d837f603af9b3942886388c982 "biber build/0000"
-  "build/0000.out" 1738022330.42524 2557 f50485ed975a96e6ce3adb7b8547cfdd "pdflatex"
-  "build/0000.run.xml" 1738022330.42857 2407 0987e5e2d777bee2f9f456714d6e0574 "pdflatex"
-  "build/08Apendice01.aux" 1738022329.73525 4618 824e7e297b10aa9c0a90e99a999142c0 "pdflatex"
-  "build/Pregunta.aux" 1738022329.48859 4624 1bbbe52858a484686b3cdc90680bbf1f "pdflatex"
-  "build/introduccion.aux" 1738022329.47859 4615 30f6764c57515258d8b31c73b7573f4e "pdflatex"
-  "build/planteamiento.aux" 1738022329.57858 4630 a3a67a29cd23ef100d70b5855d326c36 "pdflatex"
+  "build/0000.out" 1738022368.2884 2557 f50485ed975a96e6ce3adb7b8547cfdd "pdflatex"
+  "build/0000.run.xml" 1738022368.29173 2407 0987e5e2d777bee2f9f456714d6e0574 "pdflatex"
+  "build/08Apendice01.aux" 1738022367.6384 4618 824e7e297b10aa9c0a90e99a999142c0 "pdflatex"
+  "build/Pregunta.aux" 1738022367.39839 4624 1bbbe52858a484686b3cdc90680bbf1f "pdflatex"
+  "build/introduccion.aux" 1738022367.38839 4615 30f6764c57515258d8b31c73b7573f4e "pdflatex"
+  "build/planteamiento.aux" 1738022367.47173 4630 a3a67a29cd23ef100d70b5855d326c36 "pdflatex"
   "introduccion.tex" 1737688038.01817 3579 00f086bffdf49853079b9cc14b21f965 ""
   "planteamiento.tex" 1737845526.74082 3706 2f5da3e64459f266b272edc37befc884 ""
   "simplekv.tex" 1737600252.88539 10100 b9a5b7cf0b5690a6fd8e88ca507eec2a ""
