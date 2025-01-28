@@ -143,6 +143,92 @@
       \field{pages}{105\bibrangedash 120}
       \range{pages}{16}
     \endentry
+    \entry{belperioAssessingSubstrateUtilization2024}{article}{}
+      \name{author}{7}{}{%
+        {{hash=faa5af64765a3553be3eca627dc8f1c5}{%
+           family={Belperio},
+           familyi={B\bibinitperiod},
+           given={Simona},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e3ac8ad0cd243a3ac0fe84cb48cbdcf3}{%
+           family={Cattaneo},
+           familyi={C\bibinitperiod},
+           given={Arianna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6de025c2f59013a1eef85461cbe91390}{%
+           family={Nannoni},
+           familyi={N\bibinitperiod},
+           given={Eleonora},
+           giveni={E\bibinitperiod}}}%
+        {{hash=6b92ffaafe4287a558ff7c6225fe34fb}{%
+           family={Sardi},
+           familyi={S\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0afd1fb7f58ad65ca65f2ae49c8ebe10}{%
+           family={Martelli},
+           familyi={M\bibinitperiod},
+           given={Giovanna},
+           giveni={G\bibinitperiod}}}%
+        {{hash=da218c1d745c360a8e33ee830bcd029c}{%
+           family={Dabbou},
+           familyi={D\bibinitperiod},
+           given={Sihem},
+           giveni={S\bibinitperiod}}}%
+        {{hash=306a67a656057e26fde19a8125691fc9}{%
+           family={Meneguz},
+           familyi={M\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{b6deed7648100215489098691f0edf83}
+      \strng{fullhash}{806a78a80874317ec9cf6a1fb91f38a1}
+      \strng{bibnamehash}{806a78a80874317ec9cf6a1fb91f38a1}
+      \strng{authorbibnamehash}{806a78a80874317ec9cf6a1fb91f38a1}
+      \strng{authornamehash}{b6deed7648100215489098691f0edf83}
+      \strng{authorfullhash}{806a78a80874317ec9cf6a1fb91f38a1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Black soldier fly larvae (BSFL) can utilize food by-products or residues for growth, benefiting farm animal’s diets’ production sustainability. The experiment aimed to assess the effect of different substrate compositions on larval growth, chemical composition, and substrate temperature. BSFL were allocated to one of the four diets (control, vegetable, carnivorous, and omnivorous) for the entire experiment (8 days). The temperature was measured twice daily using a thermal-imaging camera, and the accumulated degree hours (ADH) was calculated. The results showed that the larvae fed the vegetable diet exhibited a significantly reduced growth performance, with a biomass reduction of 26.3\% compared to the control diet; furthermore, vegetable-fed larvae showed a lower dry matter content (−30\% compared to the average of other diets) due to lower fat content (−65\% compared to average of other diets). The nutritional composition of larvae fed an omnivorous diet was similar to larvae fed a high-quality substrate diet (control diet-chicken feed), indicating that the omnivorous diet could be an ideal solution for rearing BSFL larvae; however, the current European legislation prohibits the use of animal meal. The study also revealed that substrate temperatures did not have a discernible influence on larval growth, further emphasizing the importance of diet in BSFL rearing strategies.}
+      \field{issn}{2076-2615}
+      \field{issue}{9}
+      \field{journaltitle}{Animals}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{9}
+      \field{shorttitle}{Assessing {{Substrate Utilization}} and {{Bioconversion Efficiency}} of {{Black Soldier Fly}} ({{Hermetia}} Illucens) {{Larvae}}}
+      \field{title}{Assessing {{Substrate Utilization}} and {{Bioconversion Efficiency}} of {{Black Soldier Fly}} ({{Hermetia}} Illucens) {{Larvae}}: {{Effect}} of {{Diet Composition}} on {{Growth}} and {{Development Temperature}}}
+      \field{urlday}{27}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{14}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1340}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/ani14091340
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/UEDD2PZX/Belperio et al. - 2024 - Assessing Substrate Utilization and Bioconversion Efficiency of Black Soldier Fly (Hermetia illucens.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2076-2615/14/9/1340
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2076-2615/14/9/1340
+      \endverb
+      \keyw{bioconversion,black soldier fly,substrate,thermal-imaging camera}
+    \endentry
     \entry{Bermudez2023}{article}{}
       \name{author}{2}{}{%
         {{hash=23a2bce439981fc48da1391b6d3c738e}{%
@@ -180,34 +266,157 @@
       \verb 10.xxxx/sciagro.v14i4.xxxxx
       \endverb
     \endentry
-    \entry{Chan2024}{thesis}{}
-      \name{author}{1}{}{%
-        {{hash=c739b4372bf8802e6b381fa8b3df2984}{%
-           family={Chan},
+    \entry{brunoValorizationOrganicWaste2025}{article}{}
+      \name{author}{21}{}{%
+        {{hash=30f6afbeb6b29f49d72010fdb0c320c3}{%
+           family={Bruno},
+           familyi={B\bibinitperiod},
+           given={Daniele},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d875447f55feca694d16556fb6b092d3}{%
+           family={Orlando},
+           familyi={O\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5cf8dec291e78b05f2ae3c836205aecb}{%
+           family={Testa},
+           familyi={T\bibinitperiod},
+           given={Edoardo},
+           giveni={E\bibinitperiod}}}%
+        {{hash=727339d5edc4deb57e3c73f9805b810e}{%
+           family={Carnevale\bibnamedelima Miino},
+           familyi={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5a0193e6885832137f7218653de035b4}{%
+           family={Pesaro},
+           familyi={P\bibinitperiod},
+           given={Giulia},
+           giveni={G\bibinitperiod}}}%
+        {{hash=5b6e981f30161b5a89b903ce02b104ab}{%
+           family={Miceli},
+           familyi={M\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a927ce7de5e45268789dfe666e0d60ee}{%
+           family={Pollegioni},
+           familyi={P\bibinitperiod},
+           given={Loredano},
+           giveni={L\bibinitperiod}}}%
+        {{hash=dceb10e7bb162d12daa08969c2af9e32}{%
+           family={Barbera},
+           familyi={B\bibinitperiod},
+           given={Vincenzina},
+           giveni={V\bibinitperiod}}}%
+        {{hash=dd7e9381e2a0b11e204eef4219cbb813}{%
+           family={Fasoli},
+           familyi={F\bibinitperiod},
+           given={Elisa},
+           giveni={E\bibinitperiod}}}%
+        {{hash=bbeff06c656b677c995d844c436b6db1}{%
+           family={Draghi},
+           familyi={D\bibinitperiod},
+           given={Lorenza},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d61bd511da46fa3be5d49b4baaa11038}{%
+           family={Baltrocchi},
+           familyi={B\bibinitperiod},
+           given={Alberto\bibnamedelimb Pietro\bibnamedelima Damiano},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=c4805c5e979c9302abc448c1e57b121f}{%
+           family={Ferronato},
+           familyi={F\bibinitperiod},
+           given={Navarro},
+           giveni={N\bibinitperiod}}}%
+        {{hash=7605772994e49928fed707dede1fea78}{%
+           family={Seri},
+           familyi={S\bibinitperiod},
+           given={Raffaello},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0f0c91ad8df21a2c9b961c7668f7eff9}{%
+           family={Maggi},
+           familyi={M\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+        {{hash=32271f8bc8e3b3d87a2920f1d2001ca8}{%
+           family={Caccia},
            familyi={C\bibinitperiod},
-           given={Y.\bibnamedelimi C.},
-           giveni={Y\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+           given={Silvia},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d418e57e585b3b6c38fdbf4e3a69c84d}{%
+           family={Casartelli},
+           familyi={C\bibinitperiod},
+           given={Morena},
+           giveni={M\bibinitperiod}}}%
+        {{hash=887b4f8906eaeabbb79f6dbd3b3cfc5e}{%
+           family={Molla},
+           familyi={M\bibinitperiod},
+           given={Gianluca},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9a209a0c1bbcc7cabb15ff7106e52df8}{%
+           family={Galimberti},
+           familyi={G\bibinitperiod},
+           given={Maurizio\bibnamedelima Stefano},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=665b1f059856acdd4eb57a5c2e9bfac8}{%
+           family={Torretta},
+           familyi={T\bibinitperiod},
+           given={Vincenzo},
+           giveni={V\bibinitperiod}}}%
+        {{hash=27731dd201346f4820bc324c70700c82}{%
+           family={Vezzulli},
+           familyi={V\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=72ed0ac236b453e761092238a7cee240}{%
+           family={Tettamanti},
+           familyi={T\bibinitperiod},
+           given={Gianluca},
+           giveni={G\bibinitperiod}}}%
       }
-      \list{institution}{1}{%
-        {UTAR}%
-      }
-      \strng{namehash}{c739b4372bf8802e6b381fa8b3df2984}
-      \strng{fullhash}{c739b4372bf8802e6b381fa8b3df2984}
-      \strng{bibnamehash}{c739b4372bf8802e6b381fa8b3df2984}
-      \strng{authorbibnamehash}{c739b4372bf8802e6b381fa8b3df2984}
-      \strng{authornamehash}{c739b4372bf8802e6b381fa8b3df2984}
-      \strng{authorfullhash}{c739b4372bf8802e6b381fa8b3df2984}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \strng{namehash}{c79690e35b39ae8093ccd47be5ea64fb}
+      \strng{fullhash}{ba026a2a1ab1c79e0295a934055a10f1}
+      \strng{bibnamehash}{ba026a2a1ab1c79e0295a934055a10f1}
+      \strng{authorbibnamehash}{ba026a2a1ab1c79e0295a934055a10f1}
+      \strng{authornamehash}{c79690e35b39ae8093ccd47be5ea64fb}
+      \strng{authorfullhash}{ba026a2a1ab1c79e0295a934055a10f1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Smart and sustainable IOT based humidity and temperature control system for vegetable/fruit storage}
-      \field{type}{phdthesis}
-      \field{year}{2024}
-      \true{nocite}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The transition from a linear to a circular production system involves transforming waste into valuable resources. Insect-mediated bioconversion, particularly using black soldier fly (BSF) larvae, can offer a promising opportunity to convert the organic fraction of municipal solid waste (OFMSW) into protein-rich biomass. However, current regulatory restrictions do not allow the use of this substrate to obtain insect proteins for animal feed, prompting the exploration of other applications, such as the production of bioplastics. Here, we explored at laboratory scale an innovative and integrated circular supply chain which aims to valorize the OFMSW through BSF larvae for the production of biobased materials with high technological value. BSF larvae reared on this organic waste showed excellent growth performance and bioconversion rate of the substrate. The use of well-suited extraction methods allowed the isolation of high-purity lipids, proteins, and chitin fractions, which are building blocks to produce biobased materials. In particular, the protein fraction was used to develop biodegradable plastic films which showed potential for replacing traditional petroleum-based materials, with the possibility to be fully recycled back to amino acids. Socioeconomic analysis highlighted values generated along the entire supply chain, and life cycle assessment pointed out that lipid extraction was the most challenging step: implementation of more sustainable methods is thus needed to reduce the overall environmental impact of the proposed chain. In conclusion, this study represents a proof of concept gathering evidence to support the feasibility of an alternative supply chain that can promote circular economy while valorising organic waste.}
+      \field{day}{1}
+      \field{issn}{0956-053X}
+      \field{journaltitle}{Waste Management}
+      \field{month}{1}
+      \field{shortjournal}{Waste Management}
+      \field{shorttitle}{Valorization of Organic Waste through Black Soldier Fly}
+      \field{title}{Valorization of Organic Waste through Black Soldier Fly: {{On}} the Way of a Real Circular Bioeconomy Process}
+      \field{urlday}{26}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{191}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{123\bibrangedash 134}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.wasman.2024.10.030
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/JLFV36Q5/Bruno et al. - 2025 - Valorization of organic waste through black soldier fly On the way of a real circular bioeconomy pr.pdf;/home/Dairo/Zotero/storage/NTG7IP38/S0956053X2400552X.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0956053X2400552X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0956053X2400552X
+      \endverb
+      \keyw{Biomass valorization,Circular bioeconomy,Insect bioconversion,Protein-based films,Waste management}
     \endentry
     \entry{chenOptimizationModelProcess2021}{article}{}
       \name{author}{8}{}{%
@@ -448,35 +657,6 @@
       \verb https://www.mdpi.com/1424-8220/22/14/5343
       \endverb
     \endentry
-    \entry{FAO2020}{report}{}
-      \name{author}{1}{}{%
-        {{hash=4807e0aebe86c17f559853f35515b533}{%
-           family={{FAO}},
-           familyi={F\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Rome}%
-      }
-      \strng{namehash}{4807e0aebe86c17f559853f35515b533}
-      \strng{fullhash}{4807e0aebe86c17f559853f35515b533}
-      \strng{bibnamehash}{4807e0aebe86c17f559853f35515b533}
-      \strng{authorbibnamehash}{4807e0aebe86c17f559853f35515b533}
-      \strng{authornamehash}{4807e0aebe86c17f559853f35515b533}
-      \strng{authorfullhash}{4807e0aebe86c17f559853f35515b533}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{number}{18}
-      \field{series}{FAOSTAT Analytical Brief Series}
-      \field{title}{Emissions due to agriculture. Global, regional and country trends 2000–2018}
-      \field{type}{techreport}
-      \field{year}{2020}
-      \true{nocite}
-    \endentry
     \entry{fawzyStrategiesMitigationClimate2020}{article}{}
       \name{author}{4}{}{%
         {{hash=882ebecf9f8a5588a6a60098d8dd50f3}{%
@@ -659,35 +839,58 @@
       \field{title}{Agricultural Waste Management: Challenges and Opportunities}
       \field{year}{2021}
     \endentry
-    \entry{guthrieImpactAmmoniaEmissions2018}{article}{}
-      \name{author}{4}{ul=4}{%
-        {{hash=17a6aeda44d4f926a3f1e979e325648e}{%
-           family={Guthrie},
+    \entry{goldEffectsRearingSystem2022}{article}{}
+      \name{author}{8}{}{%
+        {{hash=be73aee36b368c45b8bb71f755eac7da}{%
+           family={Gold},
            familyi={G\bibinitperiod},
-           given={Susan},
-           giveni={S\bibinitperiod}}}%
-        {{hash=aa86a40c3df47a8b999679b2c988a49b}{%
-           family={Giles},
-           familyi={G\bibinitperiod},
-           given={Sarah},
-           giveni={S\bibinitperiod}}}%
-        {{hash=9552bd4ab7e4fef41af060634a5d07e7}{%
-           family={Dunkerley},
-           familyi={D\bibinitperiod},
-           given={Fay},
-           giveni={F\bibinitperiod}}}%
-        {{hash=0e8d8fe6efb9b885db3a44abd6cf5221}{%
-           family={Tabaqchali},
-           familyi={T\bibinitperiod},
-           given={Hadeel},
-           giveni={H\bibinitperiod}}}%
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=439bc2eb7c27df6a3feec0258080da3b}{%
+           family={Fowles},
+           familyi={F\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1b4271f5895e048ca6f083c4e3d93c9b}{%
+           family={Fernandez-Bayo},
+           familyi={F\bibinithyphendelim B\bibinitperiod},
+           given={J.\bibnamedelimi D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=30fcd369d65e13b4b15d378645bf4306}{%
+           family={Miner},
+           familyi={M\bibinitperiod},
+           given={L.\bibnamedelimi Palma},
+           giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=b8c85ac3322439c7b713ebca215ed83a}{%
+           family={Zurbrügg},
+           familyi={Z\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=04eee1d80ba48e6ed7c4010b1753f64e}{%
+           family={Nansen},
+           familyi={N\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a355151364507b0b3709d4827abda500}{%
+           family={Bischel},
+           familyi={B\bibinitperiod},
+           given={H.\bibnamedelimi N.},
+           giveni={H\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=48b8301879ce0a732f052aefda262417}{%
+           family={Mathys},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{86dda23736894392fc1de34c9e0b518e}
-      \strng{fullhash}{86dda23736894392fc1de34c9e0b518e}
-      \strng{bibnamehash}{86dda23736894392fc1de34c9e0b518e}
-      \strng{authorbibnamehash}{86dda23736894392fc1de34c9e0b518e}
-      \strng{authornamehash}{86dda23736894392fc1de34c9e0b518e}
-      \strng{authorfullhash}{86dda23736894392fc1de34c9e0b518e}
+      \list{publisher}{1}{%
+        {Wageningen Academic}%
+      }
+      \strng{namehash}{2d880b79d61c0e704b866a84d2e055a5}
+      \strng{fullhash}{7c70ac01ab91a03b2cf2015fcf2f5f50}
+      \strng{bibnamehash}{7c70ac01ab91a03b2cf2015fcf2f5f50}
+      \strng{authorbibnamehash}{7c70ac01ab91a03b2cf2015fcf2f5f50}
+      \strng{authornamehash}{2d880b79d61c0e704b866a84d2e055a5}
+      \strng{authorfullhash}{7c70ac01ab91a03b2cf2015fcf2f5f50}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -695,20 +898,38 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{RAND Corporation}
+      \field{abstract}{Black soldier fly larvae (BSFL) are widely used in recycling and upcycling of nutrients in agri-food by-products, but low and inconsistent BSFL rearing performance (i.e. larval growth, bioconversion rate, and substrate reduction) has been identified as a key challenge. The aims of this research were two-fold: (1) validate an existing closed rearing system design; and (2) assess whether a microbial inoculum derived from the rearing residue increases rearing performance. In controlled bench-scale experiments, BSFL were reared on tomato pomace (TP) and white wine pomace (WWP), along with food waste as control substrate. The two aims were assessed based on the following response variables: larval mass, substrate reduction, residue properties (i.e. pH, temperature, moisture content), and larval intestinal and residue microbiota. Higher BSFL mass (by 5.1 mg dry mass) at harvest on WWP and substrate reduction on TP (by 11.7\% dry mass) in the closed system compared to the open system confirmed the potential of closed systems for rearing performance improvements of agri-food by-products. The rearing system also affected the residual moisture content and temperature, but only had a small effect on microbiota. Performance improvements by the closed rearing system design may be outweighed by insufficient aeration with pasty substrates and higher operational efforts for aeration and larval separation from the high-moisture residues. In contrast to the rearing system design, addition of the residue-derived microbial inoculum did not result in improved performance, nor did it alter intestinal and residue microbiota. Missing performance improvements could have been due to absent or low numbers of probiotic bacteria. The success of microbial substrate supplementation could be improved by studying effects of larval-associated microbes and developing cultivation methods that selectively amplify the beneficial (yet unknown) members of the microbial community. Our investigations aimed to increase the valorisation of low-value agri-food by-products in BSFL rearing.}
+      \field{day}{1}
+      \field{journaltitle}{Journal of Insects as Food and Feed}
       \field{langid}{english}
-      \field{title}{The Impact of Ammonia Emissions from Agriculture on Biodiversity}
-      \field{year}{2018}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Effects of Rearing System and Microbial Inoculation on Black Soldier Fly Larvae Growth and Microbiota When Reared on Agri-Food by-Products}
+      \field{urlday}{27}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{8}
+      \field{year}{2022}
       \field{dateera}{ce}
-      \true{nocite}
-      \field{pages}{304}
-      \range{pages}{1}
-      \verb{file}
-      \verb /home/Dairo/Zotero/storage/D2Q63LCU/Guthrie et al. - The impact of ammonia emissions from agriculture on biodiversity.pdf
+      \field{urldateera}{ce}
+      \field{pages}{113\bibrangedash 128}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.3920/JIFF2021.0038
       \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/EMZVP7UD/Gold et al. - 2022 - Effects of rearing system and microbial inoculation on black soldier fly larvae growth and microbiot.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://brill.com/view/journals/jiff/8/2/article-p113_2.xml
+      \endverb
+      \verb{url}
+      \verb https://brill.com/view/journals/jiff/8/2/article-p113_2.xml
+      \endverb
+      \keyw{bioconversion,feed,food waste,Hermetia illucens,microbiota}
     \endentry
     \entry{guthrieImpactAmmoniaEmissions2018a}{report}{}
-      \name{author}{7}{ul=4}{%
+      \name{author}{7}{}{%
         {{hash=17a6aeda44d4f926a3f1e979e325648e}{%
            family={Guthrie},
            familyi={G\bibinitperiod},
@@ -748,11 +969,11 @@
       \list{institution}{1}{%
         {RAND Corporation}%
       }
-      \strng{namehash}{90947412f5a71eaea3ec899e6a8f19af}
+      \strng{namehash}{70f476e600ac2c29ed962b04d7ead5cc}
       \strng{fullhash}{8d9dbec3b29a5b882e574c0205360a59}
       \strng{bibnamehash}{8d9dbec3b29a5b882e574c0205360a59}
       \strng{authorbibnamehash}{8d9dbec3b29a5b882e574c0205360a59}
-      \strng{authornamehash}{90947412f5a71eaea3ec899e6a8f19af}
+      \strng{authornamehash}{70f476e600ac2c29ed962b04d7ead5cc}
       \strng{authorfullhash}{8d9dbec3b29a5b882e574c0205360a59}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
@@ -781,6 +1002,69 @@
       \endverb
       \keyw{Agricultural Sciences,Biology and Life Sciences,Environmental Pollution,Environmental Regulation,Research,United Kingdom}
     \endentry
+    \entry{hamamAdvancesInsectIndustry2024}{article}{}
+      \name{author}{3}{}{%
+        {{hash=069f9eee77ead87e2b20a4ffac5a8bca}{%
+           family={Hamam},
+           familyi={H\bibinitperiod},
+           given={Manal},
+           giveni={M\bibinitperiod}}}%
+        {{hash=39d0697c43db5cca8bfe26638b2e1195}{%
+           family={D’Amico},
+           familyi={D\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+        {{hash=030aaa33c6797e095da920041bfc1980}{%
+           family={Di\bibnamedelima Vita},
+           familyi={D\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{6ff4c11fac532f80440b8a41f44b34d4}
+      \strng{fullhash}{753110f7f879a025a5e90adb30a5ec22}
+      \strng{bibnamehash}{753110f7f879a025a5e90adb30a5ec22}
+      \strng{authorbibnamehash}{753110f7f879a025a5e90adb30a5ec22}
+      \strng{authornamehash}{6ff4c11fac532f80440b8a41f44b34d4}
+      \strng{authorfullhash}{753110f7f879a025a5e90adb30a5ec22}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The agri-food industry is increasingly recognizing the environmental impact of the over-exploitation of natural resources and waste production, which has prompted a search for sustainable alternatives based on circular bioeconomy principles. Insects can efficiently transform food substrates into reusable biomass, thus making them valuable contributors to a circular bioeconomy system. However, the relationship between the circular bioeconomy and the insect industry has so far appeared relatively unexplored in the existing research. To address this gap, a meta-synthesis has been conducted through a systematic literature review. By identifying the state of the art and assessing the role of insects in the transition of closed-loop systems, the aim of this research has been to shed light on the opportunities and challenges of integrating insects in circular bioeconomy strategies. The research revealed three main topics: (1) waste management by insects, i.e., the use of insects as a tool for waste management and with which to create high-value substrates; (2) insect-based feeds, namely the use of insects as alternative food sources in farming systems; (3) insect-based food acceptance by consumers. The results underscore the significant potential of this market within the circular bioeconomy context, highlighting the obstacles that need to be addressed and future strategies that could be adopted.}
+      \field{day}{15}
+      \field{issn}{2190-4715}
+      \field{journaltitle}{Environmental Sciences Europe}
+      \field{month}{2}
+      \field{number}{1}
+      \field{shortjournal}{Environmental Sciences Europe}
+      \field{shorttitle}{Advances in the Insect Industry within a Circular Bioeconomy Context}
+      \field{title}{Advances in the Insect Industry within a Circular Bioeconomy Context: A Research Agenda}
+      \field{urlday}{26}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{36}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{29}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/s12302-024-00861-5
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/6HREC2TS/Hamam et al. - 2024 - Advances in the insect industry within a circular bioeconomy context a research agenda.pdf;/home/Dairo/Zotero/storage/DGWABK74/s12302-024-00861-5.html
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1186/s12302-024-00861-5
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1186/s12302-024-00861-5
+      \endverb
+      \keyw{Bioconversion,Circular economy,Insect–based food,Insects–based feeds,Social acceptance,Waste management}
+    \endentry
     \entry{IPCC2014}{book}{}
       \name{author}{1}{}{%
         {{hash=676f7b9b8e5bb30500c01e2385e59174}{%
@@ -807,72 +1091,8 @@
       \field{title}{Climate Change 2014: Mitigation of Climate Change. Contribution of Working Group III to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change}
       \field{year}{2014}
     \endentry
-    \entry{Kabange2023}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{7}{ul=7}{%
-        {{hash=b931f6b8d31599e6e3ea38c67f21f47d}{%
-           family={Kabange},
-           familyi={K\bibinitperiod},
-           given={N.\bibnamedelimi R.},
-           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=ca66680ecbb595faf347e4096f46da93}{%
-           family={Kwon},
-           familyi={K\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=58af86b4bd9a0bc53e782fe9fa23d7da}{%
-           family={Lee},
-           familyi={L\bibinitperiod},
-           given={S.\bibnamedelimi M.},
-           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=c84f1dadd0472114f5f0b37a2528dba9}{%
-           family={Kang},
-           familyi={K\bibinitperiod},
-           given={J.\bibnamedelimi W.},
-           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=0bfe3542f2f56bc2fe5380a863bb6b50}{%
-           family={Cha},
-           familyi={C\bibinitperiod},
-           given={J.\bibnamedelimi K.},
-           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-        {{hash=5de1ee8be02450d136e79b70ae9c7303}{%
-           family={Park},
-           familyi={P\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod}}}%
-        {{hash=e5a7bd235818499e6c100cc1efc019b1}{%
-           family={Lee},
-           familyi={L\bibinitperiod},
-           given={J.\bibnamedelimi H.},
-           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-      }
-      \strng{namehash}{253aacec7bf9a68c7e4f95b08b452e7e}
-      \strng{fullhash}{253aacec7bf9a68c7e4f95b08b452e7e}
-      \strng{bibnamehash}{253aacec7bf9a68c7e4f95b08b452e7e}
-      \strng{authorbibnamehash}{253aacec7bf9a68c7e4f95b08b452e7e}
-      \strng{authornamehash}{253aacec7bf9a68c7e4f95b08b452e7e}
-      \strng{authorfullhash}{253aacec7bf9a68c7e4f95b08b452e7e}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Sustainability}
-      \field{number}{22}
-      \field{title}{Mitigating Greenhouse Gas Emissions from Crop Production and Management Practices, and Livestock: A Review}
-      \field{volume}{15}
-      \field{year}{2023}
-      \true{nocite}
-      \field{pages}{15889}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3390/su152215889
-      \endverb
-    \endentry
     \entry{kabangeMitigatingGreenhouseGas2023}{article}{}
-      \name{author}{10}{ul=7}{%
+      \name{author}{10}{}{%
         {{hash=737e907e76031909e5a4e1b14f970d55}{%
            family={Kabange},
            familyi={K\bibinitperiod},
@@ -927,16 +1147,17 @@
       \list{publisher}{1}{%
         {Multidisciplinary Digital Publishing Institute}%
       }
-      \strng{namehash}{163dc9d61f6eb4d92875a314e829035d}
+      \strng{namehash}{e30f0b635d977c9ab8fc4e6cdaaf21e7}
       \strng{fullhash}{0d9072b6d92d913d38d26b058a3d3b67}
       \strng{bibnamehash}{0d9072b6d92d913d38d26b058a3d3b67}
       \strng{authorbibnamehash}{0d9072b6d92d913d38d26b058a3d3b67}
-      \strng{authornamehash}{163dc9d61f6eb4d92875a314e829035d}
+      \strng{authornamehash}{e30f0b635d977c9ab8fc4e6cdaaf21e7}
       \strng{authorfullhash}{0d9072b6d92d913d38d26b058a3d3b67}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Agriculture is the second most important greenhouse gas (GHG: methane (CH4) and nitrous oxide (N2O) emissions)-emitting sector after the energy sector. Agriculture is also recognized as the source and sink of GHGs. The share of agriculture to the global GHG emission records has been widely investigated, but the impact on our food production systems has been overlooked for decades until the recent climate crisis. Livestock production and feed, nitrogen-rich fertilizers and livestock manure application, crop residue burning, as well as water management in flood-prone cultivation areas are components of agriculture that produce and emit most GHGs. Although agriculture produces 72–89\% less GHGs than other sectors, it is believed that reducing GHG emissions in agriculture would considerably lower its share of the global GHG emission records, which may lead to enormous benefits for the environment and food production systems. However, several diverging and controversial views questioning the actual role of plants in the current global GHG budget continue to nourish the debate globally. We must acknowledge that considering the beneficial roles of major GHGs to plants at a certain level of accumulation, implementing GHG mitigation measures from agriculture is indeed a complex task. This work provides a comprehensive review of agriculture-related GHG production and emission mechanisms, as well as GHG mitigation measures regarded as potential solutions available in the literature. This review also discusses in depth the significance and the dynamics of mitigation measures regarded as game changers with a high potential to enhance, in a sustainable manner, the resilience of agricultural systems. Some of the old but essential agricultural practices and livestock feed techniques are revived and discussed. Agricultural GHG mitigation approaches discussed in this work can serve as game changers in the attempt to reduce GHG emissions and alleviate the impact of climate change through sustainable agriculture and informed decision-making.}
@@ -1011,6 +1232,58 @@
       \field{year}{2017}
       \field{pages}{23\bibrangedash 37}
       \range{pages}{15}
+    \endentry
+    \entry{koyunogluBiofuelProductionUtilizing2024}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5df308fbf73571b28e16e32cd3728e60}{%
+           family={Koyunoğlu},
+           familyi={K\bibinitperiod},
+           given={Cemil},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{5df308fbf73571b28e16e32cd3728e60}
+      \strng{fullhash}{5df308fbf73571b28e16e32cd3728e60}
+      \strng{bibnamehash}{5df308fbf73571b28e16e32cd3728e60}
+      \strng{authorbibnamehash}{5df308fbf73571b28e16e32cd3728e60}
+      \strng{authornamehash}{5df308fbf73571b28e16e32cd3728e60}
+      \strng{authorfullhash}{5df308fbf73571b28e16e32cd3728e60}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This study investigates the potential of biodiesel production from Black Soldier Fly (BSF) larvae using organic waste. The aim of this research is to assess the feasibility of biodiesel production and its economic viability from BSF larvae. Specific objectives include analyzing organic waste quantity, moisture content, dry matter, BOD content, and biodiesel conversion efficiency. Our findings reveal that under various scales, biodiesel production from BSF larvae shows promise. For instance, in a small-scale urban biofuel plant, we estimate the production of approximately 122.73 liters of biodiesel per day from 1 ton of organic waste. Moreover, our calculations demonstrate the potential for medium-scale rural and large-scale industrial biofuel plants to produce 1,678.85 and 22,272.73 liters of biodiesel per day, respectively. These results highlight the significant biodiesel potential of BSF larvae. In conclusion, this study provides valuable insights into the biodiesel production potential of BSF larvae. It underscores the feasibility of utilizing organic waste for biodiesel production, contributing to sustainable biofuel development. Our research contributes to the knowledge base by offering quantitative assessments of biodiesel potential. We have incorporated quantitative data to provide a clearer understanding of the biodiesel potential and its economic implications.}
+      \field{day}{1}
+      \field{issn}{2666-2027}
+      \field{journaltitle}{International Journal of Thermofluids}
+      \field{month}{8}
+      \field{shortjournal}{International Journal of Thermofluids}
+      \field{shorttitle}{Biofuel Production Utilizing Black Soldier Fly ({{{\mkbibemph{Hermetia}}}}{\mkbibemph{ Illucens}})}
+      \field{title}{Biofuel Production Utilizing Black Soldier Fly ({{{\mkbibemph{Hermetia}}}}{\mkbibemph{ Illucens}}): A Sustainable Approach for Organic Waste Management}
+      \field{urlday}{26}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{23}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{100754}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.ijft.2024.100754
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/PLD4LWIL/Koyunoğlu - 2024 - Biofuel production utilizing black soldier fly (Hermetia illucens) a sustainable approach fo.pdf;/home/Dairo/Zotero/storage/FVF6VBYH/S2666202724001964.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2666202724001964
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2666202724001964
+      \endverb
+      \keyw{Biodiesel,Biofuel,Black soldier fly,Hermetia illucens,Organic waste management,Sustainable energy,Transesterification}
     \endentry
     \entry{Leddin2024}{article}{}
       \name{author}{1}{}{%
@@ -1199,70 +1472,33 @@
       \endverb
       \keyw{Carbon Dioxide,Climate chage,climate policy,Methane,Nitrous Oxide}
     \endentry
-    \entry{NacionesUnidas2015}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=289d6d295de5d9f9e01197fab2b80b67}{%
-           family={{Naciones Unidas}},
-           familyi={N\bibinitperiod}}}%
-      }
-      \strng{namehash}{289d6d295de5d9f9e01197fab2b80b67}
-      \strng{fullhash}{289d6d295de5d9f9e01197fab2b80b67}
-      \strng{bibnamehash}{289d6d295de5d9f9e01197fab2b80b67}
-      \strng{authorbibnamehash}{289d6d295de5d9f9e01197fab2b80b67}
-      \strng{authornamehash}{289d6d295de5d9f9e01197fab2b80b67}
-      \strng{authorfullhash}{289d6d295de5d9f9e01197fab2b80b67}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{United Nations Statistic Division}
-      \field{note}{Disponible en: https://unstats.un.org/sdgs/ (consultado el [fecha])}
-      \field{title}{Objetivos de desarrollo sostenible}
-      \field{year}{2015}
-      \true{nocite}
-    \endentry
-    \entry{nugrohoBioconversionBiowasteBlack2023}{article}{}
-      \name{author}{6}{}{%
-        {{hash=b81b4f5a8281451f29ef792f9743e51e}{%
-           family={Nugroho},
+    \entry{nayakHermetiaIllucensDiptera2024}{article}{}
+      \name{author}{3}{}{%
+        {{hash=5cdcab9f6faff96eeafb1ad01eba62af}{%
+           family={Nayak},
            familyi={N\bibinitperiod},
-           given={Rudy\bibnamedelima Agung},
-           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=2c0273a2cd7ef0b934e9d9c4cd764445}{%
-           family={Rofiq},
+           given={Anjani},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7af9216504c76f2ee83af892e670081e}{%
+           family={Rühl},
            familyi={R\bibinitperiod},
-           given={Muhammad\bibnamedelima Nasir},
-           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-        {{hash=e90f4cf6ab48babc89c14cc781fdce7a}{%
-           family={Santoso},
-           familyi={S\bibinitperiod},
-           given={Arif\bibnamedelima Dwi},
-           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=3a71d8c0da58aa9c4257842e127e3342}{%
-           family={Yanuar},
-           familyi={Y\bibinitperiod},
-           given={Ahmad\bibnamedelima Ismed},
-           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
-        {{hash=3668ec3f47c5cae1edee3ab11d438a3e}{%
-           family={Hanifa},
-           familyi={H\bibinitperiod},
-           given={Rahmania},
-           giveni={R\bibinitperiod}}}%
-        {{hash=9542118c1f1a8b0f84f895bc9a8cc366}{%
-           family={Nadirah},
-           familyi={N\bibinitperiod},
-           given={Nadirah},
-           giveni={N\bibinitperiod}}}%
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a3594a9e0aff7ad6bdac4def43251edd}{%
+           family={Klüber},
+           familyi={K\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
       }
-      \strng{namehash}{961e00d7bd4c6a93704afb154447ad67}
-      \strng{fullhash}{128f0623225c48f7be1ae0a9654cca2f}
-      \strng{bibnamehash}{128f0623225c48f7be1ae0a9654cca2f}
-      \strng{authorbibnamehash}{128f0623225c48f7be1ae0a9654cca2f}
-      \strng{authornamehash}{961e00d7bd4c6a93704afb154447ad67}
-      \strng{authorfullhash}{128f0623225c48f7be1ae0a9654cca2f}
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{5c7cc1a2fa0b1f7fdcd082c2e489eb47}
+      \strng{fullhash}{356bd68c4d2bb08f2581576103e28da0}
+      \strng{bibnamehash}{356bd68c4d2bb08f2581576103e28da0}
+      \strng{authorbibnamehash}{356bd68c4d2bb08f2581576103e28da0}
+      \strng{authornamehash}{5c7cc1a2fa0b1f7fdcd082c2e489eb47}
+      \strng{authorfullhash}{356bd68c4d2bb08f2581576103e28da0}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{extradatescope}{labelyear}
@@ -1270,40 +1506,37 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Background: Hermetia illucens L. have gained popularity in recent years as an environmentally friendly response to both the present and potential future food/feed crisis. The larvae of H. illucens L., or black soldier fly larvae (BSFL), is an alternative solution to tackle the issue of organic waste bioconversion. However, understanding the environmental loads associated with biowaste bioconversion using BSFL to produce dried BSFL is a pivotal point to keep the environment sustainable. This study reported a life cycle assessment (LCA) of the biowaste bioconversion process of BSFL and determined the environment impact analysis to make recommendations for modifications to lessen environmental consequences., Methods: The methodology used is life cycle assessment (LCA), which includes: (a) system boundary determination (gate-to-gate), starting from biowaste production, biowaste bioconversion, prepupae and BSFL frass production. The system boundary of the dried BSFL production is designed for both the processing and production of one cycle of BSFL; (b) life cycle inventory activities carried out at PT Biomagg Sinergi Internasional, Depok, West Java, Indonesia; (c) conducting life cycle impact assessment on five environmental impact categories namely global warming potential (GWP), acidification (AC), terrestrial eutrophication (TE), fossil fuel depletion (FFE), eco-toxicity (ET); and (d) interpretation of the assessment result. The LCA is conducted using openLCA 1.11 software and TRACI 2.1 impact assessment method., Results: The impact values of GWP, AC, TE, FFE, and ET, per 100 kg of BSFL dried production was 6.687 kg CO 2 eq; 0.029 kg SO 2-eq; 0.092 kg N-eq; 16.732 MJ surplus; 121.231 CTUe. Production of prepupa had the highest hotspots in these emissions, followed dried BSFL production., Conclusions: Efforts to reduce environmental impacts that can be done are by implementing an integrated rearing system using substrate from a single type of known substrate for BSFL and using alternative drying methods for BSFL dried production.}
-      \field{day}{11}
-      \field{eprinttype}{pmid}
-      \field{issn}{2046-1402}
-      \field{journaltitle}{F1000Research}
-      \field{month}{7}
-      \field{shortjournal}{F1000Res}
-      \field{shorttitle}{Bioconversion of Biowaste by Black Soldier Fly Larvae ( {{Hermetia}} Illucens {{L}}.) for Dried Larvae Production}
-      \field{title}{Bioconversion of Biowaste by Black Soldier Fly Larvae ( {{Hermetia}} Illucens {{L}}.) for Dried Larvae Production: {{A}} Life Cycle Assessment and Environmental Impact Analysis}
-      \field{urlday}{23}
+      \field{abstract}{The research on black soldier fly (BSF; Hermetia illucens L.; Diptera: Stratiomyidae) rearing is on the rise. The larval ability to grow on organic substances makes it an ideal candidate for the bioconversion of agricultural and other organic side streams. While there are several publications on the variables influencing the growth and development of different stages of BSF, juxtaposing the results could be amiss. This is because of the different experimental approaches and units used by the researchers. A few publications also lack information that might be necessary for comparing the results when using similar substrate and rearing conditions. In this review, we have analyzed the studies on rearing variables such as the type of feeding substrate, substrate depth and aeration, substrate temperature, substrate moisture, pH, feeding rate, and larval density mainly, but not exclusively, for the larvae. For the adults, factors such as the cage size, fly density, light, ambient temperature, and relative humidity are considered. In addition, larval performance when fed with side streams is encapsulated. This provides a backbone for future researchers to identify the already assessed variables along with their range and encourages them to define and use standardized rearing practices for a better comparison of the results.}
+      \field{issn}{2077-0472}
+      \field{issue}{1}
+      \field{journaltitle}{Agriculture}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shorttitle}{Hermetia Illucens ({{Diptera}}}
+      \field{title}{Hermetia Illucens ({{Diptera}}: {{Stratiomyidae}}): {{Need}}, {{Potentiality}}, and {{Performance Measures}}}
+      \field{urlday}{27}
       \field{urlmonth}{1}
       \field{urlyear}{2025}
-      \field{volume}{12}
-      \field{year}{2023}
+      \field{volume}{14}
+      \field{year}{2024}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \true{nocite}
-      \field{pages}{814}
+      \field{pages}{8}
       \range{pages}{1}
       \verb{doi}
-      \verb 10.12688/f1000research.132371.1
-      \endverb
-      \verb{eprint}
-      \verb 37675399
+      \verb 10.3390/agriculture14010008
       \endverb
       \verb{file}
-      \verb /home/Dairo/Zotero/storage/SBMEFIAP/Nugroho et al. - 2023 - Bioconversion of biowaste by black soldier fly larvae ( Hermetia illucens L.) for dried larvae produ.pdf
+      \verb /home/Dairo/Zotero/storage/8K2FEYA8/Nayak et al. - 2024 - Hermetia illucens (Diptera Stratiomyidae) Need, Potentiality, and Performance Measures.pdf
       \endverb
       \verb{urlraw}
-      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10477724/
+      \verb https://www.mdpi.com/2077-0472/14/1/8
       \endverb
       \verb{url}
-      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10477724/
+      \verb https://www.mdpi.com/2077-0472/14/1/8
       \endverb
+      \keyw{<i>Hermetia illucens</i>,alternative protein,black soldier fly,circular economy,insect rearing,insects as feed,rearing variables,side streams,sustainability,waste reduction}
     \endentry
     \entry{nunesRisingThreatAtmospheric2023}{article}{}
       \name{author}{1}{}{%
@@ -1360,71 +1593,6 @@
       \verb https://www.mdpi.com/2076-3298/10/4/66
       \endverb
       \keyw{carbon capture and storage,climate change,CO<sub>2</sub> emissions,greenhouse gases,mitigation}
-    \endentry
-    \entry{Quy2022}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{7}{}{%
-        {{hash=56b20b92e490e169c03beefc824cf658}{%
-           family={Quy},
-           familyi={Q\bibinitperiod},
-           given={V.\bibnamedelimi K.},
-           giveni={V\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-        {{hash=7179e338ed4a346a1bee3c13de5d96ae}{%
-           family={Hau},
-           familyi={H\bibinitperiod},
-           given={N.\bibnamedelimi V.},
-           giveni={N\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-        {{hash=930fc756c3b72878050fda1cb0ebedae}{%
-           family={Anh},
-           familyi={A\bibinitperiod},
-           given={D.\bibnamedelimi V.},
-           giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-        {{hash=732fef12138c4ded10cf88e586b70bee}{%
-           family={Quy},
-           familyi={Q\bibinitperiod},
-           given={N.\bibnamedelimi M.},
-           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=308241121b3af68352d96e4e1ccc0d46}{%
-           family={Ban},
-           familyi={B\bibinitperiod},
-           given={N.\bibnamedelimi T.},
-           giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=dc7a1f33d96d102099a2381fc9ef02d4}{%
-           family={Lanza},
-           familyi={L\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=36db81ab2777f258f39f31f3c77ae09e}{%
-           family={Muzirafuti},
-           familyi={M\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{fa37cae3c1dc84551c4450007d1d90b5}
-      \strng{fullhash}{69eee9e4f0df861117a3ba1af7433670}
-      \strng{bibnamehash}{69eee9e4f0df861117a3ba1af7433670}
-      \strng{authorbibnamehash}{69eee9e4f0df861117a3ba1af7433670}
-      \strng{authornamehash}{fa37cae3c1dc84551c4450007d1d90b5}
-      \strng{authorfullhash}{69eee9e4f0df861117a3ba1af7433670}
-      \field{sortinit}{Q}
-      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Applied Sciences}
-      \field{number}{7}
-      \field{title}{IoT-enabled smart agriculture: architecture, applications, and challenges}
-      \field{volume}{12}
-      \field{year}{2022}
-      \true{nocite}
-      \field{pages}{3396}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3390/app12073396
-      \endverb
     \endentry
     \entry{rajRealTimeEstimation2023}{article}{}
       \name{author}{2}{}{%
@@ -1539,6 +1707,161 @@
       \verb 10.1016/j.eti.2022.102649
       \endverb
     \endentry
+    \entry{sarangiFoodWasteFood2024}{article}{}
+      \name{author}{5}{}{%
+        {{hash=bdd4eae93aa1af4be751d11c32ce278c}{%
+           family={Sarangi},
+           familyi={S\bibinitperiod},
+           given={Prakash\bibnamedelima Kumar},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=0ff858feb748b015a67bb65286750a6e}{%
+           family={Pal},
+           familyi={P\bibinitperiod},
+           given={Priti},
+           giveni={P\bibinitperiod}}}%
+        {{hash=161ce5cc6813a25620f47a684b094bfa}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Akhilesh\bibnamedelima Kumar},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=377dd64011918596bc1eabf7f54e58a5}{%
+           family={Sahoo},
+           familyi={S\bibinitperiod},
+           given={Uttam\bibnamedelima Kumar},
+           giveni={U\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=e8f8dbc1c8585188da07a3d4cfb45d26}{%
+           family={Prus},
+           familyi={P\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{17837cb5b7aaaa4681d3d54a7bd70336}
+      \strng{fullhash}{93a7e3b77ef907ccd9197d45f5440c7d}
+      \strng{bibnamehash}{93a7e3b77ef907ccd9197d45f5440c7d}
+      \strng{authorbibnamehash}{93a7e3b77ef907ccd9197d45f5440c7d}
+      \strng{authornamehash}{17837cb5b7aaaa4681d3d54a7bd70336}
+      \strng{authorfullhash}{93a7e3b77ef907ccd9197d45f5440c7d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The transition from food waste to food security is a critical component of sustainability efforts. This approach focuses on repurposing organic waste products generated throughout the food supply chain into valuable resources. Food waste, encompassing everything from agricultural residues to post-consumer waste, represents a significant untapped potential that can be harnessed to enhance food security. By implementing strategies such as composting, bioconversion, and innovative recycling technologies, biowastes can be transformed into fertilizers, animal feed, and even new food products, thus closing the loop in the food system and aiding sustainable solutions for waste valorization. This transition not only addresses environmental concerns by reducing landfill waste and greenhouse gas emissions but also contributes to economic sustainability by creating new opportunities within the food production and waste management sectors. Ultimately, transforming food waste into a resource aligns with the broader goals of a circular economy, ensuring a sustainable, resilient, and food-secure future.}
+      \field{issn}{2079-9276}
+      \field{issue}{12}
+      \field{journaltitle}{Resources}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{12}
+      \field{shorttitle}{Food {{Waste}} to {{Food Security}}}
+      \field{title}{Food {{Waste}} to {{Food Security}}: {{Transition}} from {{Bioresources}} to {{Sustainability}}}
+      \field{urlday}{26}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{13}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{164}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/resources13120164
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/3PNQ6GC9/Sarangi et al. - 2024 - Food Waste to Food Security Transition from Bioresources to Sustainability.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2079-9276/13/12/164
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2079-9276/13/12/164
+      \endverb
+      \keyw{bioresources,food security,food waste,sustainability,valorization}
+    \endentry
+    \entry{siddiquiEnhancingBioconversionRate2024}{article}{}
+      \name{author}{7}{}{%
+        {{hash=81a299f65e1d96b8cf9226c3f0052ba8}{%
+           family={Siddiqui},
+           familyi={S\bibinitperiod},
+           given={Shahida\bibnamedelima Anusha},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2f81d13c382dffe867e3232db5c742b2}{%
+           family={Süfer},
+           familyi={S\bibinitperiod},
+           given={Özge},
+           giveni={Ö\bibinitperiod}}}%
+        {{hash=b0d635dc41f630e46d04fe053a2805d9}{%
+           family={Çalışkan\bibnamedelima Koç},
+           familyi={Ç\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Gülşah},
+           giveni={G\bibinitperiod}}}%
+        {{hash=cac9e0f7dcccc37cff76b0868c156367}{%
+           family={Lutuf},
+           familyi={L\bibinitperiod},
+           given={Hanif},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c5e8e4f6afb6083f3cfb3710bc3914ff}{%
+           family={Rahayu},
+           familyi={R\bibinitperiod},
+           given={Teguh},
+           giveni={T\bibinitperiod}}}%
+        {{hash=ba9344bb2fc015703aae6dbba5706290}{%
+           family={Castro-Muñoz},
+           familyi={C\bibinithyphendelim M\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+        {{hash=77ead6db94076a3a48cc440b387725c6}{%
+           family={Fernando},
+           familyi={F\bibinitperiod},
+           given={Ito},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{863e5e68b3350fdeb18a0a087543f5bc}
+      \strng{fullhash}{767b3c9dfaeb72dcd497b78857ab034f}
+      \strng{bibnamehash}{767b3c9dfaeb72dcd497b78857ab034f}
+      \strng{authorbibnamehash}{767b3c9dfaeb72dcd497b78857ab034f}
+      \strng{authornamehash}{863e5e68b3350fdeb18a0a087543f5bc}
+      \strng{authorfullhash}{767b3c9dfaeb72dcd497b78857ab034f}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Food security remains a pressing concern in the face of an increasing world population and environmental challenges. As climate change, biodiversity loss, and water scarcity continue to impact agricultural productivity, traditional livestock farming faces limitations in meeting the growing global demand for meat and dairy products. In this context, black soldier fly larvae (BSFL) have emerged as a promising alternative for sustainable food production. BSFL possess several advantages over conventional livestock, including their rapid growth, adaptability to various organic waste substrates, and low environmental impact. Their bioconversion rate, the ability to transform organic waste into valuable products, and final product optimization are key factors that enhance their potential as a nutrient-rich protein source, fertilizer, and biofuel. This review explores strategies to enhance the bioconversion rate and improve the end products derived from BSF treatment. It highlights the benefits of using BSFL over other interventions and underscores the significance of optimizing their bioconversion rate to meet the challenges of global food security sustainably. Despite the promising prospects of BSF-derived products, consumer acceptance and regulatory hurdles remain critical aspects to address in realizing their full market potential. The utilization of BSFL as a sustainable source of food and feed can contribute to waste management, reduce environmental pollution, and address the pressing issue of food security in an environmentally responsible manner. However, there is a need for further research and innovation to ensure the safety, quality, and economic viability of BSF-based products for both animal and human consumption.}
+      \field{day}{4}
+      \field{issn}{1573-2975}
+      \field{journaltitle}{Environment, Development and Sustainability}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shortjournal}{Environ Dev Sustain}
+      \field{title}{Enhancing the Bioconversion Rate and End Products of Black Soldier Fly ({{BSF}}) Treatment – {{A}} Comprehensive Review}
+      \field{urlday}{26}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/s10668-023-04306-6
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/EBULS9QJ/Siddiqui et al. - 2024 - Enhancing the bioconversion rate and end products of black soldier fly (BSF) treatment – A comprehen.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10668-023-04306-6
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10668-023-04306-6
+      \endverb
+      \keyw{Consumer acceptance,Environmental pollution,Food security,Organic waste,Waste management}
+    \endentry
     \entry{Smith2014}{inbook}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -1635,6 +1958,7 @@
       \strng{authorbibnamehash}{799f90bce79a802cbfa513d03cc35afc}
       \strng{authornamehash}{2623fee76f971e69c1fbd992b423fea1}
       \strng{authorfullhash}{799f90bce79a802cbfa513d03cc35afc}
+      \field{extraname}{1}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -1651,6 +1975,154 @@
       \verb{doi}
       \verb 10.1016/j.renene.2016.03.022
       \endverb
+    \endentry
+    \entry{surendraRethinkingOrganicWastes2020a}{article}{}
+      \name{author}{6}{}{%
+        {{hash=b76f99e51da550f96869aa572fb6b2c8}{%
+           family={Surendra},
+           familyi={S\bibinitperiod},
+           given={K.C.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=633010bf322950a8a24dbe2b03daa636}{%
+           family={Tomberlin},
+           familyi={T\bibinitperiod},
+           given={Jeffery\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=09142812ea757e9f9de0229d0ed17df1}{%
+           family={Van\bibnamedelima Huis},
+           familyi={V\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Arnold},
+           giveni={A\bibinitperiod}}}%
+        {{hash=45cec6795745e4cff4390b0774c70c83}{%
+           family={Cammack},
+           familyi={C\bibinitperiod},
+           given={Jonathan\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=c441959d4e38351905d16a5bc9fb0238}{%
+           family={Heckmann},
+           familyi={H\bibinitperiod},
+           given={Lars-Henrik\bibnamedelima L.},
+           giveni={L\bibinithyphendelim H\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=a1603ee5932dc30c8c6a9df1e3b22187}{%
+           family={Khanal},
+           familyi={K\bibinitperiod},
+           given={Samir\bibnamedelima Kumar},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{2623fee76f971e69c1fbd992b423fea1}
+      \strng{fullhash}{bd9e02b380651d65d41d3cb946d27163}
+      \strng{bibnamehash}{bd9e02b380651d65d41d3cb946d27163}
+      \strng{authorbibnamehash}{bd9e02b380651d65d41d3cb946d27163}
+      \strng{authornamehash}{2623fee76f971e69c1fbd992b423fea1}
+      \strng{authorfullhash}{bd9e02b380651d65d41d3cb946d27163}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0956053X}
+      \field{journaltitle}{Waste Management}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{shortjournal}{Waste Management}
+      \field{shorttitle}{Rethinking Organic Wastes Bioconversion}
+      \field{title}{Rethinking Organic Wastes Bioconversion: {{Evaluating}} the Potential of the Black Soldier Fly ({{Hermetia}} Illucens ({{L}}.)) ({{Diptera}}: {{Stratiomyidae}}) ({{BSF}})}
+      \field{urlday}{26}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{117}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{58\bibrangedash 80}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1016/j.wasman.2020.07.050
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0956053X20304281
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0956053X20304281
+      \endverb
+    \endentry
+    \entry{suryatiLauricAcidBlack2023}{article}{}
+      \name{author}{5}{}{%
+        {{hash=4595a185ef703c99fe1516eaca514e17}{%
+           family={Suryati},
+           familyi={S\bibinitperiod},
+           given={Tuti},
+           giveni={T\bibinitperiod}}}%
+        {{hash=96c347b86124e422a0bf0a74e9c9393d}{%
+           family={Julaeha},
+           familyi={J\bibinitperiod},
+           given={Euis},
+           giveni={E\bibinitperiod}}}%
+        {{hash=408812e7b06c7bfaeb0489fb20b6cd5b}{%
+           family={Farabi},
+           familyi={F\bibinitperiod},
+           given={Kindi},
+           giveni={K\bibinitperiod}}}%
+        {{hash=96ec326d8b68bb1b545c4692d721c582}{%
+           family={Ambarsari},
+           familyi={A\bibinitperiod},
+           given={Hanies},
+           giveni={H\bibinitperiod}}}%
+        {{hash=2d96041c53209be20e14d49a5c7025c1}{%
+           family={Hidayat},
+           familyi={H\bibinitperiod},
+           given={Ace\bibnamedelima Tatang},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{1eed22148a6c609262e82cc59ecc2ab8}
+      \strng{fullhash}{80aa64182f4d0d421d8faf7aa20e5dad}
+      \strng{bibnamehash}{80aa64182f4d0d421d8faf7aa20e5dad}
+      \strng{authorbibnamehash}{80aa64182f4d0d421d8faf7aa20e5dad}
+      \strng{authornamehash}{1eed22148a6c609262e82cc59ecc2ab8}
+      \strng{authorfullhash}{80aa64182f4d0d421d8faf7aa20e5dad}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Black soldier fly (BSF) (Hermetia illucens) larvae are currently being developed as bioconversion agents for organic waste treatment. The resulting larvae or prepupae have a high protein and lipid content, primarily used as feed for fish, poultry, and other animals. The lipid content of BSF larvae/prepupae is influenced by the feed for growth and can reach up to 57.8\%. BSF lipids mainly consist of medium-chain saturated fatty acids, with lauric acid (LA) being the dominant component. The LA content in BSF larvae/prepupae can be enhanced by incorporating or utilizing substrates containing highly digestible carbohydrates for larval growth. The LA content can reach 76.13\% in larvae reared on fruit waste. LA has been reported to exhibit antibacterial, antifungal, antiviral, and anticancer properties. Moreover, it has applications in various fields such as pharmaceuticals, food and beverages, cosmetics, body care, soaps and detergents, plastics, and textiles. This review aims to investigate the LA content in BSF larvae and explore its potential applications, thereby establishing BSF larvae/prepupae as a novel source of LA for diverse fields.}
+      \field{issn}{2071-1050}
+      \field{issue}{13}
+      \field{journaltitle}{Sustainability}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{13}
+      \field{title}{Lauric {{Acid}} from the {{Black Soldier Fly}} ({{Hermetia}} Illucens) and {{Its Potential Applications}}}
+      \field{urlday}{26}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{15}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{10383}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/su151310383
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/3G25MMIF/Suryati et al. - 2023 - Lauric Acid from the Black Soldier Fly (Hermetia illucens) and Its Potential Applications.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2071-1050/15/13/10383
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2071-1050/15/13/10383
+      \endverb
+      \keyw{<i>Hermetia illucens</i>,bioconversion agents,black soldier fly (BSF),lauric acid,organic waste}
     \endentry
     \entry{weichertReviewMachineLearning2019}{article}{}
       \name{author}{6}{}{%
@@ -1945,6 +2417,92 @@
       \field{pages}{105\bibrangedash 120}
       \range{pages}{16}
     \endentry
+    \entry{belperioAssessingSubstrateUtilization2024}{article}{}
+      \name{author}{7}{}{%
+        {{hash=faa5af64765a3553be3eca627dc8f1c5}{%
+           family={Belperio},
+           familyi={B\bibinitperiod},
+           given={Simona},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e3ac8ad0cd243a3ac0fe84cb48cbdcf3}{%
+           family={Cattaneo},
+           familyi={C\bibinitperiod},
+           given={Arianna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6de025c2f59013a1eef85461cbe91390}{%
+           family={Nannoni},
+           familyi={N\bibinitperiod},
+           given={Eleonora},
+           giveni={E\bibinitperiod}}}%
+        {{hash=6b92ffaafe4287a558ff7c6225fe34fb}{%
+           family={Sardi},
+           familyi={S\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0afd1fb7f58ad65ca65f2ae49c8ebe10}{%
+           family={Martelli},
+           familyi={M\bibinitperiod},
+           given={Giovanna},
+           giveni={G\bibinitperiod}}}%
+        {{hash=da218c1d745c360a8e33ee830bcd029c}{%
+           family={Dabbou},
+           familyi={D\bibinitperiod},
+           given={Sihem},
+           giveni={S\bibinitperiod}}}%
+        {{hash=306a67a656057e26fde19a8125691fc9}{%
+           family={Meneguz},
+           familyi={M\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{b6deed7648100215489098691f0edf83}
+      \strng{fullhash}{806a78a80874317ec9cf6a1fb91f38a1}
+      \strng{bibnamehash}{806a78a80874317ec9cf6a1fb91f38a1}
+      \strng{authorbibnamehash}{806a78a80874317ec9cf6a1fb91f38a1}
+      \strng{authornamehash}{b6deed7648100215489098691f0edf83}
+      \strng{authorfullhash}{806a78a80874317ec9cf6a1fb91f38a1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Black soldier fly larvae (BSFL) can utilize food by-products or residues for growth, benefiting farm animal’s diets’ production sustainability. The experiment aimed to assess the effect of different substrate compositions on larval growth, chemical composition, and substrate temperature. BSFL were allocated to one of the four diets (control, vegetable, carnivorous, and omnivorous) for the entire experiment (8 days). The temperature was measured twice daily using a thermal-imaging camera, and the accumulated degree hours (ADH) was calculated. The results showed that the larvae fed the vegetable diet exhibited a significantly reduced growth performance, with a biomass reduction of 26.3\% compared to the control diet; furthermore, vegetable-fed larvae showed a lower dry matter content (−30\% compared to the average of other diets) due to lower fat content (−65\% compared to average of other diets). The nutritional composition of larvae fed an omnivorous diet was similar to larvae fed a high-quality substrate diet (control diet-chicken feed), indicating that the omnivorous diet could be an ideal solution for rearing BSFL larvae; however, the current European legislation prohibits the use of animal meal. The study also revealed that substrate temperatures did not have a discernible influence on larval growth, further emphasizing the importance of diet in BSFL rearing strategies.}
+      \field{issn}{2076-2615}
+      \field{issue}{9}
+      \field{journaltitle}{Animals}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{9}
+      \field{shorttitle}{Assessing {{Substrate Utilization}} and {{Bioconversion Efficiency}} of {{Black Soldier Fly}} ({{Hermetia}} Illucens) {{Larvae}}}
+      \field{title}{Assessing {{Substrate Utilization}} and {{Bioconversion Efficiency}} of {{Black Soldier Fly}} ({{Hermetia}} Illucens) {{Larvae}}: {{Effect}} of {{Diet Composition}} on {{Growth}} and {{Development Temperature}}}
+      \field{urlday}{27}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{14}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1340}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/ani14091340
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/UEDD2PZX/Belperio et al. - 2024 - Assessing Substrate Utilization and Bioconversion Efficiency of Black Soldier Fly (Hermetia illucens.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2076-2615/14/9/1340
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2076-2615/14/9/1340
+      \endverb
+      \keyw{bioconversion,black soldier fly,substrate,thermal-imaging camera}
+    \endentry
     \entry{Bermudez2023}{article}{}
       \name{author}{2}{}{%
         {{hash=23a2bce439981fc48da1391b6d3c738e}{%
@@ -1982,34 +2540,157 @@
       \verb 10.xxxx/sciagro.v14i4.xxxxx
       \endverb
     \endentry
-    \entry{Chan2024}{thesis}{}
-      \name{author}{1}{}{%
-        {{hash=c739b4372bf8802e6b381fa8b3df2984}{%
-           family={Chan},
+    \entry{brunoValorizationOrganicWaste2025}{article}{}
+      \name{author}{21}{}{%
+        {{hash=30f6afbeb6b29f49d72010fdb0c320c3}{%
+           family={Bruno},
+           familyi={B\bibinitperiod},
+           given={Daniele},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d875447f55feca694d16556fb6b092d3}{%
+           family={Orlando},
+           familyi={O\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5cf8dec291e78b05f2ae3c836205aecb}{%
+           family={Testa},
+           familyi={T\bibinitperiod},
+           given={Edoardo},
+           giveni={E\bibinitperiod}}}%
+        {{hash=727339d5edc4deb57e3c73f9805b810e}{%
+           family={Carnevale\bibnamedelima Miino},
+           familyi={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5a0193e6885832137f7218653de035b4}{%
+           family={Pesaro},
+           familyi={P\bibinitperiod},
+           given={Giulia},
+           giveni={G\bibinitperiod}}}%
+        {{hash=5b6e981f30161b5a89b903ce02b104ab}{%
+           family={Miceli},
+           familyi={M\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a927ce7de5e45268789dfe666e0d60ee}{%
+           family={Pollegioni},
+           familyi={P\bibinitperiod},
+           given={Loredano},
+           giveni={L\bibinitperiod}}}%
+        {{hash=dceb10e7bb162d12daa08969c2af9e32}{%
+           family={Barbera},
+           familyi={B\bibinitperiod},
+           given={Vincenzina},
+           giveni={V\bibinitperiod}}}%
+        {{hash=dd7e9381e2a0b11e204eef4219cbb813}{%
+           family={Fasoli},
+           familyi={F\bibinitperiod},
+           given={Elisa},
+           giveni={E\bibinitperiod}}}%
+        {{hash=bbeff06c656b677c995d844c436b6db1}{%
+           family={Draghi},
+           familyi={D\bibinitperiod},
+           given={Lorenza},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d61bd511da46fa3be5d49b4baaa11038}{%
+           family={Baltrocchi},
+           familyi={B\bibinitperiod},
+           given={Alberto\bibnamedelimb Pietro\bibnamedelima Damiano},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=c4805c5e979c9302abc448c1e57b121f}{%
+           family={Ferronato},
+           familyi={F\bibinitperiod},
+           given={Navarro},
+           giveni={N\bibinitperiod}}}%
+        {{hash=7605772994e49928fed707dede1fea78}{%
+           family={Seri},
+           familyi={S\bibinitperiod},
+           given={Raffaello},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0f0c91ad8df21a2c9b961c7668f7eff9}{%
+           family={Maggi},
+           familyi={M\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+        {{hash=32271f8bc8e3b3d87a2920f1d2001ca8}{%
+           family={Caccia},
            familyi={C\bibinitperiod},
-           given={Y.\bibnamedelimi C.},
-           giveni={Y\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+           given={Silvia},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d418e57e585b3b6c38fdbf4e3a69c84d}{%
+           family={Casartelli},
+           familyi={C\bibinitperiod},
+           given={Morena},
+           giveni={M\bibinitperiod}}}%
+        {{hash=887b4f8906eaeabbb79f6dbd3b3cfc5e}{%
+           family={Molla},
+           familyi={M\bibinitperiod},
+           given={Gianluca},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9a209a0c1bbcc7cabb15ff7106e52df8}{%
+           family={Galimberti},
+           familyi={G\bibinitperiod},
+           given={Maurizio\bibnamedelima Stefano},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=665b1f059856acdd4eb57a5c2e9bfac8}{%
+           family={Torretta},
+           familyi={T\bibinitperiod},
+           given={Vincenzo},
+           giveni={V\bibinitperiod}}}%
+        {{hash=27731dd201346f4820bc324c70700c82}{%
+           family={Vezzulli},
+           familyi={V\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=72ed0ac236b453e761092238a7cee240}{%
+           family={Tettamanti},
+           familyi={T\bibinitperiod},
+           given={Gianluca},
+           giveni={G\bibinitperiod}}}%
       }
-      \list{institution}{1}{%
-        {UTAR}%
-      }
-      \strng{namehash}{c739b4372bf8802e6b381fa8b3df2984}
-      \strng{fullhash}{c739b4372bf8802e6b381fa8b3df2984}
-      \strng{bibnamehash}{c739b4372bf8802e6b381fa8b3df2984}
-      \strng{authorbibnamehash}{c739b4372bf8802e6b381fa8b3df2984}
-      \strng{authornamehash}{c739b4372bf8802e6b381fa8b3df2984}
-      \strng{authorfullhash}{c739b4372bf8802e6b381fa8b3df2984}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \strng{namehash}{c79690e35b39ae8093ccd47be5ea64fb}
+      \strng{fullhash}{ba026a2a1ab1c79e0295a934055a10f1}
+      \strng{bibnamehash}{ba026a2a1ab1c79e0295a934055a10f1}
+      \strng{authorbibnamehash}{ba026a2a1ab1c79e0295a934055a10f1}
+      \strng{authornamehash}{c79690e35b39ae8093ccd47be5ea64fb}
+      \strng{authorfullhash}{ba026a2a1ab1c79e0295a934055a10f1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Smart and sustainable IOT based humidity and temperature control system for vegetable/fruit storage}
-      \field{type}{phdthesis}
-      \field{year}{2024}
-      \true{nocite}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The transition from a linear to a circular production system involves transforming waste into valuable resources. Insect-mediated bioconversion, particularly using black soldier fly (BSF) larvae, can offer a promising opportunity to convert the organic fraction of municipal solid waste (OFMSW) into protein-rich biomass. However, current regulatory restrictions do not allow the use of this substrate to obtain insect proteins for animal feed, prompting the exploration of other applications, such as the production of bioplastics. Here, we explored at laboratory scale an innovative and integrated circular supply chain which aims to valorize the OFMSW through BSF larvae for the production of biobased materials with high technological value. BSF larvae reared on this organic waste showed excellent growth performance and bioconversion rate of the substrate. The use of well-suited extraction methods allowed the isolation of high-purity lipids, proteins, and chitin fractions, which are building blocks to produce biobased materials. In particular, the protein fraction was used to develop biodegradable plastic films which showed potential for replacing traditional petroleum-based materials, with the possibility to be fully recycled back to amino acids. Socioeconomic analysis highlighted values generated along the entire supply chain, and life cycle assessment pointed out that lipid extraction was the most challenging step: implementation of more sustainable methods is thus needed to reduce the overall environmental impact of the proposed chain. In conclusion, this study represents a proof of concept gathering evidence to support the feasibility of an alternative supply chain that can promote circular economy while valorising organic waste.}
+      \field{day}{1}
+      \field{issn}{0956-053X}
+      \field{journaltitle}{Waste Management}
+      \field{month}{1}
+      \field{shortjournal}{Waste Management}
+      \field{shorttitle}{Valorization of Organic Waste through Black Soldier Fly}
+      \field{title}{Valorization of Organic Waste through Black Soldier Fly: {{On}} the Way of a Real Circular Bioeconomy Process}
+      \field{urlday}{26}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{191}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{123\bibrangedash 134}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.wasman.2024.10.030
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/JLFV36Q5/Bruno et al. - 2025 - Valorization of organic waste through black soldier fly On the way of a real circular bioeconomy pr.pdf;/home/Dairo/Zotero/storage/NTG7IP38/S0956053X2400552X.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0956053X2400552X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0956053X2400552X
+      \endverb
+      \keyw{Biomass valorization,Circular bioeconomy,Insect bioconversion,Protein-based films,Waste management}
     \endentry
     \entry{chenOptimizationModelProcess2021}{article}{}
       \name{author}{8}{}{%
@@ -2250,35 +2931,6 @@
       \verb https://www.mdpi.com/1424-8220/22/14/5343
       \endverb
     \endentry
-    \entry{FAO2020}{report}{}
-      \name{author}{1}{}{%
-        {{hash=4807e0aebe86c17f559853f35515b533}{%
-           family={{FAO}},
-           familyi={F\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Rome}%
-      }
-      \strng{namehash}{4807e0aebe86c17f559853f35515b533}
-      \strng{fullhash}{4807e0aebe86c17f559853f35515b533}
-      \strng{bibnamehash}{4807e0aebe86c17f559853f35515b533}
-      \strng{authorbibnamehash}{4807e0aebe86c17f559853f35515b533}
-      \strng{authornamehash}{4807e0aebe86c17f559853f35515b533}
-      \strng{authorfullhash}{4807e0aebe86c17f559853f35515b533}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{number}{18}
-      \field{series}{FAOSTAT Analytical Brief Series}
-      \field{title}{Emissions due to agriculture. Global, regional and country trends 2000–2018}
-      \field{type}{techreport}
-      \field{year}{2020}
-      \true{nocite}
-    \endentry
     \entry{fawzyStrategiesMitigationClimate2020}{article}{}
       \name{author}{4}{}{%
         {{hash=882ebecf9f8a5588a6a60098d8dd50f3}{%
@@ -2461,35 +3113,58 @@
       \field{title}{Agricultural Waste Management: Challenges and Opportunities}
       \field{year}{2021}
     \endentry
-    \entry{guthrieImpactAmmoniaEmissions2018}{article}{}
-      \name{author}{4}{ul=4}{%
-        {{hash=17a6aeda44d4f926a3f1e979e325648e}{%
-           family={Guthrie},
+    \entry{goldEffectsRearingSystem2022}{article}{}
+      \name{author}{8}{}{%
+        {{hash=be73aee36b368c45b8bb71f755eac7da}{%
+           family={Gold},
            familyi={G\bibinitperiod},
-           given={Susan},
-           giveni={S\bibinitperiod}}}%
-        {{hash=aa86a40c3df47a8b999679b2c988a49b}{%
-           family={Giles},
-           familyi={G\bibinitperiod},
-           given={Sarah},
-           giveni={S\bibinitperiod}}}%
-        {{hash=9552bd4ab7e4fef41af060634a5d07e7}{%
-           family={Dunkerley},
-           familyi={D\bibinitperiod},
-           given={Fay},
-           giveni={F\bibinitperiod}}}%
-        {{hash=0e8d8fe6efb9b885db3a44abd6cf5221}{%
-           family={Tabaqchali},
-           familyi={T\bibinitperiod},
-           given={Hadeel},
-           giveni={H\bibinitperiod}}}%
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=439bc2eb7c27df6a3feec0258080da3b}{%
+           family={Fowles},
+           familyi={F\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1b4271f5895e048ca6f083c4e3d93c9b}{%
+           family={Fernandez-Bayo},
+           familyi={F\bibinithyphendelim B\bibinitperiod},
+           given={J.\bibnamedelimi D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=30fcd369d65e13b4b15d378645bf4306}{%
+           family={Miner},
+           familyi={M\bibinitperiod},
+           given={L.\bibnamedelimi Palma},
+           giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=b8c85ac3322439c7b713ebca215ed83a}{%
+           family={Zurbrügg},
+           familyi={Z\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=04eee1d80ba48e6ed7c4010b1753f64e}{%
+           family={Nansen},
+           familyi={N\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a355151364507b0b3709d4827abda500}{%
+           family={Bischel},
+           familyi={B\bibinitperiod},
+           given={H.\bibnamedelimi N.},
+           giveni={H\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=48b8301879ce0a732f052aefda262417}{%
+           family={Mathys},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{86dda23736894392fc1de34c9e0b518e}
-      \strng{fullhash}{86dda23736894392fc1de34c9e0b518e}
-      \strng{bibnamehash}{86dda23736894392fc1de34c9e0b518e}
-      \strng{authorbibnamehash}{86dda23736894392fc1de34c9e0b518e}
-      \strng{authornamehash}{86dda23736894392fc1de34c9e0b518e}
-      \strng{authorfullhash}{86dda23736894392fc1de34c9e0b518e}
+      \list{publisher}{1}{%
+        {Wageningen Academic}%
+      }
+      \strng{namehash}{2d880b79d61c0e704b866a84d2e055a5}
+      \strng{fullhash}{7c70ac01ab91a03b2cf2015fcf2f5f50}
+      \strng{bibnamehash}{7c70ac01ab91a03b2cf2015fcf2f5f50}
+      \strng{authorbibnamehash}{7c70ac01ab91a03b2cf2015fcf2f5f50}
+      \strng{authornamehash}{2d880b79d61c0e704b866a84d2e055a5}
+      \strng{authorfullhash}{7c70ac01ab91a03b2cf2015fcf2f5f50}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -2497,20 +3172,38 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{RAND Corporation}
+      \field{abstract}{Black soldier fly larvae (BSFL) are widely used in recycling and upcycling of nutrients in agri-food by-products, but low and inconsistent BSFL rearing performance (i.e. larval growth, bioconversion rate, and substrate reduction) has been identified as a key challenge. The aims of this research were two-fold: (1) validate an existing closed rearing system design; and (2) assess whether a microbial inoculum derived from the rearing residue increases rearing performance. In controlled bench-scale experiments, BSFL were reared on tomato pomace (TP) and white wine pomace (WWP), along with food waste as control substrate. The two aims were assessed based on the following response variables: larval mass, substrate reduction, residue properties (i.e. pH, temperature, moisture content), and larval intestinal and residue microbiota. Higher BSFL mass (by 5.1 mg dry mass) at harvest on WWP and substrate reduction on TP (by 11.7\% dry mass) in the closed system compared to the open system confirmed the potential of closed systems for rearing performance improvements of agri-food by-products. The rearing system also affected the residual moisture content and temperature, but only had a small effect on microbiota. Performance improvements by the closed rearing system design may be outweighed by insufficient aeration with pasty substrates and higher operational efforts for aeration and larval separation from the high-moisture residues. In contrast to the rearing system design, addition of the residue-derived microbial inoculum did not result in improved performance, nor did it alter intestinal and residue microbiota. Missing performance improvements could have been due to absent or low numbers of probiotic bacteria. The success of microbial substrate supplementation could be improved by studying effects of larval-associated microbes and developing cultivation methods that selectively amplify the beneficial (yet unknown) members of the microbial community. Our investigations aimed to increase the valorisation of low-value agri-food by-products in BSFL rearing.}
+      \field{day}{1}
+      \field{journaltitle}{Journal of Insects as Food and Feed}
       \field{langid}{english}
-      \field{title}{The Impact of Ammonia Emissions from Agriculture on Biodiversity}
-      \field{year}{2018}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Effects of Rearing System and Microbial Inoculation on Black Soldier Fly Larvae Growth and Microbiota When Reared on Agri-Food by-Products}
+      \field{urlday}{27}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{8}
+      \field{year}{2022}
       \field{dateera}{ce}
-      \true{nocite}
-      \field{pages}{304}
-      \range{pages}{1}
-      \verb{file}
-      \verb /home/Dairo/Zotero/storage/D2Q63LCU/Guthrie et al. - The impact of ammonia emissions from agriculture on biodiversity.pdf
+      \field{urldateera}{ce}
+      \field{pages}{113\bibrangedash 128}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.3920/JIFF2021.0038
       \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/EMZVP7UD/Gold et al. - 2022 - Effects of rearing system and microbial inoculation on black soldier fly larvae growth and microbiot.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://brill.com/view/journals/jiff/8/2/article-p113_2.xml
+      \endverb
+      \verb{url}
+      \verb https://brill.com/view/journals/jiff/8/2/article-p113_2.xml
+      \endverb
+      \keyw{bioconversion,feed,food waste,Hermetia illucens,microbiota}
     \endentry
     \entry{guthrieImpactAmmoniaEmissions2018a}{report}{}
-      \name{author}{7}{ul=4}{%
+      \name{author}{7}{}{%
         {{hash=17a6aeda44d4f926a3f1e979e325648e}{%
            family={Guthrie},
            familyi={G\bibinitperiod},
@@ -2550,11 +3243,11 @@
       \list{institution}{1}{%
         {RAND Corporation}%
       }
-      \strng{namehash}{90947412f5a71eaea3ec899e6a8f19af}
+      \strng{namehash}{70f476e600ac2c29ed962b04d7ead5cc}
       \strng{fullhash}{8d9dbec3b29a5b882e574c0205360a59}
       \strng{bibnamehash}{8d9dbec3b29a5b882e574c0205360a59}
       \strng{authorbibnamehash}{8d9dbec3b29a5b882e574c0205360a59}
-      \strng{authornamehash}{90947412f5a71eaea3ec899e6a8f19af}
+      \strng{authornamehash}{70f476e600ac2c29ed962b04d7ead5cc}
       \strng{authorfullhash}{8d9dbec3b29a5b882e574c0205360a59}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
@@ -2583,6 +3276,69 @@
       \endverb
       \keyw{Agricultural Sciences,Biology and Life Sciences,Environmental Pollution,Environmental Regulation,Research,United Kingdom}
     \endentry
+    \entry{hamamAdvancesInsectIndustry2024}{article}{}
+      \name{author}{3}{}{%
+        {{hash=069f9eee77ead87e2b20a4ffac5a8bca}{%
+           family={Hamam},
+           familyi={H\bibinitperiod},
+           given={Manal},
+           giveni={M\bibinitperiod}}}%
+        {{hash=39d0697c43db5cca8bfe26638b2e1195}{%
+           family={D’Amico},
+           familyi={D\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+        {{hash=030aaa33c6797e095da920041bfc1980}{%
+           family={Di\bibnamedelima Vita},
+           familyi={D\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{6ff4c11fac532f80440b8a41f44b34d4}
+      \strng{fullhash}{753110f7f879a025a5e90adb30a5ec22}
+      \strng{bibnamehash}{753110f7f879a025a5e90adb30a5ec22}
+      \strng{authorbibnamehash}{753110f7f879a025a5e90adb30a5ec22}
+      \strng{authornamehash}{6ff4c11fac532f80440b8a41f44b34d4}
+      \strng{authorfullhash}{753110f7f879a025a5e90adb30a5ec22}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The agri-food industry is increasingly recognizing the environmental impact of the over-exploitation of natural resources and waste production, which has prompted a search for sustainable alternatives based on circular bioeconomy principles. Insects can efficiently transform food substrates into reusable biomass, thus making them valuable contributors to a circular bioeconomy system. However, the relationship between the circular bioeconomy and the insect industry has so far appeared relatively unexplored in the existing research. To address this gap, a meta-synthesis has been conducted through a systematic literature review. By identifying the state of the art and assessing the role of insects in the transition of closed-loop systems, the aim of this research has been to shed light on the opportunities and challenges of integrating insects in circular bioeconomy strategies. The research revealed three main topics: (1) waste management by insects, i.e., the use of insects as a tool for waste management and with which to create high-value substrates; (2) insect-based feeds, namely the use of insects as alternative food sources in farming systems; (3) insect-based food acceptance by consumers. The results underscore the significant potential of this market within the circular bioeconomy context, highlighting the obstacles that need to be addressed and future strategies that could be adopted.}
+      \field{day}{15}
+      \field{issn}{2190-4715}
+      \field{journaltitle}{Environmental Sciences Europe}
+      \field{month}{2}
+      \field{number}{1}
+      \field{shortjournal}{Environmental Sciences Europe}
+      \field{shorttitle}{Advances in the Insect Industry within a Circular Bioeconomy Context}
+      \field{title}{Advances in the Insect Industry within a Circular Bioeconomy Context: A Research Agenda}
+      \field{urlday}{26}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{36}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{29}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/s12302-024-00861-5
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/6HREC2TS/Hamam et al. - 2024 - Advances in the insect industry within a circular bioeconomy context a research agenda.pdf;/home/Dairo/Zotero/storage/DGWABK74/s12302-024-00861-5.html
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1186/s12302-024-00861-5
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1186/s12302-024-00861-5
+      \endverb
+      \keyw{Bioconversion,Circular economy,Insect–based food,Insects–based feeds,Social acceptance,Waste management}
+    \endentry
     \entry{IPCC2014}{book}{}
       \name{author}{1}{}{%
         {{hash=676f7b9b8e5bb30500c01e2385e59174}{%
@@ -2609,72 +3365,8 @@
       \field{title}{Climate Change 2014: Mitigation of Climate Change. Contribution of Working Group III to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change}
       \field{year}{2014}
     \endentry
-    \entry{Kabange2023}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{7}{ul=7}{%
-        {{hash=b931f6b8d31599e6e3ea38c67f21f47d}{%
-           family={Kabange},
-           familyi={K\bibinitperiod},
-           given={N.\bibnamedelimi R.},
-           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=ca66680ecbb595faf347e4096f46da93}{%
-           family={Kwon},
-           familyi={K\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=58af86b4bd9a0bc53e782fe9fa23d7da}{%
-           family={Lee},
-           familyi={L\bibinitperiod},
-           given={S.\bibnamedelimi M.},
-           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=c84f1dadd0472114f5f0b37a2528dba9}{%
-           family={Kang},
-           familyi={K\bibinitperiod},
-           given={J.\bibnamedelimi W.},
-           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=0bfe3542f2f56bc2fe5380a863bb6b50}{%
-           family={Cha},
-           familyi={C\bibinitperiod},
-           given={J.\bibnamedelimi K.},
-           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-        {{hash=5de1ee8be02450d136e79b70ae9c7303}{%
-           family={Park},
-           familyi={P\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod}}}%
-        {{hash=e5a7bd235818499e6c100cc1efc019b1}{%
-           family={Lee},
-           familyi={L\bibinitperiod},
-           given={J.\bibnamedelimi H.},
-           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-      }
-      \strng{namehash}{253aacec7bf9a68c7e4f95b08b452e7e}
-      \strng{fullhash}{253aacec7bf9a68c7e4f95b08b452e7e}
-      \strng{bibnamehash}{253aacec7bf9a68c7e4f95b08b452e7e}
-      \strng{authorbibnamehash}{253aacec7bf9a68c7e4f95b08b452e7e}
-      \strng{authornamehash}{253aacec7bf9a68c7e4f95b08b452e7e}
-      \strng{authorfullhash}{253aacec7bf9a68c7e4f95b08b452e7e}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Sustainability}
-      \field{number}{22}
-      \field{title}{Mitigating Greenhouse Gas Emissions from Crop Production and Management Practices, and Livestock: A Review}
-      \field{volume}{15}
-      \field{year}{2023}
-      \true{nocite}
-      \field{pages}{15889}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3390/su152215889
-      \endverb
-    \endentry
     \entry{kabangeMitigatingGreenhouseGas2023}{article}{}
-      \name{author}{10}{ul=7}{%
+      \name{author}{10}{}{%
         {{hash=737e907e76031909e5a4e1b14f970d55}{%
            family={Kabange},
            familyi={K\bibinitperiod},
@@ -2729,16 +3421,17 @@
       \list{publisher}{1}{%
         {Multidisciplinary Digital Publishing Institute}%
       }
-      \strng{namehash}{163dc9d61f6eb4d92875a314e829035d}
+      \strng{namehash}{e30f0b635d977c9ab8fc4e6cdaaf21e7}
       \strng{fullhash}{0d9072b6d92d913d38d26b058a3d3b67}
       \strng{bibnamehash}{0d9072b6d92d913d38d26b058a3d3b67}
       \strng{authorbibnamehash}{0d9072b6d92d913d38d26b058a3d3b67}
-      \strng{authornamehash}{163dc9d61f6eb4d92875a314e829035d}
+      \strng{authornamehash}{e30f0b635d977c9ab8fc4e6cdaaf21e7}
       \strng{authorfullhash}{0d9072b6d92d913d38d26b058a3d3b67}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Agriculture is the second most important greenhouse gas (GHG: methane (CH4) and nitrous oxide (N2O) emissions)-emitting sector after the energy sector. Agriculture is also recognized as the source and sink of GHGs. The share of agriculture to the global GHG emission records has been widely investigated, but the impact on our food production systems has been overlooked for decades until the recent climate crisis. Livestock production and feed, nitrogen-rich fertilizers and livestock manure application, crop residue burning, as well as water management in flood-prone cultivation areas are components of agriculture that produce and emit most GHGs. Although agriculture produces 72–89\% less GHGs than other sectors, it is believed that reducing GHG emissions in agriculture would considerably lower its share of the global GHG emission records, which may lead to enormous benefits for the environment and food production systems. However, several diverging and controversial views questioning the actual role of plants in the current global GHG budget continue to nourish the debate globally. We must acknowledge that considering the beneficial roles of major GHGs to plants at a certain level of accumulation, implementing GHG mitigation measures from agriculture is indeed a complex task. This work provides a comprehensive review of agriculture-related GHG production and emission mechanisms, as well as GHG mitigation measures regarded as potential solutions available in the literature. This review also discusses in depth the significance and the dynamics of mitigation measures regarded as game changers with a high potential to enhance, in a sustainable manner, the resilience of agricultural systems. Some of the old but essential agricultural practices and livestock feed techniques are revived and discussed. Agricultural GHG mitigation approaches discussed in this work can serve as game changers in the attempt to reduce GHG emissions and alleviate the impact of climate change through sustainable agriculture and informed decision-making.}
@@ -2813,6 +3506,58 @@
       \field{year}{2017}
       \field{pages}{23\bibrangedash 37}
       \range{pages}{15}
+    \endentry
+    \entry{koyunogluBiofuelProductionUtilizing2024}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5df308fbf73571b28e16e32cd3728e60}{%
+           family={Koyunoğlu},
+           familyi={K\bibinitperiod},
+           given={Cemil},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{5df308fbf73571b28e16e32cd3728e60}
+      \strng{fullhash}{5df308fbf73571b28e16e32cd3728e60}
+      \strng{bibnamehash}{5df308fbf73571b28e16e32cd3728e60}
+      \strng{authorbibnamehash}{5df308fbf73571b28e16e32cd3728e60}
+      \strng{authornamehash}{5df308fbf73571b28e16e32cd3728e60}
+      \strng{authorfullhash}{5df308fbf73571b28e16e32cd3728e60}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This study investigates the potential of biodiesel production from Black Soldier Fly (BSF) larvae using organic waste. The aim of this research is to assess the feasibility of biodiesel production and its economic viability from BSF larvae. Specific objectives include analyzing organic waste quantity, moisture content, dry matter, BOD content, and biodiesel conversion efficiency. Our findings reveal that under various scales, biodiesel production from BSF larvae shows promise. For instance, in a small-scale urban biofuel plant, we estimate the production of approximately 122.73 liters of biodiesel per day from 1 ton of organic waste. Moreover, our calculations demonstrate the potential for medium-scale rural and large-scale industrial biofuel plants to produce 1,678.85 and 22,272.73 liters of biodiesel per day, respectively. These results highlight the significant biodiesel potential of BSF larvae. In conclusion, this study provides valuable insights into the biodiesel production potential of BSF larvae. It underscores the feasibility of utilizing organic waste for biodiesel production, contributing to sustainable biofuel development. Our research contributes to the knowledge base by offering quantitative assessments of biodiesel potential. We have incorporated quantitative data to provide a clearer understanding of the biodiesel potential and its economic implications.}
+      \field{day}{1}
+      \field{issn}{2666-2027}
+      \field{journaltitle}{International Journal of Thermofluids}
+      \field{month}{8}
+      \field{shortjournal}{International Journal of Thermofluids}
+      \field{shorttitle}{Biofuel Production Utilizing Black Soldier Fly ({{{\mkbibemph{Hermetia}}}}{\mkbibemph{ Illucens}})}
+      \field{title}{Biofuel Production Utilizing Black Soldier Fly ({{{\mkbibemph{Hermetia}}}}{\mkbibemph{ Illucens}}): A Sustainable Approach for Organic Waste Management}
+      \field{urlday}{26}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{23}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{100754}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.ijft.2024.100754
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/PLD4LWIL/Koyunoğlu - 2024 - Biofuel production utilizing black soldier fly (Hermetia illucens) a sustainable approach fo.pdf;/home/Dairo/Zotero/storage/FVF6VBYH/S2666202724001964.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2666202724001964
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2666202724001964
+      \endverb
+      \keyw{Biodiesel,Biofuel,Black soldier fly,Hermetia illucens,Organic waste management,Sustainable energy,Transesterification}
     \endentry
     \entry{Leddin2024}{article}{}
       \name{author}{1}{}{%
@@ -3001,70 +3746,33 @@
       \endverb
       \keyw{Carbon Dioxide,Climate chage,climate policy,Methane,Nitrous Oxide}
     \endentry
-    \entry{NacionesUnidas2015}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=289d6d295de5d9f9e01197fab2b80b67}{%
-           family={{Naciones Unidas}},
-           familyi={N\bibinitperiod}}}%
-      }
-      \strng{namehash}{289d6d295de5d9f9e01197fab2b80b67}
-      \strng{fullhash}{289d6d295de5d9f9e01197fab2b80b67}
-      \strng{bibnamehash}{289d6d295de5d9f9e01197fab2b80b67}
-      \strng{authorbibnamehash}{289d6d295de5d9f9e01197fab2b80b67}
-      \strng{authornamehash}{289d6d295de5d9f9e01197fab2b80b67}
-      \strng{authorfullhash}{289d6d295de5d9f9e01197fab2b80b67}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{United Nations Statistic Division}
-      \field{note}{Disponible en: https://unstats.un.org/sdgs/ (consultado el [fecha])}
-      \field{title}{Objetivos de desarrollo sostenible}
-      \field{year}{2015}
-      \true{nocite}
-    \endentry
-    \entry{nugrohoBioconversionBiowasteBlack2023}{article}{}
-      \name{author}{6}{}{%
-        {{hash=b81b4f5a8281451f29ef792f9743e51e}{%
-           family={Nugroho},
+    \entry{nayakHermetiaIllucensDiptera2024}{article}{}
+      \name{author}{3}{}{%
+        {{hash=5cdcab9f6faff96eeafb1ad01eba62af}{%
+           family={Nayak},
            familyi={N\bibinitperiod},
-           given={Rudy\bibnamedelima Agung},
-           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=2c0273a2cd7ef0b934e9d9c4cd764445}{%
-           family={Rofiq},
+           given={Anjani},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7af9216504c76f2ee83af892e670081e}{%
+           family={Rühl},
            familyi={R\bibinitperiod},
-           given={Muhammad\bibnamedelima Nasir},
-           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-        {{hash=e90f4cf6ab48babc89c14cc781fdce7a}{%
-           family={Santoso},
-           familyi={S\bibinitperiod},
-           given={Arif\bibnamedelima Dwi},
-           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=3a71d8c0da58aa9c4257842e127e3342}{%
-           family={Yanuar},
-           familyi={Y\bibinitperiod},
-           given={Ahmad\bibnamedelima Ismed},
-           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
-        {{hash=3668ec3f47c5cae1edee3ab11d438a3e}{%
-           family={Hanifa},
-           familyi={H\bibinitperiod},
-           given={Rahmania},
-           giveni={R\bibinitperiod}}}%
-        {{hash=9542118c1f1a8b0f84f895bc9a8cc366}{%
-           family={Nadirah},
-           familyi={N\bibinitperiod},
-           given={Nadirah},
-           giveni={N\bibinitperiod}}}%
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a3594a9e0aff7ad6bdac4def43251edd}{%
+           family={Klüber},
+           familyi={K\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
       }
-      \strng{namehash}{961e00d7bd4c6a93704afb154447ad67}
-      \strng{fullhash}{128f0623225c48f7be1ae0a9654cca2f}
-      \strng{bibnamehash}{128f0623225c48f7be1ae0a9654cca2f}
-      \strng{authorbibnamehash}{128f0623225c48f7be1ae0a9654cca2f}
-      \strng{authornamehash}{961e00d7bd4c6a93704afb154447ad67}
-      \strng{authorfullhash}{128f0623225c48f7be1ae0a9654cca2f}
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{5c7cc1a2fa0b1f7fdcd082c2e489eb47}
+      \strng{fullhash}{356bd68c4d2bb08f2581576103e28da0}
+      \strng{bibnamehash}{356bd68c4d2bb08f2581576103e28da0}
+      \strng{authorbibnamehash}{356bd68c4d2bb08f2581576103e28da0}
+      \strng{authornamehash}{5c7cc1a2fa0b1f7fdcd082c2e489eb47}
+      \strng{authorfullhash}{356bd68c4d2bb08f2581576103e28da0}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{extradatescope}{labelyear}
@@ -3072,40 +3780,37 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Background: Hermetia illucens L. have gained popularity in recent years as an environmentally friendly response to both the present and potential future food/feed crisis. The larvae of H. illucens L., or black soldier fly larvae (BSFL), is an alternative solution to tackle the issue of organic waste bioconversion. However, understanding the environmental loads associated with biowaste bioconversion using BSFL to produce dried BSFL is a pivotal point to keep the environment sustainable. This study reported a life cycle assessment (LCA) of the biowaste bioconversion process of BSFL and determined the environment impact analysis to make recommendations for modifications to lessen environmental consequences., Methods: The methodology used is life cycle assessment (LCA), which includes: (a) system boundary determination (gate-to-gate), starting from biowaste production, biowaste bioconversion, prepupae and BSFL frass production. The system boundary of the dried BSFL production is designed for both the processing and production of one cycle of BSFL; (b) life cycle inventory activities carried out at PT Biomagg Sinergi Internasional, Depok, West Java, Indonesia; (c) conducting life cycle impact assessment on five environmental impact categories namely global warming potential (GWP), acidification (AC), terrestrial eutrophication (TE), fossil fuel depletion (FFE), eco-toxicity (ET); and (d) interpretation of the assessment result. The LCA is conducted using openLCA 1.11 software and TRACI 2.1 impact assessment method., Results: The impact values of GWP, AC, TE, FFE, and ET, per 100 kg of BSFL dried production was 6.687 kg CO 2 eq; 0.029 kg SO 2-eq; 0.092 kg N-eq; 16.732 MJ surplus; 121.231 CTUe. Production of prepupa had the highest hotspots in these emissions, followed dried BSFL production., Conclusions: Efforts to reduce environmental impacts that can be done are by implementing an integrated rearing system using substrate from a single type of known substrate for BSFL and using alternative drying methods for BSFL dried production.}
-      \field{day}{11}
-      \field{eprinttype}{pmid}
-      \field{issn}{2046-1402}
-      \field{journaltitle}{F1000Research}
-      \field{month}{7}
-      \field{shortjournal}{F1000Res}
-      \field{shorttitle}{Bioconversion of Biowaste by Black Soldier Fly Larvae ( {{Hermetia}} Illucens {{L}}.) for Dried Larvae Production}
-      \field{title}{Bioconversion of Biowaste by Black Soldier Fly Larvae ( {{Hermetia}} Illucens {{L}}.) for Dried Larvae Production: {{A}} Life Cycle Assessment and Environmental Impact Analysis}
-      \field{urlday}{23}
+      \field{abstract}{The research on black soldier fly (BSF; Hermetia illucens L.; Diptera: Stratiomyidae) rearing is on the rise. The larval ability to grow on organic substances makes it an ideal candidate for the bioconversion of agricultural and other organic side streams. While there are several publications on the variables influencing the growth and development of different stages of BSF, juxtaposing the results could be amiss. This is because of the different experimental approaches and units used by the researchers. A few publications also lack information that might be necessary for comparing the results when using similar substrate and rearing conditions. In this review, we have analyzed the studies on rearing variables such as the type of feeding substrate, substrate depth and aeration, substrate temperature, substrate moisture, pH, feeding rate, and larval density mainly, but not exclusively, for the larvae. For the adults, factors such as the cage size, fly density, light, ambient temperature, and relative humidity are considered. In addition, larval performance when fed with side streams is encapsulated. This provides a backbone for future researchers to identify the already assessed variables along with their range and encourages them to define and use standardized rearing practices for a better comparison of the results.}
+      \field{issn}{2077-0472}
+      \field{issue}{1}
+      \field{journaltitle}{Agriculture}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shorttitle}{Hermetia Illucens ({{Diptera}}}
+      \field{title}{Hermetia Illucens ({{Diptera}}: {{Stratiomyidae}}): {{Need}}, {{Potentiality}}, and {{Performance Measures}}}
+      \field{urlday}{27}
       \field{urlmonth}{1}
       \field{urlyear}{2025}
-      \field{volume}{12}
-      \field{year}{2023}
+      \field{volume}{14}
+      \field{year}{2024}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \true{nocite}
-      \field{pages}{814}
+      \field{pages}{8}
       \range{pages}{1}
       \verb{doi}
-      \verb 10.12688/f1000research.132371.1
-      \endverb
-      \verb{eprint}
-      \verb 37675399
+      \verb 10.3390/agriculture14010008
       \endverb
       \verb{file}
-      \verb /home/Dairo/Zotero/storage/SBMEFIAP/Nugroho et al. - 2023 - Bioconversion of biowaste by black soldier fly larvae ( Hermetia illucens L.) for dried larvae produ.pdf
+      \verb /home/Dairo/Zotero/storage/8K2FEYA8/Nayak et al. - 2024 - Hermetia illucens (Diptera Stratiomyidae) Need, Potentiality, and Performance Measures.pdf
       \endverb
       \verb{urlraw}
-      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10477724/
+      \verb https://www.mdpi.com/2077-0472/14/1/8
       \endverb
       \verb{url}
-      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10477724/
+      \verb https://www.mdpi.com/2077-0472/14/1/8
       \endverb
+      \keyw{<i>Hermetia illucens</i>,alternative protein,black soldier fly,circular economy,insect rearing,insects as feed,rearing variables,side streams,sustainability,waste reduction}
     \endentry
     \entry{nunesRisingThreatAtmospheric2023}{article}{}
       \name{author}{1}{}{%
@@ -3162,71 +3867,6 @@
       \verb https://www.mdpi.com/2076-3298/10/4/66
       \endverb
       \keyw{carbon capture and storage,climate change,CO<sub>2</sub> emissions,greenhouse gases,mitigation}
-    \endentry
-    \entry{Quy2022}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{7}{}{%
-        {{hash=56b20b92e490e169c03beefc824cf658}{%
-           family={Quy},
-           familyi={Q\bibinitperiod},
-           given={V.\bibnamedelimi K.},
-           giveni={V\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-        {{hash=7179e338ed4a346a1bee3c13de5d96ae}{%
-           family={Hau},
-           familyi={H\bibinitperiod},
-           given={N.\bibnamedelimi V.},
-           giveni={N\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-        {{hash=930fc756c3b72878050fda1cb0ebedae}{%
-           family={Anh},
-           familyi={A\bibinitperiod},
-           given={D.\bibnamedelimi V.},
-           giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-        {{hash=732fef12138c4ded10cf88e586b70bee}{%
-           family={Quy},
-           familyi={Q\bibinitperiod},
-           given={N.\bibnamedelimi M.},
-           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=308241121b3af68352d96e4e1ccc0d46}{%
-           family={Ban},
-           familyi={B\bibinitperiod},
-           given={N.\bibnamedelimi T.},
-           giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=dc7a1f33d96d102099a2381fc9ef02d4}{%
-           family={Lanza},
-           familyi={L\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=36db81ab2777f258f39f31f3c77ae09e}{%
-           family={Muzirafuti},
-           familyi={M\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{fa37cae3c1dc84551c4450007d1d90b5}
-      \strng{fullhash}{69eee9e4f0df861117a3ba1af7433670}
-      \strng{bibnamehash}{69eee9e4f0df861117a3ba1af7433670}
-      \strng{authorbibnamehash}{69eee9e4f0df861117a3ba1af7433670}
-      \strng{authornamehash}{fa37cae3c1dc84551c4450007d1d90b5}
-      \strng{authorfullhash}{69eee9e4f0df861117a3ba1af7433670}
-      \field{sortinit}{Q}
-      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Applied Sciences}
-      \field{number}{7}
-      \field{title}{IoT-enabled smart agriculture: architecture, applications, and challenges}
-      \field{volume}{12}
-      \field{year}{2022}
-      \true{nocite}
-      \field{pages}{3396}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3390/app12073396
-      \endverb
     \endentry
     \entry{rajRealTimeEstimation2023}{article}{}
       \name{author}{2}{}{%
@@ -3341,6 +3981,161 @@
       \verb 10.1016/j.eti.2022.102649
       \endverb
     \endentry
+    \entry{sarangiFoodWasteFood2024}{article}{}
+      \name{author}{5}{}{%
+        {{hash=bdd4eae93aa1af4be751d11c32ce278c}{%
+           family={Sarangi},
+           familyi={S\bibinitperiod},
+           given={Prakash\bibnamedelima Kumar},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=0ff858feb748b015a67bb65286750a6e}{%
+           family={Pal},
+           familyi={P\bibinitperiod},
+           given={Priti},
+           giveni={P\bibinitperiod}}}%
+        {{hash=161ce5cc6813a25620f47a684b094bfa}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Akhilesh\bibnamedelima Kumar},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=377dd64011918596bc1eabf7f54e58a5}{%
+           family={Sahoo},
+           familyi={S\bibinitperiod},
+           given={Uttam\bibnamedelima Kumar},
+           giveni={U\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=e8f8dbc1c8585188da07a3d4cfb45d26}{%
+           family={Prus},
+           familyi={P\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{17837cb5b7aaaa4681d3d54a7bd70336}
+      \strng{fullhash}{93a7e3b77ef907ccd9197d45f5440c7d}
+      \strng{bibnamehash}{93a7e3b77ef907ccd9197d45f5440c7d}
+      \strng{authorbibnamehash}{93a7e3b77ef907ccd9197d45f5440c7d}
+      \strng{authornamehash}{17837cb5b7aaaa4681d3d54a7bd70336}
+      \strng{authorfullhash}{93a7e3b77ef907ccd9197d45f5440c7d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The transition from food waste to food security is a critical component of sustainability efforts. This approach focuses on repurposing organic waste products generated throughout the food supply chain into valuable resources. Food waste, encompassing everything from agricultural residues to post-consumer waste, represents a significant untapped potential that can be harnessed to enhance food security. By implementing strategies such as composting, bioconversion, and innovative recycling technologies, biowastes can be transformed into fertilizers, animal feed, and even new food products, thus closing the loop in the food system and aiding sustainable solutions for waste valorization. This transition not only addresses environmental concerns by reducing landfill waste and greenhouse gas emissions but also contributes to economic sustainability by creating new opportunities within the food production and waste management sectors. Ultimately, transforming food waste into a resource aligns with the broader goals of a circular economy, ensuring a sustainable, resilient, and food-secure future.}
+      \field{issn}{2079-9276}
+      \field{issue}{12}
+      \field{journaltitle}{Resources}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{12}
+      \field{shorttitle}{Food {{Waste}} to {{Food Security}}}
+      \field{title}{Food {{Waste}} to {{Food Security}}: {{Transition}} from {{Bioresources}} to {{Sustainability}}}
+      \field{urlday}{26}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{13}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{164}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/resources13120164
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/3PNQ6GC9/Sarangi et al. - 2024 - Food Waste to Food Security Transition from Bioresources to Sustainability.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2079-9276/13/12/164
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2079-9276/13/12/164
+      \endverb
+      \keyw{bioresources,food security,food waste,sustainability,valorization}
+    \endentry
+    \entry{siddiquiEnhancingBioconversionRate2024}{article}{}
+      \name{author}{7}{}{%
+        {{hash=81a299f65e1d96b8cf9226c3f0052ba8}{%
+           family={Siddiqui},
+           familyi={S\bibinitperiod},
+           given={Shahida\bibnamedelima Anusha},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2f81d13c382dffe867e3232db5c742b2}{%
+           family={Süfer},
+           familyi={S\bibinitperiod},
+           given={Özge},
+           giveni={Ö\bibinitperiod}}}%
+        {{hash=b0d635dc41f630e46d04fe053a2805d9}{%
+           family={Çalışkan\bibnamedelima Koç},
+           familyi={Ç\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Gülşah},
+           giveni={G\bibinitperiod}}}%
+        {{hash=cac9e0f7dcccc37cff76b0868c156367}{%
+           family={Lutuf},
+           familyi={L\bibinitperiod},
+           given={Hanif},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c5e8e4f6afb6083f3cfb3710bc3914ff}{%
+           family={Rahayu},
+           familyi={R\bibinitperiod},
+           given={Teguh},
+           giveni={T\bibinitperiod}}}%
+        {{hash=ba9344bb2fc015703aae6dbba5706290}{%
+           family={Castro-Muñoz},
+           familyi={C\bibinithyphendelim M\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+        {{hash=77ead6db94076a3a48cc440b387725c6}{%
+           family={Fernando},
+           familyi={F\bibinitperiod},
+           given={Ito},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{863e5e68b3350fdeb18a0a087543f5bc}
+      \strng{fullhash}{767b3c9dfaeb72dcd497b78857ab034f}
+      \strng{bibnamehash}{767b3c9dfaeb72dcd497b78857ab034f}
+      \strng{authorbibnamehash}{767b3c9dfaeb72dcd497b78857ab034f}
+      \strng{authornamehash}{863e5e68b3350fdeb18a0a087543f5bc}
+      \strng{authorfullhash}{767b3c9dfaeb72dcd497b78857ab034f}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Food security remains a pressing concern in the face of an increasing world population and environmental challenges. As climate change, biodiversity loss, and water scarcity continue to impact agricultural productivity, traditional livestock farming faces limitations in meeting the growing global demand for meat and dairy products. In this context, black soldier fly larvae (BSFL) have emerged as a promising alternative for sustainable food production. BSFL possess several advantages over conventional livestock, including their rapid growth, adaptability to various organic waste substrates, and low environmental impact. Their bioconversion rate, the ability to transform organic waste into valuable products, and final product optimization are key factors that enhance their potential as a nutrient-rich protein source, fertilizer, and biofuel. This review explores strategies to enhance the bioconversion rate and improve the end products derived from BSF treatment. It highlights the benefits of using BSFL over other interventions and underscores the significance of optimizing their bioconversion rate to meet the challenges of global food security sustainably. Despite the promising prospects of BSF-derived products, consumer acceptance and regulatory hurdles remain critical aspects to address in realizing their full market potential. The utilization of BSFL as a sustainable source of food and feed can contribute to waste management, reduce environmental pollution, and address the pressing issue of food security in an environmentally responsible manner. However, there is a need for further research and innovation to ensure the safety, quality, and economic viability of BSF-based products for both animal and human consumption.}
+      \field{day}{4}
+      \field{issn}{1573-2975}
+      \field{journaltitle}{Environment, Development and Sustainability}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shortjournal}{Environ Dev Sustain}
+      \field{title}{Enhancing the Bioconversion Rate and End Products of Black Soldier Fly ({{BSF}}) Treatment – {{A}} Comprehensive Review}
+      \field{urlday}{26}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/s10668-023-04306-6
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/EBULS9QJ/Siddiqui et al. - 2024 - Enhancing the bioconversion rate and end products of black soldier fly (BSF) treatment – A comprehen.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10668-023-04306-6
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10668-023-04306-6
+      \endverb
+      \keyw{Consumer acceptance,Environmental pollution,Food security,Organic waste,Waste management}
+    \endentry
     \entry{Smith2014}{inbook}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -3437,6 +4232,7 @@
       \strng{authorbibnamehash}{799f90bce79a802cbfa513d03cc35afc}
       \strng{authornamehash}{2623fee76f971e69c1fbd992b423fea1}
       \strng{authorfullhash}{799f90bce79a802cbfa513d03cc35afc}
+      \field{extraname}{1}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -3453,6 +4249,154 @@
       \verb{doi}
       \verb 10.1016/j.renene.2016.03.022
       \endverb
+    \endentry
+    \entry{surendraRethinkingOrganicWastes2020a}{article}{}
+      \name{author}{6}{}{%
+        {{hash=b76f99e51da550f96869aa572fb6b2c8}{%
+           family={Surendra},
+           familyi={S\bibinitperiod},
+           given={K.C.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=633010bf322950a8a24dbe2b03daa636}{%
+           family={Tomberlin},
+           familyi={T\bibinitperiod},
+           given={Jeffery\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=09142812ea757e9f9de0229d0ed17df1}{%
+           family={Van\bibnamedelima Huis},
+           familyi={V\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Arnold},
+           giveni={A\bibinitperiod}}}%
+        {{hash=45cec6795745e4cff4390b0774c70c83}{%
+           family={Cammack},
+           familyi={C\bibinitperiod},
+           given={Jonathan\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=c441959d4e38351905d16a5bc9fb0238}{%
+           family={Heckmann},
+           familyi={H\bibinitperiod},
+           given={Lars-Henrik\bibnamedelima L.},
+           giveni={L\bibinithyphendelim H\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=a1603ee5932dc30c8c6a9df1e3b22187}{%
+           family={Khanal},
+           familyi={K\bibinitperiod},
+           given={Samir\bibnamedelima Kumar},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{2623fee76f971e69c1fbd992b423fea1}
+      \strng{fullhash}{bd9e02b380651d65d41d3cb946d27163}
+      \strng{bibnamehash}{bd9e02b380651d65d41d3cb946d27163}
+      \strng{authorbibnamehash}{bd9e02b380651d65d41d3cb946d27163}
+      \strng{authornamehash}{2623fee76f971e69c1fbd992b423fea1}
+      \strng{authorfullhash}{bd9e02b380651d65d41d3cb946d27163}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0956053X}
+      \field{journaltitle}{Waste Management}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{shortjournal}{Waste Management}
+      \field{shorttitle}{Rethinking Organic Wastes Bioconversion}
+      \field{title}{Rethinking Organic Wastes Bioconversion: {{Evaluating}} the Potential of the Black Soldier Fly ({{Hermetia}} Illucens ({{L}}.)) ({{Diptera}}: {{Stratiomyidae}}) ({{BSF}})}
+      \field{urlday}{26}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{117}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{58\bibrangedash 80}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1016/j.wasman.2020.07.050
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0956053X20304281
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0956053X20304281
+      \endverb
+    \endentry
+    \entry{suryatiLauricAcidBlack2023}{article}{}
+      \name{author}{5}{}{%
+        {{hash=4595a185ef703c99fe1516eaca514e17}{%
+           family={Suryati},
+           familyi={S\bibinitperiod},
+           given={Tuti},
+           giveni={T\bibinitperiod}}}%
+        {{hash=96c347b86124e422a0bf0a74e9c9393d}{%
+           family={Julaeha},
+           familyi={J\bibinitperiod},
+           given={Euis},
+           giveni={E\bibinitperiod}}}%
+        {{hash=408812e7b06c7bfaeb0489fb20b6cd5b}{%
+           family={Farabi},
+           familyi={F\bibinitperiod},
+           given={Kindi},
+           giveni={K\bibinitperiod}}}%
+        {{hash=96ec326d8b68bb1b545c4692d721c582}{%
+           family={Ambarsari},
+           familyi={A\bibinitperiod},
+           given={Hanies},
+           giveni={H\bibinitperiod}}}%
+        {{hash=2d96041c53209be20e14d49a5c7025c1}{%
+           family={Hidayat},
+           familyi={H\bibinitperiod},
+           given={Ace\bibnamedelima Tatang},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{1eed22148a6c609262e82cc59ecc2ab8}
+      \strng{fullhash}{80aa64182f4d0d421d8faf7aa20e5dad}
+      \strng{bibnamehash}{80aa64182f4d0d421d8faf7aa20e5dad}
+      \strng{authorbibnamehash}{80aa64182f4d0d421d8faf7aa20e5dad}
+      \strng{authornamehash}{1eed22148a6c609262e82cc59ecc2ab8}
+      \strng{authorfullhash}{80aa64182f4d0d421d8faf7aa20e5dad}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Black soldier fly (BSF) (Hermetia illucens) larvae are currently being developed as bioconversion agents for organic waste treatment. The resulting larvae or prepupae have a high protein and lipid content, primarily used as feed for fish, poultry, and other animals. The lipid content of BSF larvae/prepupae is influenced by the feed for growth and can reach up to 57.8\%. BSF lipids mainly consist of medium-chain saturated fatty acids, with lauric acid (LA) being the dominant component. The LA content in BSF larvae/prepupae can be enhanced by incorporating or utilizing substrates containing highly digestible carbohydrates for larval growth. The LA content can reach 76.13\% in larvae reared on fruit waste. LA has been reported to exhibit antibacterial, antifungal, antiviral, and anticancer properties. Moreover, it has applications in various fields such as pharmaceuticals, food and beverages, cosmetics, body care, soaps and detergents, plastics, and textiles. This review aims to investigate the LA content in BSF larvae and explore its potential applications, thereby establishing BSF larvae/prepupae as a novel source of LA for diverse fields.}
+      \field{issn}{2071-1050}
+      \field{issue}{13}
+      \field{journaltitle}{Sustainability}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{13}
+      \field{title}{Lauric {{Acid}} from the {{Black Soldier Fly}} ({{Hermetia}} Illucens) and {{Its Potential Applications}}}
+      \field{urlday}{26}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{15}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{10383}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/su151310383
+      \endverb
+      \verb{file}
+      \verb /home/Dairo/Zotero/storage/3G25MMIF/Suryati et al. - 2023 - Lauric Acid from the Black Soldier Fly (Hermetia illucens) and Its Potential Applications.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2071-1050/15/13/10383
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2071-1050/15/13/10383
+      \endverb
+      \keyw{<i>Hermetia illucens</i>,bioconversion agents,black soldier fly (BSF),lauric acid,organic waste}
     \endentry
     \entry{weichertReviewMachineLearning2019}{article}{}
       \name{author}{6}{}{%
