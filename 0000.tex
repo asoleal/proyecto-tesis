@@ -241,29 +241,47 @@ myedge/.style={->, -{Latex[#1]}}
 
 
 %Páginas de Presentación del documento - No modificar esto se hace automáticamente
+% Páginas de Presentación del documento - Portada mejorada y ajustada
 {\newpage
 \thispagestyle{empty}
 \begin{center}
 \begin{figure}
 \centering
-\epsfig{file=00Figuras/00f00EscudoUN2016.jpg,scale=0.4}%
+\epsfig{file=00Figuras/00f00EscudoUN2016.jpg,scale=0.3}% Ajusta la escala del escudo
 \end{figure}
-\vspace{2.5cm}
-\textbf{\Large\thesisname} \\
-\vspace{2.5cm}
-\textbf{\Large\studentname} \\
-\vspace{2.5cm}
-{\large Proyecto de Tesis}\\
-\vspace{2.5cm}
-%{\bfseries \academictitle}\\
-%\vspace{2.5cm}
-\director \\
-\vspace{2.5cm}
-\small Universidad Nacional de Colombia \\
-\faculty \\
-\department \\
-\sede, Colombia\\
-\issuedate
+\vspace{1cm} % Espacio después del escudo
+
+% Línea decorativa superior
+\rule{\textwidth}{0.8pt} \\[0.3cm]
+
+{\Large \textbf{UNIVERSIDAD NACIONAL DE COLOMBIA}} \\[0.2cm]
+{\large \faculty} \\[0.1cm]
+{\large \department} \\[0.1cm]
+{\large \sede} \\[1cm]
+
+% Título de la tesis
+{\LARGE \textbf{\thesisname}} \\[1.5cm]
+
+% Línea decorativa intermedia
+\rule{\textwidth}{0.5pt} \\[1cm]
+
+% Nombre del estudiante
+{\large \textbf{\studentname}} \\[1cm]
+
+% Tipo de documento
+{\large \textbf{Proyecto de Tesis}} \\[1.5cm]
+
+% Información del director y codirector
+{\large \textbf{\director}} \\[0.2cm]
+%{\large \textbf{\codirector}} \\[1.5cm]
+
+% Línea decorativa inferior
+%\rule{\textwidth}{0.8pt} \\[0.5cm]
+
+% Fecha de emisión
+{\large \textbf{\issuedate}} \\[0.5cm]
+\end{center}
+}
 % \newpage
 % \thispagestyle{empty}
 % \vspace{2.5cm}
@@ -289,7 +307,6 @@ myedge/.style={->, -{Latex[#1]}}
 %\faculty \\
 %\department \\
 %\issuedate
-\end{center}
 
 % Dedicatorias
 % \newpage
