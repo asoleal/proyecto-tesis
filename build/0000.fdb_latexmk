@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber build/0000"] 1738035467.69454 "build/0000.bcf" "build/0000.bbl" "build/0000" 1738409932.32526 0
+["biber build/0000"] 1738035467.69454 "build/0000.bcf" "build/0000.bbl" "build/0000" 1738458302.83307 0
   "Referencias.bib" 1737667464.32862 5835 c6eb5a2f36363df3a87edeaa94138d38 ""
   "build/0000.bcf" 1738035475.86043 137190 df88349f878f204fdc52819ce9ec42f5 "pdflatex"
   (generated)
   "build/0000.bbl"
   "build/0000.blg"
   (rewritten before read)
-["pdflatex"] 1738409928.50103 "/home/Dairo/Documentos/proyecto_leal/proyecto-tesis/0000.tex" "build/0000.pdf" "0000" 1738409932.32565 0
-  "/home/Dairo/Documentos/proyecto_leal/proyecto-tesis/0000.tex" 1738409928.09086 13523 8013664f6b5ab2a7786b572271b37a79 ""
+["pdflatex"] 1738458299.59809 "/home/Dairo/Documentos/proyecto_leal/proyecto-tesis/0000.tex" "build/0000.pdf" "0000" 1738458302.83346 0
+  "/home/Dairo/Documentos/proyecto_leal/proyecto-tesis/0000.tex" 1738458295.37954 13522 a23508552e0747f97dc9eac0deb75a9f ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1736268207 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1736268207 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1736268207 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -256,7 +256,7 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1736268207 41588 b43d3e860a4f94167ee1e725ff526a72 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1737779224.78925 5474027 83436c3033d4ad55ae6a50bf6177fba7 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1737779176 7112998 fb35e790698a22e7d1e815a09e600399 ""
-  "0000.tex" 1738409928.09086 13523 8013664f6b5ab2a7786b572271b37a79 ""
+  "0000.tex" 1738458295.37954 13522 a23508552e0747f97dc9eac0deb75a9f ""
   "00Figuras/00f00EscudoUN2016.jpg" 1737600252.88205 73377 2cf13cf3133a86a4a9fd48c186a035df ""
   "Capitulos/Pregunta.tex" 1737688347.21041 285 6c832b004c524a32db2d0ec12ac9c587 ""
   "Capitulos/antecedentes.tex" 1738035459.34374 583 fb86741da8043868aec4643ba66bcb7c ""
@@ -282,13 +282,13 @@
   "Secciones/resutados_Esperados_config_IoT.tex" 1738034978.26766 1533 f61e337eadfab9b2676a8156a8335ade ""
   "Secciones/ubicacion_de_proyecto.tex" 1738025448.80307 775 5fcba2d4ac4c23b2deaaaed62507a888 ""
   "Secciones/validacion_sistema_integrado.tex" 1738030713.4237 727 ef8c3cbee530052543c59fb7fbc1393b ""
-  "build/0000.aux" 1738409932.01753 15250 22688035578bdddeb69fda3a53a0865d "pdflatex"
+  "build/0000.aux" 1738458302.53285 15269 d1becaf085e02264a25f59f483edcc95 "pdflatex"
   "build/0000.bbl" 1738035469.26375 244628 572702d837f603af9b3942886388c982 "biber build/0000"
-  "build/0000.out" 1738409932.03086 6012 062a4d1a58c2ef68806a9baf13dc85e3 "pdflatex"
-  "build/0000.run.xml" 1738409932.0342 2468 8c138bdeb5984b16d9fb5c5e415a1703 "pdflatex"
-  "build/Capitulos/Pregunta.aux" 1738409931.03086 4785 312e1ea28a6fada7fd3f6b04d1cddc76 "pdflatex"
-  "build/Capitulos/introduccion.aux" 1738409931.02086 4776 f1009968d4c61394fc8a30de52040fdd "pdflatex"
-  "build/Capitulos/planteamiento.aux" 1738409931.10753 4791 534cdeccf6090e6a3d3851bff8b3f508 "pdflatex"
+  "build/0000.out" 1738458302.54618 6012 062a4d1a58c2ef68806a9baf13dc85e3 "pdflatex"
+  "build/0000.run.xml" 1738458302.54951 2468 8c138bdeb5984b16d9fb5c5e415a1703 "pdflatex"
+  "build/Capitulos/Pregunta.aux" 1738458301.62285 4785 312e1ea28a6fada7fd3f6b04d1cddc76 "pdflatex"
+  "build/Capitulos/introduccion.aux" 1738458301.61285 4776 f1009968d4c61394fc8a30de52040fdd "pdflatex"
+  "build/Capitulos/planteamiento.aux" 1738458301.70285 4791 534cdeccf6090e6a3d3851bff8b3f508 "pdflatex"
   "simplekv.tex" 1737600252.88539 10100 b9a5b7cf0b5690a6fd8e88ca507eec2a ""
   (generated)
   "build/0000.aux"
