@@ -1,19 +1,25 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is '0000.blg'
-[67] biber:340> INFO - === mié ene 22, 2025, 20:58:47
-[81] Biber.pm:419> INFO - Reading '0000.bcf'
-[157] Biber.pm:976> INFO - Using all citekeys in bib section 0
-[176] Biber.pm:4419> INFO - Processing section 0
-[185] Biber.pm:4610> INFO - Looking for bibtex file 'Referencias.bib' for section 0
-[187] bibtex.pm:1713> INFO - LaTeX decoding ...
-[200] bibtex.pm:1519> INFO - Found BibTeX data source 'Referencias.bib'
-[348] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[348] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[348] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[383] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[383] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[383] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[404] bbl.pm:660> INFO - Writing '0000.bbl' with encoding 'UTF-8'
-[417] bbl.pm:763> INFO - Output to 0000.bbl
-[417] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_UrS5/a20f060712aedbb6689faee50de82126_115578.utf8, line 29, warning: 2 characters of junk seen at toplevel
-[417] Biber.pm:133> INFO - WARNINGS: 1
+[100] biber:340> INFO - === jue feb  6, 2025, 21:17:32
+[119] Biber.pm:419> INFO - Reading '0000.bcf'
+[217] Biber.pm:976> INFO - Using all citekeys in bib section 0
+[243] Biber.pm:4419> INFO - Processing section 0
+[254] Biber.pm:4610> INFO - Looking for bibtex file 'archivos_bib/Referencias.bib' for section 0
+[255] bibtex.pm:1713> INFO - LaTeX decoding ...
+[271] bibtex.pm:1519> INFO - Found BibTeX data source 'archivos_bib/Referencias.bib'
+[440] Biber.pm:4610> INFO - Looking for bibtex file 'archivos_bib/bibliografia_tesis_leal02.bib' for section 0
+[445] bibtex.pm:1713> INFO - LaTeX decoding ...
+[503] bibtex.pm:1519> INFO - Found BibTeX data source 'archivos_bib/bibliografia_tesis_leal02.bib'
+[896] Biber.pm:4610> INFO - Looking for bibtex file 'Referencias.bib' for section 0
+[983] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1054] bibtex.pm:1519> INFO - Found BibTeX data source './referencias.bib'
+[1572] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1572] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1572] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[1761] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1761] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1761] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[1884] bbl.pm:660> INFO - Writing '0000.bbl' with encoding 'UTF-8'
+[2005] bbl.pm:763> INFO - Output to 0000.bbl
+[2006] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_98Yz/a20f060712aedbb6689faee50de82126_366178.utf8, line 29, warning: 2 characters of junk seen at toplevel
+[2006] Biber.pm:133> INFO - WARNINGS: 1

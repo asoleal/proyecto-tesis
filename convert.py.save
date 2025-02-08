@@ -1,0 +1,17 @@
+import pandas as pd
+
+# Solicita la ruta del PDF a convertir
+pdf_path = input("Ingresa la ruta del archivo PDF: ")
+
+try:
+    # Lee el contenido del PDF
+    pdf_data = open(pdf_path, 'rb').read()
+except IOError:
+    print(f"Error al abrir el archivo PDF {pdf_path}")
+else:
+    # Crea un DataFrame con los datos del PDF
+    df_pdf = pd.read_excel(pdf_data)
+    
+    # Guarda el DataFrame en un nuevo formato DOCX
+    df_pdf.to_excel('resultado.pdf', index=False, engine='openpyxl')
+    print("Archivo PDF convertido a DOCX correctamente.")
