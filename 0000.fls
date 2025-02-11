@@ -468,7 +468,7 @@ OUTPUT Capitulos/planteamiento.aux
 INPUT ./Capitulos/planteamiento.tex
 INPUT ./Capitulos/planteamiento.tex
 INPUT Capitulos/planteamiento.tex
-INPUT /usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecrm0700.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm
 INPUT ./Capitulos/antecedentes.tex
 INPUT ./Capitulos/antecedentes.tex
 INPUT ./Capitulos/antecedentes.tex
@@ -500,6 +500,7 @@ INPUT Secciones/objetivos_específicos.tex
 INPUT ./Capitulos/metodologia.tex
 INPUT ./Capitulos/metodologia.tex
 INPUT Capitulos/metodologia.tex
+INPUT /usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecrm0700.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecrm0500.tfm
 INPUT ./Secciones/ubicacion_de_proyecto.tex
 INPUT ./Secciones/ubicacion_de_proyecto.tex
@@ -527,7 +528,6 @@ INPUT Secciones/analisis_propuesta_escalabilidad.tex
 INPUT ./Secciones/materiales_principales.tex
 INPUT ./Secciones/materiales_principales.tex
 INPUT Secciones/materiales_principales.tex
-INPUT /usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecbx0700.tfm
 INPUT ./Capitulos/costos.tex
 INPUT ./Capitulos/costos.tex
@@ -556,7 +556,11 @@ INPUT ./0000.out
 INPUT ./0000.out
 INPUT 0000.run.xml
 OUTPUT 0000.run.xml
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx0700.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb

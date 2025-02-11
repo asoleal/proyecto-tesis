@@ -1,25 +1,22 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is '0000.blg'
-[100] biber:340> INFO - === jue feb  6, 2025, 21:17:32
-[119] Biber.pm:419> INFO - Reading '0000.bcf'
-[217] Biber.pm:976> INFO - Using all citekeys in bib section 0
-[243] Biber.pm:4419> INFO - Processing section 0
-[254] Biber.pm:4610> INFO - Looking for bibtex file 'archivos_bib/Referencias.bib' for section 0
-[255] bibtex.pm:1713> INFO - LaTeX decoding ...
-[271] bibtex.pm:1519> INFO - Found BibTeX data source 'archivos_bib/Referencias.bib'
-[440] Biber.pm:4610> INFO - Looking for bibtex file 'archivos_bib/bibliografia_tesis_leal02.bib' for section 0
-[445] bibtex.pm:1713> INFO - LaTeX decoding ...
-[503] bibtex.pm:1519> INFO - Found BibTeX data source 'archivos_bib/bibliografia_tesis_leal02.bib'
-[896] Biber.pm:4610> INFO - Looking for bibtex file 'Referencias.bib' for section 0
-[983] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1054] bibtex.pm:1519> INFO - Found BibTeX data source './referencias.bib'
-[1572] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1572] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1572] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[1761] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1761] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1761] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[1884] bbl.pm:660> INFO - Writing '0000.bbl' with encoding 'UTF-8'
-[2005] bbl.pm:763> INFO - Output to 0000.bbl
-[2006] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_98Yz/a20f060712aedbb6689faee50de82126_366178.utf8, line 29, warning: 2 characters of junk seen at toplevel
-[2006] Biber.pm:133> INFO - WARNINGS: 1
+[70] biber:340> INFO - === mar feb 11, 2025, 15:10:11
+[84] Biber.pm:419> INFO - Reading '0000.bcf'
+[171] Biber.pm:979> INFO - Found 47 citekeys in bib section 0
+[191] Biber.pm:4419> INFO - Processing section 0
+[200] Biber.pm:4610> INFO - Looking for bibtex file 'archivos_bib/Referencias.bib' for section 0
+[206] bibtex.pm:1713> INFO - LaTeX decoding ...
+[279] bibtex.pm:1519> INFO - Found BibTeX data source 'archivos_bib/Referencias.bib'
+[799] Biber.pm:4610> INFO - Looking for bibtex file 'Referencias.bib' for section 0
+[871] bibtex.pm:1713> INFO - LaTeX decoding ...
+[927] bibtex.pm:1519> INFO - Found BibTeX data source './referencias.bib'
+[1045] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1045] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1045] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[1188] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1188] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1189] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[1322] bbl.pm:660> INFO - Writing '0000.bbl' with encoding 'UTF-8'
+[1397] bbl.pm:763> INFO - Output to 0000.bbl
+[1397] Biber.pm:131> WARN - I didn't find a database entry for 'Bermudez2023' (section 0)
+[1397] Biber.pm:133> INFO - WARNINGS: 1
