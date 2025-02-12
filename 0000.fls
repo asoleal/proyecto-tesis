@@ -488,9 +488,6 @@ INPUT Secciones/Avances_en_IoT_e_IA_para_la_gestión_sostenible_de_residuos.tex
 INPUT ./Secciones/brechas_y_oportunidades.tex
 INPUT ./Secciones/brechas_y_oportunidades.tex
 INPUT Secciones/brechas_y_oportunidades.tex
-INPUT ./Secciones/brechas_identificadas.tex
-INPUT ./Secciones/brechas_identificadas.tex
-INPUT Secciones/brechas_identificadas.tex
 INPUT ./Capitulos/objetivo_General.tex
 INPUT ./Capitulos/objetivo_General.tex
 INPUT Capitulos/objetivo_General.tex
