@@ -1,19 +1,52 @@
-\chapter{Costos}
+\chapter{Estimación de Costos}
+
+El desarrollo de este proyecto implica el diseño e implementación de un sistema tecnológico integral basado en sensores IoT y modelos de aprendizaje automático (AAA) para la medición, validación y reporte de datos ambientales y gases de efecto invernadero (GEI) en procesos de bioconversión con \textit{Hermetia illucens}. Para ello, se requieren recursos en distintas áreas, incluyendo:
+
+\begin{itemize}
+    \item \textbf{Diseño y desarrollo de hardware}: Fabricación e integración de sensores IoT con microcontroladores, desarrollo de circuitos electrónicos, pruebas de calibración y ensamblaje de los dispositivos.
+    \item \textbf{Diseño e implementación de software}: Desarrollo de algoritmos de procesamiento de datos, integración de modelos de aprendizaje automático (AAA), y desarrollo de una plataforma digital para la visualización y análisis de datos.
+    \item \textbf{Infraestructura de almacenamiento y cómputo}: Implementación de servicios en la nube para el almacenamiento de datos generados por los sensores y procesamiento de modelos de AAA.
+    \item \textbf{Validación de sensores}: Evaluación y calibración de los sensores en condiciones controladas para garantizar precisión en la medición de variables ambientales y emisiones de GEI.
+    \item \textbf{Pruebas de laboratorio y experimentación}: Realización de pruebas en entornos controlados para validar el desempeño del sistema, comparar resultados con equipos de referencia y ajustar los modelos predictivos.
+    \item \textbf{Desarrollo e integración de red IoT}: Implementación de protocolos de comunicación como Wi-Fi y LoRa para garantizar la conectividad eficiente entre sensores y la plataforma de almacenamiento.
+    \item \textbf{Implementación de un sistema de Medición, Reporte y Validación (MRV)}: Desarrollo de herramientas digitales que permitan generar informes detallados y asegurar la trazabilidad de las mediciones.
+    \item \textbf{Recursos humanos y capacitación}: Personal especializado en electrónica, software, inteligencia artificial y procesamiento de datos para el diseño, desarrollo y validación del sistema.
+\end{itemize}
+
+En la tabla \ref{tab:costos} se presenta una estimación preliminar de los costos asociados a las distintas fases del proyecto.
 
 \begin{table}[H]
-\centering
-\begin{tabular}{|l|r|}
-\hline
-\textbf{Categoría} & \textbf{Costo Promedio (COP)} \\ \hline
-Sensores y componentes electrónicos & \$6.250.000 \\ \hline
-Desarrollo de software y plataforma & \$6.550.000 \\ \hline
-Implementación de algoritmos de IA & \$9.200.000 \\ \hline
-Validación del sistema & \$8.500.000 \\ \hline
-Gastos generales y logística & \$3.850.000 \\ \hline
-\textbf{Total} & \textbf{\$34.350.000} \\ \hline
-\end{tabular}
-\caption{Costos del proyecto}
-\label{tab:costos}
+    \centering
+    \begin{tabular}{|p{6cm}|c|c|}
+        \hline
+        \textbf{Concepto} & \textbf{Cantidad} & \textbf{Costo (USD)} \\ \hline
+        \textbf{Diseño y desarrollo de hardware} & & \\ \hline
+        Sensores de \ch{CO2} (MH-410D) & 3 & 150 \\ \hline
+        Sensores de \ch{CH4} (MH-441D) & 3 & 180 \\ \hline
+        Sensores de temperatura y humedad (DHT22) & 3 & 30 \\ \hline
+        Sensores de luz (BH1750) & 3 & 45 \\ \hline
+        Sensores de pH y nutrientes (NPK) & 3 & 300 \\ \hline
+        Microcontroladores ESP32 & 5 & 100 \\ \hline
+        Diseño y fabricación de PCB & 3 & 200 \\ \hline
+        \textbf{Desarrollo de software y procesamiento de datos} & & \\ \hline
+        Desarrollo de algoritmos AAA y procesamiento de datos & 1 & 1,000 \\ \hline
+        Plataforma web para visualización de datos & 1 & 500 \\ \hline
+        \textbf{Infraestructura en la nube y almacenamiento} & & \\ \hline
+        Servicios en la nube (AWS/GCP/Azure) & 12 meses & 600 \\ \hline
+        \textbf{Validación y pruebas de laboratorio} & & \\ \hline
+        Equipos de referencia para calibración & 1 & 500 \\ \hline
+        Pruebas experimentales y ajustes & - & 700 \\ \hline
+        \textbf{Implementación de red IoT} & & \\ \hline
+        Módulos LoRa & 5 & 250 \\ \hline
+        Antenas y repetidores & 2 & 200 \\ \hline
+        \textbf{Recursos Humanos y Capacitación} & & \\ \hline
+        Consultoría y soporte técnico & - & 1,500 \\ \hline
+        Capacitación en procesamiento de datos & - & 800 \\ \hline
+        \textbf{Total Estimado} & & \textbf{7,505} \\ \hline
+    \end{tabular}
+    \caption{Estimación preliminar de costos del proyecto}
+    \label{tab:costos}
 \end{table}
 
- Como se observa en la tabla \ref{tab:costos} El valor total del proyecto es de aproximadamente treinta y cuatro millones trescientos cincuenta mil pesos en componentes y diseño, más los costos del laboratorio y campo.
+\section{Justificación de la Inversión}
+La inversión en este proyecto permitirá el desarrollo de un sistema integral de medición y reporte de emisiones de GEI en procesos de bioconversión, proporcionando datos en tiempo real con alta precisión. La implementación de hardware y software especializado, junto con la validación experimental, garantizará la confiabilidad del sistema y su aplicabilidad en distintos entornos de monitoreo ambiental. Además, la infraestructura en la nube facilitará el almacenamiento y procesamiento eficiente de datos, asegurando la escalabilidad del sistema. Finalmente, la capacitación del personal y la adquisición de equipos de referencia contribuirán a la calidad y replicabilidad de los resultados.

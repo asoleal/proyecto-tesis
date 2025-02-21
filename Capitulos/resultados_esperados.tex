@@ -1,4 +1,28 @@
 \chapter{Resultados esperados}
 
-\input{Secciones/resutados_Esperados_config_IoT.tex}
-\input{Secciones/productos_esperados.tex}
+El presente proyecto tiene como objetivo el diseño e implementación de un sistema tecnológico integral basado en sensores IoT y modelos de aprendizaje automático (AAA) para la medición, validación y reporte de datos ambientales y gases de efecto invernadero (GEI) en procesos de bioconversión con \textit{Hermetia illucens}. 
+\section{Desarrollo e Implementación del Sistema de Sensores IoT}
+Se espera obtener un \textbf{prototipo funcional} de un sistema de adquisición de datos basado en sensores IoT, capaz de medir en tiempo real las concentraciones de \ch{CO2} y \ch{CH4}, así como variables ambientales críticas (temperatura, humedad, pH, iluminación y composición del sustrato). Este sistema deberá garantizar una recopilación de datos con una precisión aceptable y una integración estable con la infraestructura de almacenamiento en la nube.
+
+\section{Modelos de Aprendizaje Automático para Validación de Datos}
+Se espera desarrollar modelos de aprendizaje automático básicos que permitan mejorar la precisión y la detección de anomalías en las mediciones obtenidas por los sensores. La implementación de estos modelos deberá demostrar su capacidad para identificar tendencias en los datos y generar predicciones a corto plazo con un nivel de error razonable. Sin embargo, no se espera un modelo altamente optimizado, sino un primer esquema funcional que pueda ser refinado en estudios futuros.
+
+\section{Infraestructura de Almacenamiento y Visualización de Datos}
+Se espera contar con una plataforma en la nube capaz de almacenar y gestionar los datos recopilados por los sensores IoT. Además, se prevé la implementación de un \textbf{dashboard básico} para la visualización en tiempo real de las mediciones, permitiendo la consulta remota de los datos y su análisis preliminar. Este sistema garantizará la trazabilidad de la información, aunque sin funcionalidades avanzadas de procesamiento.
+
+\section{Validación Experimental y Evaluación del Sistema}
+Se espera realizar pruebas de laboratorio para la calibración y validación de los sensores IoT, comparando sus mediciones con equipos de referencia. Se prevé que los sensores tengan un desempeño aceptable dentro de un margen de error esperado para su categoría. No obstante, es posible que existan desviaciones en las mediciones que requieran ajustes adicionales en el futuro.
+
+\section{Implementación Parcial del Sistema de Medición, Reporte y Validación (MRV)}
+Se espera una implementación inicial del sistema de Medición, Reporte y Validación (MRV), permitiendo la generación de registros de medición con datos estructurados. No se anticipa un sistema completamente automatizado ni con integración a marcos regulatorios internacionales, sino una versión preliminar que siente las bases para futuras mejoras.
+
+\section{Limitaciones y Futuras Mejoras}
+Dado el tiempo y los recursos disponibles, se anticipa que algunos aspectos del sistema requerirán optimización posterior. Entre las principales limitaciones previstas se encuentran:
+\begin{itemize}
+    \item Posibles desviaciones en las mediciones de los sensores, requiriendo ajustes y calibraciones adicionales.
+    \item Limitaciones en la precisión de los modelos de aprendizaje automático, dado que el conjunto de datos inicial puede ser reducido.
+    \item Alcance limitado en la funcionalidad del sistema MRV, el cual podrá registrar datos pero sin capacidades avanzadas de análisis o certificación.
+    \item Infraestructura en la nube funcional pero sin optimización avanzada para grandes volúmenes de datos.
+\end{itemize}
+
+A pesar de estas limitaciones, se espera que el proyecto proporcione una base sólida para futuras investigaciones y desarrollos en la optimización del monitoreo de emisiones de GEI en procesos de bioconversión.

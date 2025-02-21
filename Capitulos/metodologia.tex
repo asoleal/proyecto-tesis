@@ -1,18 +1,118 @@
-\chapter{Marco metodológico}
-La metodología propuesta para el desarrollo del sistema integral de medición, reporte, validación y trazabilidad de gases de efecto invernadero (GEI) y variables ambientales durante el proceso de bioconversión de residuos agrícolas mediante la mosca soldado negra (\textit{Hermetia illucens}) se estructura en tres fases, a saber: 
+\chapter{Marco Metodológico}
 
-En la Fase de Diseño, se elaborará el sistema de adquisición de datos que usará IoT, sensores NDIR para medir \ch{CO2} y \ch{CH4}, sensores ambientales (temperatura, humedad e iluminación), sensor NPK, integrados a ESP32. Simultáneamente, se definirá la arquitectura del sistema para la correcta interacción entre hardware, y el dashboard. 
+\section{Enfoque y Tipo de Investigación}
+Este estudio es de tipo \textbf{aplicado y experimental}, enmarcado en la \textbf{investigación tecnológica e innovadora}, con el objetivo de desarrollar una solución integral para la \textbf{medición, validación y reporte} de datos ambientales y gases de efecto invernadero (GEI) en procesos de bioconversión mediante \textit{Hermetia illucens}. Se adopta un \textbf{enfoque cuantitativo y experimental}, basado en la captura, procesamiento y análisis de datos en tiempo real a través de un sistema que integra \textbf{sensores IoT} y \textbf{modelos de aprendizaje automático (AAA)}.
+La metodología sigue un esquema estructurado en \textbf{tres fases principales}: 
+(i) diseño e implementación de una red de sensores IoT para monitorear variables ambientales críticas; 
+(ii) desarrollo e integración de modelos AAA para optimizar la precisión de los datos recopilados; y 
+(iii) validación experimental del sistema integral, asegurando su aplicabilidad en la medición y reducción de emisiones de GEI.
 
-En la Fase de Desarrollo, se llevará a cabo la fabricación de prototipos electrónicos, la programación de algoritmos de adquisición y transmisión de datos, así como el diseño de un dashboard interactivo para el monitoreo remoto y la trazabilidad de datos, empleando tecnologías como Python, JavaScript, Arduino y Google Cloud. Además, se integrarán algoritmos de inteligencia artificial (IA) para analizar datos en tiempo real.
+\section{Fases de Desarrollo}
+El proyecto se desarrollará en \textit{tres fases interconectadas}, cada una diseñada para abordar un componente clave del sistema propuesto:
 
-Finalmente, en la Fase de Validación, el sistema será validado en un entorno controlado, donde se analizará su precisión y eficiencia en la medición de variables ambientales y GEI, comparando los resultados con métodos tradicionales. Los datos recopilados serán analizados estadísticamente para evaluar el desempeño del sistema y proponer su escalabilidad en entornos agrícolas reales.
+\subsection{Fase I: Diseño e Implementación del Sistema de Sensores IoT}
+En esta etapa, se diseñará e implementará una red de sensores IoT capaz de medir en tiempo real variables ambientales críticas (temperatura, humedad, pH) y concentraciones de gases de efecto invernadero ($CO_2$ y $CH_4$) durante el proceso de bioconversión con \textit{Hermetia illucens}. Los sensores seleccionados serán calibrados y evaluados en términos de precisión y confiabilidad, asegurando su integración con una plataforma de almacenamiento en la nube. Esta fase proporcionará los datos necesarios para entrenar y validar los modelos de AAA en la Fase II.
+
+\textbf{Actividades:}
+\begin{itemize}
+    \item Diseño y desarrollo de la red de sensores IoT para capturar variables ambientales y GEI.
+    \item Selección, calibración y pruebas de precisión de los sensores en condiciones controladas.
+    \item Implementación de comunicación segura entre los sensores y la plataforma de almacenamiento en la nube.
+    \item Pruebas iniciales de integración del sistema de adquisición de datos.
+\end{itemize}
+
+A continuación se detallan los componentes que se van a utilizar 
+
+\subsubsection{Diseño y Desarrollo de Componentes Electrónicos (IoT)}
+
+Como parte del desarrollo del sistema de adquisición de datos basado en Internet de las Cosas (IoT), se diseñará e implementará un conjunto de sensores especializados para la medición de variables ambientales y gases de efecto invernadero (GEI). Este sistema permitirá la recopilación y transmisión en tiempo real de datos relevantes para la bioconversión con \textit{Hermetia illucens}, asegurando precisión y trazabilidad en la medición de \ch{CO2} y \ch{CH4}.
+
+\subsubsection{Sensores para la Medición de Gases}
+Para la cuantificación de gases de efecto invernadero, se emplearán sensores NDIR (infrarrojos no dispersivos), debido a su alta precisión y estabilidad. Se seleccionarán los siguientes sensores:
+
+\begin{itemize}
+    \item \textbf{Sensor de dióxido de carbono (\ch{CO2})}: Winsen MH-410D, con un rango de detección de 0 a 5000 ppm y una resolución de ±50 ppm.
+    \item \textbf{Sensor de metano (\ch{CH4})}: Winsen MH-441D, con un rango de detección de 0 a 10\% en volumen y una resolución de 0.01\%.
+\end{itemize}
+
+Estos sensores permitirán monitorear en tiempo real la concentración de gases de efecto invernadero durante el proceso de bioconversión, proporcionando datos críticos para la validación de emisiones.
+
+\subsubsection{Sensores para la Medición de Variables Ambientales}
+Para complementar el monitoreo del sistema, se integrarán sensores para la medición de variables ambientales que influyen en la bioconversión:
+
+\begin{itemize}
+    \item \textbf{Temperatura y humedad}: Sensor DHT22, con precisión de ±0.5°C para la temperatura y ±2\% para la humedad relativa.
+    \item \textbf{Iluminación}: Sensor BH1750, con un rango de detección de 1 a 65535 lux, útil para evaluar las condiciones lumínicas en el entorno del proceso.
+    \item \textbf{pH y nutrientes del sustrato (NPK)}: Sensor CWT Soil Sensor (NPK Type), diseñado para monitorear la composición química del medio de bioconversión.
+\end{itemize}
+
+\subsubsection{Microcontroladores y Diseño Electrónico}
+Todos los sensores estarán integrados con microcontroladores ESP32, seleccionados por su bajo costo, versatilidad y capacidad de procesamiento, así como por su conectividad Wi-Fi integrada, lo que permitirá la transmisión eficiente de datos en tiempo real. 
+
+El diseño de los circuitos electrónicos se realizará utilizando software especializado como Eagle, permitiendo el desarrollo de prototipos optimizados que aseguren la estabilidad y confiabilidad de la adquisición de datos.
+
+\subsubsection{Configuración de la Red IoT}
+Para garantizar una comunicación eficiente entre los dispositivos, se implementará una red IoT basada en protocolos de comunicación optimizados para entornos de monitoreo ambiental:
+
+\begin{itemize}
+    \item \textbf{Wi-Fi}: Utilizado para entornos con disponibilidad de infraestructura de red, permitiendo la transmisión directa de datos a la nube.
+    \item \textbf{LoRa}: Seleccionado para aplicaciones que requieran una comunicación de largo alcance y bajo consumo energético, asegurando conectividad en ubicaciones con acceso limitado a redes convencionales.
+\end{itemize}
+
+Los sensores estarán integrados en dispositivos diseñados específicamente para operar en una red IoT, permitiendo la transmisión de datos en tiempo real a una plataforma centralizada. Esto optimizará la cobertura y el consumo energético del sistema según las condiciones del entorno.
 
 
-\input{Secciones/ubicacion_de_proyecto.tex}
-\input{Secciones/experimento_de_dietas.tex}
-\input{Secciones/Diseño_y_desarrollo_de_componentes_electrónicos_(IoT).tex}
-\input{Secciones/desarrollo_dashboard.tex}
-\input{Secciones/implementacion_de_algoritmos.tex}
-\input{Secciones/validacion_sistema_integrado.tex}
-\input{Secciones/analisis_propuesta_escalabilidad.tex}
-\input{Secciones/materiales_principales.tex}
+\subsection{Fase II: Desarrollo e Integración de Modelos de Aprendizaje Automático}
+En esta fase, se desarrollarán e integrarán modelos de aprendizaje automático (AAA) para validar y mejorar la precisión de los datos recolectados por los sensores IoT. Se explorarán técnicas supervisadas y no supervisadas para identificar patrones en los datos ambientales y de GEI, asegurando la confiabilidad del sistema. Los resultados obtenidos en esta fase serán utilizados para optimizar el sistema MRV en la Fase III.
+
+\textbf{Actividades:}
+\begin{itemize}
+    \item Recolección y preprocesamiento de datos generados en la Fase I.
+    \item Entrenamiento y ajuste de modelos de AAA utilizando métricas como MSE y $R^2$.
+    \item Implementación de algoritmos de detección de anomalías en las mediciones.
+    \item Validación de los modelos en entornos simulados y pruebas controladas.
+\end{itemize}
+
+\subsection{Fase III: Implementación y Validación del Sistema de Reporte y MRV}
+En esta última fase, se implementará un sistema digital para la visualización y análisis de los datos recolectados, permitiendo la trazabilidad y el reporte de emisiones de GEI. Se integrará un sistema de Medición, Reporte y Validación (MRV) que facilite la evaluación del impacto del proceso de bioconversión sobre la generación de emisiones. Los resultados obtenidos en esta fase demostrarán la eficacia del sistema propuesto.
+
+\textbf{Actividades:}
+\begin{itemize}
+    \item Diseño e implementación de una interfaz digital para la visualización de datos en tiempo real.
+    \item Integración del sistema MRV para asegurar la consistencia y precisión de los datos recolectados.
+    \item Pruebas en condiciones reales para evaluar la confiabilidad del sistema integral.
+    \item Análisis final de resultados y ajuste del sistema según el desempeño experimental.
+\end{itemize}
+
+\section{Diseño e Implementación del Sistema de Captura y Análisis de Datos}
+Como parte del desarrollo de este estudio, se diseñará e implementará un \textbf{sistema propio de captura y análisis de datos}, basado en sensores IoT calibrados y una plataforma de almacenamiento en la nube. Este sistema permitirá la medición en tiempo real de variables ambientales y gases de efecto invernadero (GEI), proporcionando datos estructurados para su procesamiento y análisis.
+Los modelos de aprendizaje automático (AAA) se desarrollarán utilizando bases de datos generadas directamente por los sensores diseñados e implementados en este trabajo. Los resultados obtenidos serán procesados y visualizados a través de plataformas digitales especializadas, facilitando la interpretación y evaluación del comportamiento del sistema. 
+Para garantizar la precisión y confiabilidad del sistema, se emplearán técnicas estadísticas avanzadas y métricas de desempeño en modelos de aprendizaje automático, tales como el error cuadrático medio (MSE) y el coeficiente de determinación ($R^2$). La validación del sistema se realizará en condiciones controladas, asegurando su eficacia y aplicabilidad en la cuantificación de emisiones de GEI en procesos de bioconversión con \textit{Hermetia illucens}.
+
+\section{Criterios de Validación}
+Para evaluar la efectividad del sistema, se utilizarán los siguientes criterios:
+\begin{itemize}
+    \item \textbf{Precisión de los sensores}: Comparación de mediciones con equipos de referencia en laboratorio, buscando un error relativo inferior al 5\%.
+    \item \textbf{Desempeño de los modelos de AAA}: Evaluación mediante métricas, asegurando un MSE menor a 0.1 y un $R^2$ superior a 0.9.
+    \item \textbf{Confiabilidad del sistema de reporte}: Validación de la consistencia de los datos en el sistema MRV durante pruebas prolongadas.
+    \item \textbf{Impacto en la medición de emisiones}: Comparación entre emisiones estimadas por el sistema y valores obtenidos en condiciones controladas, buscando una correlación superior al 90\%.
+\end{itemize}
+
+\section{Cronograma de Ejecución}
+El proyecto se ejecutará en un período de 12 meses distribuidos en tres fases principales:
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline
+        \textbf{Fase} & \textbf{Meses} \\ \hline
+        Diseño e Implementación del Sistema de Sensores IoT & 1-4 \\ \hline
+        Desarrollo e Integración de Modelos de Aprendizaje Automático & 5-8 \\ \hline
+        Implementación y Validación del Sistema MRV & 9-12 \\ \hline
+    \end{tabular}
+    \caption{Cronograma de Ejecución del Proyecto}
+    \label{tab:cronograma}
+\end{table}
+
+\section{Consideraciones Éticas y Ambientales}
+Este proyecto se desarrolla bajo principios de sostenibilidad y ética en la experimentación, asegurando que el proceso de bioconversión con \textit{Hermetia illucens} no genere impactos negativos en el ecosistema. Además, se garantiza la trazabilidad y transparencia en la medición de emisiones de GEI mediante el uso de sistemas MRV estandarizados. El diseño modular del sistema permite su escalabilidad, facilitando su implementación en diferentes sectores industriales y productivos, contribuyendo así a una economía circular más eficiente.

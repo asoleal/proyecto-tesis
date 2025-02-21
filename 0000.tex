@@ -92,9 +92,7 @@
 %Información de la tesis
 %Diligenciar aquí los datos para su carga automática donde se requiera en el documento
 \renewcommand{\studentname}{John Jairo Leal Gómez}
-\renewcommand{\thesisname}{Medición, Reporte y Validación de Variables Ambientales y Gases de Efecto 
-Invernadero en la Valorización de Residuos mediante Mosca Soldado Negra: 
-Un Enfoque Basado en Internet de las Cosas y Algorítmos de Aprendizaje Automático}
+\renewcommand{\thesisname}{Sistema IoT-IA para la Medición y Validación de Emisiones de GEI en Bioconversión con Hermetia illucens}
 \renewcommand{\issuedate}{2025}
 \renewcommand{\submissiondate}{20 de Octubre}
 \renewcommand{\director}{Director Dr. Luis Octavio Gonzales Salcedo}
@@ -144,9 +142,14 @@ Un Enfoque Basado en Internet de las Cosas y Algorítmos de Aprendizaje Automát
 \titleformat{\subsection}[hang]{\sffamily\Large}{\thesubsection}{0.5cm}{}
 \titleformat{\subsubsection}[hang]{\sffamily\large}{\thesubsubsection}{0.5cm}{}
 \titleformat{\paragraph}[runin]{\sffamily\normalsize}{}{}{\emph}
-
+% Reducción de espaciado entre títulos y contenido
+\titlespacing{\chapter}{0pt}{-10pt}{10pt} % Reduce espacio antes y después de capítulo
+\titlespacing{\section}{0pt}{8pt}{4pt}    % Reduce espacio antes y después de sección
+\titlespacing{\subsection}{0pt}{6pt}{3pt} % Reduce espacio antes y después de subsección
+\titlespacing{\subsubsection}{0pt}{4pt}{2pt} % Reduce espacio antes y después de subsubsección
 \counterwithout{subsubsection}{subsection}  % Elimina la dependencia de subsection
 \counterwithin{subsubsection}{chapter}      % Vincula subsubsection al chapter
+
 \renewcommand{\thesubsubsection}{\thechapter.\arabic{subsubsection}}
 %Coloca anexo o apéndice en la Tabla de contenido
 \usepackage[toc,page]{appendix}
