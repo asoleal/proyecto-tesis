@@ -1,0 +1,56 @@
+\documentclass{article}
+\usepackage{pgfgantt} % Paquete para diagramas de Gantt
+\usepackage{xcolor}
+\usepackage[landscape, left=0.5cm, right=1cm, top=1cm, bottom=1cm]{geometry} % Márgenes personalizados
+
+\begin{document}
+
+\section{Diagrama de Gantt - Desarrollo de Proyecto (2023-2 a 2027-1)}
+\begin{center}
+    \begin{ganttchart}[
+        x unit=0.3cm, % Reducir el ancho de cada unidad en el eje X
+        y unit title=0.6cm, % Altura del título
+        y unit chart=0.8cm, % Altura de cada fila
+        vgrid, % Líneas verticales
+        hgrid, % Líneas horizontales
+        title/.style={draw, fill=blue!20}, % Estilo del título
+        bar/.style={draw, fill=blue!30}, % Estilo de las barras
+        bar height=0.6, % Altura de las barras
+        milestone/.style={fill=red, rounded corners=2pt}, % Estilo de los hitos
+        progress label text={}, % Texto de progreso
+        time slot format=isodate, % Formato de fecha
+        bar incomplete/.style={fill=gray!20} % Estilo para barras incompletas
+    ]{2023-08-01}{2027-01-31} % Rango de fechas corregido (hasta 2027-1)
+
+    % Título del gráfico (definido manualmente)
+        \gantttitle{2023}{4} % 4 unidades para 2023
+        \gantttitle{2024}{12} % 12 unidades para 2024
+        \gantttitle{2025}{12} % 12 unidades para 2025
+        \gantttitle{2026}{12} % 12 unidades para 2026
+        \gantttitle{2027}{6} \\ % 2 unidades para 2027
+
+        % Actividades ajustadas correctamente
+        \ganttbar{Revisión Bibliográfica}{2023-08-01}{2024-01-31} \\
+        \ganttbar{Ingeniero de Software}{2024-08-01}{2025-06-30} \\
+        \ganttbar{Ingeniero de Hardware}{2024-08-01}{2025-02-28} \\
+        \ganttbar{Estudio Doctoral}{2023-08-01}{2026-12-31} \\
+        \ganttbar{Diseño de Sensores IoT}{2024-09-01}{2025-06-30} \\
+        \ganttbar{Validación Experimental}{2025-06-01}{2026-06-30} \\
+        \ganttbar{Desarrollo de IA}{2025-01-01}{2026-12-31} \\
+        \ganttbar{Implementación de MRV}{2026-06-01}{2026-12-31} \\
+        \ganttbar{Infraestructura en la Nube}{2023-09-01}{2025-12-31} \\
+        \ganttbar{Publicaciones Científicas}{2025-06-01}{2026-12-31} \\
+        \ganttbar{Gestión del Proyecto}{2023-08-01}{2026-12-31} \\
+        \ganttbar{Costos Asociados a Mediciones}{2025-01-01}{2026-12-31} \\
+
+        % Leyenda corregida (opcional)
+        \node[anchor=north west] at (current bounding box.south west) {
+            \begin{tabular}{@{}ll@{}}
+                \colorbox{blue!30}{\textcolor{black}{Barra}} & Investigación y Desarrollo \\
+                \colorbox{red}{\textcolor{white}{Hito}} & Evento importante \\
+            \end{tabular}
+        };
+    \end{ganttchart}
+\end{center}
+
+\end{document}

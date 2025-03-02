@@ -1,0 +1,85 @@
+\documentclass[tikz]{standalone}
+\usepackage{pgfgantt}
+\usepackage{xcolor}
+
+\begin{document}
+
+\section{Diagrama de Gantt - Desarrollo de Proyecto (2023-2 a 2027-1)}
+
+\definecolor{barblue}{RGB}{153,204,254}
+\definecolor{groupblue}{RGB}{51,102,254}
+\definecolor{linkred}{RGB}{165,0,33}
+
+\renewcommand\sfdefault{phv}
+\renewcommand\mddefault{mc}
+\renewcommand\bfdefault{bc}
+
+\sffamily
+\begin{ganttchart}[
+    canvas/.append style={fill=none, draw=black!5, line width=.75pt},
+    hgrid style/.style={draw=black!5, line width=.75pt},
+    vgrid={*1{draw=black!5, line width=.75pt}},
+    today=3,
+    today rule/.style={
+      draw=black!64,
+      dash pattern=on 3.5pt off 4.5pt,
+      line width=1.5pt
+    },
+    today label font=\small\bfseries,
+    title/.style={draw=none, fill=none},
+    title label font=\bfseries\footnotesize,
+    title label node/.append style={below=7pt},
+    include title in canvas=false,
+    bar label font=\mdseries\small\color{black!70},
+    bar label node/.append style={left=2cm},
+    bar/.append style={draw=none, fill=black!63},
+    bar incomplete/.append style={fill=barblue},
+    bar progress label font=\mdseries\footnotesize\color{black!70},
+    group incomplete/.append style={fill=groupblue},
+    group left shift=0,
+    group right shift=0,
+    group height=.5,
+    group peaks tip position=0,
+    group label node/.append style={left=.6cm},
+    group progress label font=\bfseries\small,
+    link/.style={-latex, line width=1.5pt, linkred},
+    link label font=\scriptsize\bfseries,
+    link label node/.append style={below left=-2pt and 0pt}
+  ]{1}{48}  % 4 años en trimestres (12 trimestres por año)
+
+  % Encabezado de años
+  \gantttitle{2023}{4} % Último trimestre de 2023
+  \gantttitle{2024}{12} % Año 2024 completo
+  \gantttitle{2025}{12} % Año 2025 completo
+  \gantttitle{2026}{12} % Año 2026 completo
+  \gantttitle{2027}{6} \\ % Solo el primer semestre de 2027
+
+  % Actividades y sus períodos correspondientes
+  \ganttgroup{Investigación y Desarrollo}{1}{48} \\
+  \ganttbar[progress=50, name=RevBib]{Revisión Bibliográfica}{1}{40} \\
+  \ganttbar[progress=100, name=DisSen]{Diseño de sensores}{5}{12} \\
+  \ganttbar[progress=50, name=IngSoft]{Diseño de Software}{5}{28} \\
+  \ganttbar[progress=40, name=IngHard]{Diseño de Hardware}{5}{28} \\
+  \ganttbar[progress=10, name=DesIA]{Desarrollo de IA}{24}{42} \\
+  \ganttbar[progress=45, name=ImpSof]{Implementación Software}{14}{48} \\
+  \ganttbar[progress=60, name=ArtSH]{Articulación Software Hardware}{14}{24} \\
+  \ganttbar[progress=40, name=PruPre]{Pruebas preliminares}{24}{30} \\
+  \ganttbar[progress=0, name=ValLab]{Validación en Laboratorio}{31}{36} \\
+  \ganttbar[progress=55, name=PruCam]{Pruebas en Campo}{37}{40} \\
+  \ganttbar[progress=35, name=PubCien]{Publicaciones Científicas}{24}{46} \\
+
+  % Relaciones entre actividades
+  \ganttlink{RevBib}{DisSen}
+  \ganttlink{RevBib}{IngSoft}
+  \ganttlink{RevBib}{IngHard}
+  \ganttlink{IngHard}{ImpSof}
+  \ganttlink{IngHard}{ArtSH}
+  \ganttlink{ArtSH}{PruPre}
+  \ganttlink{RevBib}{DesIA}
+  \ganttlink{DesIA}{ArtSH}
+  \ganttlink{PruPre}{ValLab}
+  \ganttlink{ValLab}{PruCam}
+
+\end{ganttchart}
+
+\end{document}
