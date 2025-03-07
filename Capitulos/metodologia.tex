@@ -88,6 +88,12 @@ En esta fase, se desarrollarán e integrarán modelos de aprendizaje automático
     \item Validación de los modelos en entornos simulados y pruebas controladas.
 \end{itemize}
 
+Implementación y Evaluación de Modelos de Aprendizaje Automático
+
+En este estudio, se implementarán y evaluarán diversos modelos de aprendizaje automático para analizar y predecir los parámetros asociados a la AAA en la \textit{Hermetia illucens} (mosca soldado negra). Se emplearán algoritmos como árboles de decisión, Gaussian Naïve Bayes, k-vecinos cercanos (K-NN), regresión logística, máquinas de soporte vectorial (SVM) y redes neuronales artificiales de perceptrón multicapa (MLP). Cada modelo será configurado y entrenado con los datos recopilados para determinar su capacidad de clasificación y predicción en este contexto específico.
+
+Los modelos serán comparados utilizando métricas de evaluación como precisión, sensibilidad, especificidad y área bajo la curva ROC (AUC). Se realizará un proceso de ajuste de hiperparámetros para optimizar el rendimiento de cada algoritmo y se explorarán técnicas de validación cruzada para garantizar la robustez de los resultados. Finalmente, los modelos con mejor desempeño serán seleccionados para su implementación en un sistema de monitoreo inteligente, permitiendo la automatización del análisis de AAA en la mosca soldado negra.
+
 \subsection{Fase III: Implementación y Validación del Sistema de Reporte y MRV}
 En esta última fase, se implementará un sistema digital para la visualización y análisis de los datos recolectados, permitiendo la trazabilidad y el reporte de emisiones de GEI. Se integrará un sistema de Medición, Reporte y Validación (MRV) que facilite la evaluación del impacto del proceso de bioconversión sobre la generación de emisiones. Los resultados obtenidos en esta fase demostrarán la eficacia del sistema propuesto.
 
@@ -116,9 +122,67 @@ Para evaluar la efectividad del sistema, se utilizarán los siguientes criterios
 %\caption{Cronograma de Ejecución del Proyecto}
 %\label{tab:cronograma}
 \begin{landscape}  % TODO lo dentro de este bloque estará en landscape
-    \section{Diagrama de Gantt - Desarrollo de Proyecto (2023-2 a 2027-1)}
+    \section{Diagrama de Gantt - Cronograma de actividades (2023-2 a 2027-1)}
     \includegraphics[scale=0.5]{00Figuras/gant.png} 
 \end{landscape}
+\section[Arquitectura general]{Arquitectura del Sistema de Monitoreo de Gases de Efecto Invernadero y Variables Ambientales}
+
+\subsection{Descripción General}
+
+El sistema de monitoreo propuesto para la medición de gases de efecto invernadero (GEI) y variables ambientales sigue una arquitectura modular basada en IoT, en la cual un dispositivo sensor recolecta datos y los transmite a través del protocolo MQTT hacia un backend que gestiona la información, permitiendo su almacenamiento en una base de datos o su visualización en tiempo real en una plataforma web.
+
+\subsection{Adquisición de Datos}
+
+El dispositivo sensor, desarrollado con tecnología embebida, está compuesto por múltiples sensores capaces de medir concentraciones de CO$_2$, CH$_4$, temperatura, humedad relativa y presión atmosférica. El hardware se encuentra dentro de una carcasa de protección, como se muestra en la Figura~\ref{fig:dispositivo}, con interfaces de comunicación inalámbrica.
+
+\begin{itemize}
+    \item \textbf{Sensores}: Incluyen sensores electroquímicos y NDIR para gases, así como sensores de temperatura y humedad de alta precisión.
+    \item \textbf{Procesamiento local}: La unidad de control preprocesa los datos, aplicando calibraciones y filtros de ruido.
+    \item \textbf{Comunicación}: Los datos son transmitidos a un broker MQTT mediante conectividad WiFi o LoRa.
+\end{itemize}
+En la figura \ref{fig:diagrama_flujo}, se puede apreciar el proceso:
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1.0\textwidth]{00Figuras/DG_FLUJO_GENERAL.png}
+    \caption{Diagrama de flujo general diseñado para la medición de gases efecto invernadero y variables ambientales.}
+    \label{fig:diagrama_flujo}
+\end{figure}
+
+\subsection{Transmisión de Datos}
+
+El protocolo MQTT es utilizado para el envío de datos desde el dispositivo sensor hacia un \textit{broker} central basado en EMQX, el cual gestiona las publicaciones y suscripciones a los tópicos de los sensores. Esta arquitectura permite una comunicación eficiente y en tiempo real.
+
+\begin{itemize}
+    \item \textbf{Publicador}: El dispositivo sensor envía datos periódicamente al broker en tópicos estructurados (\textit{topics}).
+    \item \textbf{Broker}: Se encarga de distribuir los datos a los clientes suscritos (backend y dashboard).
+    \item \textbf{Backend}: Desarrollado en \textbf{Node.js}, recibe los datos y los procesa antes de almacenarlos o visualizarlos.
+\end{itemize}
+
+\subsection{Procesamiento y Almacenamiento}
+
+El backend, desarrollado con Node.js, recibe los datos de los sensores y los somete a procesamiento adicional, incluyendo:
+
+\begin{itemize}
+    \item Conversión de unidades y correcciones en función de la calibración del sensor.
+    \item Aplicación de algoritmos de detección de anomalías y filtros de ruido.
+    \item Almacenamiento condicional en una base de datos PostgreSQL, en caso de que el usuario presione un botón de guardado.
+\end{itemize}
+
+El almacenamiento en PostgreSQL permite la gestión estructurada de los datos históricos, facilitando análisis avanzados y visualización de tendencias.
+
+\subsection{Visualización en Dashboard Web}
+
+Los datos pueden visualizarse en tiempo real a través de una interfaz desarrollada en \textbf{Next.js}, que proporciona un dashboard interactivo donde el usuario puede:
+
+\begin{itemize}
+    \item Ver las mediciones en tiempo real de cada sensor.
+    \item Consultar registros históricos almacenados en la base de datos.
+    \item Configurar alertas y umbrales de seguridad.
+    \item Exportar datos para análisis adicionales.
+\end{itemize}
+
+Este sistema modular basado en IoT permite una integración eficiente entre sensores, backend y visualización web, optimizando la recolección y análisis de datos ambientales en tiempo real. La combinación de MQTT, PostgreSQL y Next.js proporciona una solución escalable y flexible para monitoreo de gases de efecto invernadero en entornos agrícolas e industriales.
+
 
 \section{Consideraciones Éticas y Ambientales}
 Este proyecto se desarrolla bajo principios de sostenibilidad y ética en la experimentación, asegurando que el proceso de bioconversión con \textit{Hermetia illucens} no genere impactos negativos en el ecosistema. Además, se garantiza la trazabilidad y transparencia en la medición de emisiones de GEI mediante el uso de sistemas MRV estandarizados. El diseño modular del sistema permite su escalabilidad, facilitando su implementación en diferentes sectores industriales y productivos, contribuyendo así a una economía circular más eficiente.

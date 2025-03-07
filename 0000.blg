@@ -1,20 +1,20 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is '0000.blg'
-[61] biber:340> INFO - === mar feb 25, 2025, 17:38:05
-[75] Biber.pm:419> INFO - Reading '0000.bcf'
-[159] Biber.pm:979> INFO - Found 50 citekeys in bib section 0
-[180] Biber.pm:4419> INFO - Processing section 0
-[189] Biber.pm:4610> INFO - Looking for bibtex file 'archivos_bib/Referencias.bib' for section 0
-[195] bibtex.pm:1713> INFO - LaTeX decoding ...
-[285] bibtex.pm:1519> INFO - Found BibTeX data source 'archivos_bib/Referencias.bib'
-[811] Biber.pm:4610> INFO - Looking for bibtex file 'Referencias.bib' for section 0
-[871] bibtex.pm:1713> INFO - LaTeX decoding ...
-[919] bibtex.pm:1519> INFO - Found BibTeX data source './referencias.bib'
-[1013] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1014] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1014] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[1118] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1119] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1119] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[1222] bbl.pm:660> INFO - Writing '0000.bbl' with encoding 'UTF-8'
-[1291] bbl.pm:763> INFO - Output to 0000.bbl
+[63] biber:340> INFO - === vie mar  7, 2025, 16:41:09
+[76] Biber.pm:419> INFO - Reading '0000.bcf'
+[151] Biber.pm:979> INFO - Found 50 citekeys in bib section 0
+[174] Biber.pm:4419> INFO - Processing section 0
+[183] Biber.pm:4610> INFO - Looking for bibtex file 'archivos_bib/Referencias.bib' for section 0
+[191] bibtex.pm:1713> INFO - LaTeX decoding ...
+[275] bibtex.pm:1519> INFO - Found BibTeX data source 'archivos_bib/Referencias.bib'
+[799] Biber.pm:4610> INFO - Looking for bibtex file 'Referencias.bib' for section 0
+[856] bibtex.pm:1713> INFO - LaTeX decoding ...
+[903] bibtex.pm:1519> INFO - Found BibTeX data source './referencias.bib'
+[998] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[998] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[998] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[1100] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1100] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1100] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[1196] bbl.pm:660> INFO - Writing '0000.bbl' with encoding 'UTF-8'
+[1253] bbl.pm:763> INFO - Output to 0000.bbl
