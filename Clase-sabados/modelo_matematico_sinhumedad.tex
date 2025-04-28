@@ -1,0 +1,138 @@
+\section{Procesos de Bioconversi\'on Separados}
+
+Para representar de manera m\'as precisa el proceso de bioconversi\'on de residuos org\'anicos por larvas de \textit{Hermetia illucens} (BSFL) y la generaci\'on de CO$_2$, se estructura el modelo en tres etapas diferenciadas: (1) la din\'amica de la biomasa de residuos, (2) el desarrollo de huevos y larvas, y (3) la producci\'on de CO$_2$. Cada etapa considera el efecto de variables ambientales como la temperatura, la humedad y el ox\'igeno. Esta separaci\'on permite analizar de forma m\'as detallada cada fen\'omeno y facilita futuras extensiones y mejoras del modelo.
+
+\subsection{Din\'amica de la Biomasa de Residuos}
+La biomasa de residuos representa el sustrato disponible para la alimentaci\'on de las larvas y para los microorganismos presentes en el sistema. Su evoluci\'on est\'a influenciada por el consumo larval, la degradaci\'on espont\'anea y las condiciones ambientales.
+
+\begin{equation}
+\frac{dB}{dt} = -\mu_L(T_b) \frac{B}{K_B + B} L - k_s B
+\end{equation}
+
+Donde:
+\begin{itemize}
+    \item $B(t)$: Biomasa de residuos disponible en el tiempo $t$ [g].
+    \item $\mu_L(T_b)$: Tasa espec\'ifica de consumo de residuos, dependiente de la temperatura [1/d\'ia].
+    \item $K_B$: Constante de semi-saturaci\'on del consumo de residuos [g].
+    \item $L(t)$: Biomasa total de larvas en el tiempo $t$ [g].
+    \item $k_s$: Tasa de degradaci\'on espont\'anea del residuo por factores abioticos o microbianos [1/d\'ia].
+\end{itemize}
+
+\subsection{Desarrollo de Huevos y Larvas}
+Los huevos depositados evolucionan a larvas, cuyo n\'umero disminuye por mortalidad y cuyo peso promedio aumenta con el tiempo. La biomasa total larval resulta de la combinaci\'on del n\'umero de individuos y su peso promedio.
+
+\begin{equation}
+N(t) = \eta N_0 e^{-\delta t}
+\end{equation}
+
+\subsection{Crecimiento Individual de las Larvas}
+
+El crecimiento del peso promedio de las larvas $\overline{m_L}(t)$ depende simult\'aneamente de dos factores: (1) la disponibilidad de alimento (biomasa de residuos) y (2) el l\'imite fisiol\'ogico m\'aximo de crecimiento individual. Adem\'as, la temperatura modula la velocidad de crecimiento. Para representar esto de forma realista, se propone un modelo combinado, donde el crecimiento es regulado tanto por la cantidad de sustrato disponible como por el peso m\'aximo que puede alcanzar una larva.
+
+El modelo matem\'atico para el crecimiento individual es:
+
+\begin{equation}
+\frac{d\overline{m_L}}{dt} = r_{m}(T_b) \frac{B}{K_s + B} \overline{m_L} \left( 1 - \frac{\overline{m_L}}{\overline{m_{L,\text{max}}}} \right)
+\end{equation}
+
+donde:
+
+\begin{itemize}
+    \item $\overline{m_L}(t)$: Peso promedio de una larva en el tiempo $t$ [g/larva].
+    \item $r_m(T)$: Tasa de crecimiento individual dependiente de la temperatura [1/d\'ia], modelada por una relaci\'on de Arrhenius.
+    \item $B(t)$: Biomasa de residuos disponible en el tiempo $t$ [g].
+    \item $K_s$: Constante de semi-saturaci\'on del consumo de residuos [g].
+    \item $\overline{m_{L,\text{max}}}$: Peso m\'aximo fisiol\'ogico que puede alcanzar una larva [g].
+\end{itemize}
+
+La tasa $r_m(T)$ depende de la temperatura seg\'un:
+
+\begin{equation}
+r_m(T) = r_{m,0} e^{-\frac{E_m}{RT}}
+\end{equation}
+
+donde:
+
+\begin{itemize}
+    \item $r_{m,0}$: Tasa de crecimiento individual a temperatura de referencia [1/d\'ia].
+    \item $E_m$: Energ\'ia de activaci\'on del proceso de crecimiento [J/mol].
+    \item $R$: Constante universal de los gases ($8.314\, J/(mol\cdot K)$).
+    \item $T$: Temperatura absoluta del sistema [K].
+\end{itemize}
+
+\begin{equation}
+L(t) = N(t) \times \overline{m_L}(t)
+\end{equation}
+
+Donde:
+\begin{itemize}
+    \item $N(t)$: N\'umero de larvas vivas en el tiempo $t$.
+    \item $\overline{m_L}(t)$: Peso promedio de una larva en el tiempo $t$ [g/larva].
+    \item $L(t)$: Biomasa total de larvas en el tiempo $t$ [g].
+\end{itemize}
+
+\subsection{Producci\'on de CO$_2$}
+La producci\'on de CO$_2$ proviene tanto de la respiraci\'on larval como de la actividad de los microorganismos, y est\'a modulada por la temperatura, la humedad y la disponibilidad de ox\'igeno.
+
+\begin{equation}
+\frac{dC}{dt} = Y_{C/B} \mu_L(T_b) \frac{B}{K_B + B} L \frac{H_b}{K_H + H_b} + k_M B \frac{O_2}{K_O + O_2} + Y_{C/N} N(t)
+\end{equation}
+
+Donde:
+\begin{itemize}
+    \item $C(t)$: Cantidad acumulada de CO$_2$ producido en el tiempo $t$ [g].
+    \item $Y_{C/B}$: Rendimiento de producci\'on de CO$_2$ por unidad de residuo consumido [g CO$_2$/g residuo].
+    \item $Y_{C/N}$: Producci\'on de CO$_2$ por larva [g CO$_2$/larva/d\'ia].
+    \item $H(t)$: Humedad relativa de la biomasa de residuos en el tiempo $t$ [\%].
+    \item $K_H$: Constante de semi-saturaci\'on para la humedad [\%].
+    \item $k_M$: Tasa de producci\'on de CO$_2$ por actividad microbiana [g CO$_2$/g residuo/d\'ia].
+    \item $O_2(t)$: Concentraci\'on de ox\'igeno disponible en el sistema en el tiempo $t$ [\%].
+    \item $K_O$: Constante de semi-saturaci\'on para ox\'igeno [\%].
+\end{itemize}
+
+\subsection{Din\'amica de la Humedad y Temperatura de la Biomasa}
+La humedad y temperatura de la biomasa influyen directamente en el metabolismo de las larvas y la actividad microbiana. Para su modelado se consideran las siguientes ecuaciones:
+
+\textbf{Humedad de la biomasa:}
+\begin{equation}
+\frac{dH_b}{dt} = -\lambda_H (H_b - H_a) - E_H H_b
+\end{equation}
+
+Donde:
+\begin{itemize}
+    \item $H_b(t)$: Humedad relativa de la biomasa en el tiempo $t$ [\%].
+    \item $H_a$: Humedad relativa ambiente [\%] (considerada constante).
+    \item $\lambda_H$: Coeficiente de transferencia de humedad entre biomasa y ambiente [1/d\'ia].
+    \item $E_H$: Tasa de evaporaci\'on espec\'ifica de la biomasa [1/d\'ia].
+\end{itemize}
+
+\textbf{Temperatura de la biomasa:}
+\begin{equation}
+\frac{dT_b}{dt} = -\lambda_T (T_b - T_a) + \phi_L L
+\end{equation}
+
+Donde:
+\begin{itemize}
+    \item $T_b(t)$: Temperatura de la biomasa en el tiempo $t$ [$^0$C].
+    \item $T_a$: Temperatura del ambiente [$^0$C] (considerada constante).
+    \item $\lambda_T$: Coeficiente de transferencia de calor entre biomasa y ambiente [1/d\'ia].
+    \item $\phi_L$: Tasa de generaci\'on de calor metab\'olico por unidad de biomasa larval [ $^0$C/(g d\'ia)].
+\end{itemize}
+
+
+\subsection{Propuesta de Balance de Masa en el Sistema}
+
+Aunque el modelo actual describe de manera separada el consumo de biomasa de residuos, el crecimiento individual de las larvas y la producción de CO$_2$, no se ha formulado explícitamente un balance de masa que conecte estos procesos de forma integrada. En el planteamiento actual, el consumo de biomasa se modela como una función de la biomasa total de larvas y la disponibilidad de sustrato, mientras que el crecimiento individual de cada larva depende de la cantidad de residuos disponibles y de sus limitaciones fisiológicas. Sin embargo, aunque ambos procesos están conectados indirectamente a través del sustrato, la ausencia de un balance explícito implica que el modelo describe adecuadamente las tendencias generales, pero no garantiza la conservación exacta de la masa en el sistema. En un entorno biológico cerrado, la biomasa consumida debe transformarse en productos observables, principalmente en biomasa larval y emisiones gaseosas. Para fortalecer el rigor y la coherencia del modelo entre consumo, crecimiento y producción de gases, se propone integrar un balance explícito, en el cual la biomasa de residuos consumida se distribuya de manera proporcional entre la biomasa larval, las emisiones de CO$_2$ y otras posibles pérdidas. Este balance general puede expresarse de forma simplificada como:
+
+\begin{equation}
+-\frac{dB}{dt} = Y_{X/S} \frac{dL}{dt} + Y_{C/S} \frac{dC}{dt}
+\end{equation}
+
+donde:
+
+\begin{itemize}
+    \item $Y_{X/S}$: Rendimiento de biomasa larval respecto a biomasa de residuos consumida [g larva/g residuo].
+    \item $Y_{C/S}$: Rendimiento de CO$_2$ respecto a biomasa de residuos consumida [g CO$_2$/g residuo].
+\end{itemize}
+
+Este balance asegura que todo el residuo consumido se redistribuye entre el crecimiento de las larvas y la producción de CO$_2$, permitiendo una descripción más completa y consistente del sistema biológico bajo estudio.

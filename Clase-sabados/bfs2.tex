@@ -1,0 +1,42 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{listings}
+\usepackage{xcolor} % Para colores personalizados
+\lstset{
+    language=Python,                % Lenguaje del código
+    basicstyle=\ttfamily\small,    % Estilo de fuente
+    backgroundcolor=\color{gray!10}, % Fondo claro
+    frame=single,                  % Borde alrededor del código
+    numbers=left,                  % Números de línea
+    numberstyle=\tiny,             % Estilo de los números
+    keywordstyle=\color{blue},     % Color de las palabras clave
+    stringstyle=\color{red},       % Color de las cadenas
+    commentstyle=\color{green},    % Color de los comentarios
+    breaklines=true,               % Salto de línea automático
+    tabsize=4                      % Tamaño de la tabulación
+}
+% Paquete para manejar bibliografía
+\usepackage[style=apa, backend=biber]{biblatex} % Opcionalmente, puedes usar 'style=authoryear' para estilo autor-año
+\addbibresource{referencias.bib} % Nombre de tu archivo .bib
+
+
+\title{Modelado de Emisiones de GEI en Sistemas de Bioconversión con Hermetia illucens : Integración de IoT y Aprendizaje Automático}
+\author{John Leal}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\input{introduccion}
+\input{modelo_matematico2}
+%\section{Referencias}
+\printbibliography
+
+\end{document}

@@ -1,0 +1,94 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb, graphicx, natbib}
+
+\begin{document}
+
+\title{Modelo Matemático para la Predicción de la Generación de CO$_2$ en la Bioconversión de Residuos por Larvas de Mosca Soldado Negra}
+\author{}
+\date{\today}
+\maketitle
+
+\section{Introducción}
+El proceso de bioconversión de residuos orgánicos mediante larvas de la mosca soldado negra (\textit{Hermetia illucens}, BSFL) genera CO$_2$ como subproducto de la respiración larvaria, la actividad microbiana y la biodegradación aeróbica y anaeróbica de la materia orgánica. Este modelo matemático permite predecir la cantidad de CO$_2$ generada en función de la cantidad inicial de huevos depositados sobre un sustrato, considerando la dinámica de crecimiento larvario y las interacciones ambientales, especialmente la humedad y la temperatura.
+
+\section{Variables y Parámetros del Modelo}
+\subsection{Variables dependientes del tiempo $t$}
+\begin{itemize}
+    \item $N(t)$: Número de larvas en el sistema.
+    \item $X(t)$ [g]: Biomasa larval.
+    \item $S(t)$ [g]: Biomasa de residuos disponibles.
+    \item $C(t)$ [g]: Cantidad acumulada de CO$_2$ producido.
+    \item $H_s(t)$ [\%]: Humedad de la biomasa.
+    \item $H_a(t)$ [\%]: Humedad del ambiente.
+    \item $O_2(t)$ [\%]: Concentración de oxígeno en el sistema.
+\end{itemize}
+
+\subsection{Parámetros constantes}
+\begin{itemize}
+    \item $\mu_{\max}$ [1/día]: Tasa máxima de crecimiento larval.
+    \item $K_s$ [g]: Constante de semi-saturación del sustrato (Monod).
+    \item $Y_{X/S}$ [g larva/g residuo]: Rendimiento de conversión de sustrato en biomasa larvaria.
+    \item $Y_{C/S}$ [g CO$_2$/g residuo]: Rendimiento de CO$_2$ por unidad de residuo consumido.
+    \item $\lambda_H$ [1/día]: Coeficiente de transferencia de humedad entre la biomasa y el ambiente.
+    \item $k_O$ [1/día]: Tasa de consumo de oxígeno por unidad de biomasa larvaria.
+    \item $E_H$ [1/día]: Tasa de evaporación de humedad desde la biomasa.
+\end{itemize}
+
+\section{Ecuaciones del Modelo}
+\subsection{Dinámica de Población Larval}
+\begin{equation}
+    N(t) = \eta N_0 e^{-\delta t}
+\end{equation}
+
+donde $\eta$ es la tasa de eclosión y $\delta$ es la tasa de mortalidad larval.
+
+\subsection{Crecimiento Larvario}
+\begin{equation}
+    \frac{dX}{dt} = Y_{X/S} \frac{\mu_{\max} S}{K_s + S} X \left( 1 - \frac{X}{X_{\max}} \right) - \delta X
+\end{equation}
+
+donde $X_{\max}$ es la biomasa larvaria máxima sostenible.
+
+\subsection{Consumo de Residuos}
+\begin{equation}
+    \frac{dS}{dt} = -\frac{\mu_{\max} S}{K_s + S} X - k_s S
+\end{equation}
+
+donde $k_s$ representa la degradación espontánea del sustrato no consumido.
+
+\subsection{Producción de CO$_2$}
+\begin{equation}
+    \frac{dC}{dt} = Y_{C/S} \frac{\mu_{\max} S}{K_s + S} X + k_M S \frac{O_2}{K_O + O_2}
+\end{equation}
+
+donde $k_M$ es la tasa de producción de CO$_2$ por metabolismo microbiano y $K_O$ es la constante de semi-saturación de oxígeno.
+
+\subsection{Dinámica de Humedad y Oxígeno}
+\begin{equation}
+    \frac{dH_s}{dt} = -\lambda_H (H_s - H_a) - E_H H_s
+\end{equation}
+
+\begin{equation}
+    \frac{dH_a}{dt} = \lambda_H (H_s - H_a)
+\end{equation}
+
+\begin{equation}
+    \frac{dO_2}{dt} = -k_O X - k_M S \frac{O_2}{K_O + O_2}
+\end{equation}
+
+donde el oxígeno es consumido tanto por las larvas como por los microorganismos presentes en la biodegradación aeróbica.
+
+\section{Interpretación del Modelo y Aplicaciones}
+Este modelo matemático permite:
+\begin{itemize}
+    \item Predecir la producción de CO$_2$ en función de la cantidad inicial de huevos y la biomasa de sustrato.
+    \item Analizar la influencia de la humedad en la eficiencia del proceso.
+    \item Optimizar el diseño de biorreactores y sistemas de cultivo, ajustando condiciones ambientales para maximizar la conversión de residuos y minimizar la emisión de gases de efecto invernadero.
+\end{itemize}
+
+La implementación de este modelo en sistemas de monitoreo IoT permitirá obtener datos en tiempo real y ajustar parámetros ambientales automáticamente, favoreciendo un enfoque de economía circular y mitigación del cambio climático.
+
+\bibliographystyle{apalike}
+\bibliography{referencias}
+
+\end{document}

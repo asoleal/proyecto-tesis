@@ -1,0 +1,319 @@
+\section{Procesos de Bioconversión Separados}
+
+La bioconversión de residuos orgánicos mediante larvas de la mosca soldado negra (\textit{Hermetia illucens}, BSFL) representa una solución innovadora y sostenible para el manejo de desechos y la producción de biomasa rica en proteínas y grasas. Este proceso biológico depende de múltiples factores ambientales, entre los cuales el oxígeno juega un papel crucial debido a su influencia en las tasas metabólicas de las larvas, la actividad microbiana asociada y la dinámica global del sistema. Además, la competencia por recursos limitados, como nutrientes y oxígeno, entre las larvas y los microorganismos introduce una capa adicional de complejidad que afecta significativamente la eficiencia del proceso.
+
+Para representar de manera más precisa este complejo proceso, se estructura el modelo en cuatro etapas diferenciadas: (1) la dinámica de la biomasa de residuos, (2) el desarrollo de huevos y larvas, (3) la dinámica microbiana, y (4) la producción de gases ($CO_2$ y $CH_4$). Cada etapa considera el efecto de variables ambientales como la temperatura, la humedad y, especialmente, la disponibilidad de oxígeno, así como la interacción competitiva entre las poblaciones de larvas y microorganismos. Esta estructura modular permite analizar con mayor detalle cada fenómeno involucrado y facilita futuras extensiones y mejoras del modelo, asegurando una descripción más realista del sistema.
+
+\subsection{Balance de Masa en el Sistema}
+
+Para garantizar la coherencia del modelo y respetar el principio de conservación de la masa en el sistema de bioconversión, se plantea explícitamente un balance de masa que conecte el consumo de biomasa de residuos, el crecimiento de la biomasa larval, la actividad microbiana, la generación de gases ($CO_2$ y $CH_4$), la variación de oxígeno disponible y los efectos de la competencia por recursos entre larvas y microorganismos. Este balance puede formularse como:
+
+\begin{equation}
+-\dot{B} = Y_{X/S} \dot{L} + Y_{C/S} \dot{C} + Y_{M/S} \dot{M} + Y_{Mb/S} \dot{M_b} + Y_{O/S} \dot{O} + Y_{Comp/S} \dot{Comp}
+\end{equation}
+
+donde:
+
+- $B(t)$: Biomasa de residuos disponibles en el tiempo $t$ [g].
+
+- $\dot{B}$: Tasa de cambio de la biomasa de residuos con respecto al tiempo [g/día].
+
+- $Y_{X/S}$: Rendimiento de biomasa larval respecto a la biomasa de residuos consumida [g larva/g residuo].
+
+- $\dot{L}$: Tasa de cambio de la biomasa larval con respecto al tiempo [g/día].
+
+- $Y_{C/S}$: Rendimiento de $CO_2$ respecto a la biomasa de residuos consumida [g $CO_2$/g residuo].
+
+- $\dot{C}$: Tasa de producción de $CO_2$ con respecto al tiempo [g/día].
+
+- $Y_{M/S}$: Rendimiento de $CH_4$ respecto a la biomasa de residuos consumida [g $CH_4$/g residuo].
+
+- $\dot{M}$: Tasa de producción de $CH_4$ con respecto al tiempo [g/día].
+
+- $Y_{Mb/S}$: Rendimiento de biomasa microbiana respecto a la biomasa de residuos consumida [g microorganismos/g residuo].
+
+- $\dot{M_b}$: Tasa de cambio de la biomasa microbiana con respecto al tiempo [g/día].
+
+- $Y_{O/S}$: Rendimiento de consumo de oxígeno respecto a la biomasa de residuos consumida [g $O_2$/g residuo].
+
+- $\dot{O}$: Tasa de consumo de oxígeno con respecto al tiempo [g/día].
+
+- $Y_{Comp/S}$: Rendimiento asociado a la competencia por recursos entre larvas y microorganismos [g competencia/g residuo].
+
+- $\dot{Comp}$: Tasa de cambio asociada a la competencia por recursos [g/día].
+
+\vspace{1cm}
+
+Esta formulación asegura que la evolución de la biomasa de residuos esté directamente acoplada a los procesos de crecimiento larval, actividad microbiana, producción de gases ($CO_2$ y $CH_4$), la dinámica del oxígeno y los efectos de la competencia por recursos en el sistema. La inclusión del término relacionado con la competencia permite capturar interacciones más realistas entre las poblaciones de larvas y microorganismos, lo que afecta significativamente la eficiencia del proceso de bioconversión.
+
+\subsection{Dinámica de la Humedad y Temperatura de la Biomasa}
+
+La humedad y temperatura de la biomasa influyen directamente en el metabolismo de las larvas y la actividad microbiana. Además, estas variables también afectan la competencia por recursos entre las larvas y los microorganismos, lo que a su vez puede alterar la eficiencia del proceso de bioconversión. Para su modelado se consideran las siguientes ecuaciones:
+
+\vspace{1cm}
+\textbf{Humedad de la biomasa:}
+\begin{equation}
+\dot{H_b} = -\lambda_H (H_b - H_a) - E_H H_b
+\end{equation}
+
+Donde:
+
+- $H_b(t)$: Humedad relativa de la biomasa en el tiempo $t$ [\%].
+
+- $\dot{H_b}$: Tasa de cambio de la humedad relativa de la biomasa [\%/día].
+
+- $H_a$: Humedad relativa ambiente [\%] (considerada constante).
+
+- $\lambda_H$: Coeficiente de transferencia de humedad entre biomasa y ambiente [1/día].
+
+- $E_H$: Tasa de evaporación específica de la biomasa [1/día].
+
+\vspace{1cm}
+\textbf{Temperatura de la biomasa:}
+\begin{equation}
+\dot{T_b} = -\lambda_T (T_b - T_a) + \phi_L L + \phi_{Mb} M_b
+\end{equation}
+
+Donde:
+
+- $T_b(t)$: Temperatura de la biomasa en el tiempo $t$ [$^{\circ}C$].
+
+- $\dot{T_b}$: Tasa de cambio de la temperatura de la biomasa [$^{\circ}C$/día].
+
+- $T_a$: Temperatura del ambiente [$^{\circ}C$] (considerada constante).
+
+- $\lambda_T$: Coeficiente de transferencia de calor entre biomasa y ambiente [1/día].
+
+- $\phi_L$: Tasa de generacion de calor metabolico por unidad de biomasa larval [$^{\circ}C/(g \, dia)$].
+
+- $\phi_{Mb}$: Tasa de generacion de calor metabolico por unidad de biomasa microbiana [$^{\circ}C/(g \, dia)$].
+
+- $M_b(t)$: Biomasa microbiana en el tiempo $t$ [g].
+
+\vspace{1cm}
+Estas ecuaciones permiten capturar la dinámica de la humedad y temperatura en el sistema de bioconversión, considerando tanto las interacciones con el ambiente externo como los efectos internos derivados del metabolismo larval y microbiano. Además, al incluir la influencia de estos factores en la competencia por recursos, se mejora la capacidad del modelo para predecir el comportamiento del sistema bajo diferentes condiciones ambientales y operativas.
+
+\subsection{Desarrollo Poblacional y Crecimiento Individual de las Larvas}
+
+El desarrollo de la biomasa larval en el sistema resulta de dos procesos acoplados: (1) la evolucion del numero de larvas vivas en el tiempo y (2) el crecimiento individual de cada larva en peso. Ambos procesos dependen de las condiciones ambientales, la disponibilidad de sustrato y la competencia por recursos con los microorganismos.
+
+\vspace{1cm}
+\textbf{Numero de larvas vivas:} El numero de larvas vivas $N(t)$ se modela considerando la tasa de eclosion de huevos, la mortalidad larval y la competencia por recursos:
+
+\begin{equation}
+N(t) = \eta N_0 e^{-\delta t} \cdot \frac{1}{1 + \alpha_M \frac{M_b}{B}}
+\end{equation}
+
+donde:
+
+- $N(t)$: Numero de larvas vivas en el tiempo $t$ [individuos].
+
+- $N_0$: Numero inicial de huevos depositados.
+
+- $\eta$: Tasa de eclosion de huevos (fraccion).
+
+- $\delta$: Tasa de mortalidad larval [1/dia].
+
+- $\alpha_M$: Coeficiente de competencia que representa la influencia de la biomasa microbiana ($M_b$) sobre el acceso de las larvas al sustrato.
+
+- $M_b(t)$: Biomasa microbiana en el tiempo $t$ [g].
+
+- $B(t)$: Biomasa de residuos disponible en el tiempo $t$ [g].
+
+\vspace{1cm}
+\textbf{Crecimiento individual de las larvas:} El crecimiento del peso promedio de las larvas $\overline{m_L}(t)$ esta regulado simultaneamente por la disponibilidad de alimento (biomasa de residuos), un limite fisiologico de crecimiento y la competencia por recursos:
+
+\begin{equation}
+\dot{\overline{m_L}} = r_{m}(T_b) \frac{B}{K_s + B} \overline{m_L} \left( 1 - \frac{\overline{m_L}}{\overline{m_{L,max}}} \right) \cdot \frac{1}{1 + \alpha_M \frac{M_b}{B}}
+\end{equation}
+
+donde:
+
+- $\overline{m_L}(t)$: Peso promedio de una larva en el tiempo $t$ [g/larva].
+
+- $\dot{\overline{m_L}}$: Tasa de cambio del peso promedio de una larva [g/dia].
+
+- $r_m(T_b)$: Tasa de crecimiento individual dependiente de la temperatura de la biomasa [1/dia].
+
+- $B(t)$: Biomasa de residuos disponible en el tiempo $t$ [g].
+
+- $K_s$: Constante de semi-saturacion del consumo de residuos [g].
+
+- $\overline{m_{L,max}}$: Peso maximo fisiologico alcanzable por una larva [g].
+
+- $\alpha_M$: Coeficiente de competencia que representa la influencia de la biomasa microbiana ($M_b$) sobre el acceso de las larvas al sustrato.
+
+\vspace{1cm}
+La tasa de crecimiento individual $r_m(T_b)$ depende de la temperatura de la biomasa de acuerdo a una relacion de Arrhenius:
+
+\begin{equation}
+r_m(T_b) = r_{m,0} e^{-\frac{E_m}{R T_b}}
+\end{equation}
+
+donde:
+
+- $r_{m,0}$: Tasa de crecimiento individual a temperatura de referencia [1/dia].
+
+- $E_m$: Energia de activacion del proceso de crecimiento [J/mol].
+
+- $R$: Constante universal de los gases ($8.314\, J/(mol \cdot K)$).
+
+- $T_b$: Temperatura de la biomasa [K].
+
+
+\vspace{1cm}
+\textbf{Biomasa total de larvas:} Finalmente, la biomasa total de larvas $L(t)$ se calcula como el producto entre el numero de larvas vivas y su peso promedio:
+
+\begin{equation}
+L(t) = N(t) \times \overline{m_L}(t)
+\end{equation}
+
+\vspace{1cm}
+Este modelo permite describir de manera detallada el desarrollo poblacional y el crecimiento individual de las larvas, considerando tanto factores biologicos como ambientales, asi como la competencia por recursos con los microorganismos. La integracion de estos procesos es fundamental para predecir el rendimiento del sistema de bioconversion bajo diferentes condiciones operativas.
+
+\subsection{Dinámica Microbiana}
+
+La actividad microbiana juega un papel crucial en la descomposicion inicial de los residuos y en la competencia por recursos con las larvas. La dinamica microbiana se modela mediante la siguiente ecuacion diferencial, que incluye terminos para capturar la competencia directa entre microorganismos y larvas:
+
+\vspace{1cm}
+\begin{equation}
+\dot{M_b} = \mu_{Mb}(T_b) \frac{B}{K_B + B} M_b \cdot \frac{1}{1 + \alpha_L \frac{L}{B}} - \delta_{Mb} M_b - \beta_{LM} L M_b
+\end{equation}
+
+Donde:
+
+- $M_b(t)$: Biomasa microbiana en el tiempo $t$ [g].
+
+- $\dot{M_b}$: Tasa de cambio de la biomasa microbiana [g/dia].
+
+- $\mu_{Mb}(T_b)$: Tasa de crecimiento microbiano dependiente de la temperatura [1/dia].
+
+- $B(t)$: Biomasa de residuos disponible en el tiempo $t$ [g].
+
+- $K_B$: Constante de semi-saturacion para el consumo de residuos por microorganismos [g].
+
+- $\delta_{Mb}$: Tasa de mortalidad microbiana [1/dia].
+
+- $\alpha_L$: Coeficiente de competencia que representa la influencia de la biomasa larval ($L$) sobre el acceso de los microorganismos al
+sustrato.
+
+- $\beta_{LM}$: Coeficiente de interaccion que representa la inhibicion directa de los microorganismos por las larvas (por ejemplo, debido a la prediccion o alteracion del habitat microbiano).
+
+- $L(t)$: Biomasa larval en el tiempo $t$ [g].
+
+\vspace{1cm}
+La tasa de crecimiento microbiano $\mu_{Mb}(T_b)$ depende de la temperatura segun una relacion de Arrhenius:
+
+\begin{equation}
+\mu_{Mb}(T_b) = \mu_{Mb,0} e^{-\frac{E_{Mb}}{R T_b}}
+\end{equation}
+
+Donde:
+
+- $\mu_{Mb,0}$: Tasa maxima de crecimiento microbiano a temperatura de referencia [1/dia].
+
+- $E_{Mb}$: Energia de activacion para el crecimiento microbiano [J/mol].
+
+- $R$: Constante universal de los gases ($8.314\, J/(mol \cdot K)$).
+
+- $T_b$: Temperatura de la biomasa [K].
+
+
+\vspace{1cm}
+Este modelo captura la interaccion entre la disponibilidad de sustrato, las condiciones ambientales, la competencia por recursos con las larvas y la dinamica poblacional de los microorganismos. La inclusion de terminos de competencia permite evaluar de manera mas precisa el impacto de las interacciones biologicas en el sistema de bioconversion.
+
+\subsection{Produccion de Gases ($CO_2$ y $CH_4$)}
+
+La produccion de gases proviene tanto de la respiracion larval como de la actividad microbiana, y esta modulada por la temperatura, la humedad, la disponibilidad de oxigeno y la competencia por recursos entre larvas y microorganismos.
+
+\vspace{1cm}
+\subsubsection{Produccion de $CO_2$}
+
+La produccion de $CO_2$ puede modelarse como:
+
+\begin{equation}
+\dot{C} = Y_{C/B} \mu_L(T_b) \frac{B}{K_B + B} L \frac{H_b}{K_H + H_b} \cdot \frac{1}{1 + \alpha_M \frac{M_b}{B}} + k_M \mu_{Mb}(T_b) \frac{B}{K_B + B} M_b \frac{O_2}{K_O + O_2} \cdot \frac{1}{1 + \alpha_L \frac{L}{B}}
+\end{equation}
+
+Donde:
+
+- $C(t)$: Cantidad acumulada de $CO_2$ producido en el tiempo $t$ [g].
+
+- $\dot{C}$: Tasa de produccion de $CO_2$ con respecto al tiempo [g/dia].
+
+- $Y_{C/B}$: Rendimiento de produccion de $CO_2$ por unidad de residuo consumido [g $CO_2$/g residuo].
+
+- $\mu_L(T_b)$: Tasa de actividad metabolica larval dependiente de la temperatura [1/dia].
+
+- $B(t)$: Biomasa de residuos disponible en el tiempo $t$ [g].
+
+- $K_B$: Constante de semi-saturacion para el consumo de residuos [g].
+
+- $L(t)$: Biomasa larval en el tiempo $t$ [g].
+
+- $H_b(t)$: Humedad relativa de la biomasa en el tiempo $t$ [\%].
+
+- $K_H$: Constante de semi-saturacion para humedad [\%].
+
+- $\alpha_M$: Coeficiente de competencia que representa la influencia de la biomasa microbiana ($M_b$) sobre el acceso de las larvas al sustrato.
+
+- $k_M$: Tasa de produccion de $CO_2$ por actividad microbiana [g $CO_2$/g residuo/dia].
+
+- $M_b(t)$: Biomasa microbiana en el tiempo $t$ [g].
+
+- $O_2(t)$: Concentracion de oxigeno disponible en el sistema en el tiempo $t$ [\%].
+
+- $K_O$: Constante de semi-saturacion para oxigeno [\%].
+
+- $\alpha_L$: Coeficiente de competencia que representa la influencia de la biomasa larval ($L$) sobre el acceso de los microorganismos al sustrato.
+
+\vspace{1cm}
+Esta formulacion refleja cómo la produccion de $CO_2$ esta influenciada por la actividad metabolica tanto de las larvas como de los microorganismos, considerando la disponibilidad de oxigeno, la humedad del sistema y la competencia por recursos.
+
+\subsubsection{Produccion de $CH_4$}
+
+La produccion de $CH_4$ esta asociada principalmente con la actividad microbiana anaerobica, que ocurre en zonas del sistema donde la concentracion de oxigeno es baja o nula. La ecuacion para la produccion de $CH_4$ puede formularse como:
+
+\begin{equation}
+\dot{M} = k_M'(T_b) \frac{B}{K_B + B} M_b \frac{1}{K_O + O_2} \frac{H_b}{K_H + H_b} \cdot \frac{1}{1 + \alpha_L \frac{L}{B}}
+\end{equation}
+
+Donde:
+
+- $M(t)$: Cantidad acumulada de $CH_4$ producido en el tiempo $t$ [g].
+
+- $\dot{M}$: Tasa de produccion de $CH_4$ con respecto al tiempo [g/dia].
+
+- $k_M'(T_b)$: Tasa maxima de produccion de $CH_4$ por actividad microbiana anaerobica [g $CH_4$/g residuo/dia].
+
+- $B(t)$: Biomasa de residuos disponible en el tiempo $t$ [g].
+
+- $O_2(t)$: Concentracion de oxigeno en el sistema [\%].
+
+- $H_b(t)$: Humedad relativa de la biomasa [\%].
+
+- $K_O$: Constante de semi-saturacion para oxigeno [\%].
+
+- $K_H$: Constante de semi-saturacion para humedad [\%].
+
+- $\alpha_L$: Coeficiente de competencia que representa la influencia de la biomasa larval ($L$) sobre el acceso de los microorganismos al sustrato.
+
+\vspace{1cm}
+La tasa de produccion de $CH_4$ tambien depende de la temperatura, siguiendo una relacion similar a la de Arrhenius:
+
+\begin{equation}
+k_M'(T_b) = k_{M,0}' e^{-\frac{E_M}{R T_b}}
+\end{equation}
+
+Donde:
+
+- $k_{M,0}'$: Tasa maxima de produccion de $CH_4$ a temperatura de referencia [g $CH_4$/g residuo/dia].
+
+- $E_M$: Energia de activacion para la produccion de $CH_4$ [J/mol].
+
+- $R$: Constante universal de los gases ($8.314\, J/(mol \cdot K)$).
+
+- $T_b$: Temperatura de la biomasa [K].
+
+\vspace{1cm}
+Este modelo integra la influencia de factores ambientales como la temperatura, la humedad, la disponibilidad de oxigeno y la competencia por recursos en la produccion de gases, proporcionando una descripcion detallada de los procesos biologicos y quimicos involucrados en la bioconversion.
