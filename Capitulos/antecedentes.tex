@@ -2,7 +2,89 @@
 
 A continuación, se presentan los principales antecedentes relacionados con el estudio de esta propuesta doctoral, enfocados en la problemática de gestión de residuos, el potencial de soluciones biotecnológicas y el papel de tecnologías emergentes para mitigar el impacto ambiental.
 
-\input{Secciones/Problemática_global.tex}
-\input{Secciones/la_mosca_soldado_negra.tex}
-\input{Secciones/Avances_en_IoT_e_IA_para_la_gestión_sostenible_de_residuos.tex}
-\input{Secciones/brechas_y_oportunidades.tex}
+\section{Problemática global en el manejo de residuos y la generación de emisiones de GEI}
+
+La gestión de residuos representa uno de los principales desafíos globales con implicaciones directas en el cambio climático y la sostenibilidad ambiental. Una amplia variedad de sectores productivos e industriales genera grandes volúmenes de residuos orgánicos e inorgánicos, siendo estos una fuente significativa de emisiones de gases de efecto invernadero (GEI). Por ejemplo, en el sector agrícola, los desechos orgánicos producidos durante las actividades productivas liberan metano ($CH_4$) debido a su descomposición anaeróbica \parencite{FAO2021}. Otros sectores, como la industria manufacturera, el comercio y los servicios urbanos, también contribuyen considerablemente a la generación de residuos y emisiones contaminantes. Según el Quinto Informe de Evaluación del \textcite{IPCC2014}, actividades relacionadas con diversos sectores productivos son responsables de aproximadamente el $24\%$ de las emisiones globales de GEI, agravadas por prácticas como la quema de residuos y el uso intensivo de productos químicos. Estas actividades no solo incrementan las emisiones de GEI, sino que también causan problemas como la contaminación del suelo, el aire y el agua, afectando negativamente la biodiversidad y la salud humana. En respuesta a esta problemática, se requieren soluciones innovadoras y sostenibles que permitan una gestión eficiente de residuos en múltiples sectores, reduciendo así sus impactos ambientales globales \parencite{ahmedAgricultureClimateChange2020}.
+
+\section{Estudios Previos sobre la Gestión de Residuos con \textit{Hermetia illucens}}
+
+En los últimos años, numerosos estudios han explorado el potencial de \textit{Hermetia illucens} para la gestión de residuos orgánicos. Por ejemplo, \textcite{salamEffectDifferentEnvironmental2022} evaluaron el impacto de variables ambientales en la eficiencia de bioconversión, destacando la importancia de mantener temperaturas entre $25-30\ ^{\circ}\mathrm{C}$ y niveles de humedad superiores al $60\%$. 
+
+Otros estudios han investigado las aplicaciones de la biomasa larvaria como fuente de proteínas para alimentos animales y humanos, así como su uso en la producción de bioplásticos y biocombustibles \parencite{koyunogluBiofuelProductionUtilizing2024,suryatiLauricAcidBlack2023}.
+
+Sin embargo, la mayoría de estos estudios se han centrado en aspectos específicos del proceso, como la optimización de variables ambientales o la caracterización de subproductos, sin abordar de manera integral la integración de tecnologías emergentes como IoT y AAA. Esta limitación resalta la necesidad de investigaciones que combinen enfoques biotecnológicos y tecnológicos para maximizar la eficiencia y sostenibilidad del proceso.
+
+\section{Mediciones de Gases de Efecto Invernadero en el Proceso de la Mosca Soldado Negra}
+
+La medición de gases de efecto invernadero (GEI) es esencial para evaluar la sostenibilidad de la bioconversión mediante \textit{Hermetia illucens}. Estudios recientes han utilizado técnicas como cromatografía de gases y sensores electroquímicos para cuantificar las emisiones de $CO_2$, $CH_4$ y $N_2O$ durante el proceso de bioconversión \parencite{galan-diazCarbonWaterFootprint2024}.
+
+Por ejemplo, \textcite{jenkinsProcessingPoultryManure2025} demostraron que la implementación de sistemas basados en BSF reduce significativamente las emisiones de $N_2O$ y $CO_2$ en comparación con métodos tradicionales como el compostaje. Sin embargo, la precisión de estas mediciones depende de factores como la calibración de los sensores y la representatividad de las muestras, lo que resalta la necesidad de desarrollar metodologías más robustas y estandarizadas.
+
+Además, la falta de estudios a gran escala dificulta la extrapolación de resultados a sistemas industriales, lo que representa una brecha crítica en la literatura actual.
+
+\section{La Mosca Soldado Negra (\textit{Hermetia illucens}) como solución biotecnológica}
+
+La Hermetia illucens, o Mosca Soldado Negra (BSF, por sus siglas en inglés), se ha consolidado como una alternativa biotecnológica prometedora para la gestión de residuos orgánicos debido a su alta eficiencia en la biodegradación y conversión de materia orgánica en biomasa rica en proteínas y lípidos \parencite{barragan2017nutritional}. Este proceso no solo reduce el volumen de los desechos, sino que también minimiza las emisiones de gases de efecto invernadero (GEI) en comparación con métodos convencionales como el compostaje o la incineración. Además, sus subproductos, como el frass (larvicompost) y la biomasa larvaria, tienen aplicaciones en la producción de alimentos para animales, fertilizantes orgánicos y bioproductos industriales, fomentando así un modelo de economía circular \parencite{Diener2011,salamEffectDifferentEnvironmental2022,brunoValorizationOrganicWaste2025,koyunogluBiofuelProductionUtilizing2024,suryatiLauricAcidBlack2023,siddiquiEnhancingBioconversionRate2024,hamamAdvancesInsectIndustry2024,sarangiFoodWasteFood2024}.
+
+Para optimizar la cría y el rendimiento de la BSF, es fundamental controlar con precisión variables ambientales como temperatura, humedad, pH y composición del sustrato, ya que estas afectan directamente la eficiencia del proceso de bioconversión y la calidad del producto final \parencite{salamEffectDifferentEnvironmental2022,belperioAssessingSubstrateUtilization2024,nayakHermetiaIllucensDiptera2024,goldEffectsRearingSystem2022}. Sin embargo, la ausencia de sistemas automatizados y herramientas avanzadas para el monitoreo en tiempo real limita la escalabilidad y eficiencia de esta tecnología en la gestión de residuos \parencite{surendraRethinkingOrganicWastes2020}.
+
+Ante esta problemática, la integración de tecnologías emergentes, como el Internet de las Cosas (IoT) y algoritmos de aprendizaje automático (AAA), se presenta como una solución innovadora para optimizar el control de variables críticas, mejorar la trazabilidad del proceso y maximizar la eficiencia operativa. Esta convergencia tecnológica permitiría una gestión de residuos más eficiente y sostenible, alineada con los principios de la economía circular y la reducción de emisiones de GEI.
+
+\section{Antecedentes en Modelamiento Matemático}
+
+El modelamiento matemático ha sido ampliamente utilizado para describir y optimizar procesos biológicos complejos. En el contexto de la bioconversión mediante \textit{Hermetia illucens}, diversos estudios han propuesto modelos cinéticos para predecir la tasa de degradación de residuos orgánicos y la producción de biomasa larvaria \parencite{ejemploReferencia2023}. 
+
+Por ejemplo, el modelo de Michaelis-Menten ha sido empleado para describir la actividad enzimática durante la digestión larvaria, mientras que modelos basados en ecuaciones diferenciales han permitido simular la dinámica de crecimiento larvario en función de variables ambientales como temperatura y humedad \parencite{otraReferencia2022}.
+
+Sin embargo, la mayoría de estos modelos se basan en supuestos simplificados y no consideran la variabilidad inherente a sistemas biológicos reales. Esto resalta la necesidad de desarrollar modelos más avanzados que integren datos en tiempo real y algoritmos de aprendizaje automático para mejorar su precisión y capacidad predictiva.
+
+\section{Avances en IoT y AAA para la gestión sostenible de residuos}
+
+En los últimos años, la seguridad alimentaria global ha sido un tema de creciente preocupación debido a factores como el cambio climático, el crecimiento poblacional y la urbanización, los cuales han generado una presión sin precedentes sobre los sistemas alimentarios. En este contexto, la reducción y valorización de los residuos y subproductos agroalimentarios se presentan como estrategias clave para mejorar la eficiencia en el uso de los recursos y mitigar el desperdicio de alimentos. Estudios recientes destacan que la Industria 4.0 ofrece oportunidades significativas para abordar este desafío, mediante el uso de tecnologías emergentes como la inteligencia artificial, el Internet de las Cosas (IoT), blockchain, sensores inteligentes y robótica, las cuales permiten optimizar la producción, mejorar la trazabilidad y convertir los desechos de origen vegetal en productos de valor agregado \parencite{ait-kaddourTransformingPlantbasedWaste2024}.
+
+El monitoreo de variables ambientales es fundamental para optimizar los procesos de bioconversión de residuos, especialmente en sistemas que utilizan \textit{Hermetia illucens} (BSF). Estudios han demostrado que mantener temperaturas entre $25-30\ ^{\circ}\mathrm{C}$ y niveles de humedad superiores al $60\%$ mejora significativamente la actividad larvaria y la tasa de degradación de residuos orgánicos \parencite{salamEffectDifferentEnvironmental2022}. Además, el uso de sensores IoT permite medir en tiempo real parámetros clave como gases ($CO_2$, $CH_4$) y pH, cuyos datos, al ser analizados con Algoritmos de Aprendizaje Automático (AAA), facilitan ajustes automáticos para maximizar la eficiencia del proceso y minimizar impactos ambientales. Estas tecnologías no solo contribuyen a la reducción de emisiones de gases de efecto invernadero (GEI), sino que también optimizan el uso de recursos y reducen costos operativos \parencite{liuOptimizingDataPipelines2023,vanIntegrationInternetofThingsSustainable2022}.
+
+IoT y AAA han transformado diversos sectores, como la agricultura, donde las redes de sensores inalámbricos han optimizado el riego y el uso de fertilizantes \parencite{satputeREVIEWPAPERWIRELESS2021}, la manufactura, donde el análisis predictivo ha reducido tiempos de inactividad y mejorado la calidad de los productos \parencite{avalekarOptimizingAgriculturalEfficiency2024}, y la salud, donde dispositivos \textit{wearables} han revolucionado el diagnóstico y seguimiento de pacientes \parencite{paulMachineLearningIoT2024}. Dado el éxito de IoT y AAA en estos sectores, su aplicación en la bioconversión de residuos mediante \textit{Hermetia illucens} representa una oportunidad significativa para mejorar la sostenibilidad y la eficiencia en la gestión de residuos agroindustriales.
+
+Diversos estudios han demostrado que el monitoreo en tiempo real de parámetros como temperatura, humedad y composición de gases permite optimizar el crecimiento de las larvas y reducir la emisión de GEI durante el proceso de bioconversión \parencite{rossiEstimatingDynamicsGreenhouse2024,tsaabitahDataCommunicationUsing2022}. En particular, la estimación de las dinámicas de emisión de CO$_2$ y N$_2$O bajo condiciones controladas ha evidenciado cómo la regulación ambiental mediante sensores inteligentes puede minimizar las pérdidas de carbono y mejorar la eficiencia del proceso. 
+
+Un análisis de la huella de carbono y agua en la producción de \textit{Hermetia illucens} en una granja en España mostró que la implementación de estrategias de monitoreo y control automatizado reduce significativamente el impacto ambiental, favoreciendo una producción más sostenible y alineada con los principios de la economía circular \parencite{IPCC2014,galan-diazCarbonWaterFootprint2024}. Además, el tratamiento de residuos orgánicos como el estiércol avícola con tecnología basada en \textit{Hermetia illucens} contribuye a la reducción de emisiones de N$_2$O y CO$_2$ en los suelos, lo que refuerza su potencial como estrategia clave para la mitigación del cambio climático en sistemas agrícolas y pecuarios \parencite{jenkinsProcessingPoultryManure2025}.
+
+Aunque su implementación aún enfrenta desafíos tecnológicos y económicos, la integración de IoT y AAA en estos sistemas representa una oportunidad única para desarrollar soluciones innovadoras que optimicen el uso de recursos y promuevan la neutralidad de carbono en la producción agroalimentaria.
+
+\section{Brechas tecnológicas y oportunidades de investigación}
+
+A pesar de los avances tecnológicos recientes, persisten brechas críticas que limitan el desarrollo de soluciones efectivas para la gestión de residuos orgánicos y la mitigación de emisiones de gases de efecto invernadero (GEI). Entre estas brechas destacan la falta de sistemas automatizados y confiables para monitorear variables ambientales clave, como temperatura, humedad y pH, en procesos biotecnológicos como la bioconversión mediante la mosca soldado negra (\textit{Hermetia illucens}). Los sensores IoT empleados en estos entornos presentan desafíos significativos en términos de precisión y confiabilidad debido a factores como la deriva en mediciones prolongadas, la interferencia ambiental en sistemas con alta humedad y la falta de protocolos de calibración estandarizados \parencite{kamilaris2017review,herrinCollateralDataQuality2021}. Asimismo, la interoperabilidad entre dispositivos heterogéneos sigue siendo un desafío debido a las diferencias en protocolos de comunicación y formatos de datos, lo que dificulta la integración de sensores de distintos fabricantes en una red de monitoreo unificada y reduce la eficiencia de los sistemas en tiempo real.
+
+En paralelo, los modelos de aprendizaje automático (AAA) actuales enfrentan limitaciones en la optimización de procesos no lineales. La mayoría de estos modelos se basan en enfoques supervisados con conjuntos de datos estáticos, lo que restringe su capacidad de adaptación a condiciones dinámicas \parencite{herrinCollateralDataQuality2021}. Esto es particularmente problemático en procesos de bioconversión, donde variables ambientales pueden cambiar de manera abrupta. Para abordar estos desafíos, es necesario el desarrollo de modelos híbridos que combinen algoritmos de aprendizaje automático para mejorar la capacidad de predicción y ajuste dinámico de parámetros clave. 
+
+Estas limitaciones tecnológicas impactan directamente la implementación de estrategias sostenibles para la gestión de residuos. La ausencia de herramientas robustas para Medición, Reporte y Validación (MRV) complica la trazabilidad y evaluación precisa de emisiones de GEI, dificultando la generación de estrategias informadas basadas en datos reales. Asimismo, la falta de integración entre tecnologías emergentes y procesos biotecnológicos reduce la escalabilidad y replicabilidad de soluciones basadas en \textit{Hermetia illucens}, limitando su potencial para contribuir a una economía circular eficiente \parencite{ahmedAgricultureClimateChange2020,vanIntegrationInternetofThingsSustainable2022}.
+
+No obstante, estas brechas representan oportunidades clave para la investigación y el desarrollo tecnológico. En este contexto, se propone un sistema integral que combine sensores IoT especializados con modelos avanzados de aprendizaje automático, capaz de optimizar condiciones ambientales en tiempo real durante la cría de larvas de \textit{Hermetia illucens}. 
+
+El sistema constará de los siguientes componentes:
+
+    
+- \textbf{Red de sensores IoT}: Dispositivos de bajo consumo energético para el monitoreo en tiempo real de temperatura, humedad y pH.
+    
+- \textbf{Plataforma de análisis en la nube}: Infraestructura para el almacenamiento y procesamiento de datos, facilitando la integración con modelos de inteligencia artificial.
+    
+- \textbf{Algoritmos de aprendizaje automático}: Algoritmos basados en redes neuronales, que permitan el ajuste dinámico de parámetros críticos en la bioconversión.
+    
+- \textbf{Interfaz de visualización y control}: Plataforma digital para la interpretación de datos, generación de alertas y toma de decisiones en tiempo real.
+
+
+La integración de estos componentes permitirá la recopilación y análisis de datos en tiempo real, con ajustes automatizados en las condiciones de bioconversión para optimizar el rendimiento del sistema. Asimismo, la implementación de una plataforma digital para Medición, Reporte y Validación (MRV) mejorará la precisión en la cuantificación de emisiones, facilitando la adopción de prácticas más sostenibles. Esta sinergia tecnológica contribuirá a reducir costos operativos, minimizar impactos ambientales y promover soluciones escalables para la gestión de residuos orgánicos en diversos sectores productivos. En última instancia, el desarrollo de estas herramientas cerrará brechas tecnológicas existentes y permitirá la implementación de estrategias de monitoreo avanzado, esenciales para la transición hacia una economía circular sostenible y eficiente \parencite{ahmedAgricultureClimateChange2020,vanIntegrationInternetofThingsSustainable2022}.
+
+Las principales brechas tecnológicas en la cría de la mosca soldado negra se resumen a continuación:
+
+    
+- \textbf{Monitoreo de Variables Ambientales}: Falta de sensores IoT precisos y confiables para condiciones biológicas complejas.
+    
+- \textbf{Interoperabilidad}: Diferencias en protocolos de comunicación y formatos de datos dificultan la integración de dispositivos heterogéneos.
+    
+- \textbf{Optimización Dinámica}: Limitaciones de modelos AAA para adaptarse a cambios abruptos en variables ambientales.
+    
+- \textbf{Trazabilidad y MRV}: Ausencia de herramientas robustas para medición, reporte y validación de emisiones de GEI.
+    
+- \textbf{Escalabilidad}: Costos elevados y falta de estandarización restringen la replicabilidad de soluciones actuales.

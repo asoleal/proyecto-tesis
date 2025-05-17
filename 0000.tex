@@ -15,6 +15,7 @@
 \usepackage{chngcntr}
 \usepackage[backend=biber,style=apa,maxcitenames=2,maxbibnames=99,giveninits=true,uniquename=false]{biblatex}
 \addbibresource{archivos_bib/Referencias.bib}
+\addbibresource{archivos_bib/Bibliografia_unificada.bib}
 % Cambiar el idioma de las referencias bibliográficas a español
 %\DefineBibliographyStrings{spanish}{%
 %  andothers = {et\addabbrvspace al\adddot},
@@ -81,6 +82,7 @@
 \newcommand{\thesisname}{}
 \newcommand{\director}{}
 \newcommand{\codirector}{}
+\newcommand{\codirectora}{}
 \newcommand{\issuedate}{}
 \newcommand{\palabrasclave}{}
 \newcommand{\keywords}{}
@@ -93,11 +95,12 @@
 %Información de la tesis
 %Diligenciar aquí los datos para su carga automática donde se requiera en el documento
 \renewcommand{\studentname}{John Jairo Leal Gómez}
-\renewcommand{\thesisname}{Sistema IoT-IA para la Medición y Validación de Emisiones de GEI en Bioconversión con \textit{Hermetia illucens}}
+\renewcommand{\thesisname}{Modelado y Medición de Gases Efecto Invernadero en Sistemas de Bioconversión con Hermetia illucens : Integración de IoT y Aprendizaje Automático}
 \renewcommand{\issuedate}{2025}
-\renewcommand{\submissiondate}{20 de Octubre}
+\renewcommand{\submissiondate}{Abril}
 \renewcommand{\director}{Director Dr. Luis Octavio González Salcedo}
-\renewcommand{\codirector}{Codirector Dr.}
+\renewcommand{\codirector}{Codirector Dr. Luis Fernando Mejía Rodríguez }
+\renewcommand{\codirectora}{Codirector Dr. Sorany Milena Barrientos Grajales }
 \renewcommand{\academictitle}{Doctor (PhD)  }
 \renewcommand{\resgroupone}{Grupo A (Sigla Grupo Investigación 01) }
 \renewcommand{\resgrouptwo}{Grupo B (Sigla Grupo Investigación 02) }
@@ -108,7 +111,7 @@
 
 %Palabras clave del documento - Tener presente los Theasurus https://www.thesaurus.com/
 %Disponible en 3 idiomas aunque se puede extender a francés o otro idioma
-\renewcommand{\palabrasclave}{Modelamiento matemático, Ecuación de Richards, Medios Porosos} 
+\renewcommand{\palabrasclave}{Modelamiento matemático, Hermetia Illucens, IOT, Algoritmos de Aprendizaje Automático} 
 \renewcommand{\keywords}{Use keywords available in Theasaurus}
 %\renewcommand{\schlusselworter}{}
 %\renewcommand{\palavraschave}{}
@@ -274,8 +277,9 @@ myedge/.style={->, -{Latex[#1]}}
 Ambientales.}} \\[2cm]
 
 % Información del director y codirector
-{\large \textbf{\director}} \\[2.5cm]
-%{\large \textbf{\codirector}} \\[1.5cm]
+{\large \textbf{\director}} \\%[2.5cm]
+{\large \textbf{\codirector}} \\
+{\large \textbf{\codirectora}} \\[2.5cm]
 
 
 {\large \textbf{UNIVERSIDAD NACIONAL DE COLOMBIA}} \\[0.2cm]
