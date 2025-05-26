@@ -1,0 +1,159 @@
+.
+├── 0000.aux
+├── 0000.bbl-SAVE-ERROR
+├── 0000.bcf
+├── 0000_clean.docx
+├── 0000.fdb_latexmk
+├── 0000.fls
+├── 0000.log
+├── 0000.out
+├── 0000.pdf
+├── 0000.run.xml
+├── 0000.synctex.gz
+├── 0000.tex
+├── 00Abreviaturas.tex
+├── 00Agradecimientos.tex
+├── 00Figuras
+│   ├── 00f00EscudoUN2016.jpg
+│   ├── DG_FLUJO_GENERAL.png
+│   ├── esquema.jpeg
+│   ├── gant.png
+│   └── localizacion.png
+├── 00ResumenAbstract.tex
+├── 01Seccion01.tex
+├── 02Seccion02.tex
+├── 03Seccion03.tex
+├── 04Seccion04.tex
+├── 05Seccion05.tex
+├── 06Seccion06.tex
+├── 07Seccion07.tex
+├── 08Apendice01.tex
+├── arbol.txt
+├── archivos_bib
+│   ├── bibliografia_tesis_leal.bib
+│   ├── Bibliografia_unificada.bib
+│   └── Referencias.bib
+├── bibliografia_tesis_leal.bib
+├── build
+│   ├── 0000.bbl-SAVE-ERROR
+│   ├── 0000.bcf
+│   ├── 0000.blg
+│   ├── 0000.fdb_latexmk
+│   ├── 0000.fls
+│   ├── 0000.pdf
+│   └── 0000.synctex.gz
+├── Capitulos
+│   ├── antecedentes.tex
+│   ├── costos.tex
+│   ├── introduccion.aux
+│   ├── introduccion.tex
+│   ├── metodologia.tex
+│   ├── objetivo_General.tex
+│   ├── planteamiento.aux
+│   ├── planteamiento.tex
+│   ├── Pregunta.aux
+│   ├── Pregunta.tex
+│   └── resultados_esperados.tex
+├── Clase-sabados
+│   ├── Ability of Black Soldier Fly 2015.pdf
+│   ├── bfs2.aux
+│   ├── bfs2.bbl
+│   ├── bfs2.bcf
+│   ├── bfs2.blg
+│   ├── bfs2.fdb_latexmk
+│   ├── bfs2.fls
+│   ├── bfs2.log
+│   ├── bfs2.pdf
+│   ├── bfs2.run.xml
+│   ├── bfs2.synctex.gz
+│   ├── bfs2.tex
+│   ├── bfs-explicacion.pdf
+│   ├── bfs.fdb_latexmk
+│   ├── bfs.fls
+│   ├── bfs.pdf
+│   ├── bfs.run.xml
+│   ├── bfs.tex
+│   ├── Bioconversion of organic wastes 2016.pdf
+│   ├── Biological Treatment of Municipal Organic 2011.pdf
+│   ├── compilar.sh
+│   ├── introduccion.tex
+│   ├── modelo_matematico2.tex
+│   ├── modelo_matematico_bfs_CO2.tex
+│   ├── modelo_matematico_mosca_soldado.fdb_latexmk
+│   ├── modelo_matematico_mosca_soldado.fls
+│   ├── modelo_matematico_mosca_soldado.synctex.gz
+│   ├── modelo_matematico_mosca_soldado.tex
+│   ├── modelo_matematico_sinhumedad.tex
+│   ├── modelos-bsf
+│   │   ├── A comprhensive dynamic growth.pdf
+│   │   ├── archiv-optimizacion.pdf
+│   │   ├── Modelling and optimal control of growth, energy, a.pdf
+│   │   └── mpdi.pdf
+│   ├── presentacionbfs.fdb_latexmk
+│   ├── presentacionbfs.fls
+│   ├── presentacionbfs.nav
+│   ├── presentacionbfs.out
+│   ├── presentacionbfs.pdf
+│   ├── presentacionbfs.snm
+│   ├── presentacionbfs.synctex.gz
+│   ├── presentacionbfs.tex
+│   ├── presentacionbfs.toc
+│   ├── presentacion.nav
+│   ├── presentacion.out
+│   ├── presentacion.pdf
+│   ├── presentacion.snm
+│   ├── presentacion.tex
+│   ├── presentacion.toc
+│   ├── propuesta_métodos_numéricos.pdf
+│   ├── prueba.pdf
+│   ├── prueba.run.xml
+│   ├── prueba.tex
+│   ├── referencias.bib
+│   ├── Sensores_CO2.pdf
+│   ├── Solid coffee waste as alternative to produce 2018.pdf
+│   └── solucion_ecuaciones.png
+├── compilar.sh
+├── convert_pdf_docx2.py
+├── convert_pdf_docx.py
+├── convert.py
+├── convert.py.save
+├── convert_to_docx.py
+├── dtvstyle.bst
+├── dtvstyle.dbj
+├── gant
+│   ├── gant2.pdf
+│   ├── gant2.tex
+│   ├── gant3.pdf
+│   ├── gant3.tex
+│   ├── gant.pdf
+│   ├── gant.tex
+│   └── prueba.pdf
+├── mapa_interes.pdf
+├── README
+├── README.md
+├── referencias.bib
+├── Resultados.tex
+├── revisado_20250119_propuesta_tesis doctoral_John Jairo Leal Gomez.docx
+├── revisado_20250205_PropuestaTesisDoctoral_John Jairo Leal Gómez.pdf
+├── salida.docx
+├── Secciones
+│   ├── analisis_propuesta_escalabilidad.tex
+│   ├── implementacion_de_algoritmos.tex
+│   ├── materiales_principales.tex
+│   └── ubicacion_de_proyecto.tex
+├── simplekv
+│   ├── README
+│   ├── simplekv-fr.pdf
+│   ├── simplekv-fr.tex
+│   ├── simplekv.sty
+│   └── simplekv.tex
+├── simplekv-fr.pdf
+├── simplekv-fr.tex
+├── simplekv.sty
+├── simplekv.tex
+├── simplekv.zip
+├── temp_image_0_0.png
+├── version-final.docx
+└── Version-final-proyecto.pdf
+
+10 directories, 147 files

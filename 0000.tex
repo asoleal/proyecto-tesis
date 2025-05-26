@@ -11,12 +11,15 @@
 %Usando el paquete BibLaTeX
 %Cita normal con \cite[página]{} y cita con paréntesis \parencite[página]{}
 % Configuración de BibLaTeX
+\usepackage[spanish]{babel}
+\usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{chngcntr}
 \usepackage[backend=biber,style=apa,maxcitenames=2,maxbibnames=99,giveninits=true,uniquename=false]{biblatex}
 \addbibresource{archivos_bib/Referencias.bib}
 \addbibresource{archivos_bib/Bibliografia_unificada.bib}
 % Cambiar el idioma de las referencias bibliográficas a español
+\DefineBibliographyExtras{spanish}{\def\keywordname{Referencias}}
 %\DefineBibliographyStrings{spanish}{%
 %  andothers = {et\addabbrvspace al\adddot},
 %  andmore = {et\addabbrvspace al\adddot},

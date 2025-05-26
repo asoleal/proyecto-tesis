@@ -3114,125 +3114,54 @@
     <bcf:citekey order="17" intorder="3">bhatia_sustainable_2024</bcf:citekey>
     <bcf:citekey order="18" intorder="1">rajRealTimeEstimation2023</bcf:citekey>
     <bcf:citekey order="18" intorder="2">weichertReviewMachineLearning2019</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">PadmanabhaBSFModeling</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">SantanaLombricultura</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">kamilaris2017review</bcf:citekey>
-    <bcf:citekey order="21" intorder="2">zhangApplicationBigData2024</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">FAO2021</bcf:citekey>
-    <bcf:citekey order="22" intorder="2">IPCC2014</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">bhatia_sustainable_2024</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">Smith2014</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">kamilaris2017review</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">barragan2017nutritional</bcf:citekey>
-    <bcf:citekey order="26" intorder="2">bermudezComprehensiveUtilizationBlack2023</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">Diener2011</bcf:citekey>
-    <bcf:citekey order="27" intorder="2">salamEffectDifferentEnvironmental2022</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">FAO2021</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">IPCC2014</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">IPCC2014</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">ahmedAgricultureClimateChange2020</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">salamEffectDifferentEnvironmental2022</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">salamEffectDifferentEnvironmental2022</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">koyunogluBiofuelProductionUtilizing2024</bcf:citekey>
-    <bcf:citekey order="34" intorder="2">suryatiLauricAcidBlack2023</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">galan-diazCarbonWaterFootprint2024</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">jenkinsProcessingPoultryManure2025</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">jenkinsProcessingPoultryManure2025</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">barragan2017nutritional</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">Diener2011</bcf:citekey>
-    <bcf:citekey order="39" intorder="2">salamEffectDifferentEnvironmental2022</bcf:citekey>
-    <bcf:citekey order="39" intorder="3">brunoValorizationOrganicWaste2025</bcf:citekey>
-    <bcf:citekey order="39" intorder="4">koyunogluBiofuelProductionUtilizing2024</bcf:citekey>
-    <bcf:citekey order="39" intorder="5">suryatiLauricAcidBlack2023</bcf:citekey>
-    <bcf:citekey order="39" intorder="6">siddiquiEnhancingBioconversionRate2024</bcf:citekey>
-    <bcf:citekey order="39" intorder="7">hamamAdvancesInsectIndustry2024</bcf:citekey>
-    <bcf:citekey order="39" intorder="8">sarangiFoodWasteFood2024</bcf:citekey>
-    <bcf:citekey order="40" intorder="1">salamEffectDifferentEnvironmental2022</bcf:citekey>
-    <bcf:citekey order="40" intorder="2">belperioAssessingSubstrateUtilization2024</bcf:citekey>
-    <bcf:citekey order="40" intorder="3">nayakHermetiaIllucensDiptera2024</bcf:citekey>
-    <bcf:citekey order="40" intorder="4">goldEffectsRearingSystem2022</bcf:citekey>
-    <bcf:citekey order="41" intorder="1">surendraRethinkingOrganicWastes2020</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">ejemploReferencia2023</bcf:citekey>
-    <bcf:citekey order="43" intorder="1">otraReferencia2022</bcf:citekey>
-    <bcf:citekey order="44" intorder="1">ait-kaddourTransformingPlantbasedWaste2024</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">salamEffectDifferentEnvironmental2022</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">liuOptimizingDataPipelines2023</bcf:citekey>
-    <bcf:citekey order="46" intorder="2">vanIntegrationInternetofThingsSustainable2022</bcf:citekey>
-    <bcf:citekey order="47" intorder="1">satputeREVIEWPAPERWIRELESS2021</bcf:citekey>
-    <bcf:citekey order="48" intorder="1">avalekarOptimizingAgriculturalEfficiency2024</bcf:citekey>
-    <bcf:citekey order="49" intorder="1">paulMachineLearningIoT2024</bcf:citekey>
-    <bcf:citekey order="50" intorder="1">rossiEstimatingDynamicsGreenhouse2024</bcf:citekey>
-    <bcf:citekey order="50" intorder="2">tsaabitahDataCommunicationUsing2022</bcf:citekey>
-    <bcf:citekey order="51" intorder="1">IPCC2014</bcf:citekey>
-    <bcf:citekey order="51" intorder="2">galan-diazCarbonWaterFootprint2024</bcf:citekey>
-    <bcf:citekey order="52" intorder="1">jenkinsProcessingPoultryManure2025</bcf:citekey>
-    <bcf:citekey order="53" intorder="1">kamilaris2017review</bcf:citekey>
-    <bcf:citekey order="53" intorder="2">herrinCollateralDataQuality2021</bcf:citekey>
-    <bcf:citekey order="54" intorder="1">herrinCollateralDataQuality2021</bcf:citekey>
-    <bcf:citekey order="55" intorder="1">ahmedAgricultureClimateChange2020</bcf:citekey>
-    <bcf:citekey order="55" intorder="2">vanIntegrationInternetofThingsSustainable2022</bcf:citekey>
-    <bcf:citekey order="56" intorder="1">ahmedAgricultureClimateChange2020</bcf:citekey>
-    <bcf:citekey order="56" intorder="2">vanIntegrationInternetofThingsSustainable2022</bcf:citekey>
-  </bcf:section>
-  <!-- SORTING TEMPLATES -->
-  <bcf:sortingtemplate name="apa">
-    <bcf:sort order="1">
-      <bcf:sortitem order="1">presort</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="2" final="1">
-      <bcf:sortitem order="1">sortkey</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="3">
-      <bcf:sortitem order="1">sortname</bcf:sortitem>
-      <bcf:sortitem order="2">author</bcf:sortitem>
-      <bcf:sortitem order="3">editor</bcf:sortitem>
-      <bcf:sortitem order="4">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="5">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="4">
-      <bcf:sortitem order="1">pubstate</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="5">
-      <bcf:sortitem order="1">sortyear</bcf:sortitem>
-      <bcf:sortitem order="2">year</bcf:sortitem>
-      <bcf:sortitem literal="1" order="3">-2000000000</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="6">
-      <bcf:sortitem order="1">month</bcf:sortitem>
-      <bcf:sortitem literal="1" order="2">-2000000000</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="7">
-      <bcf:sortitem order="1">day</bcf:sortitem>
-      <bcf:sortitem literal="1" order="2">-2000000000</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="8">
-      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="2">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="9">
-      <bcf:sortitem order="1">volume</bcf:sortitem>
-      <bcf:sortitem literal="1" order="2">0</bcf:sortitem>
-    </bcf:sort>
-  </bcf:sortingtemplate>
-  <!-- DATALISTS -->
-  <bcf:datalist section="0"
-                name="apa/apasortcite//global/global/global"
-                type="entry"
-                sortingtemplatename="apa"
-                sortingnamekeytemplatename="apasortcite"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global"
-                namehashtemplatename="global">
-  </bcf:datalist>
-  <bcf:datalist section="0"
-                name="apa/global//global/global/global"
-                type="entry"
-                sortingtemplatename="apa"
-                sortingnamekeytemplatename="global"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global"
-                namehashtemplatename="global">
-  </bcf:datalist>
-</bcf:controlfile>
+    <bcf:citekey order="19" intorder="1">winAnaerobicDigestionBlack2018</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">padmanabhaModellingOptimalControl2023</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">santanaChangesChemicalBiological2020</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">kamilaris2017review</bcf:citekey>
+    <bcf:citekey order="22" intorder="2">zhangApplicationBigData2024</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">padmanabhaComprehensiveDynamicGrowth2020</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">FAO2021</bcf:citekey>
+    <bcf:citekey order="24" intorder="2">IPCC2014</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">bhatia_sustainable_2024</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">Smith2014</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">kamilaris2017review</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">barragan2017nutritional</bcf:citekey>
+    <bcf:citekey order="28" intorder="2">bermudezComprehensiveUtilizationBlack2023</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">Diener2011</bcf:citekey>
+    <bcf:citekey order="29" intorder="2">salamEffectDifferentEnvironmental2022</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">FAO2021</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">IPCC2014</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">IPCC2014</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">ahmedAgricultureClimateChange2020</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">salamEffectDifferentEnvironmental2022</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">salamEffectDifferentEnvironmental2022</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">koyunogluBiofuelProductionUtilizing2024</bcf:citekey>
+    <bcf:citekey order="36" intorder="2">suryatiLauricAcidBlack2023</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">galan-diazCarbonWaterFootprint2024</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">jenkinsProcessingPoultryManure2025</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">jenkinsProcessingPoultryManure2025</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">barragan2017nutritional</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">Diener2011</bcf:citekey>
+    <bcf:citekey order="41" intorder="2">salamEffectDifferentEnvironmental2022</bcf:citekey>
+    <bcf:citekey order="41" intorder="3">brunoValorizationOrganicWaste2025</bcf:citekey>
+    <bcf:citekey order="41" intorder="4">koyunogluBiofuelProductionUtilizing2024</bcf:citekey>
+    <bcf:citekey order="41" intorder="5">suryatiLauricAcidBlack2023</bcf:citekey>
+    <bcf:citekey order="41" intorder="6">siddiquiEnhancingBioconversionRate2024</bcf:citekey>
+    <bcf:citekey order="41" intorder="7">hamamAdvancesInsectIndustry2024</bcf:citekey>
+    <bcf:citekey order="41" intorder="8">sarangiFoodWasteFood2024</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">salamEffectDifferentEnvironmental2022</bcf:citekey>
+    <bcf:citekey order="42" intorder="2">belperioAssessingSubstrateUtilization2024</bcf:citekey>
+    <bcf:citekey order="42" intorder="3">nayakHermetiaIllucensDiptera2024</bcf:citekey>
+    <bcf:citekey order="42" intorder="4">goldEffectsRearingSystem2022</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">surendraRethinkingOrganicWastes2020</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">ejemploReferencia2023</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">otraReferencia2022</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">ait-kaddourTransformingPlantbasedWaste2024</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">salamEffectDifferentEnvironmental2022</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">liuOptimizingDataPipelines2023</bcf:citekey>
+    <bcf:citekey order="48" intorder="2">vanIntegrationInternetofThingsSustainable2022</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">satputeREVIEWPAPERWIRELESS2021</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">avalekarOptimizingAgriculturalEfficiency2024</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">paulMachineLearningIoT2024</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">rossiEstimatingDynamicsGreenhouse2024</bcf:citekey>
+    <bcf:citekey order="52" intorder="2">tsaabitahDataCommunication
