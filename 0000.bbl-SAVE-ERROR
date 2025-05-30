@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,8 @@
 
 
 \refsection{0}
-  \datalist[entry]{apa/apasortcite//global/global}
-    \entry{aAIControlledSmart2024}{article}{}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{aAIControlledSmart2024}{article}{}{}
       \name{author}{6}{}{%
         {{hash=bae4c16a42e9e2e3e59b5eef14530c68}{%
            family={A},
@@ -60,10 +60,12 @@
       }
       \strng{namehash}{3c5995446e7ee8fbd06b8e3bd9bebfdf}
       \strng{fullhash}{f5e8c8b10f2d6486e153c61e7ebaf0c7}
+      \strng{fullhashraw}{f5e8c8b10f2d6486e153c61e7ebaf0c7}
       \strng{bibnamehash}{f5e8c8b10f2d6486e153c61e7ebaf0c7}
       \strng{authorbibnamehash}{f5e8c8b10f2d6486e153c61e7ebaf0c7}
       \strng{authornamehash}{3c5995446e7ee8fbd06b8e3bd9bebfdf}
       \strng{authorfullhash}{f5e8c8b10f2d6486e153c61e7ebaf0c7}
+      \strng{authorfullhashraw}{f5e8c8b10f2d6486e153c61e7ebaf0c7}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -91,7 +93,7 @@
       \verb /home/jjlg/Zotero/storage/UETI7T2M/A et al. - 2024 - AI Controlled Smart IoT Based Greenhouse Monitoring System.pdf
       \endverb
     \endentry
-    \entry{ahmedAgricultureClimateChange2020}{report}{}
+    \entry{ahmedAgricultureClimateChange2020}{report}{}{}
       \name{author}{8}{}{%
         {{hash=58571543c5d56d3bbca349198b0fa91b}{%
            family={Ahmed},
@@ -139,10 +141,12 @@
       }
       \strng{namehash}{f0eede01e9c850affafcf9a5c80bd722}
       \strng{fullhash}{c6454dd764e82045aa7dc91962821df2}
+      \strng{fullhashraw}{c6454dd764e82045aa7dc91962821df2}
       \strng{bibnamehash}{c6454dd764e82045aa7dc91962821df2}
       \strng{authorbibnamehash}{c6454dd764e82045aa7dc91962821df2}
       \strng{authornamehash}{f0eede01e9c850affafcf9a5c80bd722}
       \strng{authorfullhash}{c6454dd764e82045aa7dc91962821df2}
+      \strng{authorfullhashraw}{c6454dd764e82045aa7dc91962821df2}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -163,7 +167,7 @@
       \verb /home/jjlg/Zotero/storage/TWGY72CR/Agriculture and climate change.pdf
       \endverb
     \endentry
-    \entry{ait-kaddourTransformingPlantbasedWaste2024}{article}{}
+    \entry{ait-kaddourTransformingPlantbasedWaste2024}{article}{}{}
       \name{author}{8}{}{%
         {{hash=85c13a4682efabafcda2cd8761725893}{%
            family={{Aït-Kaddour}},
@@ -208,10 +212,12 @@
       }
       \strng{namehash}{6084d3c97920d1a04ffe5df6974b5dcc}
       \strng{fullhash}{04b1f6f82e4db5efe0a01df50f5402f9}
+      \strng{fullhashraw}{04b1f6f82e4db5efe0a01df50f5402f9}
       \strng{bibnamehash}{04b1f6f82e4db5efe0a01df50f5402f9}
       \strng{authorbibnamehash}{04b1f6f82e4db5efe0a01df50f5402f9}
       \strng{authornamehash}{6084d3c97920d1a04ffe5df6974b5dcc}
       \strng{authorfullhash}{04b1f6f82e4db5efe0a01df50f5402f9}
+      \strng{authorfullhashraw}{04b1f6f82e4db5efe0a01df50f5402f9}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -241,7 +247,75 @@
       \verb /home/jjlg/Zotero/storage/JJ25NJ3H/Aït-Kaddour et al. - 2024 - Transforming plant-based waste and by-products into valuable products using various “Food Industry 4.pdf
       \endverb
     \endentry
-    \entry{amrulReviewOrganicWaste2022}{article}{}
+    \entry{allanSummaryPolicymakers2023}{inbook}{}{}
+      \name{author}{4}{}{%
+        {{hash=34eb4f3a5d0e5720e1af29dbdbb67bdc}{%
+           family={Allan},
+           familyi={A\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=3aa7f5e1cb3212632a19e326b9acedbf}{%
+           family={Arias},
+           familyi={A\bibinitperiod},
+           given={Paola},
+           giveni={P\bibinitperiod}}}%
+        {{hash=10b5018448581f55774b68864eb1fdd3}{%
+           family={Berger},
+           familyi={B\bibinitperiod},
+           given={Sophie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a0dad0c39220e063618de17dc3a9b730}{%
+           family={Canadell},
+           familyi={C\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{3e32ccf8152b352cb877981c48eb33e5}
+      \strng{fullhash}{75c1a0d3948fe6becc389ff0f59d3436}
+      \strng{fullhashraw}{75c1a0d3948fe6becc389ff0f59d3436}
+      \strng{bibnamehash}{75c1a0d3948fe6becc389ff0f59d3436}
+      \strng{authorbibnamehash}{75c1a0d3948fe6becc389ff0f59d3436}
+      \strng{authornamehash}{3e32ccf8152b352cb877981c48eb33e5}
+      \strng{authorfullhash}{75c1a0d3948fe6becc389ff0f59d3436}
+      \strng{authorfullhashraw}{75c1a0d3948fe6becc389ff0f59d3436}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Climate {{Change}} 2021 – {{The Physical Science Basis}}}
+      \field{day}{6}
+      \field{edition}{1}
+      \field{isbn}{978-1-009-15789-6}
+      \field{month}{7}
+      \field{title}{Summary for {{Policymakers}}}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{3\bibrangedash 32}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1017/9781009157896.001
+      \endverb
+      \verb{file}
+      \verb /home/jjlg/Zotero/storage/IBDYG3NQ/2023 - Summary for Policymakers.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/9781009157896%23pre2/type/book_part
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/9781009157896%23pre2/type/book_part
+      \endverb
+    \endentry
+    \entry{amrulReviewOrganicWaste2022}{article}{}{}
       \name{author}{6}{}{%
         {{hash=007b45351fc6aa278391a19ab3af5d73}{%
            family={Amrul},
@@ -279,10 +353,12 @@
       }
       \strng{namehash}{094ea627ac089105e2c10c3b5695a216}
       \strng{fullhash}{3b686f27de8e492db9100c5b1c4a38de}
+      \strng{fullhashraw}{3b686f27de8e492db9100c5b1c4a38de}
       \strng{bibnamehash}{3b686f27de8e492db9100c5b1c4a38de}
       \strng{authorbibnamehash}{3b686f27de8e492db9100c5b1c4a38de}
       \strng{authornamehash}{094ea627ac089105e2c10c3b5695a216}
       \strng{authorfullhash}{3b686f27de8e492db9100c5b1c4a38de}
+      \strng{authorfullhashraw}{3b686f27de8e492db9100c5b1c4a38de}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -313,7 +389,7 @@
       \endverb
       \keyw{bioconversion,black soldier fly,composting,organic waste management}
     \endentry
-    \entry{avalekarOptimizingAgriculturalEfficiency2024}{misc}{}
+    \entry{avalekarOptimizingAgriculturalEfficiency2024}{misc}{}{}
       \name{author}{5}{}{%
         {{hash=67e3bf32d07e14135d18fd4b1674b4a8}{%
            family={Avalekar},
@@ -343,10 +419,12 @@
       }
       \strng{namehash}{ea97635dfe8cc4edb640c94efd66a733}
       \strng{fullhash}{fa36733adf32698f1c41bb286cf17624}
+      \strng{fullhashraw}{fa36733adf32698f1c41bb286cf17624}
       \strng{bibnamehash}{fa36733adf32698f1c41bb286cf17624}
       \strng{authorbibnamehash}{fa36733adf32698f1c41bb286cf17624}
       \strng{authornamehash}{ea97635dfe8cc4edb640c94efd66a733}
       \strng{authorfullhash}{fa36733adf32698f1c41bb286cf17624}
+      \strng{authorfullhashraw}{fa36733adf32698f1c41bb286cf17624}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -369,7 +447,7 @@
       \verb /home/jjlg/Zotero/storage/9XGJNBFH/Avalekar et al. - 2024 - Optimizing Agricultural Efficiency A Fusion of Iot, Ai, Cloud Computing, and Wireless Sensor Networ.pdf
       \endverb
     \endentry
-    \entry{barragan2017nutritional}{article}{}
+    \entry{barragan2017nutritional}{article}{}{}
       \name{author}{3}{}{%
         {{hash=014ad5855465ed38e4f88b86642a1e8b}{%
            family={{Barragan-Fonseca}},
@@ -392,10 +470,12 @@
       }
       \strng{namehash}{d9663a9f1a877f2cdb583d52003c9141}
       \strng{fullhash}{f091345d569c2bbda336b0cef841d3cd}
+      \strng{fullhashraw}{f091345d569c2bbda336b0cef841d3cd}
       \strng{bibnamehash}{f091345d569c2bbda336b0cef841d3cd}
       \strng{authorbibnamehash}{f091345d569c2bbda336b0cef841d3cd}
       \strng{authornamehash}{d9663a9f1a877f2cdb583d52003c9141}
       \strng{authorfullhash}{f091345d569c2bbda336b0cef841d3cd}
+      \strng{authorfullhashraw}{f091345d569c2bbda336b0cef841d3cd}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -411,7 +491,93 @@
       \field{pages}{105\bibrangedash 120}
       \range{pages}{16}
     \endentry
-    \entry{belperioAssessingSubstrateUtilization2024}{article}{}
+    \entry{bekkerImpactSubstrateMoisture2021}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=84a7566ebdd2bf0f95b18f1127b22eea}{%
+           family={Bekker},
+           familyi={B\bibinitperiod},
+           given={Nicolai\bibnamedelima Sundgaard},
+           giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=7a6790274809bb1e968476c430c5ce5c}{%
+           family={Heidelbach},
+           familyi={H\bibinitperiod},
+           given={Søren},
+           giveni={S\bibinitperiod}}}%
+        {{hash=743e587fe47d166c357188780228c050}{%
+           family={Vestergaard},
+           familyi={V\bibinitperiod},
+           given={Sofie\bibnamedelima Zacho},
+           giveni={S\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=6b95dd2b6cb2fdbb5ed87d9fcc3a862d}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Morten\bibnamedelima Eneberg},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=8701aba939355d89514ec4665f496699}{%
+           family={Riisgaard-Jensen},
+           familyi={R\bibinithyphendelim J\bibinitperiod},
+           given={Marie},
+           giveni={M\bibinitperiod}}}%
+        {{hash=415a1ef081ac78c8697275cc5d6a303d}{%
+           family={Zeuner},
+           familyi={Z\bibinitperiod},
+           given={Emil\bibnamedelima Juel},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=236eeb80cb3c5d2b22e68257cac98e08}{%
+           family={Bahrndorff},
+           familyi={B\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=bdf1b2e0bbe78861ad825a79f860f5f1}{%
+           family={Eriksen},
+           familyi={E\bibinitperiod},
+           given={Niels\bibnamedelima Thomas},
+           giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f5fda3c22abb601b8aebc9a765163a0}
+      \strng{fullhash}{f625307b2f010f33883dceb6783ed790}
+      \strng{fullhashraw}{f625307b2f010f33883dceb6783ed790}
+      \strng{bibnamehash}{f625307b2f010f33883dceb6783ed790}
+      \strng{authorbibnamehash}{f625307b2f010f33883dceb6783ed790}
+      \strng{authornamehash}{9f5fda3c22abb601b8aebc9a765163a0}
+      \strng{authorfullhash}{f625307b2f010f33883dceb6783ed790}
+      \strng{authorfullhashraw}{f625307b2f010f33883dceb6783ed790}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0956053X}
+      \field{journaltitle}{Waste Management}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{shortjournal}{Waste Management}
+      \field{title}{Impact of Substrate Moisture Content on Growth and Metabolic Performance of Black Soldier Fly Larvae}
+      \field{urlday}{24}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{127}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{73\bibrangedash 79}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/j.wasman.2021.04.028
+      \endverb
+      \verb{file}
+      \verb /home/jjlg/Zotero/storage/R74KQVRP/Bekker et al. - 2021 - Impact of substrate moisture content on growth and metabolic performance of black soldier fly larvae.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0956053X21002269
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0956053X21002269
+      \endverb
+    \endentry
+    \entry{belperioAssessingSubstrateUtilization2024}{article}{}{}
       \name{author}{7}{}{%
         {{hash=faa5af64765a3553be3eca627dc8f1c5}{%
            family={Belperio},
@@ -454,10 +620,12 @@
       }
       \strng{namehash}{b6deed7648100215489098691f0edf83}
       \strng{fullhash}{806a78a80874317ec9cf6a1fb91f38a1}
+      \strng{fullhashraw}{806a78a80874317ec9cf6a1fb91f38a1}
       \strng{bibnamehash}{806a78a80874317ec9cf6a1fb91f38a1}
       \strng{authorbibnamehash}{806a78a80874317ec9cf6a1fb91f38a1}
       \strng{authornamehash}{b6deed7648100215489098691f0edf83}
       \strng{authorfullhash}{806a78a80874317ec9cf6a1fb91f38a1}
+      \strng{authorfullhashraw}{806a78a80874317ec9cf6a1fb91f38a1}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -489,7 +657,7 @@
       \endverb
       \keyw{bioconversion,black soldier fly,substrate,thermal-imaging camera}
     \endentry
-    \entry{bermudezComprehensiveUtilizationBlack2023}{article}{}
+    \entry{bermudezComprehensiveUtilizationBlack2023}{article}{}{}
       \name{author}{2}{}{%
         {{hash=186891a695cdacd71329188ae3f9816c}{%
            family={Bermúdez},
@@ -504,10 +672,12 @@
       }
       \strng{namehash}{bca684113f75e22db84a5922ace1f0dd}
       \strng{fullhash}{bca684113f75e22db84a5922ace1f0dd}
+      \strng{fullhashraw}{bca684113f75e22db84a5922ace1f0dd}
       \strng{bibnamehash}{bca684113f75e22db84a5922ace1f0dd}
       \strng{authorbibnamehash}{bca684113f75e22db84a5922ace1f0dd}
       \strng{authornamehash}{bca684113f75e22db84a5922ace1f0dd}
       \strng{authorfullhash}{bca684113f75e22db84a5922ace1f0dd}
+      \strng{authorfullhashraw}{bca684113f75e22db84a5922ace1f0dd}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -538,7 +708,7 @@
       \verb /home/jjlg/Zotero/storage/6GQMR3CW/Bermúdez-Serrano y Sánchez-Velázquez - 2023 - Comprehensive utilization of the Black Soldier Fly Bioconversion, sustainability, and emerging chal.pdf
       \endverb
     \endentry
-    \entry{bhatia_sustainable_2024}{article}{}
+    \entry{bhatia_sustainable_2024}{article}{}{}
       \name{author}{2}{}{%
         {{hash=1144cfd4e8915c94124bf41818db0ea4}{%
            family={Bhatia},
@@ -556,10 +726,12 @@
       }
       \strng{namehash}{ddff12010d79e3180be9f1fffdb05d38}
       \strng{fullhash}{ddff12010d79e3180be9f1fffdb05d38}
+      \strng{fullhashraw}{ddff12010d79e3180be9f1fffdb05d38}
       \strng{bibnamehash}{ddff12010d79e3180be9f1fffdb05d38}
       \strng{authorbibnamehash}{ddff12010d79e3180be9f1fffdb05d38}
       \strng{authornamehash}{ddff12010d79e3180be9f1fffdb05d38}
       \strng{authorfullhash}{ddff12010d79e3180be9f1fffdb05d38}
+      \strng{authorfullhashraw}{ddff12010d79e3180be9f1fffdb05d38}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -596,7 +768,7 @@
       \endverb
       \keyw{Biochar,Composting,Food production,Organic wastes,Soil health,Sustainable agriculture,Vermicomposting}
     \endentry
-    \entry{brunoValorizationOrganicWaste2025}{article}{}
+    \entry{brunoValorizationOrganicWaste2025}{article}{}{}
       \name{author}{21}{}{%
         {{hash=30f6afbeb6b29f49d72010fdb0c320c3}{%
            family={Bruno},
@@ -706,10 +878,12 @@
       }
       \strng{namehash}{c79690e35b39ae8093ccd47be5ea64fb}
       \strng{fullhash}{ba026a2a1ab1c79e0295a934055a10f1}
+      \strng{fullhashraw}{ba026a2a1ab1c79e0295a934055a10f1}
       \strng{bibnamehash}{ba026a2a1ab1c79e0295a934055a10f1}
       \strng{authorbibnamehash}{ba026a2a1ab1c79e0295a934055a10f1}
       \strng{authornamehash}{c79690e35b39ae8093ccd47be5ea64fb}
       \strng{authorfullhash}{ba026a2a1ab1c79e0295a934055a10f1}
+      \strng{authorfullhashraw}{ba026a2a1ab1c79e0295a934055a10f1}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -739,7 +913,7 @@
       \endverb
       \keyw{Biomass valorization,Circular bioeconomy,Insect bioconversion,Protein-based films,Waste management}
     \endentry
-    \entry{chenOptimizationModelProcess2021}{article}{}
+    \entry{chenOptimizationModelProcess2021}{article}{}{}
       \name{author}{8}{}{%
         {{hash=903372eaacb45870dfe218898004c259}{%
            family={Chen},
@@ -784,10 +958,12 @@
       }
       \strng{namehash}{a9feed51d699980d46b4c1ff45aa846c}
       \strng{fullhash}{5e4a53499593848d7da787719f71e7f8}
+      \strng{fullhashraw}{5e4a53499593848d7da787719f71e7f8}
       \strng{bibnamehash}{5e4a53499593848d7da787719f71e7f8}
       \strng{authorbibnamehash}{5e4a53499593848d7da787719f71e7f8}
       \strng{authornamehash}{a9feed51d699980d46b4c1ff45aa846c}
       \strng{authorfullhash}{5e4a53499593848d7da787719f71e7f8}
+      \strng{authorfullhashraw}{5e4a53499593848d7da787719f71e7f8}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -817,7 +993,7 @@
       \endverb
       \keyw{CBR,Cognition,GA,Genetic algorithms,Ontologies,Ontology,Optimization,processing information,Production,Quality assessment,Raw materials,traceability optimization}
     \endentry
-    \entry{Chia2019}{thesis}{}
+    \entry{Chia2019}{thesis}{}{}
       \name{author}{1}{}{%
         {{hash=29364875711b488b1d18ffca6b466aa7}{%
            family={Chia},
@@ -831,10 +1007,12 @@
       }
       \strng{namehash}{29364875711b488b1d18ffca6b466aa7}
       \strng{fullhash}{29364875711b488b1d18ffca6b466aa7}
+      \strng{fullhashraw}{29364875711b488b1d18ffca6b466aa7}
       \strng{bibnamehash}{29364875711b488b1d18ffca6b466aa7}
       \strng{authorbibnamehash}{29364875711b488b1d18ffca6b466aa7}
       \strng{authornamehash}{29364875711b488b1d18ffca6b466aa7}
       \strng{authorfullhash}{29364875711b488b1d18ffca6b466aa7}
+      \strng{authorfullhashraw}{29364875711b488b1d18ffca6b466aa7}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -849,7 +1027,7 @@
       \verb /home/jjlg/Zotero/storage/PFEWVULH/Chia - 2019 - Black soldier fly larvae as a sustainable animal feed ingredient in Kenya.pdf
       \endverb
     \endentry
-    \entry{Diener2011}{article}{}
+    \entry{Diener2011}{article}{}{}
       \name{author}{3}{}{%
         {{hash=07d368ff11207ecf86c2d39488fe7788}{%
            family={Diener},
@@ -869,10 +1047,12 @@
       }
       \strng{namehash}{fae3c7417c6ccdcdd56af9b1533308ac}
       \strng{fullhash}{f0466fd81e328039c3f2d4268b1111ba}
+      \strng{fullhashraw}{f0466fd81e328039c3f2d4268b1111ba}
       \strng{bibnamehash}{f0466fd81e328039c3f2d4268b1111ba}
       \strng{authorbibnamehash}{f0466fd81e328039c3f2d4268b1111ba}
       \strng{authornamehash}{fae3c7417c6ccdcdd56af9b1533308ac}
       \strng{authorfullhash}{f0466fd81e328039c3f2d4268b1111ba}
+      \strng{authorfullhashraw}{f0466fd81e328039c3f2d4268b1111ba}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
@@ -891,7 +1071,7 @@
       \verb 10.1177/0734242X10366090
       \endverb
     \endentry
-    \entry{duobieneDevelopmentWirelessSensor2022}{article}{}
+    \entry{duobieneDevelopmentWirelessSensor2022}{article}{}{}
       \name{author}{7}{}{%
         {{hash=b66292f918d33ad9473f67acac9d6182}{%
            family={Duobiene},
@@ -931,10 +1111,12 @@
       }
       \strng{namehash}{3caaced2637425b3e275303933f2b5b3}
       \strng{fullhash}{e182b1514a11ba0a196f4e3a0890d55a}
+      \strng{fullhashraw}{e182b1514a11ba0a196f4e3a0890d55a}
       \strng{bibnamehash}{e182b1514a11ba0a196f4e3a0890d55a}
       \strng{authorbibnamehash}{e182b1514a11ba0a196f4e3a0890d55a}
       \strng{authornamehash}{3caaced2637425b3e275303933f2b5b3}
       \strng{authorfullhash}{e182b1514a11ba0a196f4e3a0890d55a}
+      \strng{authorfullhashraw}{e182b1514a11ba0a196f4e3a0890d55a}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
@@ -964,7 +1146,245 @@
       \verb /home/jjlg/Zotero/storage/NDWIGDHQ/Duobiene et al. - 2022 - Development of Wireless Sensor Network for Environment Monitoring and Its Implementation Using SSAIL.pdf
       \endverb
     \endentry
-    \entry{fawzyStrategiesMitigationClimate2020}{article}{}
+    \entry{elsayedConversionProteinrichWaste2024}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=74456d3c9dee6eda2d3a706b36fbdb07}{%
+           family={Elsayed},
+           familyi={E\bibinitperiod},
+           given={Mahdy},
+           giveni={M\bibinitperiod}}}%
+        {{hash=49a19e08791a3dc09c932ff975949361}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=90e24063be3dab0369505809e437b908}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Huijun},
+           giveni={H\bibinitperiod}}}%
+        {{hash=eea8a323649252a79e13d50466a331da}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Zhihui},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=653807f8836f3ab9326cba04e9a8e75b}{%
+           family={Osman},
+           familyi={O\bibinitperiod},
+           given={Ahmed\bibnamedelima I.},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=36322dfff81e309eb391bf878bf2d4fd}{%
+           family={Almutairi},
+           familyi={A\bibinitperiod},
+           given={Adel\bibnamedelima W.},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=75220214e88d88d6731f724560487179}{%
+           family={Faisal},
+           familyi={F\bibinitperiod},
+           given={Shah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=20d544d6d93a57ceb2c676759c6daacf}{%
+           family={Abomohra},
+           familyi={A\bibinitperiod},
+           given={Abdelfatah},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3045fc07363f8c37750207dfeac7f9fa}
+      \strng{fullhash}{eb4cb93f7b1d6cb348bcf43ac4949052}
+      \strng{fullhashraw}{eb4cb93f7b1d6cb348bcf43ac4949052}
+      \strng{bibnamehash}{eb4cb93f7b1d6cb348bcf43ac4949052}
+      \strng{authorbibnamehash}{eb4cb93f7b1d6cb348bcf43ac4949052}
+      \strng{authornamehash}{3045fc07363f8c37750207dfeac7f9fa}
+      \strng{authorfullhash}{eb4cb93f7b1d6cb348bcf43ac4949052}
+      \strng{authorfullhashraw}{eb4cb93f7b1d6cb348bcf43ac4949052}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{22131388}
+      \field{journaltitle}{Sustainable Energy Technologies and Assessments}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{shortjournal}{Sustainable Energy Technologies and Assessments}
+      \field{shorttitle}{Conversion of Protein-Rich Waste into Biodiesel by {{Hermetia}} Illucens}
+      \field{title}{Conversion of Protein-Rich Waste into Biodiesel by {{Hermetia}} Illucens: {{Enhanced}} Energy Recovery and Reduced Greenhouse Gas Emissions}
+      \field{urlday}{17}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{66}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{103825}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.seta.2024.103825
+      \endverb
+      \verb{file}
+      \verb /home/jjlg/Zotero/storage/FGQUQYE5/Elsayed et al. - 2024 - Conversion of protein-rich waste into biodiesel by Hermetia illucens Enhanced energy recovery and r.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2213138824002212
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2213138824002212
+      \endverb
+    \endentry
+    \entry{eriksenDynamicModellingFeed2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=bdf1b2e0bbe78861ad825a79f860f5f1}{%
+           family={Eriksen},
+           familyi={E\bibinitperiod},
+           given={Niels\bibnamedelima Thomas},
+           giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science San Francisco, CA USA}%
+      }
+      \strng{namehash}{bdf1b2e0bbe78861ad825a79f860f5f1}
+      \strng{fullhash}{bdf1b2e0bbe78861ad825a79f860f5f1}
+      \strng{fullhashraw}{bdf1b2e0bbe78861ad825a79f860f5f1}
+      \strng{bibnamehash}{bdf1b2e0bbe78861ad825a79f860f5f1}
+      \strng{authorbibnamehash}{bdf1b2e0bbe78861ad825a79f860f5f1}
+      \strng{authornamehash}{bdf1b2e0bbe78861ad825a79f860f5f1}
+      \strng{authorfullhash}{bdf1b2e0bbe78861ad825a79f860f5f1}
+      \strng{authorfullhashraw}{bdf1b2e0bbe78861ad825a79f860f5f1}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLoS One}
+      \field{number}{10}
+      \field{title}{Dynamic Modelling of Feed Assimilation, Growth, Lipid Accumulation, and {{CO2}} Production in Black Soldier Fly Larvae}
+      \field{urlday}{2}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{volume}{17}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{e0276605}
+      \range{pages}{-1}
+      \verb{file}
+      \verb /home/jjlg/Zotero/storage/PCD9IKKP/Eriksen - 2022 - Dynamic modelling of feed assimilation, growth, lipid accumulation, and CO2 production in black sold.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0276605
+      \endverb
+      \verb{url}
+      \verb https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0276605
+      \endverb
+    \endentry
+    \entry{fadhillahUtilizationHermetiaIllucens2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=65c93ba47269b0db8574738eb1334571}{%
+           family={Fadhillah},
+           familyi={F\bibinitperiod},
+           given={N},
+           giveni={N\bibinitperiod}}}%
+        {{hash=72d4d3cd19c774691ff23aa7246d5531}{%
+           family={Bagastyo},
+           familyi={B\bibinitperiod},
+           given={A\bibnamedelima Y},
+           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{a7e489cb7bd1d52c7cf05c689d7e79b8}
+      \strng{fullhash}{a7e489cb7bd1d52c7cf05c689d7e79b8}
+      \strng{fullhashraw}{a7e489cb7bd1d52c7cf05c689d7e79b8}
+      \strng{bibnamehash}{a7e489cb7bd1d52c7cf05c689d7e79b8}
+      \strng{authorbibnamehash}{a7e489cb7bd1d52c7cf05c689d7e79b8}
+      \strng{authornamehash}{a7e489cb7bd1d52c7cf05c689d7e79b8}
+      \strng{authorfullhash}{a7e489cb7bd1d52c7cf05c689d7e79b8}
+      \strng{authorfullhashraw}{a7e489cb7bd1d52c7cf05c689d7e79b8}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract The larvae of Hermetia illucens , known as Black Soldier Fly (BSF), are utilized to reduce various types of organic waste by means of bioconversion. The purpose of this study was to evaluate the efficiency of the larvae in reducing and converting mixtures of fresh food waste (FW) with other organic waste types, i.e., immature windrow composting material (IW), residue windrow composting material (RW), and fresh cow manure (CM) at three different composition ratios. The growth rate and protein content of the larvae were also determined in this study. A specific amount of organic waste mixtures was fed to the BSF larvae. The results suggest that the type of organic waste given to larvae affected the overall waste reduction and larval growth at a certain extent. The composition ratio of FW with the other wastes used was 90:10, 70:30, and 60:40 (w/w). The highest reduction percentage was at the ratio of 90:10 achieved for FW mixed with IW, FW mixed with RW, and FW mixed with CM, i.e. 82.2\%, 79\%, and 74.5\% respectively. The protein content of larvae in those waste mixtures was 54.6\%, 63.1\%, and 48.75\% respectively. The final residue from the decomposition of the waste by BSF larvae was also observed in this study.}
+      \field{day}{1}
+      \field{issn}{1755-1307, 1755-1315}
+      \field{journaltitle}{IOP Conference Series: Earth and Environmental Science}
+      \field{month}{5}
+      \field{number}{1}
+      \field{shortjournal}{IOP Conf. Ser.: Earth Environ. Sci.}
+      \field{title}{Utilization of {{Hermetia}} Illucens {{Larvae}} as {{A Bioconversion Agent}} to {{Reduce Organic Waste}}}
+      \field{urlday}{18}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{506}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{012005}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1755-1315/506/1/012005
+      \endverb
+      \verb{urlraw}
+      \verb https://iopscience.iop.org/article/10.1088/1755-1315/506/1/012005
+      \endverb
+      \verb{url}
+      \verb https://iopscience.iop.org/article/10.1088/1755-1315/506/1/012005
+      \endverb
+    \endentry
+    \entry{farooquiIOTBasedAutomated2022}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=23fe4e25acaa42ad56d5a97a9a2ba8ca}{%
+           family={Farooqui},
+           familyi={F\bibinitperiod},
+           given={Nafees},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0536ced932c80468d4c14703e5a451d5}{%
+           family={Mishra},
+           familyi={M\bibinitperiod},
+           given={Amit},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cfc0e510dd08272a57cbfe48e6fc2971}{%
+           family={Mehra},
+           familyi={M\bibinitperiod},
+           given={Ritika},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd3f4eac559b23621f65fdc45b9c7678}
+      \strng{fullhash}{c3d20afac37c01ffddb4bd92c806a580}
+      \strng{fullhashraw}{c3d20afac37c01ffddb4bd92c806a580}
+      \strng{bibnamehash}{c3d20afac37c01ffddb4bd92c806a580}
+      \strng{authorbibnamehash}{c3d20afac37c01ffddb4bd92c806a580}
+      \strng{authornamehash}{bd3f4eac559b23621f65fdc45b9c7678}
+      \strng{authorfullhash}{c3d20afac37c01ffddb4bd92c806a580}
+      \strng{authorfullhashraw}{c3d20afac37c01ffddb4bd92c806a580}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Focusing on the effect of universal food insecurity, over 60\% of sub-Saharan countries are predicted to be in a state of malnourishment and yet several farming places are under drought state. The climatic condition is believed to be biannual dry seasons which is very difficult for farmers to cultivate crops due to shortage of water and poor soil fertility. Yet heavy rainfall is still a great threat for the farmers since it devastates cash crops. The use of a smart greenhouse with Artificial Intelligence to grow and protect plants in both dry and wet seasons and reduce labor-intensive human tasks and automate pervasive data analytics of daily plant status can surprisingly boost food security. Here we present a fully automated greenhouse system with artificial intelligence embedded in it that uses around 10,000 plant images in it that initially nurtureplants under optimum atmospheric conditions by taking real-time decisions, detectingany kind of illness, and interestingly notifyingthe stage of fruit ripeness. By implementing a neural network-based computer vision approach we were able to keep track of the health status of the plants caused by several microorganisms. The obtained predictions and results accurately verify how machine learning can be used to increase gross national food security by implementing such systems in multiple farming areas without prior human involvement.}
+      \field{day}{27}
+      \field{journaltitle}{International Journal of Intelligent Systems and Applications in Engineering}
+      \field{month}{5}
+      \field{shortjournal}{International Journal of Intelligent Systems and Applications in Engineering}
+      \field{title}{{{IOT}} Based {{Automated Greenhouse Using Machine Learning Approach}}}
+      \field{volume}{10}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{226\bibrangedash 231}
+      \range{pages}{6}
+      \verb{file}
+      \verb /home/jjlg/Zotero/storage/IQ35LAD6/Farooqui et al. - 2022 - IOT based Automated Greenhouse Using Machine Learning Approach.pdf
+      \endverb
+    \endentry
+    \entry{fawzyStrategiesMitigationClimate2020}{article}{}{}
       \name{author}{4}{}{%
         {{hash=882ebecf9f8a5588a6a60098d8dd50f3}{%
            family={Fawzy},
@@ -989,10 +1409,12 @@
       }
       \strng{namehash}{81975c141c1df9deeb58f0a7d7b7eae3}
       \strng{fullhash}{b3f8cdf5f2364b290a1a644af18bacd3}
+      \strng{fullhashraw}{b3f8cdf5f2364b290a1a644af18bacd3}
       \strng{bibnamehash}{b3f8cdf5f2364b290a1a644af18bacd3}
       \strng{authorbibnamehash}{b3f8cdf5f2364b290a1a644af18bacd3}
       \strng{authornamehash}{81975c141c1df9deeb58f0a7d7b7eae3}
       \strng{authorfullhash}{b3f8cdf5f2364b290a1a644af18bacd3}
+      \strng{authorfullhashraw}{b3f8cdf5f2364b290a1a644af18bacd3}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{extradatescope}{labelyear}
@@ -1024,7 +1446,7 @@
       \endverb
       \keyw{Carbon dioxide removal,Climate change mitigation,Decarbonization technologies,Environmental Chemistry,Geoengineering,Negative emissions technologies,Radiative forcing geoengineering technologies}
     \endentry
-    \entry{filonchyk2024greenhouse}{article}{}
+    \entry{filonchyk2024greenhouse}{article}{}{}
       \name{author}{5}{}{%
         {{hash=8caa1323f1f71c608f63475e5d27a8fa}{%
            family={Filonchyk},
@@ -1057,10 +1479,12 @@
       }
       \strng{namehash}{fca3bbf91ca1bf29629eaff05eb2ac43}
       \strng{fullhash}{be5bccecde5988fab63e7f918bf9a788}
+      \strng{fullhashraw}{be5bccecde5988fab63e7f918bf9a788}
       \strng{bibnamehash}{be5bccecde5988fab63e7f918bf9a788}
       \strng{authorbibnamehash}{be5bccecde5988fab63e7f918bf9a788}
       \strng{authornamehash}{fca3bbf91ca1bf29629eaff05eb2ac43}
       \strng{authorfullhash}{be5bccecde5988fab63e7f918bf9a788}
+      \strng{authorfullhashraw}{be5bccecde5988fab63e7f918bf9a788}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{extradatescope}{labelyear}
@@ -1074,7 +1498,7 @@
       \field{pages}{173359}
       \range{pages}{1}
     \endentry
-    \entry{foodandagricultureorganizationoftheunitednationsfaoEmissionsDueAgriculture2020}{report}{}
+    \entry{foodandagricultureorganizationoftheunitednationsfaoEmissionsDueAgriculture2020}{report}{}{}
       \name{author}{1}{}{%
         {{hash=837fc316b81710902fb989d5c22eb034}{%
            family={{Food and Agriculture Organization of the United Nations (FAO)}},
@@ -1085,10 +1509,12 @@
       }
       \strng{namehash}{837fc316b81710902fb989d5c22eb034}
       \strng{fullhash}{837fc316b81710902fb989d5c22eb034}
+      \strng{fullhashraw}{837fc316b81710902fb989d5c22eb034}
       \strng{bibnamehash}{837fc316b81710902fb989d5c22eb034}
       \strng{authorbibnamehash}{837fc316b81710902fb989d5c22eb034}
       \strng{authornamehash}{837fc316b81710902fb989d5c22eb034}
       \strng{authorfullhash}{837fc316b81710902fb989d5c22eb034}
+      \strng{authorfullhashraw}{837fc316b81710902fb989d5c22eb034}
       \field{extraname}{1}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
@@ -1106,7 +1532,7 @@
       \verb /home/jjlg/Zotero/storage/QFBY4RBJ/Emissions due to agriculture.pdf
       \endverb
     \endentry
-    \entry{FAO2021}{misc}{}
+    \entry{FAO2021}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=837fc316b81710902fb989d5c22eb034}{%
            family={{Food and Agriculture Organization of the United Nations (FAO)}},
@@ -1114,10 +1540,12 @@
       }
       \strng{namehash}{837fc316b81710902fb989d5c22eb034}
       \strng{fullhash}{837fc316b81710902fb989d5c22eb034}
+      \strng{fullhashraw}{837fc316b81710902fb989d5c22eb034}
       \strng{bibnamehash}{837fc316b81710902fb989d5c22eb034}
       \strng{authorbibnamehash}{837fc316b81710902fb989d5c22eb034}
       \strng{authornamehash}{837fc316b81710902fb989d5c22eb034}
       \strng{authorfullhash}{837fc316b81710902fb989d5c22eb034}
+      \strng{authorfullhashraw}{837fc316b81710902fb989d5c22eb034}
       \field{extraname}{2}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
@@ -1130,7 +1558,7 @@
       \field{title}{Agricultural Waste Management: {{Challenges}} and Opportunities}
       \field{year}{2021}
     \endentry
-    \entry{galan-diazCarbonWaterFootprint2024}{article}{}
+    \entry{galan-diazCarbonWaterFootprint2024}{article}{}{}
       \name{author}{4}{}{%
         {{hash=ea61f652e4037159ff0c75ceec2f1d80}{%
            family={{Galán-Díaz}},
@@ -1155,10 +1583,12 @@
       }
       \strng{namehash}{b05cefe70538258f9902f26896922efd}
       \strng{fullhash}{a280b0f73b034d2eb0cc0ae7e4efc926}
+      \strng{fullhashraw}{a280b0f73b034d2eb0cc0ae7e4efc926}
       \strng{bibnamehash}{a280b0f73b034d2eb0cc0ae7e4efc926}
       \strng{authorbibnamehash}{a280b0f73b034d2eb0cc0ae7e4efc926}
       \strng{authornamehash}{b05cefe70538258f9902f26896922efd}
       \strng{authorfullhash}{a280b0f73b034d2eb0cc0ae7e4efc926}
+      \strng{authorfullhashraw}{a280b0f73b034d2eb0cc0ae7e4efc926}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -1187,7 +1617,7 @@
       \endverb
       \keyw{Black soldier fly,Carbon footprint,Environment,Sustainability,Water footprint}
     \endentry
-    \entry{ginerFoodLossWaste2025a}{report}{}
+    \entry{ginerFoodLossWaste2025a}{report}{}{}
       \name{author}{6}{}{%
         {{hash=0c091142c2a29392d219957917656105}{%
            family={Giner},
@@ -1222,10 +1652,12 @@
       }
       \strng{namehash}{7b601868d0a11fab11a4cb824610eee1}
       \strng{fullhash}{dc578901accbfce23e262e6a51d2479c}
+      \strng{fullhashraw}{dc578901accbfce23e262e6a51d2479c}
       \strng{bibnamehash}{dc578901accbfce23e262e6a51d2479c}
       \strng{authorbibnamehash}{dc578901accbfce23e262e6a51d2479c}
       \strng{authornamehash}{7b601868d0a11fab11a4cb824610eee1}
       \strng{authorfullhash}{dc578901accbfce23e262e6a51d2479c}
+      \strng{authorfullhashraw}{dc578901accbfce23e262e6a51d2479c}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -1247,7 +1679,7 @@
       \verb /home/jjlg/Zotero/storage/JTKBVVDD/2025 - Beyond food loss and waste reduction targets.pdf;/home/jjlg/Zotero/storage/JIAD56HT/beyond-food-loss-and-waste-reduction-targets_59cf6c95-en.html
       \endverb
     \endentry
-    \entry{goldEffectsRearingSystem2022}{article}{}
+    \entry{goldEffectsRearingSystem2022}{article}{}{}
       \name{author}{8}{}{%
         {{hash=be73aee36b368c45b8bb71f755eac7da}{%
            family={Gold},
@@ -1295,10 +1727,12 @@
       }
       \strng{namehash}{2d880b79d61c0e704b866a84d2e055a5}
       \strng{fullhash}{7c70ac01ab91a03b2cf2015fcf2f5f50}
+      \strng{fullhashraw}{7c70ac01ab91a03b2cf2015fcf2f5f50}
       \strng{bibnamehash}{7c70ac01ab91a03b2cf2015fcf2f5f50}
       \strng{authorbibnamehash}{7c70ac01ab91a03b2cf2015fcf2f5f50}
       \strng{authornamehash}{2d880b79d61c0e704b866a84d2e055a5}
       \strng{authorfullhash}{7c70ac01ab91a03b2cf2015fcf2f5f50}
+      \strng{authorfullhashraw}{7c70ac01ab91a03b2cf2015fcf2f5f50}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -1328,7 +1762,7 @@
       \endverb
       \keyw{bioconversion,feed,food waste,Hermetia illucens,microbiota}
     \endentry
-    \entry{guthrie_impact_2018}{report}{}
+    \entry{guthrie_impact_2018}{report}{}{}
       \name{author}{7}{}{%
         {{hash=17a6aeda44d4f926a3f1e979e325648e}{%
            family={Guthrie},
@@ -1374,10 +1808,12 @@
       }
       \strng{namehash}{70f476e600ac2c29ed962b04d7ead5cc}
       \strng{fullhash}{8d9dbec3b29a5b882e574c0205360a59}
+      \strng{fullhashraw}{8d9dbec3b29a5b882e574c0205360a59}
       \strng{bibnamehash}{8d9dbec3b29a5b882e574c0205360a59}
       \strng{authorbibnamehash}{8d9dbec3b29a5b882e574c0205360a59}
       \strng{authornamehash}{70f476e600ac2c29ed962b04d7ead5cc}
       \strng{authorfullhash}{8d9dbec3b29a5b882e574c0205360a59}
+      \strng{authorfullhashraw}{8d9dbec3b29a5b882e574c0205360a59}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -1403,7 +1839,7 @@
       \endverb
       \keyw{Agricultural Sciences,Biology and Life Sciences,Environmental Pollution,Environmental Regulation,Research,United Kingdom}
     \endentry
-    \entry{hamamAdvancesInsectIndustry2024}{article}{}
+    \entry{hamamAdvancesInsectIndustry2024}{article}{}{}
       \name{author}{3}{}{%
         {{hash=069f9eee77ead87e2b20a4ffac5a8bca}{%
            family={Hamam},
@@ -1423,10 +1859,12 @@
       }
       \strng{namehash}{6ff4c11fac532f80440b8a41f44b34d4}
       \strng{fullhash}{c575e2ed30b8c26d0f3f3b197f0ea16c}
+      \strng{fullhashraw}{c575e2ed30b8c26d0f3f3b197f0ea16c}
       \strng{bibnamehash}{c575e2ed30b8c26d0f3f3b197f0ea16c}
       \strng{authorbibnamehash}{c575e2ed30b8c26d0f3f3b197f0ea16c}
       \strng{authornamehash}{6ff4c11fac532f80440b8a41f44b34d4}
       \strng{authorfullhash}{c575e2ed30b8c26d0f3f3b197f0ea16c}
+      \strng{authorfullhashraw}{c575e2ed30b8c26d0f3f3b197f0ea16c}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -1457,7 +1895,7 @@
       \endverb
       \keyw{Bioconversion,Circular economy,Insect-based food,Insects-based feeds,Social acceptance,Waste management}
     \endentry
-    \entry{herrinCollateralDataQuality2021}{thesis}{}
+    \entry{herrinCollateralDataQuality2021}{thesis}{}{}
       \name{author}{1}{}{%
         {{hash=5635f898972cd68f5e0e31b7f6d6df96}{%
            family={Herrin},
@@ -1470,10 +1908,12 @@
       }
       \strng{namehash}{5635f898972cd68f5e0e31b7f6d6df96}
       \strng{fullhash}{5635f898972cd68f5e0e31b7f6d6df96}
+      \strng{fullhashraw}{5635f898972cd68f5e0e31b7f6d6df96}
       \strng{bibnamehash}{5635f898972cd68f5e0e31b7f6d6df96}
       \strng{authorbibnamehash}{5635f898972cd68f5e0e31b7f6d6df96}
       \strng{authornamehash}{5635f898972cd68f5e0e31b7f6d6df96}
       \strng{authorfullhash}{5635f898972cd68f5e0e31b7f6d6df96}
+      \strng{authorfullhashraw}{5635f898972cd68f5e0e31b7f6d6df96}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -1489,7 +1929,7 @@
       \verb /home/jjlg/Zotero/storage/3R6MLIFJ/Herrin - Collateral Data Quality Challenges of IoT Sensor-Generated Data.pdf
       \endverb
     \endentry
-    \entry{IPCC2014}{book}{}
+    \entry{IPCC2014}{book}{}{}
       \name{author}{1}{}{%
         {{hash=676f7b9b8e5bb30500c01e2385e59174}{%
            family={{IPCC}},
@@ -1500,10 +1940,12 @@
       }
       \strng{namehash}{676f7b9b8e5bb30500c01e2385e59174}
       \strng{fullhash}{676f7b9b8e5bb30500c01e2385e59174}
+      \strng{fullhashraw}{676f7b9b8e5bb30500c01e2385e59174}
       \strng{bibnamehash}{676f7b9b8e5bb30500c01e2385e59174}
       \strng{authorbibnamehash}{676f7b9b8e5bb30500c01e2385e59174}
       \strng{authornamehash}{676f7b9b8e5bb30500c01e2385e59174}
       \strng{authorfullhash}{676f7b9b8e5bb30500c01e2385e59174}
+      \strng{authorfullhashraw}{676f7b9b8e5bb30500c01e2385e59174}
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{extradatescope}{labelyear}
@@ -1515,7 +1957,7 @@
       \field{title}{Climate Change 2014: {{Mitigation}} of Climate Change. {{Contribution}} of Working Group {{III}} to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change}
       \field{year}{2014}
     \endentry
-    \entry{jenkinsProcessingPoultryManure2025}{article}{}
+    \entry{jenkinsProcessingPoultryManure2025}{article}{}{}
       \name{author}{6}{}{%
         {{hash=55ade1076e4f465eda0eb34aba965e55}{%
            family={Jenkins},
@@ -1553,10 +1995,12 @@
       }
       \strng{namehash}{402b2bc1891418620da7f92a9d9b0511}
       \strng{fullhash}{408547e7382f617ea6ad706a163317ad}
+      \strng{fullhashraw}{408547e7382f617ea6ad706a163317ad}
       \strng{bibnamehash}{408547e7382f617ea6ad706a163317ad}
       \strng{authorbibnamehash}{408547e7382f617ea6ad706a163317ad}
       \strng{authornamehash}{402b2bc1891418620da7f92a9d9b0511}
       \strng{authorfullhash}{408547e7382f617ea6ad706a163317ad}
+      \strng{authorfullhashraw}{408547e7382f617ea6ad706a163317ad}
       \field{sortinit}{J}
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
       \field{extradatescope}{labelyear}
@@ -1578,7 +2022,7 @@
       \endverb
       \keyw{bacteria,circular economy,fertiliser,frass,greenhouse gas,insect farming}
     \endentry
-    \entry{kabangeMitigatingGreenhouseGas2023}{article}{}
+    \entry{kabangeMitigatingGreenhouseGas2023}{article}{}{}
       \name{author}{10}{}{%
         {{hash=737e907e76031909e5a4e1b14f970d55}{%
            family={Kabange},
@@ -1636,10 +2080,12 @@
       }
       \strng{namehash}{e30f0b635d977c9ab8fc4e6cdaaf21e7}
       \strng{fullhash}{0d9072b6d92d913d38d26b058a3d3b67}
+      \strng{fullhashraw}{0d9072b6d92d913d38d26b058a3d3b67}
       \strng{bibnamehash}{0d9072b6d92d913d38d26b058a3d3b67}
       \strng{authorbibnamehash}{0d9072b6d92d913d38d26b058a3d3b67}
       \strng{authornamehash}{e30f0b635d977c9ab8fc4e6cdaaf21e7}
       \strng{authorfullhash}{0d9072b6d92d913d38d26b058a3d3b67}
+      \strng{authorfullhashraw}{0d9072b6d92d913d38d26b058a3d3b67}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -1671,7 +2117,7 @@
       \endverb
       \keyw{biochar,crop residue management,environment,game changer,greenhouse gas,livestock feed,nitrogen,sustainability}
     \endentry
-    \entry{kamilaris2017review}{article}{}
+    \entry{kamilaris2017review}{article}{}{}
       \name{author}{3}{}{%
         {{hash=eb16d14d23f09fd1365230c0230110f7}{%
            family={Kamilaris},
@@ -1694,10 +2140,12 @@
       }
       \strng{namehash}{77c4a23614e916bd4e67f76a3e39d26f}
       \strng{fullhash}{b04aacd31dd8839c183a6d062c50c4c6}
+      \strng{fullhashraw}{b04aacd31dd8839c183a6d062c50c4c6}
       \strng{bibnamehash}{b04aacd31dd8839c183a6d062c50c4c6}
       \strng{authorbibnamehash}{b04aacd31dd8839c183a6d062c50c4c6}
       \strng{authornamehash}{77c4a23614e916bd4e67f76a3e39d26f}
       \strng{authorfullhash}{b04aacd31dd8839c183a6d062c50c4c6}
+      \strng{authorfullhashraw}{b04aacd31dd8839c183a6d062c50c4c6}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -1712,7 +2160,7 @@
       \field{pages}{23\bibrangedash 37}
       \range{pages}{15}
     \endentry
-    \entry{koyunogluBiofuelProductionUtilizing2024}{article}{}
+    \entry{koyunogluBiofuelProductionUtilizing2024}{article}{}{}
       \name{author}{1}{}{%
         {{hash=5df308fbf73571b28e16e32cd3728e60}{%
            family={Koyunoğlu},
@@ -1722,10 +2170,12 @@
       }
       \strng{namehash}{5df308fbf73571b28e16e32cd3728e60}
       \strng{fullhash}{5df308fbf73571b28e16e32cd3728e60}
+      \strng{fullhashraw}{5df308fbf73571b28e16e32cd3728e60}
       \strng{bibnamehash}{5df308fbf73571b28e16e32cd3728e60}
       \strng{authorbibnamehash}{5df308fbf73571b28e16e32cd3728e60}
       \strng{authornamehash}{5df308fbf73571b28e16e32cd3728e60}
       \strng{authorfullhash}{5df308fbf73571b28e16e32cd3728e60}
+      \strng{authorfullhashraw}{5df308fbf73571b28e16e32cd3728e60}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -1755,7 +2205,7 @@
       \endverb
       \keyw{Biodiesel,Biofuel,Black soldier fly,Hermetia illucens,Organic waste management,Sustainable energy,Transesterification}
     \endentry
-    \entry{Leddin2024}{article}{}
+    \entry{Leddin2024}{article}{}{}
       \name{author}{1}{}{%
         {{hash=1dc1db8af5ad5062e416c9e597dd1ae7}{%
            family={Leddin},
@@ -1765,10 +2215,12 @@
       }
       \strng{namehash}{1dc1db8af5ad5062e416c9e597dd1ae7}
       \strng{fullhash}{1dc1db8af5ad5062e416c9e597dd1ae7}
+      \strng{fullhashraw}{1dc1db8af5ad5062e416c9e597dd1ae7}
       \strng{bibnamehash}{1dc1db8af5ad5062e416c9e597dd1ae7}
       \strng{authorbibnamehash}{1dc1db8af5ad5062e416c9e597dd1ae7}
       \strng{authornamehash}{1dc1db8af5ad5062e416c9e597dd1ae7}
       \strng{authorfullhash}{1dc1db8af5ad5062e416c9e597dd1ae7}
+      \strng{authorfullhashraw}{1dc1db8af5ad5062e416c9e597dd1ae7}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
@@ -1783,7 +2235,7 @@
       \verb 10.1016/j.gastha.2024.01.018
       \endverb
     \endentry
-    \entry{liuOptimizingDataPipelines2023}{article}{}
+    \entry{liuOptimizingDataPipelines2023}{article}{}{}
       \name{author}{10}{}{%
         {{hash=7dbcd223db163eb1fc0b2e4f844602cd}{%
            family={Liu},
@@ -1838,10 +2290,12 @@
       }
       \strng{namehash}{037e6926e09ea313bacbdfaffec60461}
       \strng{fullhash}{cfdbfa48cf9e57335dfb93a3b21e05fd}
+      \strng{fullhashraw}{cfdbfa48cf9e57335dfb93a3b21e05fd}
       \strng{bibnamehash}{cfdbfa48cf9e57335dfb93a3b21e05fd}
       \strng{authorbibnamehash}{cfdbfa48cf9e57335dfb93a3b21e05fd}
       \strng{authornamehash}{037e6926e09ea313bacbdfaffec60461}
       \strng{authorfullhash}{cfdbfa48cf9e57335dfb93a3b21e05fd}
+      \strng{authorfullhashraw}{cfdbfa48cf9e57335dfb93a3b21e05fd}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
@@ -1867,7 +2321,48 @@
       \verb /home/jjlg/Zotero/storage/KNA5CCAU/6b9d0226350d524187a2b5525c20e3de.html
       \endverb
     \endentry
-    \entry{lynchAgriculturesContributionClimate2021}{article}{}
+    \entry{luReviewIntelligentGreenhouse2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=a5071f14960a38eaa174b739bfe6d191}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Ziyang},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{a5071f14960a38eaa174b739bfe6d191}
+      \strng{fullhash}{a5071f14960a38eaa174b739bfe6d191}
+      \strng{fullhashraw}{a5071f14960a38eaa174b739bfe6d191}
+      \strng{bibnamehash}{a5071f14960a38eaa174b739bfe6d191}
+      \strng{authorbibnamehash}{a5071f14960a38eaa174b739bfe6d191}
+      \strng{authornamehash}{a5071f14960a38eaa174b739bfe6d191}
+      \strng{authorfullhash}{a5071f14960a38eaa174b739bfe6d191}
+      \strng{authorfullhashraw}{a5071f14960a38eaa174b739bfe6d191}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{With the rapid advancement of Internet of Things (IoT) technologies, intelligent greenhouses, as a critical component of modern agriculture, are progressively supplanting traditional farming practices and emerging as a cornerstone technology for precision agriculture. By integrating sensor technologies, automated control systems, cloud computing, and artificial intelligence algorithms, intelligent greenhouses facilitate precise monitoring and automated management of environmental parameters such as temperature, humidity, light intensity, and soil moisture. This integration not only enhances crop yield and quality but also minimizes resource wastage. Nevertheless, the effective amalgamation of these technologies to achieve intelligent greenhouse environment management remains a primary research focus and challenge. This paper provides a comprehensive review of the current research status of intelligent greenhouses based on IoT control technology, addressing the following aspects: first, the utilization of microcontrollers and sensor technologies for localized monitoring and control of greenhouse environments; second, the implementation of cloud computing to enable remote monitoring and management of greenhouse conditions; third, the optimization of greenhouse environmental control strategies through the integration of artificial intelligence algorithms; and finally, the design of compact intelligent greenhouses suitable for domestic cultivation. This study systematically examines the research progress of intelligent greenhouses leveraging IoT control technologies, offering technical insights and practical applications for researchers in the field. Furthermore, the proposed integration frameworks and future development directions presented herein hold significant implications for advancing the adoption and expansion of smart agriculture, thereby contributing to the realization of intelligent and sustainable agricultural production systems.}
+      \field{day}{6}
+      \field{journaltitle}{Applied and Computational Engineering}
+      \field{month}{5}
+      \field{shortjournal}{Applied and Computational Engineering}
+      \field{title}{A {{Review}} of {{Intelligent Greenhouse Systems Based}} on {{Internet}} of {{Things Control Technology}}}
+      \field{volume}{148}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{pages}{44\bibrangedash 50}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.54254/2755-2721/2025.22577
+      \endverb
+      \verb{file}
+      \verb /home/jjlg/Zotero/storage/3XZKQ6AD/Lu - 2025 - A Review of Intelligent Greenhouse Systems Based on Internet of Things Control Technology.pdf
+      \endverb
+    \endentry
+    \entry{lynchAgriculturesContributionClimate2021}{article}{}{}
       \name{author}{4}{}{%
         {{hash=7fbb54472b7d7841c21e90f5138c8ef8}{%
            family={Lynch},
@@ -1895,10 +2390,12 @@
       }
       \strng{namehash}{23c96784426f0dc89803ea80d3228303}
       \strng{fullhash}{20bfdef19a60881619ba3676c05b10f0}
+      \strng{fullhashraw}{20bfdef19a60881619ba3676c05b10f0}
       \strng{bibnamehash}{20bfdef19a60881619ba3676c05b10f0}
       \strng{authorbibnamehash}{20bfdef19a60881619ba3676c05b10f0}
       \strng{authornamehash}{23c96784426f0dc89803ea80d3228303}
       \strng{authorfullhash}{20bfdef19a60881619ba3676c05b10f0}
+      \strng{authorfullhashraw}{20bfdef19a60881619ba3676c05b10f0}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
@@ -1926,7 +2423,7 @@
       \endverb
       \keyw{Carbon Dioxide,Climate chage,climate policy,Methane,Nitrous Oxide}
     \endentry
-    \entry{nayakHermetiaIllucensDiptera2024}{article}{}
+    \entry{nayakHermetiaIllucensDiptera2024}{article}{}{}
       \name{author}{3}{}{%
         {{hash=5cdcab9f6faff96eeafb1ad01eba62af}{%
            family={Nayak},
@@ -1949,10 +2446,12 @@
       }
       \strng{namehash}{5c7cc1a2fa0b1f7fdcd082c2e489eb47}
       \strng{fullhash}{356bd68c4d2bb08f2581576103e28da0}
+      \strng{fullhashraw}{356bd68c4d2bb08f2581576103e28da0}
       \strng{bibnamehash}{356bd68c4d2bb08f2581576103e28da0}
       \strng{authorbibnamehash}{356bd68c4d2bb08f2581576103e28da0}
       \strng{authornamehash}{5c7cc1a2fa0b1f7fdcd082c2e489eb47}
       \strng{authorfullhash}{356bd68c4d2bb08f2581576103e28da0}
+      \strng{authorfullhashraw}{356bd68c4d2bb08f2581576103e28da0}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{extradatescope}{labelyear}
@@ -1984,7 +2483,7 @@
       \endverb
       \keyw{<i>Hermetia illucens</i>,alternative protein,black soldier fly,circular economy,insect rearing,insects as feed,rearing variables,side streams,sustainability,waste reduction}
     \endentry
-    \entry{nunesRisingThreatAtmospheric2023}{article}{}
+    \entry{nunesRisingThreatAtmospheric2023}{article}{}{}
       \name{author}{1}{}{%
         {{hash=a3844a6647b729db96e7e558413e1289}{%
            family={Nunes},
@@ -1997,10 +2496,12 @@
       }
       \strng{namehash}{a3844a6647b729db96e7e558413e1289}
       \strng{fullhash}{a3844a6647b729db96e7e558413e1289}
+      \strng{fullhashraw}{a3844a6647b729db96e7e558413e1289}
       \strng{bibnamehash}{a3844a6647b729db96e7e558413e1289}
       \strng{authorbibnamehash}{a3844a6647b729db96e7e558413e1289}
       \strng{authornamehash}{a3844a6647b729db96e7e558413e1289}
       \strng{authorfullhash}{a3844a6647b729db96e7e558413e1289}
+      \strng{authorfullhashraw}{a3844a6647b729db96e7e558413e1289}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{extradatescope}{labelyear}
@@ -2032,7 +2533,139 @@
       \endverb
       \keyw{carbon capture and storage,climate change,CO<sub>2</sub> emissions,greenhouse gases,mitigation}
     \endentry
-    \entry{paulMachineLearningIoT2024}{inbook}{}
+    \entry{padmanabhaComprehensiveDynamicGrowth2020}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=5f38ee887e474f6fe9b74309ec6ebdba}{%
+           family={Padmanabha},
+           familyi={P\bibinitperiod},
+           given={Murali},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fa712428a437147315e383a9a7d3d1ce}{%
+           family={Kobelski},
+           familyi={K\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d757087ddca176f05d8f7b8656351aa4}{%
+           family={Hempel},
+           familyi={H\bibinitperiod},
+           given={Arne-Jens},
+           giveni={A\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=5e7d5f8756df73e258a0111af40f0dcf}{%
+           family={Streif},
+           familyi={S\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science San Francisco, CA USA}%
+      }
+      \strng{namehash}{5834c8289ef67e65f2f1c200797c8155}
+      \strng{fullhash}{57393373f5cc20e7c11d4492ea5f8cbf}
+      \strng{fullhashraw}{57393373f5cc20e7c11d4492ea5f8cbf}
+      \strng{bibnamehash}{57393373f5cc20e7c11d4492ea5f8cbf}
+      \strng{authorbibnamehash}{57393373f5cc20e7c11d4492ea5f8cbf}
+      \strng{authornamehash}{5834c8289ef67e65f2f1c200797c8155}
+      \strng{authorfullhash}{57393373f5cc20e7c11d4492ea5f8cbf}
+      \strng{authorfullhashraw}{57393373f5cc20e7c11d4492ea5f8cbf}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Plos one}
+      \field{number}{9}
+      \field{title}{A Comprehensive Dynamic Growth and Development Model of {{Hermetia}} Illucens Larvae}
+      \field{urlday}{2}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{volume}{15}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{e0239084}
+      \range{pages}{-1}
+      \verb{file}
+      \verb /home/jjlg/Zotero/storage/GHVW88D8/Padmanabha et al. - 2020 - A comprehensive dynamic growth and development model of Hermetia illucens larvae.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0239084
+      \endverb
+      \verb{url}
+      \verb https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0239084
+      \endverb
+    \endentry
+    \entry{padmanabhaModellingOptimalControl2023}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=5f38ee887e474f6fe9b74309ec6ebdba}{%
+           family={Padmanabha},
+           familyi={P\bibinitperiod},
+           given={Murali},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fa712428a437147315e383a9a7d3d1ce}{%
+           family={Kobelski},
+           familyi={K\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d757087ddca176f05d8f7b8656351aa4}{%
+           family={Hempel},
+           familyi={H\bibinitperiod},
+           given={Arne-Jens},
+           giveni={A\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=5e7d5f8756df73e258a0111af40f0dcf}{%
+           family={Streif},
+           familyi={S\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{5834c8289ef67e65f2f1c200797c8155}
+      \strng{fullhash}{57393373f5cc20e7c11d4492ea5f8cbf}
+      \strng{fullhashraw}{57393373f5cc20e7c11d4492ea5f8cbf}
+      \strng{bibnamehash}{57393373f5cc20e7c11d4492ea5f8cbf}
+      \strng{authorbibnamehash}{57393373f5cc20e7c11d4492ea5f8cbf}
+      \strng{authornamehash}{5834c8289ef67e65f2f1c200797c8155}
+      \strng{authorfullhash}{57393373f5cc20e7c11d4492ea5f8cbf}
+      \strng{authorfullhashraw}{57393373f5cc20e7c11d4492ea5f8cbf}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Mass production of Hermetia illucens insect larvae is now being adopted in many countries and is taking an industrial production approach. Despite abundant literature on factors that affect larvae growth and the optimal static parameters identified in laboratory setup, for an industrial production process it is necessary to identify the trajectories such that the growth as well as the production process is optimal. To achieve this in this work, some of the important requirements and challenges involved thereof are identified and objectives of the automation process are formulated within a model based optimal control setup. Mechanistic models necessary for the optimization framework are derived as differential equations that describe the dynamic variation of resources (feed, water, O2 etc.), energy, and larval biomass. In addition, the elevated metabolic activity of larvae corresponding to the final instar development is identified and also modelled based on the observation from experiments. The mass and energy balance approach used in modelling enables the quantification and distinction of the mass and energy flux components in various levels (e.g. larvae body, growing medium, production environment, and external environment) while holding its applicability for both open and closed/reactor based production setups. Finally, the trajectories generated using the synthesized optimal controller are tested under different scenarios showcasing significant reduction in resource consumption compared to a constant set-point operation of the production setup. Results presented in this work not only showcase the potential of the mechanistic models and their application in identifying the relevant process parameters (e.g. reactor properties such as volume, thermal conductivity, actuator capacities), but most importantly in optimizing the process dynamically and tuning the process objectives as desired (e.g. maximize larvae mass, reduce energy).}
+      \field{issn}{01681699}
+      \field{journaltitle}{Computers and Electronics in Agriculture}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{shortjournal}{Computers and Electronics in Agriculture}
+      \field{title}{Modelling and Optimal Control of Growth, Energy, and Resource Dynamics of {{Hermetia}} Illucens in Mass Production Environment}
+      \field{urlday}{27}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{206}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{107649}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.compag.2023.107649
+      \endverb
+      \verb{file}
+      \verb /home/jjlg/Zotero/storage/ZQ25WQ6N/Padmanabha et al. - 2023 - Modelling and optimal control of growth, energy, and resource dynamics of Hermetia illucens in mass.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0168169923000376
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0168169923000376
+      \endverb
+    \endentry
+    \entry{paulMachineLearningIoT2024}{inbook}{}{}
       \name{author}{2}{}{%
         {{hash=b22a2429c00ede03dbc019e08d6bcc01}{%
            family={Paul},
@@ -2060,13 +2693,16 @@
       }
       \strng{namehash}{662f3cdc206b91d47c20c56dfcdde02d}
       \strng{fullhash}{662f3cdc206b91d47c20c56dfcdde02d}
+      \strng{fullhashraw}{662f3cdc206b91d47c20c56dfcdde02d}
       \strng{bibnamehash}{662f3cdc206b91d47c20c56dfcdde02d}
       \strng{authorbibnamehash}{662f3cdc206b91d47c20c56dfcdde02d}
       \strng{authornamehash}{662f3cdc206b91d47c20c56dfcdde02d}
       \strng{authorfullhash}{662f3cdc206b91d47c20c56dfcdde02d}
+      \strng{authorfullhashraw}{662f3cdc206b91d47c20c56dfcdde02d}
       \strng{editorbibnamehash}{cdf52dadefebd5a5ab690434608cb518}
       \strng{editornamehash}{cdf52dadefebd5a5ab690434608cb518}
       \strng{editorfullhash}{cdf52dadefebd5a5ab690434608cb518}
+      \strng{editorfullhashraw}{cdf52dadefebd5a5ab690434608cb518}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -2090,7 +2726,7 @@
       \verb 10.1007/978-981-97-5624-7_6
       \endverb
     \endentry
-    \entry{rajRealTimeEstimation2023}{article}{}
+    \entry{rajRealTimeEstimation2023}{article}{}{}
       \name{author}{2}{}{%
         {{hash=421c1587f0d31252ea869ae924ec0fc2}{%
            family={Raj},
@@ -2105,10 +2741,12 @@
       }
       \strng{namehash}{ddfb27bc30b817b54295b53e630ff9ea}
       \strng{fullhash}{ddfb27bc30b817b54295b53e630ff9ea}
+      \strng{fullhashraw}{ddfb27bc30b817b54295b53e630ff9ea}
       \strng{bibnamehash}{ddfb27bc30b817b54295b53e630ff9ea}
       \strng{authorbibnamehash}{ddfb27bc30b817b54295b53e630ff9ea}
       \strng{authornamehash}{ddfb27bc30b817b54295b53e630ff9ea}
       \strng{authorfullhash}{ddfb27bc30b817b54295b53e630ff9ea}
+      \strng{authorfullhashraw}{ddfb27bc30b817b54295b53e630ff9ea}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -2133,7 +2771,7 @@
       \verb /home/jjlg/Zotero/storage/8DJE9823/255ff4030d8755b090ee0836904df064.html
       \endverb
     \endentry
-    \entry{rossiEstimatingDynamicsGreenhouse2024}{article}{}
+    \entry{rossiEstimatingDynamicsGreenhouse2024}{article}{}{}
       \name{author}{5}{}{%
         {{hash=58e0c22d5460ce5887ea30b877e48222}{%
            family={Rossi},
@@ -2163,10 +2801,12 @@
       }
       \strng{namehash}{7c8dc12dbcfede88072cc7d24a94d16a}
       \strng{fullhash}{dec95416477a6add39b424ea8c236b56}
+      \strng{fullhashraw}{dec95416477a6add39b424ea8c236b56}
       \strng{bibnamehash}{dec95416477a6add39b424ea8c236b56}
       \strng{authorbibnamehash}{dec95416477a6add39b424ea8c236b56}
       \strng{authornamehash}{7c8dc12dbcfede88072cc7d24a94d16a}
       \strng{authorfullhash}{dec95416477a6add39b424ea8c236b56}
+      \strng{authorfullhashraw}{dec95416477a6add39b424ea8c236b56}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -2195,7 +2835,7 @@
       \verb /home/jjlg/Zotero/storage/RJLPEZ7R/Rossi et al. - 2024 - Estimating the dynamics of greenhouse gas emission during black soldier fly larvae growth under cont.pdf
       \endverb
     \endentry
-    \entry{salamEffectDifferentEnvironmental2022}{article}{}
+    \entry{salamEffectDifferentEnvironmental2022}{article}{}{}
       \name{author}{10}{}{%
         {{hash=c60556bcc9458786837639ac5f043183}{%
            family={Salam},
@@ -2250,10 +2890,12 @@
       }
       \strng{namehash}{7e9bb743b62ec04b3c27867778aec20b}
       \strng{fullhash}{feea997cf3ce6cdadbee2f3b7395dfbe}
+      \strng{fullhashraw}{feea997cf3ce6cdadbee2f3b7395dfbe}
       \strng{bibnamehash}{feea997cf3ce6cdadbee2f3b7395dfbe}
       \strng{authorbibnamehash}{feea997cf3ce6cdadbee2f3b7395dfbe}
       \strng{authornamehash}{7e9bb743b62ec04b3c27867778aec20b}
       \strng{authorfullhash}{feea997cf3ce6cdadbee2f3b7395dfbe}
+      \strng{authorfullhashraw}{feea997cf3ce6cdadbee2f3b7395dfbe}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -2282,7 +2924,79 @@
       \endverb
       \keyw{Bioconversion,Black soldier fly,Environmental factors,Life cycle,Organic waste,Survival rate,Waste management}
     \endentry
-    \entry{sarangiFoodWasteFood2024}{article}{}
+    \entry{santanaChangesChemicalBiological2020}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=e68e3342d0af9a70ed8f3f883ca5178a}{%
+           family={Santana},
+           familyi={S\bibinitperiod},
+           given={Natielo\bibnamedelima Almeida},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e4334670ac3a876e44eefa8416b545db}{%
+           family={Jacques},
+           familyi={J\bibinitperiod},
+           given={Rodrigo\bibnamedelimb Josemar\bibnamedelima Seminoti},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=0e33b8a8d810a6e89b454a4dd68d9f00}{%
+           family={Antoniolli},
+           familyi={A\bibinitperiod},
+           given={Zaida\bibnamedelima Inês},
+           giveni={Z\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=10a328c1969a06581916bb3dc63ea774}{%
+           family={Martínez-Cordeiro},
+           familyi={M\bibinithyphendelim C\bibinitperiod},
+           given={Hugo},
+           giveni={H\bibinitperiod}}}%
+        {{hash=6b9cab531313bb5ba05fc7bcf315c851}{%
+           family={Domínguez},
+           familyi={D\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{bed509de7b4add927760da2e79fe8f2c}
+      \strng{fullhash}{f9d82fabe1bc41b5704924ff74617fea}
+      \strng{fullhashraw}{f9d82fabe1bc41b5704924ff74617fea}
+      \strng{bibnamehash}{f9d82fabe1bc41b5704924ff74617fea}
+      \strng{authorbibnamehash}{f9d82fabe1bc41b5704924ff74617fea}
+      \strng{authornamehash}{bed509de7b4add927760da2e79fe8f2c}
+      \strng{authorfullhash}{f9d82fabe1bc41b5704924ff74617fea}
+      \strng{authorfullhashraw}{f9d82fabe1bc41b5704924ff74617fea}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this study, the changes in the chemical and biological characteristics of a grape marc vermicompost during a two-year production period were studied to determine the time required for completion of the maturation phase and production of stable vermicompost. Grape marc was added to the surface of a vermireactor monthly for two years. At the end of the experiment, the resulting vermicompost was 100 cm deep and consisted of layers of fresh (top) to processed (bottom) grape marc approximately 15, 30, 180, 360, 540 and 720 days old. Several chemical and biological characteristics were measured in each vermicompost layer at the end of the experiment: the moisture content; pH; electrical conductivity; organic matter content; total and dissolved carbon content; C:N ratio; nutrient content; earthworm density; basal respiration; and the activity of 12 enzymes associated with the carbon, nitrogen, phosphorus and sulfur cycles. The earthworm density increased 30-fold during the two-year period. In addition, the pH and electrical conductivity as well as the organic matter, total carbon, dissolved organic nitrogen, phosphorus, potassium and copper contents all decreased, while the calcium, sulfur, zinc and manganese contents increased. Basal respiration and carboxylesterase, peroxidase and catalase activities were highest during the first 30 days. By contrast, the urease, acid phosphatase, alkaline phosphatase and arylsulfatase activities were greater after 30 days. The major changes in vermicompost occurred during the initial phase of vermicomposting. However, the chemical and biological characteristics continued to vary during the maturation phase because of microbial activity. Thus, the quality of vermicompost greatly depended on the duration of the maturation (conditioning) phase; therefore, it was difficult to determine the time required to yield a stable product.}
+      \field{issn}{09291393}
+      \field{journaltitle}{Applied Soil Ecology}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{shortjournal}{Applied Soil Ecology}
+      \field{title}{Changes in the Chemical and Biological Characteristics of Grape Marc Vermicompost during a Two-Year Production Period}
+      \field{urlday}{26}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{154}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{103587}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.apsoil.2020.103587
+      \endverb
+      \verb{file}
+      \verb /home/jjlg/Zotero/storage/85ZA29U3/Santana et al. - 2020 - Changes in the chemical and biological characteristics of grape marc vermicompost during a two-year.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0929139319311953
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0929139319311953
+      \endverb
+    \endentry
+    \entry{sarangiFoodWasteFood2024}{article}{}{}
       \name{author}{5}{}{%
         {{hash=bdd4eae93aa1af4be751d11c32ce278c}{%
            family={Sarangi},
@@ -2315,10 +3029,12 @@
       }
       \strng{namehash}{17837cb5b7aaaa4681d3d54a7bd70336}
       \strng{fullhash}{93a7e3b77ef907ccd9197d45f5440c7d}
+      \strng{fullhashraw}{93a7e3b77ef907ccd9197d45f5440c7d}
       \strng{bibnamehash}{93a7e3b77ef907ccd9197d45f5440c7d}
       \strng{authorbibnamehash}{93a7e3b77ef907ccd9197d45f5440c7d}
       \strng{authornamehash}{17837cb5b7aaaa4681d3d54a7bd70336}
       \strng{authorfullhash}{93a7e3b77ef907ccd9197d45f5440c7d}
+      \strng{authorfullhashraw}{93a7e3b77ef907ccd9197d45f5440c7d}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -2350,7 +3066,7 @@
       \endverb
       \keyw{bioresources,food security,food waste,sustainability,valorization}
     \endentry
-    \entry{satputeREVIEWPAPERWIRELESS2021}{article}{}
+    \entry{satputeREVIEWPAPERWIRELESS2021}{article}{}{}
       \name{author}{4}{}{%
         {{hash=832e146bf237b0ddfedd19a96752d2ec}{%
            family={Satpute},
@@ -2375,10 +3091,12 @@
       }
       \strng{namehash}{0afcfc25ee02147c83d4ee20869f2ea6}
       \strng{fullhash}{c6368ef0e281b7e5c94bbfb02751111e}
+      \strng{fullhashraw}{c6368ef0e281b7e5c94bbfb02751111e}
       \strng{bibnamehash}{c6368ef0e281b7e5c94bbfb02751111e}
       \strng{authorbibnamehash}{c6368ef0e281b7e5c94bbfb02751111e}
       \strng{authornamehash}{0afcfc25ee02147c83d4ee20869f2ea6}
       \strng{authorfullhash}{c6368ef0e281b7e5c94bbfb02751111e}
+      \strng{authorfullhashraw}{c6368ef0e281b7e5c94bbfb02751111e}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -2396,7 +3114,7 @@
       \verb /home/jjlg/Zotero/storage/SAHTMCAT/Satpute et al. - 2021 - REVIEW PAPER ON WIRELESS SENSOR NETWORKS FOR AGRICULTURE.pdf
       \endverb
     \endentry
-    \entry{siddiquiEnhancingBioconversionRate2024}{article}{}
+    \entry{siddiquiEnhancingBioconversionRate2024}{article}{}{}
       \name{author}{7}{}{%
         {{hash=81a299f65e1d96b8cf9226c3f0052ba8}{%
            family={Siddiqui},
@@ -2436,10 +3154,12 @@
       }
       \strng{namehash}{863e5e68b3350fdeb18a0a087543f5bc}
       \strng{fullhash}{767b3c9dfaeb72dcd497b78857ab034f}
+      \strng{fullhashraw}{767b3c9dfaeb72dcd497b78857ab034f}
       \strng{bibnamehash}{767b3c9dfaeb72dcd497b78857ab034f}
       \strng{authorbibnamehash}{767b3c9dfaeb72dcd497b78857ab034f}
       \strng{authornamehash}{863e5e68b3350fdeb18a0a087543f5bc}
       \strng{authorfullhash}{767b3c9dfaeb72dcd497b78857ab034f}
+      \strng{authorfullhashraw}{767b3c9dfaeb72dcd497b78857ab034f}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -2466,7 +3186,7 @@
       \endverb
       \keyw{Consumer acceptance,Environmental pollution,Food security,Organic waste,Waste management}
     \endentry
-    \entry{Smith2014}{inbook}{}
+    \entry{Smith2014}{inbook}{}{}
       \name{author}{44}{}{%
         {{hash=7820adb1d0e47286fa0fc571b8f5cd76}{%
            family={Smith},
@@ -2694,10 +3414,12 @@
       }
       \strng{namehash}{c96c1e67af24fd791d41e0da275c8c07}
       \strng{fullhash}{950957ea735cab2fdde62112e257d9b3}
+      \strng{fullhashraw}{950957ea735cab2fdde62112e257d9b3}
       \strng{bibnamehash}{950957ea735cab2fdde62112e257d9b3}
       \strng{authorbibnamehash}{950957ea735cab2fdde62112e257d9b3}
       \strng{authornamehash}{c96c1e67af24fd791d41e0da275c8c07}
       \strng{authorfullhash}{950957ea735cab2fdde62112e257d9b3}
+      \strng{authorfullhashraw}{950957ea735cab2fdde62112e257d9b3}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -2715,7 +3437,7 @@
       \verb /home/jjlg/Zotero/storage/KLTRZ8ZB/Smith et al. - 11 Agriculture, Forestry and Other Land Use (AFOLU).pdf
       \endverb
     \endentry
-    \entry{Surendra2016}{article}{}
+    \entry{Surendra2016}{article}{}{}
       \name{author}{5}{}{%
         {{hash=b76f99e51da550f96869aa572fb6b2c8}{%
            family={Surendra},
@@ -2745,10 +3467,12 @@
       }
       \strng{namehash}{2623fee76f971e69c1fbd992b423fea1}
       \strng{fullhash}{799f90bce79a802cbfa513d03cc35afc}
+      \strng{fullhashraw}{799f90bce79a802cbfa513d03cc35afc}
       \strng{bibnamehash}{799f90bce79a802cbfa513d03cc35afc}
       \strng{authorbibnamehash}{799f90bce79a802cbfa513d03cc35afc}
       \strng{authornamehash}{2623fee76f971e69c1fbd992b423fea1}
       \strng{authorfullhash}{799f90bce79a802cbfa513d03cc35afc}
+      \strng{authorfullhashraw}{799f90bce79a802cbfa513d03cc35afc}
       \field{extraname}{1}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
@@ -2770,7 +3494,7 @@
       \verb /home/jjlg/Zotero/storage/KMR7YEBP/Surendra et al. - 2016 - Bioconversion of organic wastes into biodiesel and animal feed via insect farming.pdf
       \endverb
     \endentry
-    \entry{surendraRethinkingOrganicWastes2020}{article}{}
+    \entry{surendraRethinkingOrganicWastes2020}{article}{}{}
       \name{author}{6}{}{%
         {{hash=b76f99e51da550f96869aa572fb6b2c8}{%
            family={Surendra},
@@ -2805,10 +3529,12 @@
       }
       \strng{namehash}{2623fee76f971e69c1fbd992b423fea1}
       \strng{fullhash}{bd9e02b380651d65d41d3cb946d27163}
+      \strng{fullhashraw}{bd9e02b380651d65d41d3cb946d27163}
       \strng{bibnamehash}{bd9e02b380651d65d41d3cb946d27163}
       \strng{authorbibnamehash}{bd9e02b380651d65d41d3cb946d27163}
       \strng{authornamehash}{2623fee76f971e69c1fbd992b423fea1}
       \strng{authorfullhash}{bd9e02b380651d65d41d3cb946d27163}
+      \strng{authorfullhashraw}{bd9e02b380651d65d41d3cb946d27163}
       \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
@@ -2838,7 +3564,7 @@
       \verb /home/jjlg/Zotero/storage/3HCQVVGG/Surendra et al. - 2020 - Rethinking organic wastes bioconversion Evaluating the potential of the black soldier fly (Hermetia.pdf
       \endverb
     \endentry
-    \entry{suryatiLauricAcidBlack2023}{article}{}
+    \entry{suryatiLauricAcidBlack2023}{article}{}{}
       \name{author}{5}{}{%
         {{hash=4595a185ef703c99fe1516eaca514e17}{%
            family={Suryati},
@@ -2871,10 +3597,12 @@
       }
       \strng{namehash}{1eed22148a6c609262e82cc59ecc2ab8}
       \strng{fullhash}{80aa64182f4d0d421d8faf7aa20e5dad}
+      \strng{fullhashraw}{80aa64182f4d0d421d8faf7aa20e5dad}
       \strng{bibnamehash}{80aa64182f4d0d421d8faf7aa20e5dad}
       \strng{authorbibnamehash}{80aa64182f4d0d421d8faf7aa20e5dad}
       \strng{authornamehash}{1eed22148a6c609262e82cc59ecc2ab8}
       \strng{authorfullhash}{80aa64182f4d0d421d8faf7aa20e5dad}
+      \strng{authorfullhashraw}{80aa64182f4d0d421d8faf7aa20e5dad}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -2905,7 +3633,69 @@
       \endverb
       \keyw{<i>Hermetia illucens</i>,bioconversion agents,black soldier fly (BSF),lauric acid,organic waste}
     \endentry
-    \entry{vanIntegrationInternetofThingsSustainable2022}{article}{}
+    \entry{tsaabitahDataCommunicationUsing2022}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=5f86f88a318a9bd8d666c991310729a5}{%
+           family={Tsaabitah},
+           familyi={T\bibinitperiod},
+           given={Sarah\bibnamedelima Alyaa},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1ae9c4b29a7ad99cda8ef5c450ed8a07}{%
+           family={Hasanuddin},
+           familyi={H\bibinitperiod},
+           given={Muhammad\bibnamedelima Ogin},
+           giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=21a182074dbc439213a5ea75297e230a}{%
+           family={Burhan},
+           familyi={B\bibinitperiod},
+           given={Khairul\bibnamedelima Hadi},
+           giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=9603c0374737fa2ffca5ad14c169d67f}{%
+           family={Permana},
+           familyi={P\bibinitperiod},
+           given={Agus\bibnamedelima Dana},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=be385607eb52d6b5c457f5df0e164f33}{%
+           family={Trusaji},
+           familyi={T\bibinitperiod},
+           given={Wildan},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{cd429cf586ad4c04e61787bc77d0ecc2}
+      \strng{fullhash}{972369cbf704700640e13a988c477206}
+      \strng{fullhashraw}{972369cbf704700640e13a988c477206}
+      \strng{bibnamehash}{972369cbf704700640e13a988c477206}
+      \strng{authorbibnamehash}{972369cbf704700640e13a988c477206}
+      \strng{authornamehash}{cd429cf586ad4c04e61787bc77d0ecc2}
+      \strng{authorfullhash}{972369cbf704700640e13a988c477206}
+      \strng{authorfullhashraw}{972369cbf704700640e13a988c477206}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Black soldier fly larvae (BSFL) is an emerging insect-based waste management agent as it provides effective biowaste conversion. Though effective, it requires certain environmental conditions that needs to be monitored regularly to make sure the BSFL can process the waste effectively. But, BSFL farmers are not always on site and the human resource is limited. Thus, remote monitoring system is needed to ease the monitoring process. By using the Internet of Things (IoT) for environmental condition monitoring, data collection from the sensors needs to be obtained in real-time. To do so, a scalable IoT messaging protocol called Message Queuing Telemetry Tracking (MQTT) for the data communiction is implemented. As the data will continuously be sent, a cloud server using Amazon Web Service Elastic Computing 2 (AWS EC2) virtual instance will be used to build the MQTT Broker and to run the data processing program that will processed the data before it is saved to a MySQL database. Using this system, data from the sensors located on the farm is succesfully sent to the MQTT broker, and the saved data in database is showing the same result as the sent data. It was also found that the average delay for data transmission is 0.8125 seconds. Thus, the proposed system has succesfully perform real time data communication using the MQTT protocol for BSFL monitoring system.}
+      \field{journaltitle}{2022 8th {{International Conference}} on {{Wireless}} and {{Telematics}} ({{ICWT}})}
+      \field{month}{7}
+      \field{title}{Data {{Communication}} Using {{MQTT}} for {{Black Soldier Fly Larvae Monitoring System}}}
+      \field{urlday}{25}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ICWT55831.2022.9935472
+      \endverb
+      \verb{file}
+      \verb /home/jjlg/Zotero/storage/N9S3KSYD/Tsaabitah et al. - 2022 - Data Communication using MQTT for Black Soldier Fly Larvae Monitoring System.pdf;/home/jjlg/Zotero/storage/PNUY6RMI/9935472.html
+      \endverb
+      \keyw{AWS EC2.,Black Soldier Fly,Databases,Internet of Things,MQTT,Protocols,Real-time systems,Sensors,Waste Management,Web services,Wireless communication,Wireless sensor networks}
+    \endentry
+    \entry{vanIntegrationInternetofThingsSustainable2022}{article}{}{}
       \name{author}{6}{}{%
         {{hash=5e638dc2ef565807535b73a82789aeea}{%
            family={Van},
@@ -2940,10 +3730,12 @@
       }
       \strng{namehash}{1361110345bd6f5a839696d94dece5c8}
       \strng{fullhash}{c7e96ecbe58fa506c048afcda3a613b8}
+      \strng{fullhashraw}{c7e96ecbe58fa506c048afcda3a613b8}
       \strng{bibnamehash}{c7e96ecbe58fa506c048afcda3a613b8}
       \strng{authorbibnamehash}{c7e96ecbe58fa506c048afcda3a613b8}
       \strng{authornamehash}{1361110345bd6f5a839696d94dece5c8}
       \strng{authorfullhash}{c7e96ecbe58fa506c048afcda3a613b8}
+      \strng{authorfullhashraw}{c7e96ecbe58fa506c048afcda3a613b8}
       \field{sortinit}{V}
       \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
       \field{extradatescope}{labelyear}
@@ -2973,7 +3765,7 @@
       \endverb
       \keyw{Black soldier fly,Food waste,Internet-of-Things (IoT),Sensor,Smart farming}
     \endentry
-    \entry{weichertReviewMachineLearning2019}{article}{}
+    \entry{weichertReviewMachineLearning2019}{article}{}{}
       \name{author}{6}{}{%
         {{hash=e05589d9cc1199287c541addb187a578}{%
            family={Weichert},
@@ -3008,10 +3800,12 @@
       }
       \strng{namehash}{2589e0b55911f0d1a9b7145560215676}
       \strng{fullhash}{0c4cb08c13ece92e669f049830e2aa0e}
+      \strng{fullhashraw}{0c4cb08c13ece92e669f049830e2aa0e}
       \strng{bibnamehash}{0c4cb08c13ece92e669f049830e2aa0e}
       \strng{authorbibnamehash}{0c4cb08c13ece92e669f049830e2aa0e}
       \strng{authornamehash}{2589e0b55911f0d1a9b7145560215676}
       \strng{authorfullhash}{0c4cb08c13ece92e669f049830e2aa0e}
+      \strng{authorfullhashraw}{0c4cb08c13ece92e669f049830e2aa0e}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
@@ -3037,7 +3831,84 @@
       \verb /home/jjlg/Zotero/storage/Y4IC7TBC/c1713be4e66d5ba3b4bc28fbbbc3ea2b.html
       \endverb
     \endentry
-    \entry{yavariArtEMonArtificialIntelligence2023}{article}{}
+    \entry{winAnaerobicDigestionBlack2018}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=b7fb95178fb45913980066f72c2a7dae}{%
+           family={Win},
+           familyi={W\bibinitperiod},
+           given={Shwe\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=425db102e558e3f2070facf212ab2804}{%
+           family={Ebner},
+           familyi={E\bibinitperiod},
+           given={Jacqueline\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=ac8de2f4b20b62e40b8241069b3fb645}{%
+           family={Brownell},
+           familyi={B\bibinitperiod},
+           given={Sarah\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=9d9cc320a4c8a30a4a06e9159d219c96}{%
+           family={Pagano},
+           familyi={P\bibinitperiod},
+           given={Susan\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=a4fd95dce09e6737f3caf655466bc4d7}{%
+           family={Cruz-Diloné},
+           familyi={C\bibinithyphendelim D\bibinitperiod},
+           given={Pedro},
+           giveni={P\bibinitperiod}}}%
+        {{hash=db3624ea339d8b328d824d1d3d2ade50}{%
+           family={Trabold},
+           familyi={T\bibinitperiod},
+           given={Thomas\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b93f31b9becec374c169a9c055e64230}
+      \strng{fullhash}{2f6ebca429590248cacfc1329477de76}
+      \strng{fullhashraw}{2f6ebca429590248cacfc1329477de76}
+      \strng{bibnamehash}{2f6ebca429590248cacfc1329477de76}
+      \strng{authorbibnamehash}{2f6ebca429590248cacfc1329477de76}
+      \strng{authornamehash}{b93f31b9becec374c169a9c055e64230}
+      \strng{authorfullhash}{2f6ebca429590248cacfc1329477de76}
+      \strng{authorfullhashraw}{2f6ebca429590248cacfc1329477de76}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Black soldier fly larvae (BSFL) (Hermetia illucens) have been used in a variety of applications including composting, animal feed and biodiesel production. This paper presents the results of bio-methane potential (BMP) assays for BSFL biomass according to several hypothetical biorefinery pathways. The mean biomethane potential (BMP) of BSFL was 671 mL CH4/g VS, while mean BMP of lipid extracted BSFL (LEBSFL) was 334 mL CH4/g VS. Mean BMP of adult flies and chitinous cuticle were 570 and 343 mL CH4/g VS, respectively. The impact of BSFL diet on bio-methane potential and the biomethane potential of BSFL residue was also investigated. This study suggests that anaerobic digestion of BSFL has potential as part of an integrated energy and waste management solution.}
+      \field{issn}{09601481}
+      \field{journaltitle}{Renewable Energy}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{shortjournal}{Renewable Energy}
+      \field{title}{Anaerobic Digestion of Black Solider Fly Larvae ({{BSFL}}) Biomass as Part of an Integrated Biorefinery}
+      \field{urlday}{25}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{127}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{705\bibrangedash 712}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.renene.2018.04.093
+      \endverb
+      \verb{file}
+      \verb /home/jjlg/Zotero/storage/D47UCSEX/Win et al. - 2018 - Anaerobic digestion of black solider fly larvae (BSFL) biomass as part of an integrated biorefinery.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0960148118305184
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0960148118305184
+      \endverb
+    \endentry
+    \entry{yavariArtEMonArtificialIntelligence2023}{article}{}{}
       \name{author}{9}{}{%
         {{hash=7820cdd0fded7b4dc015d3a859c6bb1c}{%
            family={Yavari},
@@ -3090,10 +3961,12 @@
       }
       \strng{namehash}{b393dde4543869fb7fd4a5c9208b1fb5}
       \strng{fullhash}{dbf4abdcce2af9a5c0fecac331bbe814}
+      \strng{fullhashraw}{dbf4abdcce2af9a5c0fecac331bbe814}
       \strng{bibnamehash}{dbf4abdcce2af9a5c0fecac331bbe814}
       \strng{authorbibnamehash}{dbf4abdcce2af9a5c0fecac331bbe814}
       \strng{authornamehash}{b393dde4543869fb7fd4a5c9208b1fb5}
       \strng{authorfullhash}{dbf4abdcce2af9a5c0fecac331bbe814}
+      \strng{authorfullhashraw}{dbf4abdcce2af9a5c0fecac331bbe814}
       \field{sortinit}{Y}
       \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
       \field{extradatescope}{labelyear}
@@ -3125,9 +3998,56 @@
       \endverb
       \keyw{AI,emissions,greenhouse gas,IoT,supply chain,sustainable logistics}
     \endentry
+    \entry{zhangApplicationBigData2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=5eed050459073fa445f43d8a4b477023}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yingbo},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Resources Economics Research Board}%
+      }
+      \strng{namehash}{5eed050459073fa445f43d8a4b477023}
+      \strng{fullhash}{5eed050459073fa445f43d8a4b477023}
+      \strng{fullhashraw}{5eed050459073fa445f43d8a4b477023}
+      \strng{bibnamehash}{5eed050459073fa445f43d8a4b477023}
+      \strng{authorbibnamehash}{5eed050459073fa445f43d8a4b477023}
+      \strng{authornamehash}{5eed050459073fa445f43d8a4b477023}
+      \strng{authorfullhash}{5eed050459073fa445f43d8a4b477023}
+      \strng{authorfullhashraw}{5eed050459073fa445f43d8a4b477023}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Using big data in smart agriculture represents a significant technological revolution in the agricultural sector. This paper delves into the primary application areas of big data in smart agriculture, encompassing precision agriculture, intelligent farming machinery, and sustainable agriculture. To begin with, big data technology offers comprehensive data support for decision-makers in agriculture. Through real-time monitoring and extensive data analysis, agricultural producers can gain more precise insights into soil conditions, crop growth status, and other crucial information. Furthermore, implementing big data in precision agriculture facilitates intelligent agricultural production by integrating precision fertilization, irrigation, and pest and disease monitoring, thereby enhancing production efficiency. The advancement of intelligent farming machinery also plays a pivotal role in enhancing the intelligence and efficiency of field operations. Moreover, big data technology contributes to sustainable agriculture by providing scientific support for agricultural decisions through data analysis on climate change, resource utilization, and other pertinent aspects, thereby promoting the transition towards environmentally friendly agricultural practices. Looking ahead, with continuous innovation and widespread adoption of big data technology, smart agriculture is poised for significant development opportunities.}
+      \field{eprinttype}{Resources Economics Research Board}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{Application of Big Data in Smart Agriculture}
+      \field{urlday}{25}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.50908/arr.4.2_221
+      \endverb
+      \verb{eprint}
+      \verb 2
+      \endverb
+      \verb{file}
+      \verb /home/jjlg/Zotero/storage/77JTB2SI/Zhang - 2024 - Application of big data in smart agriculture.pdf
+      \endverb
+    \endentry
   \enddatalist
-  \datalist[entry]{apa/global//global/global}
-    \entry{aAIControlledSmart2024}{article}{}
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{aAIControlledSmart2024}{article}{}{}
       \name{author}{6}{}{%
         {{hash=bae4c16a42e9e2e3e59b5eef14530c68}{%
            family={A},
@@ -3168,10 +4088,12 @@
       }
       \strng{namehash}{3c5995446e7ee8fbd06b8e3bd9bebfdf}
       \strng{fullhash}{f5e8c8b10f2d6486e153c61e7ebaf0c7}
+      \strng{fullhashraw}{f5e8c8b10f2d6486e153c61e7ebaf0c7}
       \strng{bibnamehash}{f5e8c8b10f2d6486e153c61e7ebaf0c7}
       \strng{authorbibnamehash}{f5e8c8b10f2d6486e153c61e7ebaf0c7}
       \strng{authornamehash}{3c5995446e7ee8fbd06b8e3bd9bebfdf}
       \strng{authorfullhash}{f5e8c8b10f2d6486e153c61e7ebaf0c7}
+      \strng{authorfullhashraw}{f5e8c8b10f2d6486e153c61e7ebaf0c7}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -3199,7 +4121,7 @@
       \verb /home/jjlg/Zotero/storage/UETI7T2M/A et al. - 2024 - AI Controlled Smart IoT Based Greenhouse Monitoring System.pdf
       \endverb
     \endentry
-    \entry{ahmedAgricultureClimateChange2020}{report}{}
+    \entry{ahmedAgricultureClimateChange2020}{report}{}{}
       \name{author}{8}{}{%
         {{hash=58571543c5d56d3bbca349198b0fa91b}{%
            family={Ahmed},
@@ -3247,10 +4169,12 @@
       }
       \strng{namehash}{f0eede01e9c850affafcf9a5c80bd722}
       \strng{fullhash}{c6454dd764e82045aa7dc91962821df2}
+      \strng{fullhashraw}{c6454dd764e82045aa7dc91962821df2}
       \strng{bibnamehash}{c6454dd764e82045aa7dc91962821df2}
       \strng{authorbibnamehash}{c6454dd764e82045aa7dc91962821df2}
       \strng{authornamehash}{f0eede01e9c850affafcf9a5c80bd722}
       \strng{authorfullhash}{c6454dd764e82045aa7dc91962821df2}
+      \strng{authorfullhashraw}{c6454dd764e82045aa7dc91962821df2}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -3271,7 +4195,7 @@
       \verb /home/jjlg/Zotero/storage/TWGY72CR/Agriculture and climate change.pdf
       \endverb
     \endentry
-    \entry{ait-kaddourTransformingPlantbasedWaste2024}{article}{}
+    \entry{ait-kaddourTransformingPlantbasedWaste2024}{article}{}{}
       \name{author}{8}{}{%
         {{hash=85c13a4682efabafcda2cd8761725893}{%
            family={{Aït-Kaddour}},
@@ -3316,10 +4240,12 @@
       }
       \strng{namehash}{6084d3c97920d1a04ffe5df6974b5dcc}
       \strng{fullhash}{04b1f6f82e4db5efe0a01df50f5402f9}
+      \strng{fullhashraw}{04b1f6f82e4db5efe0a01df50f5402f9}
       \strng{bibnamehash}{04b1f6f82e4db5efe0a01df50f5402f9}
       \strng{authorbibnamehash}{04b1f6f82e4db5efe0a01df50f5402f9}
       \strng{authornamehash}{6084d3c97920d1a04ffe5df6974b5dcc}
       \strng{authorfullhash}{04b1f6f82e4db5efe0a01df50f5402f9}
+      \strng{authorfullhashraw}{04b1f6f82e4db5efe0a01df50f5402f9}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -3349,7 +4275,75 @@
       \verb /home/jjlg/Zotero/storage/JJ25NJ3H/Aït-Kaddour et al. - 2024 - Transforming plant-based waste and by-products into valuable products using various “Food Industry 4.pdf
       \endverb
     \endentry
-    \entry{amrulReviewOrganicWaste2022}{article}{}
+    \entry{allanSummaryPolicymakers2023}{inbook}{}{}
+      \name{author}{4}{}{%
+        {{hash=34eb4f3a5d0e5720e1af29dbdbb67bdc}{%
+           family={Allan},
+           familyi={A\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=3aa7f5e1cb3212632a19e326b9acedbf}{%
+           family={Arias},
+           familyi={A\bibinitperiod},
+           given={Paola},
+           giveni={P\bibinitperiod}}}%
+        {{hash=10b5018448581f55774b68864eb1fdd3}{%
+           family={Berger},
+           familyi={B\bibinitperiod},
+           given={Sophie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a0dad0c39220e063618de17dc3a9b730}{%
+           family={Canadell},
+           familyi={C\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{3e32ccf8152b352cb877981c48eb33e5}
+      \strng{fullhash}{75c1a0d3948fe6becc389ff0f59d3436}
+      \strng{fullhashraw}{75c1a0d3948fe6becc389ff0f59d3436}
+      \strng{bibnamehash}{75c1a0d3948fe6becc389ff0f59d3436}
+      \strng{authorbibnamehash}{75c1a0d3948fe6becc389ff0f59d3436}
+      \strng{authornamehash}{3e32ccf8152b352cb877981c48eb33e5}
+      \strng{authorfullhash}{75c1a0d3948fe6becc389ff0f59d3436}
+      \strng{authorfullhashraw}{75c1a0d3948fe6becc389ff0f59d3436}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Climate {{Change}} 2021 – {{The Physical Science Basis}}}
+      \field{day}{6}
+      \field{edition}{1}
+      \field{isbn}{978-1-009-15789-6}
+      \field{month}{7}
+      \field{title}{Summary for {{Policymakers}}}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{3\bibrangedash 32}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1017/9781009157896.001
+      \endverb
+      \verb{file}
+      \verb /home/jjlg/Zotero/storage/IBDYG3NQ/2023 - Summary for Policymakers.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/9781009157896%23pre2/type/book_part
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/9781009157896%23pre2/type/book_part
+      \endverb
+    \endentry
+    \entry{amrulReviewOrganicWaste2022}{article}{}{}
       \name{author}{6}{}{%
         {{hash=007b45351fc6aa278391a19ab3af5d73}{%
            family={Amrul},
@@ -3387,10 +4381,12 @@
       }
       \strng{namehash}{094ea627ac089105e2c10c3b5695a216}
       \strng{fullhash}{3b686f27de8e492db9100c5b1c4a38de}
+      \strng{fullhashraw}{3b686f27de8e492db9100c5b1c4a38de}
       \strng{bibnamehash}{3b686f27de8e492db9100c5b1c4a38de}
       \strng{authorbibnamehash}{3b686f27de8e492db9100c5b1c4a38de}
       \strng{authornamehash}{094ea627ac089105e2c10c3b5695a216}
       \strng{authorfullhash}{3b686f27de8e492db9100c5b1c4a38de}
+      \strng{authorfullhashraw}{3b686f27de8e492db9100c5b1c4a38de}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -3421,7 +4417,7 @@
       \endverb
       \keyw{bioconversion,black soldier fly,composting,organic waste management}
     \endentry
-    \entry{avalekarOptimizingAgriculturalEfficiency2024}{misc}{}
+    \entry{avalekarOptimizingAgriculturalEfficiency2024}{misc}{}{}
       \name{author}{5}{}{%
         {{hash=67e3bf32d07e14135d18fd4b1674b4a8}{%
            family={Avalekar},
@@ -3451,10 +4447,12 @@
       }
       \strng{namehash}{ea97635dfe8cc4edb640c94efd66a733}
       \strng{fullhash}{fa36733adf32698f1c41bb286cf17624}
+      \strng{fullhashraw}{fa36733adf32698f1c41bb286cf17624}
       \strng{bibnamehash}{fa36733adf32698f1c41bb286cf17624}
       \strng{authorbibnamehash}{fa36733adf32698f1c41bb286cf17624}
       \strng{authornamehash}{ea97635dfe8cc4edb640c94efd66a733}
       \strng{authorfullhash}{fa36733adf32698f1c41bb286cf17624}
+      \strng{authorfullhashraw}{fa36733adf32698f1c41bb286cf17624}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -3477,7 +4475,7 @@
       \verb /home/jjlg/Zotero/storage/9XGJNBFH/Avalekar et al. - 2024 - Optimizing Agricultural Efficiency A Fusion of Iot, Ai, Cloud Computing, and Wireless Sensor Networ.pdf
       \endverb
     \endentry
-    \entry{barragan2017nutritional}{article}{}
+    \entry{barragan2017nutritional}{article}{}{}
       \name{author}{3}{}{%
         {{hash=014ad5855465ed38e4f88b86642a1e8b}{%
            family={{Barragan-Fonseca}},
@@ -3500,10 +4498,12 @@
       }
       \strng{namehash}{d9663a9f1a877f2cdb583d52003c9141}
       \strng{fullhash}{f091345d569c2bbda336b0cef841d3cd}
+      \strng{fullhashraw}{f091345d569c2bbda336b0cef841d3cd}
       \strng{bibnamehash}{f091345d569c2bbda336b0cef841d3cd}
       \strng{authorbibnamehash}{f091345d569c2bbda336b0cef841d3cd}
       \strng{authornamehash}{d9663a9f1a877f2cdb583d52003c9141}
       \strng{authorfullhash}{f091345d569c2bbda336b0cef841d3cd}
+      \strng{authorfullhashraw}{f091345d569c2bbda336b0cef841d3cd}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -3519,7 +4519,93 @@
       \field{pages}{105\bibrangedash 120}
       \range{pages}{16}
     \endentry
-    \entry{belperioAssessingSubstrateUtilization2024}{article}{}
+    \entry{bekkerImpactSubstrateMoisture2021}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=84a7566ebdd2bf0f95b18f1127b22eea}{%
+           family={Bekker},
+           familyi={B\bibinitperiod},
+           given={Nicolai\bibnamedelima Sundgaard},
+           giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=7a6790274809bb1e968476c430c5ce5c}{%
+           family={Heidelbach},
+           familyi={H\bibinitperiod},
+           given={Søren},
+           giveni={S\bibinitperiod}}}%
+        {{hash=743e587fe47d166c357188780228c050}{%
+           family={Vestergaard},
+           familyi={V\bibinitperiod},
+           given={Sofie\bibnamedelima Zacho},
+           giveni={S\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=6b95dd2b6cb2fdbb5ed87d9fcc3a862d}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Morten\bibnamedelima Eneberg},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=8701aba939355d89514ec4665f496699}{%
+           family={Riisgaard-Jensen},
+           familyi={R\bibinithyphendelim J\bibinitperiod},
+           given={Marie},
+           giveni={M\bibinitperiod}}}%
+        {{hash=415a1ef081ac78c8697275cc5d6a303d}{%
+           family={Zeuner},
+           familyi={Z\bibinitperiod},
+           given={Emil\bibnamedelima Juel},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=236eeb80cb3c5d2b22e68257cac98e08}{%
+           family={Bahrndorff},
+           familyi={B\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=bdf1b2e0bbe78861ad825a79f860f5f1}{%
+           family={Eriksen},
+           familyi={E\bibinitperiod},
+           given={Niels\bibnamedelima Thomas},
+           giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f5fda3c22abb601b8aebc9a765163a0}
+      \strng{fullhash}{f625307b2f010f33883dceb6783ed790}
+      \strng{fullhashraw}{f625307b2f010f33883dceb6783ed790}
+      \strng{bibnamehash}{f625307b2f010f33883dceb6783ed790}
+      \strng{authorbibnamehash}{f625307b2f010f33883dceb6783ed790}
+      \strng{authornamehash}{9f5fda3c22abb601b8aebc9a765163a0}
+      \strng{authorfullhash}{f625307b2f010f33883dceb6783ed790}
+      \strng{authorfullhashraw}{f625307b2f010f33883dceb6783ed790}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0956053X}
+      \field{journaltitle}{Waste Management}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{shortjournal}{Waste Management}
+      \field{title}{Impact of Substrate Moisture Content on Growth and Metabolic Performance of Black Soldier Fly Larvae}
+      \field{urlday}{24}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{127}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{73\bibrangedash 79}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/j.wasman.2021.04.028
+      \endverb
+      \verb{file}
+      \verb /home/jjlg/Zotero/storage/R74KQVRP/Bekker et al. - 2021 - Impact of substrate moisture content on growth and metabolic performance of black soldier fly larvae.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0956053X21002269
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0956053X21002269
+      \endverb
+    \endentry
+    \entry{belperioAssessingSubstrateUtilization2024}{article}{}{}
       \name{author}{7}{}{%
         {{hash=faa5af64765a3553be3eca627dc8f1c5}{%
            family={Belperio},
@@ -3562,10 +4648,12 @@
       }
       \strng{namehash}{b6deed7648100215489098691f0edf83}
       \strng{fullhash}{806a78a80874317ec9cf6a1fb91f38a1}
+      \strng{fullhashraw}{806a78a80874317ec9cf6a1fb91f38a1}
       \strng{bibnamehash}{806a78a80874317ec9cf6a1fb91f38a1}
       \strng{authorbibnamehash}{806a78a80874317ec9cf6a1fb91f38a1}
       \strng{authornamehash}{b6deed7648100215489098691f0edf83}
       \strng{authorfullhash}{806a78a80874317ec9cf6a1fb91f38a1}
+      \strng{authorfullhashraw}{806a78a80874317ec9cf6a1fb91f38a1}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -3597,7 +4685,7 @@
       \endverb
       \keyw{bioconversion,black soldier fly,substrate,thermal-imaging camera}
     \endentry
-    \entry{bermudezComprehensiveUtilizationBlack2023}{article}{}
+    \entry{bermudezComprehensiveUtilizationBlack2023}{article}{}{}
       \name{author}{2}{}{%
         {{hash=186891a695cdacd71329188ae3f9816c}{%
            family={Bermúdez},
@@ -3612,10 +4700,12 @@
       }
       \strng{namehash}{bca684113f75e22db84a5922ace1f0dd}
       \strng{fullhash}{bca684113f75e22db84a5922ace1f0dd}
+      \strng{fullhashraw}{bca684113f75e22db84a5922ace1f0dd}
       \strng{bibnamehash}{bca684113f75e22db84a5922ace1f0dd}
       \strng{authorbibnamehash}{bca684113f75e22db84a5922ace1f0dd}
       \strng{authornamehash}{bca684113f75e22db84a5922ace1f0dd}
       \strng{authorfullhash}{bca684113f75e22db84a5922ace1f0dd}
+      \strng{authorfullhashraw}{bca684113f75e22db84a5922ace1f0dd}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -3646,7 +4736,7 @@
       \verb /home/jjlg/Zotero/storage/6GQMR3CW/Bermúdez-Serrano y Sánchez-Velázquez - 2023 - Comprehensive utilization of the Black Soldier Fly Bioconversion, sustainability, and emerging chal.pdf
       \endverb
     \endentry
-    \entry{bhatia_sustainable_2024}{article}{}
+    \entry{bhatia_sustainable_2024}{article}{}{}
       \name{author}{2}{}{%
         {{hash=1144cfd4e8915c94124bf41818db0ea4}{%
            family={Bhatia},
@@ -3664,10 +4754,12 @@
       }
       \strng{namehash}{ddff12010d79e3180be9f1fffdb05d38}
       \strng{fullhash}{ddff12010d79e3180be9f1fffdb05d38}
+      \strng{fullhashraw}{ddff12010d79e3180be9f1fffdb05d38}
       \strng{bibnamehash}{ddff12010d79e3180be9f1fffdb05d38}
       \strng{authorbibnamehash}{ddff12010d79e3180be9f1fffdb05d38}
       \strng{authornamehash}{ddff12010d79e3180be9f1fffdb05d38}
       \strng{authorfullhash}{ddff12010d79e3180be9f1fffdb05d38}
+      \strng{authorfullhashraw}{ddff12010d79e3180be9f1fffdb05d38}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -3704,7 +4796,7 @@
       \endverb
       \keyw{Biochar,Composting,Food production,Organic wastes,Soil health,Sustainable agriculture,Vermicomposting}
     \endentry
-    \entry{brunoValorizationOrganicWaste2025}{article}{}
+    \entry{brunoValorizationOrganicWaste2025}{article}{}{}
       \name{author}{21}{}{%
         {{hash=30f6afbeb6b29f49d72010fdb0c320c3}{%
            family={Bruno},
@@ -3814,10 +4906,12 @@
       }
       \strng{namehash}{c79690e35b39ae8093ccd47be5ea64fb}
       \strng{fullhash}{ba026a2a1ab1c79e0295a934055a10f1}
+      \strng{fullhashraw}{ba026a2a1ab1c79e0295a934055a10f1}
       \strng{bibnamehash}{ba026a2a1ab1c79e0295a934055a10f1}
       \strng{authorbibnamehash}{ba026a2a1ab1c79e0295a934055a10f1}
       \strng{authornamehash}{c79690e35b39ae8093ccd47be5ea64fb}
       \strng{authorfullhash}{ba026a2a1ab1c79e0295a934055a10f1}
+      \strng{authorfullhashraw}{ba026a2a1ab1c79e0295a934055a10f1}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -3847,7 +4941,7 @@
       \endverb
       \keyw{Biomass valorization,Circular bioeconomy,Insect bioconversion,Protein-based films,Waste management}
     \endentry
-    \entry{chenOptimizationModelProcess2021}{article}{}
+    \entry{chenOptimizationModelProcess2021}{article}{}{}
       \name{author}{8}{}{%
         {{hash=903372eaacb45870dfe218898004c259}{%
            family={Chen},
@@ -3892,10 +4986,12 @@
       }
       \strng{namehash}{a9feed51d699980d46b4c1ff45aa846c}
       \strng{fullhash}{5e4a53499593848d7da787719f71e7f8}
+      \strng{fullhashraw}{5e4a53499593848d7da787719f71e7f8}
       \strng{bibnamehash}{5e4a53499593848d7da787719f71e7f8}
       \strng{authorbibnamehash}{5e4a53499593848d7da787719f71e7f8}
       \strng{authornamehash}{a9feed51d699980d46b4c1ff45aa846c}
       \strng{authorfullhash}{5e4a53499593848d7da787719f71e7f8}
+      \strng{authorfullhashraw}{5e4a53499593848d7da787719f71e7f8}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -3925,7 +5021,7 @@
       \endverb
       \keyw{CBR,Cognition,GA,Genetic algorithms,Ontologies,Ontology,Optimization,processing information,Production,Quality assessment,Raw materials,traceability optimization}
     \endentry
-    \entry{Chia2019}{thesis}{}
+    \entry{Chia2019}{thesis}{}{}
       \name{author}{1}{}{%
         {{hash=29364875711b488b1d18ffca6b466aa7}{%
            family={Chia},
@@ -3939,10 +5035,12 @@
       }
       \strng{namehash}{29364875711b488b1d18ffca6b466aa7}
       \strng{fullhash}{29364875711b488b1d18ffca6b466aa7}
+      \strng{fullhashraw}{29364875711b488b1d18ffca6b466aa7}
       \strng{bibnamehash}{29364875711b488b1d18ffca6b466aa7}
       \strng{authorbibnamehash}{29364875711b488b1d18ffca6b466aa7}
       \strng{authornamehash}{29364875711b488b1d18ffca6b466aa7}
       \strng{authorfullhash}{29364875711b488b1d18ffca6b466aa7}
+      \strng{authorfullhashraw}{29364875711b488b1d18ffca6b466aa7}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -3957,7 +5055,7 @@
       \verb /home/jjlg/Zotero/storage/PFEWVULH/Chia - 2019 - Black soldier fly larvae as a sustainable animal feed ingredient in Kenya.pdf
       \endverb
     \endentry
-    \entry{Diener2011}{article}{}
+    \entry{Diener2011}{article}{}{}
       \name{author}{3}{}{%
         {{hash=07d368ff11207ecf86c2d39488fe7788}{%
            family={Diener},
@@ -3977,10 +5075,12 @@
       }
       \strng{namehash}{fae3c7417c6ccdcdd56af9b1533308ac}
       \strng{fullhash}{f0466fd81e328039c3f2d4268b1111ba}
+      \strng{fullhashraw}{f0466fd81e328039c3f2d4268b1111ba}
       \strng{bibnamehash}{f0466fd81e328039c3f2d4268b1111ba}
       \strng{authorbibnamehash}{f0466fd81e328039c3f2d4268b1111ba}
       \strng{authornamehash}{fae3c7417c6ccdcdd56af9b1533308ac}
       \strng{authorfullhash}{f0466fd81e328039c3f2d4268b1111ba}
+      \strng{authorfullhashraw}{f0466fd81e328039c3f2d4268b1111ba}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
@@ -3999,7 +5099,7 @@
       \verb 10.1177/0734242X10366090
       \endverb
     \endentry
-    \entry{duobieneDevelopmentWirelessSensor2022}{article}{}
+    \entry{duobieneDevelopmentWirelessSensor2022}{article}{}{}
       \name{author}{7}{}{%
         {{hash=b66292f918d33ad9473f67acac9d6182}{%
            family={Duobiene},
@@ -4039,10 +5139,12 @@
       }
       \strng{namehash}{3caaced2637425b3e275303933f2b5b3}
       \strng{fullhash}{e182b1514a11ba0a196f4e3a0890d55a}
+      \strng{fullhashraw}{e182b1514a11ba0a196f4e3a0890d55a}
       \strng{bibnamehash}{e182b1514a11ba0a196f4e3a0890d55a}
       \strng{authorbibnamehash}{e182b1514a11ba0a196f4e3a0890d55a}
       \strng{authornamehash}{3caaced2637425b3e275303933f2b5b3}
       \strng{authorfullhash}{e182b1514a11ba0a196f4e3a0890d55a}
+      \strng{authorfullhashraw}{e182b1514a11ba0a196f4e3a0890d55a}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
@@ -4072,7 +5174,245 @@
       \verb /home/jjlg/Zotero/storage/NDWIGDHQ/Duobiene et al. - 2022 - Development of Wireless Sensor Network for Environment Monitoring and Its Implementation Using SSAIL.pdf
       \endverb
     \endentry
-    \entry{fawzyStrategiesMitigationClimate2020}{article}{}
+    \entry{elsayedConversionProteinrichWaste2024}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=74456d3c9dee6eda2d3a706b36fbdb07}{%
+           family={Elsayed},
+           familyi={E\bibinitperiod},
+           given={Mahdy},
+           giveni={M\bibinitperiod}}}%
+        {{hash=49a19e08791a3dc09c932ff975949361}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=90e24063be3dab0369505809e437b908}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Huijun},
+           giveni={H\bibinitperiod}}}%
+        {{hash=eea8a323649252a79e13d50466a331da}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Zhihui},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=653807f8836f3ab9326cba04e9a8e75b}{%
+           family={Osman},
+           familyi={O\bibinitperiod},
+           given={Ahmed\bibnamedelima I.},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=36322dfff81e309eb391bf878bf2d4fd}{%
+           family={Almutairi},
+           familyi={A\bibinitperiod},
+           given={Adel\bibnamedelima W.},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=75220214e88d88d6731f724560487179}{%
+           family={Faisal},
+           familyi={F\bibinitperiod},
+           given={Shah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=20d544d6d93a57ceb2c676759c6daacf}{%
+           family={Abomohra},
+           familyi={A\bibinitperiod},
+           given={Abdelfatah},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3045fc07363f8c37750207dfeac7f9fa}
+      \strng{fullhash}{eb4cb93f7b1d6cb348bcf43ac4949052}
+      \strng{fullhashraw}{eb4cb93f7b1d6cb348bcf43ac4949052}
+      \strng{bibnamehash}{eb4cb93f7b1d6cb348bcf43ac4949052}
+      \strng{authorbibnamehash}{eb4cb93f7b1d6cb348bcf43ac4949052}
+      \strng{authornamehash}{3045fc07363f8c37750207dfeac7f9fa}
+      \strng{authorfullhash}{eb4cb93f7b1d6cb348bcf43ac4949052}
+      \strng{authorfullhashraw}{eb4cb93f7b1d6cb348bcf43ac4949052}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{22131388}
+      \field{journaltitle}{Sustainable Energy Technologies and Assessments}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{shortjournal}{Sustainable Energy Technologies and Assessments}
+      \field{shorttitle}{Conversion of Protein-Rich Waste into Biodiesel by {{Hermetia}} Illucens}
+      \field{title}{Conversion of Protein-Rich Waste into Biodiesel by {{Hermetia}} Illucens: {{Enhanced}} Energy Recovery and Reduced Greenhouse Gas Emissions}
+      \field{urlday}{17}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{66}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{103825}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.seta.2024.103825
+      \endverb
+      \verb{file}
+      \verb /home/jjlg/Zotero/storage/FGQUQYE5/Elsayed et al. - 2024 - Conversion of protein-rich waste into biodiesel by Hermetia illucens Enhanced energy recovery and r.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2213138824002212
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2213138824002212
+      \endverb
+    \endentry
+    \entry{eriksenDynamicModellingFeed2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=bdf1b2e0bbe78861ad825a79f860f5f1}{%
+           family={Eriksen},
+           familyi={E\bibinitperiod},
+           given={Niels\bibnamedelima Thomas},
+           giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science San Francisco, CA USA}%
+      }
+      \strng{namehash}{bdf1b2e0bbe78861ad825a79f860f5f1}
+      \strng{fullhash}{bdf1b2e0bbe78861ad825a79f860f5f1}
+      \strng{fullhashraw}{bdf1b2e0bbe78861ad825a79f860f5f1}
+      \strng{bibnamehash}{bdf1b2e0bbe78861ad825a79f860f5f1}
+      \strng{authorbibnamehash}{bdf1b2e0bbe78861ad825a79f860f5f1}
+      \strng{authornamehash}{bdf1b2e0bbe78861ad825a79f860f5f1}
+      \strng{authorfullhash}{bdf1b2e0bbe78861ad825a79f860f5f1}
+      \strng{authorfullhashraw}{bdf1b2e0bbe78861ad825a79f860f5f1}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLoS One}
+      \field{number}{10}
+      \field{title}{Dynamic Modelling of Feed Assimilation, Growth, Lipid Accumulation, and {{CO2}} Production in Black Soldier Fly Larvae}
+      \field{urlday}{2}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{volume}{17}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{e0276605}
+      \range{pages}{-1}
+      \verb{file}
+      \verb /home/jjlg/Zotero/storage/PCD9IKKP/Eriksen - 2022 - Dynamic modelling of feed assimilation, growth, lipid accumulation, and CO2 production in black sold.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0276605
+      \endverb
+      \verb{url}
+      \verb https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0276605
+      \endverb
+    \endentry
+    \entry{fadhillahUtilizationHermetiaIllucens2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=65c93ba47269b0db8574738eb1334571}{%
+           family={Fadhillah},
+           familyi={F\bibinitperiod},
+           given={N},
+           giveni={N\bibinitperiod}}}%
+        {{hash=72d4d3cd19c774691ff23aa7246d5531}{%
+           family={Bagastyo},
+           familyi={B\bibinitperiod},
+           given={A\bibnamedelima Y},
+           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{a7e489cb7bd1d52c7cf05c689d7e79b8}
+      \strng{fullhash}{a7e489cb7bd1d52c7cf05c689d7e79b8}
+      \strng{fullhashraw}{a7e489cb7bd1d52c7cf05c689d7e79b8}
+      \strng{bibnamehash}{a7e489cb7bd1d52c7cf05c689d7e79b8}
+      \strng{authorbibnamehash}{a7e489cb7bd1d52c7cf05c689d7e79b8}
+      \strng{authornamehash}{a7e489cb7bd1d52c7cf05c689d7e79b8}
+      \strng{authorfullhash}{a7e489cb7bd1d52c7cf05c689d7e79b8}
+      \strng{authorfullhashraw}{a7e489cb7bd1d52c7cf05c689d7e79b8}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract The larvae of Hermetia illucens , known as Black Soldier Fly (BSF), are utilized to reduce various types of organic waste by means of bioconversion. The purpose of this study was to evaluate the efficiency of the larvae in reducing and converting mixtures of fresh food waste (FW) with other organic waste types, i.e., immature windrow composting material (IW), residue windrow composting material (RW), and fresh cow manure (CM) at three different composition ratios. The growth rate and protein content of the larvae were also determined in this study. A specific amount of organic waste mixtures was fed to the BSF larvae. The results suggest that the type of organic waste given to larvae affected the overall waste reduction and larval growth at a certain extent. The composition ratio of FW with the other wastes used was 90:10, 70:30, and 60:40 (w/w). The highest reduction percentage was at the ratio of 90:10 achieved for FW mixed with IW, FW mixed with RW, and FW mixed with CM, i.e. 82.2\%, 79\%, and 74.5\% respectively. The protein content of larvae in those waste mixtures was 54.6\%, 63.1\%, and 48.75\% respectively. The final residue from the decomposition of the waste by BSF larvae was also observed in this study.}
+      \field{day}{1}
+      \field{issn}{1755-1307, 1755-1315}
+      \field{journaltitle}{IOP Conference Series: Earth and Environmental Science}
+      \field{month}{5}
+      \field{number}{1}
+      \field{shortjournal}{IOP Conf. Ser.: Earth Environ. Sci.}
+      \field{title}{Utilization of {{Hermetia}} Illucens {{Larvae}} as {{A Bioconversion Agent}} to {{Reduce Organic Waste}}}
+      \field{urlday}{18}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{506}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{012005}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1755-1315/506/1/012005
+      \endverb
+      \verb{urlraw}
+      \verb https://iopscience.iop.org/article/10.1088/1755-1315/506/1/012005
+      \endverb
+      \verb{url}
+      \verb https://iopscience.iop.org/article/10.1088/1755-1315/506/1/012005
+      \endverb
+    \endentry
+    \entry{farooquiIOTBasedAutomated2022}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=23fe4e25acaa42ad56d5a97a9a2ba8ca}{%
+           family={Farooqui},
+           familyi={F\bibinitperiod},
+           given={Nafees},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0536ced932c80468d4c14703e5a451d5}{%
+           family={Mishra},
+           familyi={M\bibinitperiod},
+           given={Amit},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cfc0e510dd08272a57cbfe48e6fc2971}{%
+           family={Mehra},
+           familyi={M\bibinitperiod},
+           given={Ritika},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd3f4eac559b23621f65fdc45b9c7678}
+      \strng{fullhash}{c3d20afac37c01ffddb4bd92c806a580}
+      \strng{fullhashraw}{c3d20afac37c01ffddb4bd92c806a580}
+      \strng{bibnamehash}{c3d20afac37c01ffddb4bd92c806a580}
+      \strng{authorbibnamehash}{c3d20afac37c01ffddb4bd92c806a580}
+      \strng{authornamehash}{bd3f4eac559b23621f65fdc45b9c7678}
+      \strng{authorfullhash}{c3d20afac37c01ffddb4bd92c806a580}
+      \strng{authorfullhashraw}{c3d20afac37c01ffddb4bd92c806a580}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Focusing on the effect of universal food insecurity, over 60\% of sub-Saharan countries are predicted to be in a state of malnourishment and yet several farming places are under drought state. The climatic condition is believed to be biannual dry seasons which is very difficult for farmers to cultivate crops due to shortage of water and poor soil fertility. Yet heavy rainfall is still a great threat for the farmers since it devastates cash crops. The use of a smart greenhouse with Artificial Intelligence to grow and protect plants in both dry and wet seasons and reduce labor-intensive human tasks and automate pervasive data analytics of daily plant status can surprisingly boost food security. Here we present a fully automated greenhouse system with artificial intelligence embedded in it that uses around 10,000 plant images in it that initially nurtureplants under optimum atmospheric conditions by taking real-time decisions, detectingany kind of illness, and interestingly notifyingthe stage of fruit ripeness. By implementing a neural network-based computer vision approach we were able to keep track of the health status of the plants caused by several microorganisms. The obtained predictions and results accurately verify how machine learning can be used to increase gross national food security by implementing such systems in multiple farming areas without prior human involvement.}
+      \field{day}{27}
+      \field{journaltitle}{International Journal of Intelligent Systems and Applications in Engineering}
+      \field{month}{5}
+      \field{shortjournal}{International Journal of Intelligent Systems and Applications in Engineering}
+      \field{title}{{{IOT}} Based {{Automated Greenhouse Using Machine Learning Approach}}}
+      \field{volume}{10}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{226\bibrangedash 231}
+      \range{pages}{6}
+      \verb{file}
+      \verb /home/jjlg/Zotero/storage/IQ35LAD6/Farooqui et al. - 2022 - IOT based Automated Greenhouse Using Machine Learning Approach.pdf
+      \endverb
+    \endentry
+    \entry{fawzyStrategiesMitigationClimate2020}{article}{}{}
       \name{author}{4}{}{%
         {{hash=882ebecf9f8a5588a6a60098d8dd50f3}{%
            family={Fawzy},
@@ -4097,10 +5437,12 @@
       }
       \strng{namehash}{81975c141c1df9deeb58f0a7d7b7eae3}
       \strng{fullhash}{b3f8cdf5f2364b290a1a644af18bacd3}
+      \strng{fullhashraw}{b3f8cdf5f2364b290a1a644af18bacd3}
       \strng{bibnamehash}{b3f8cdf5f2364b290a1a644af18bacd3}
       \strng{authorbibnamehash}{b3f8cdf5f2364b290a1a644af18bacd3}
       \strng{authornamehash}{81975c141c1df9deeb58f0a7d7b7eae3}
       \strng{authorfullhash}{b3f8cdf5f2364b290a1a644af18bacd3}
+      \strng{authorfullhashraw}{b3f8cdf5f2364b290a1a644af18bacd3}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{extradatescope}{labelyear}
@@ -4132,7 +5474,7 @@
       \endverb
       \keyw{Carbon dioxide removal,Climate change mitigation,Decarbonization technologies,Environmental Chemistry,Geoengineering,Negative emissions technologies,Radiative forcing geoengineering technologies}
     \endentry
-    \entry{filonchyk2024greenhouse}{article}{}
+    \entry{filonchyk2024greenhouse}{article}{}{}
       \name{author}{5}{}{%
         {{hash=8caa1323f1f71c608f63475e5d27a8fa}{%
            family={Filonchyk},
@@ -4165,10 +5507,12 @@
       }
       \strng{namehash}{fca3bbf91ca1bf29629eaff05eb2ac43}
       \strng{fullhash}{be5bccecde5988fab63e7f918bf9a788}
+      \strng{fullhashraw}{be5bccecde5988fab63e7f918bf9a788}
       \strng{bibnamehash}{be5bccecde5988fab63e7f918bf9a788}
       \strng{authorbibnamehash}{be5bccecde5988fab63e7f918bf9a788}
       \strng{authornamehash}{fca3bbf91ca1bf29629eaff05eb2ac43}
       \strng{authorfullhash}{be5bccecde5988fab63e7f918bf9a788}
+      \strng{authorfullhashraw}{be5bccecde5988fab63e7f918bf9a788}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{extradatescope}{labelyear}
@@ -4182,7 +5526,7 @@
       \field{pages}{173359}
       \range{pages}{1}
     \endentry
-    \entry{foodandagricultureorganizationoftheunitednationsfaoEmissionsDueAgriculture2020}{report}{}
+    \entry{foodandagricultureorganizationoftheunitednationsfaoEmissionsDueAgriculture2020}{report}{}{}
       \name{author}{1}{}{%
         {{hash=837fc316b81710902fb989d5c22eb034}{%
            family={{Food and Agriculture Organization of the United Nations (FAO)}},
@@ -4193,10 +5537,12 @@
       }
       \strng{namehash}{837fc316b81710902fb989d5c22eb034}
       \strng{fullhash}{837fc316b81710902fb989d5c22eb034}
+      \strng{fullhashraw}{837fc316b81710902fb989d5c22eb034}
       \strng{bibnamehash}{837fc316b81710902fb989d5c22eb034}
       \strng{authorbibnamehash}{837fc316b81710902fb989d5c22eb034}
       \strng{authornamehash}{837fc316b81710902fb989d5c22eb034}
       \strng{authorfullhash}{837fc316b81710902fb989d5c22eb034}
+      \strng{authorfullhashraw}{837fc316b81710902fb989d5c22eb034}
       \field{extraname}{1}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
@@ -4214,7 +5560,7 @@
       \verb /home/jjlg/Zotero/storage/QFBY4RBJ/Emissions due to agriculture.pdf
       \endverb
     \endentry
-    \entry{FAO2021}{misc}{}
+    \entry{FAO2021}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=837fc316b81710902fb989d5c22eb034}{%
            family={{Food and Agriculture Organization of the United Nations (FAO)}},
@@ -4222,10 +5568,12 @@
       }
       \strng{namehash}{837fc316b81710902fb989d5c22eb034}
       \strng{fullhash}{837fc316b81710902fb989d5c22eb034}
+      \strng{fullhashraw}{837fc316b81710902fb989d5c22eb034}
       \strng{bibnamehash}{837fc316b81710902fb989d5c22eb034}
       \strng{authorbibnamehash}{837fc316b81710902fb989d5c22eb034}
       \strng{authornamehash}{837fc316b81710902fb989d5c22eb034}
       \strng{authorfullhash}{837fc316b81710902fb989d5c22eb034}
+      \strng{authorfullhashraw}{837fc316b81710902fb989d5c22eb034}
       \field{extraname}{2}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
@@ -4238,7 +5586,7 @@
       \field{title}{Agricultural Waste Management: {{Challenges}} and Opportunities}
       \field{year}{2021}
     \endentry
-    \entry{galan-diazCarbonWaterFootprint2024}{article}{}
+    \entry{galan-diazCarbonWaterFootprint2024}{article}{}{}
       \name{author}{4}{}{%
         {{hash=ea61f652e4037159ff0c75ceec2f1d80}{%
            family={{Galán-Díaz}},
@@ -4263,10 +5611,12 @@
       }
       \strng{namehash}{b05cefe70538258f9902f26896922efd}
       \strng{fullhash}{a280b0f73b034d2eb0cc0ae7e4efc926}
+      \strng{fullhashraw}{a280b0f73b034d2eb0cc0ae7e4efc926}
       \strng{bibnamehash}{a280b0f73b034d2eb0cc0ae7e4efc926}
       \strng{authorbibnamehash}{a280b0f73b034d2eb0cc0ae7e4efc926}
       \strng{authornamehash}{b05cefe70538258f9902f26896922efd}
       \strng{authorfullhash}{a280b0f73b034d2eb0cc0ae7e4efc926}
+      \strng{authorfullhashraw}{a280b0f73b034d2eb0cc0ae7e4efc926}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -4295,7 +5645,7 @@
       \endverb
       \keyw{Black soldier fly,Carbon footprint,Environment,Sustainability,Water footprint}
     \endentry
-    \entry{ginerFoodLossWaste2025a}{report}{}
+    \entry{ginerFoodLossWaste2025a}{report}{}{}
       \name{author}{6}{}{%
         {{hash=0c091142c2a29392d219957917656105}{%
            family={Giner},
@@ -4330,10 +5680,12 @@
       }
       \strng{namehash}{7b601868d0a11fab11a4cb824610eee1}
       \strng{fullhash}{dc578901accbfce23e262e6a51d2479c}
+      \strng{fullhashraw}{dc578901accbfce23e262e6a51d2479c}
       \strng{bibnamehash}{dc578901accbfce23e262e6a51d2479c}
       \strng{authorbibnamehash}{dc578901accbfce23e262e6a51d2479c}
       \strng{authornamehash}{7b601868d0a11fab11a4cb824610eee1}
       \strng{authorfullhash}{dc578901accbfce23e262e6a51d2479c}
+      \strng{authorfullhashraw}{dc578901accbfce23e262e6a51d2479c}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -4355,7 +5707,7 @@
       \verb /home/jjlg/Zotero/storage/JTKBVVDD/2025 - Beyond food loss and waste reduction targets.pdf;/home/jjlg/Zotero/storage/JIAD56HT/beyond-food-loss-and-waste-reduction-targets_59cf6c95-en.html
       \endverb
     \endentry
-    \entry{goldEffectsRearingSystem2022}{article}{}
+    \entry{goldEffectsRearingSystem2022}{article}{}{}
       \name{author}{8}{}{%
         {{hash=be73aee36b368c45b8bb71f755eac7da}{%
            family={Gold},
@@ -4403,10 +5755,12 @@
       }
       \strng{namehash}{2d880b79d61c0e704b866a84d2e055a5}
       \strng{fullhash}{7c70ac01ab91a03b2cf2015fcf2f5f50}
+      \strng{fullhashraw}{7c70ac01ab91a03b2cf2015fcf2f5f50}
       \strng{bibnamehash}{7c70ac01ab91a03b2cf2015fcf2f5f50}
       \strng{authorbibnamehash}{7c70ac01ab91a03b2cf2015fcf2f5f50}
       \strng{authornamehash}{2d880b79d61c0e704b866a84d2e055a5}
       \strng{authorfullhash}{7c70ac01ab91a03b2cf2015fcf2f5f50}
+      \strng{authorfullhashraw}{7c70ac01ab91a03b2cf2015fcf2f5f50}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -4436,7 +5790,7 @@
       \endverb
       \keyw{bioconversion,feed,food waste,Hermetia illucens,microbiota}
     \endentry
-    \entry{guthrie_impact_2018}{report}{}
+    \entry{guthrie_impact_2018}{report}{}{}
       \name{author}{7}{}{%
         {{hash=17a6aeda44d4f926a3f1e979e325648e}{%
            family={Guthrie},
@@ -4482,10 +5836,12 @@
       }
       \strng{namehash}{70f476e600ac2c29ed962b04d7ead5cc}
       \strng{fullhash}{8d9dbec3b29a5b882e574c0205360a59}
+      \strng{fullhashraw}{8d9dbec3b29a5b882e574c0205360a59}
       \strng{bibnamehash}{8d9dbec3b29a5b882e574c0205360a59}
       \strng{authorbibnamehash}{8d9dbec3b29a5b882e574c0205360a59}
       \strng{authornamehash}{70f476e600ac2c29ed962b04d7ead5cc}
       \strng{authorfullhash}{8d9dbec3b29a5b882e574c0205360a59}
+      \strng{authorfullhashraw}{8d9dbec3b29a5b882e574c0205360a59}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -4511,7 +5867,7 @@
       \endverb
       \keyw{Agricultural Sciences,Biology and Life Sciences,Environmental Pollution,Environmental Regulation,Research,United Kingdom}
     \endentry
-    \entry{hamamAdvancesInsectIndustry2024}{article}{}
+    \entry{hamamAdvancesInsectIndustry2024}{article}{}{}
       \name{author}{3}{}{%
         {{hash=069f9eee77ead87e2b20a4ffac5a8bca}{%
            family={Hamam},
@@ -4531,10 +5887,12 @@
       }
       \strng{namehash}{6ff4c11fac532f80440b8a41f44b34d4}
       \strng{fullhash}{c575e2ed30b8c26d0f3f3b197f0ea16c}
+      \strng{fullhashraw}{c575e2ed30b8c26d0f3f3b197f0ea16c}
       \strng{bibnamehash}{c575e2ed30b8c26d0f3f3b197f0ea16c}
       \strng{authorbibnamehash}{c575e2ed30b8c26d0f3f3b197f0ea16c}
       \strng{authornamehash}{6ff4c11fac532f80440b8a41f44b34d4}
       \strng{authorfullhash}{c575e2ed30b8c26d0f3f3b197f0ea16c}
+      \strng{authorfullhashraw}{c575e2ed30b8c26d0f3f3b197f0ea16c}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -4565,7 +5923,7 @@
       \endverb
       \keyw{Bioconversion,Circular economy,Insect-based food,Insects-based feeds,Social acceptance,Waste management}
     \endentry
-    \entry{herrinCollateralDataQuality2021}{thesis}{}
+    \entry{herrinCollateralDataQuality2021}{thesis}{}{}
       \name{author}{1}{}{%
         {{hash=5635f898972cd68f5e0e31b7f6d6df96}{%
            family={Herrin},
@@ -4578,10 +5936,12 @@
       }
       \strng{namehash}{5635f898972cd68f5e0e31b7f6d6df96}
       \strng{fullhash}{5635f898972cd68f5e0e31b7f6d6df96}
+      \strng{fullhashraw}{5635f898972cd68f5e0e31b7f6d6df96}
       \strng{bibnamehash}{5635f898972cd68f5e0e31b7f6d6df96}
       \strng{authorbibnamehash}{5635f898972cd68f5e0e31b7f6d6df96}
       \strng{authornamehash}{5635f898972cd68f5e0e31b7f6d6df96}
       \strng{authorfullhash}{5635f898972cd68f5e0e31b7f6d6df96}
+      \strng{authorfullhashraw}{5635f898972cd68f5e0e31b7f6d6df96}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -4597,7 +5957,7 @@
       \verb /home/jjlg/Zotero/storage/3R6MLIFJ/Herrin - Collateral Data Quality Challenges of IoT Sensor-Generated Data.pdf
       \endverb
     \endentry
-    \entry{IPCC2014}{book}{}
+    \entry{IPCC2014}{book}{}{}
       \name{author}{1}{}{%
         {{hash=676f7b9b8e5bb30500c01e2385e59174}{%
            family={{IPCC}},
@@ -4608,10 +5968,12 @@
       }
       \strng{namehash}{676f7b9b8e5bb30500c01e2385e59174}
       \strng{fullhash}{676f7b9b8e5bb30500c01e2385e59174}
+      \strng{fullhashraw}{676f7b9b8e5bb30500c01e2385e59174}
       \strng{bibnamehash}{676f7b9b8e5bb30500c01e2385e59174}
       \strng{authorbibnamehash}{676f7b9b8e5bb30500c01e2385e59174}
       \strng{authornamehash}{676f7b9b8e5bb30500c01e2385e59174}
       \strng{authorfullhash}{676f7b9b8e5bb30500c01e2385e59174}
+      \strng{authorfullhashraw}{676f7b9b8e5bb30500c01e2385e59174}
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{extradatescope}{labelyear}
@@ -4623,7 +5985,7 @@
       \field{title}{Climate Change 2014: {{Mitigation}} of Climate Change. {{Contribution}} of Working Group {{III}} to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change}
       \field{year}{2014}
     \endentry
-    \entry{jenkinsProcessingPoultryManure2025}{article}{}
+    \entry{jenkinsProcessingPoultryManure2025}{article}{}{}
       \name{author}{6}{}{%
         {{hash=55ade1076e4f465eda0eb34aba965e55}{%
            family={Jenkins},
@@ -4661,10 +6023,12 @@
       }
       \strng{namehash}{402b2bc1891418620da7f92a9d9b0511}
       \strng{fullhash}{408547e7382f617ea6ad706a163317ad}
+      \strng{fullhashraw}{408547e7382f617ea6ad706a163317ad}
       \strng{bibnamehash}{408547e7382f617ea6ad706a163317ad}
       \strng{authorbibnamehash}{408547e7382f617ea6ad706a163317ad}
       \strng{authornamehash}{402b2bc1891418620da7f92a9d9b0511}
       \strng{authorfullhash}{408547e7382f617ea6ad706a163317ad}
+      \strng{authorfullhashraw}{408547e7382f617ea6ad706a163317ad}
       \field{sortinit}{J}
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
       \field{extradatescope}{labelyear}
@@ -4686,7 +6050,7 @@
       \endverb
       \keyw{bacteria,circular economy,fertiliser,frass,greenhouse gas,insect farming}
     \endentry
-    \entry{kabangeMitigatingGreenhouseGas2023}{article}{}
+    \entry{kabangeMitigatingGreenhouseGas2023}{article}{}{}
       \name{author}{10}{}{%
         {{hash=737e907e76031909e5a4e1b14f970d55}{%
            family={Kabange},
@@ -4744,10 +6108,12 @@
       }
       \strng{namehash}{e30f0b635d977c9ab8fc4e6cdaaf21e7}
       \strng{fullhash}{0d9072b6d92d913d38d26b058a3d3b67}
+      \strng{fullhashraw}{0d9072b6d92d913d38d26b058a3d3b67}
       \strng{bibnamehash}{0d9072b6d92d913d38d26b058a3d3b67}
       \strng{authorbibnamehash}{0d9072b6d92d913d38d26b058a3d3b67}
       \strng{authornamehash}{e30f0b635d977c9ab8fc4e6cdaaf21e7}
       \strng{authorfullhash}{0d9072b6d92d913d38d26b058a3d3b67}
+      \strng{authorfullhashraw}{0d9072b6d92d913d38d26b058a3d3b67}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -4779,7 +6145,7 @@
       \endverb
       \keyw{biochar,crop residue management,environment,game changer,greenhouse gas,livestock feed,nitrogen,sustainability}
     \endentry
-    \entry{kamilaris2017review}{article}{}
+    \entry{kamilaris2017review}{article}{}{}
       \name{author}{3}{}{%
         {{hash=eb16d14d23f09fd1365230c0230110f7}{%
            family={Kamilaris},
@@ -4802,10 +6168,12 @@
       }
       \strng{namehash}{77c4a23614e916bd4e67f76a3e39d26f}
       \strng{fullhash}{b04aacd31dd8839c183a6d062c50c4c6}
+      \strng{fullhashraw}{b04aacd31dd8839c183a6d062c50c4c6}
       \strng{bibnamehash}{b04aacd31dd8839c183a6d062c50c4c6}
       \strng{authorbibnamehash}{b04aacd31dd8839c183a6d062c50c4c6}
       \strng{authornamehash}{77c4a23614e916bd4e67f76a3e39d26f}
       \strng{authorfullhash}{b04aacd31dd8839c183a6d062c50c4c6}
+      \strng{authorfullhashraw}{b04aacd31dd8839c183a6d062c50c4c6}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -4820,7 +6188,7 @@
       \field{pages}{23\bibrangedash 37}
       \range{pages}{15}
     \endentry
-    \entry{koyunogluBiofuelProductionUtilizing2024}{article}{}
+    \entry{koyunogluBiofuelProductionUtilizing2024}{article}{}{}
       \name{author}{1}{}{%
         {{hash=5df308fbf73571b28e16e32cd3728e60}{%
            family={Koyunoğlu},
@@ -4830,10 +6198,12 @@
       }
       \strng{namehash}{5df308fbf73571b28e16e32cd3728e60}
       \strng{fullhash}{5df308fbf73571b28e16e32cd3728e60}
+      \strng{fullhashraw}{5df308fbf73571b28e16e32cd3728e60}
       \strng{bibnamehash}{5df308fbf73571b28e16e32cd3728e60}
       \strng{authorbibnamehash}{5df308fbf73571b28e16e32cd3728e60}
       \strng{authornamehash}{5df308fbf73571b28e16e32cd3728e60}
       \strng{authorfullhash}{5df308fbf73571b28e16e32cd3728e60}
+      \strng{authorfullhashraw}{5df308fbf73571b28e16e32cd3728e60}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -4863,7 +6233,7 @@
       \endverb
       \keyw{Biodiesel,Biofuel,Black soldier fly,Hermetia illucens,Organic waste management,Sustainable energy,Transesterification}
     \endentry
-    \entry{Leddin2024}{article}{}
+    \entry{Leddin2024}{article}{}{}
       \name{author}{1}{}{%
         {{hash=1dc1db8af5ad5062e416c9e597dd1ae7}{%
            family={Leddin},
@@ -4873,10 +6243,12 @@
       }
       \strng{namehash}{1dc1db8af5ad5062e416c9e597dd1ae7}
       \strng{fullhash}{1dc1db8af5ad5062e416c9e597dd1ae7}
+      \strng{fullhashraw}{1dc1db8af5ad5062e416c9e597dd1ae7}
       \strng{bibnamehash}{1dc1db8af5ad5062e416c9e597dd1ae7}
       \strng{authorbibnamehash}{1dc1db8af5ad5062e416c9e597dd1ae7}
       \strng{authornamehash}{1dc1db8af5ad5062e416c9e597dd1ae7}
       \strng{authorfullhash}{1dc1db8af5ad5062e416c9e597dd1ae7}
+      \strng{authorfullhashraw}{1dc1db8af5ad5062e416c9e597dd1ae7}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
@@ -4891,7 +6263,7 @@
       \verb 10.1016/j.gastha.2024.01.018
       \endverb
     \endentry
-    \entry{liuOptimizingDataPipelines2023}{article}{}
+    \entry{liuOptimizingDataPipelines2023}{article}{}{}
       \name{author}{10}{}{%
         {{hash=7dbcd223db163eb1fc0b2e4f844602cd}{%
            family={Liu},
@@ -4946,10 +6318,12 @@
       }
       \strng{namehash}{037e6926e09ea313bacbdfaffec60461}
       \strng{fullhash}{cfdbfa48cf9e57335dfb93a3b21e05fd}
+      \strng{fullhashraw}{cfdbfa48cf9e57335dfb93a3b21e05fd}
       \strng{bibnamehash}{cfdbfa48cf9e57335dfb93a3b21e05fd}
       \strng{authorbibnamehash}{cfdbfa48cf9e57335dfb93a3b21e05fd}
       \strng{authornamehash}{037e6926e09ea313bacbdfaffec60461}
       \strng{authorfullhash}{cfdbfa48cf9e57335dfb93a3b21e05fd}
+      \strng{authorfullhashraw}{cfdbfa48cf9e57335dfb93a3b21e05fd}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
@@ -4975,7 +6349,48 @@
       \verb /home/jjlg/Zotero/storage/KNA5CCAU/6b9d0226350d524187a2b5525c20e3de.html
       \endverb
     \endentry
-    \entry{lynchAgriculturesContributionClimate2021}{article}{}
+    \entry{luReviewIntelligentGreenhouse2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=a5071f14960a38eaa174b739bfe6d191}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Ziyang},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{a5071f14960a38eaa174b739bfe6d191}
+      \strng{fullhash}{a5071f14960a38eaa174b739bfe6d191}
+      \strng{fullhashraw}{a5071f14960a38eaa174b739bfe6d191}
+      \strng{bibnamehash}{a5071f14960a38eaa174b739bfe6d191}
+      \strng{authorbibnamehash}{a5071f14960a38eaa174b739bfe6d191}
+      \strng{authornamehash}{a5071f14960a38eaa174b739bfe6d191}
+      \strng{authorfullhash}{a5071f14960a38eaa174b739bfe6d191}
+      \strng{authorfullhashraw}{a5071f14960a38eaa174b739bfe6d191}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{With the rapid advancement of Internet of Things (IoT) technologies, intelligent greenhouses, as a critical component of modern agriculture, are progressively supplanting traditional farming practices and emerging as a cornerstone technology for precision agriculture. By integrating sensor technologies, automated control systems, cloud computing, and artificial intelligence algorithms, intelligent greenhouses facilitate precise monitoring and automated management of environmental parameters such as temperature, humidity, light intensity, and soil moisture. This integration not only enhances crop yield and quality but also minimizes resource wastage. Nevertheless, the effective amalgamation of these technologies to achieve intelligent greenhouse environment management remains a primary research focus and challenge. This paper provides a comprehensive review of the current research status of intelligent greenhouses based on IoT control technology, addressing the following aspects: first, the utilization of microcontrollers and sensor technologies for localized monitoring and control of greenhouse environments; second, the implementation of cloud computing to enable remote monitoring and management of greenhouse conditions; third, the optimization of greenhouse environmental control strategies through the integration of artificial intelligence algorithms; and finally, the design of compact intelligent greenhouses suitable for domestic cultivation. This study systematically examines the research progress of intelligent greenhouses leveraging IoT control technologies, offering technical insights and practical applications for researchers in the field. Furthermore, the proposed integration frameworks and future development directions presented herein hold significant implications for advancing the adoption and expansion of smart agriculture, thereby contributing to the realization of intelligent and sustainable agricultural production systems.}
+      \field{day}{6}
+      \field{journaltitle}{Applied and Computational Engineering}
+      \field{month}{5}
+      \field{shortjournal}{Applied and Computational Engineering}
+      \field{title}{A {{Review}} of {{Intelligent Greenhouse Systems Based}} on {{Internet}} of {{Things Control Technology}}}
+      \field{volume}{148}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{pages}{44\bibrangedash 50}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.54254/2755-2721/2025.22577
+      \endverb
+      \verb{file}
+      \verb /home/jjlg/Zotero/storage/3XZKQ6AD/Lu - 2025 - A Review of Intelligent Greenhouse Systems Based on Internet of Things Control Technology.pdf
+      \endverb
+    \endentry
+    \entry{lynchAgriculturesContributionClimate2021}{article}{}{}
       \name{author}{4}{}{%
         {{hash=7fbb54472b7d7841c21e90f5138c8ef8}{%
            family={Lynch},
@@ -5003,10 +6418,12 @@
       }
       \strng{namehash}{23c96784426f0dc89803ea80d3228303}
       \strng{fullhash}{20bfdef19a60881619ba3676c05b10f0}
+      \strng{fullhashraw}{20bfdef19a60881619ba3676c05b10f0}
       \strng{bibnamehash}{20bfdef19a60881619ba3676c05b10f0}
       \strng{authorbibnamehash}{20bfdef19a60881619ba3676c05b10f0}
       \strng{authornamehash}{23c96784426f0dc89803ea80d3228303}
       \strng{authorfullhash}{20bfdef19a60881619ba3676c05b10f0}
+      \strng{authorfullhashraw}{20bfdef19a60881619ba3676c05b10f0}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
@@ -5034,7 +6451,7 @@
       \endverb
       \keyw{Carbon Dioxide,Climate chage,climate policy,Methane,Nitrous Oxide}
     \endentry
-    \entry{nayakHermetiaIllucensDiptera2024}{article}{}
+    \entry{nayakHermetiaIllucensDiptera2024}{article}{}{}
       \name{author}{3}{}{%
         {{hash=5cdcab9f6faff96eeafb1ad01eba62af}{%
            family={Nayak},
@@ -5057,10 +6474,12 @@
       }
       \strng{namehash}{5c7cc1a2fa0b1f7fdcd082c2e489eb47}
       \strng{fullhash}{356bd68c4d2bb08f2581576103e28da0}
+      \strng{fullhashraw}{356bd68c4d2bb08f2581576103e28da0}
       \strng{bibnamehash}{356bd68c4d2bb08f2581576103e28da0}
       \strng{authorbibnamehash}{356bd68c4d2bb08f2581576103e28da0}
       \strng{authornamehash}{5c7cc1a2fa0b1f7fdcd082c2e489eb47}
       \strng{authorfullhash}{356bd68c4d2bb08f2581576103e28da0}
+      \strng{authorfullhashraw}{356bd68c4d2bb08f2581576103e28da0}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{extradatescope}{labelyear}
@@ -5092,7 +6511,7 @@
       \endverb
       \keyw{<i>Hermetia illucens</i>,alternative protein,black soldier fly,circular economy,insect rearing,insects as feed,rearing variables,side streams,sustainability,waste reduction}
     \endentry
-    \entry{nunesRisingThreatAtmospheric2023}{article}{}
+    \entry{nunesRisingThreatAtmospheric2023}{article}{}{}
       \name{author}{1}{}{%
         {{hash=a3844a6647b729db96e7e558413e1289}{%
            family={Nunes},
@@ -5105,10 +6524,12 @@
       }
       \strng{namehash}{a3844a6647b729db96e7e558413e1289}
       \strng{fullhash}{a3844a6647b729db96e7e558413e1289}
+      \strng{fullhashraw}{a3844a6647b729db96e7e558413e1289}
       \strng{bibnamehash}{a3844a6647b729db96e7e558413e1289}
       \strng{authorbibnamehash}{a3844a6647b729db96e7e558413e1289}
       \strng{authornamehash}{a3844a6647b729db96e7e558413e1289}
       \strng{authorfullhash}{a3844a6647b729db96e7e558413e1289}
+      \strng{authorfullhashraw}{a3844a6647b729db96e7e558413e1289}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{extradatescope}{labelyear}
@@ -5140,7 +6561,139 @@
       \endverb
       \keyw{carbon capture and storage,climate change,CO<sub>2</sub> emissions,greenhouse gases,mitigation}
     \endentry
-    \entry{paulMachineLearningIoT2024}{inbook}{}
+    \entry{padmanabhaComprehensiveDynamicGrowth2020}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=5f38ee887e474f6fe9b74309ec6ebdba}{%
+           family={Padmanabha},
+           familyi={P\bibinitperiod},
+           given={Murali},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fa712428a437147315e383a9a7d3d1ce}{%
+           family={Kobelski},
+           familyi={K\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d757087ddca176f05d8f7b8656351aa4}{%
+           family={Hempel},
+           familyi={H\bibinitperiod},
+           given={Arne-Jens},
+           giveni={A\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=5e7d5f8756df73e258a0111af40f0dcf}{%
+           family={Streif},
+           familyi={S\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science San Francisco, CA USA}%
+      }
+      \strng{namehash}{5834c8289ef67e65f2f1c200797c8155}
+      \strng{fullhash}{57393373f5cc20e7c11d4492ea5f8cbf}
+      \strng{fullhashraw}{57393373f5cc20e7c11d4492ea5f8cbf}
+      \strng{bibnamehash}{57393373f5cc20e7c11d4492ea5f8cbf}
+      \strng{authorbibnamehash}{57393373f5cc20e7c11d4492ea5f8cbf}
+      \strng{authornamehash}{5834c8289ef67e65f2f1c200797c8155}
+      \strng{authorfullhash}{57393373f5cc20e7c11d4492ea5f8cbf}
+      \strng{authorfullhashraw}{57393373f5cc20e7c11d4492ea5f8cbf}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Plos one}
+      \field{number}{9}
+      \field{title}{A Comprehensive Dynamic Growth and Development Model of {{Hermetia}} Illucens Larvae}
+      \field{urlday}{2}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{volume}{15}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{e0239084}
+      \range{pages}{-1}
+      \verb{file}
+      \verb /home/jjlg/Zotero/storage/GHVW88D8/Padmanabha et al. - 2020 - A comprehensive dynamic growth and development model of Hermetia illucens larvae.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0239084
+      \endverb
+      \verb{url}
+      \verb https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0239084
+      \endverb
+    \endentry
+    \entry{padmanabhaModellingOptimalControl2023}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=5f38ee887e474f6fe9b74309ec6ebdba}{%
+           family={Padmanabha},
+           familyi={P\bibinitperiod},
+           given={Murali},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fa712428a437147315e383a9a7d3d1ce}{%
+           family={Kobelski},
+           familyi={K\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d757087ddca176f05d8f7b8656351aa4}{%
+           family={Hempel},
+           familyi={H\bibinitperiod},
+           given={Arne-Jens},
+           giveni={A\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=5e7d5f8756df73e258a0111af40f0dcf}{%
+           family={Streif},
+           familyi={S\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{5834c8289ef67e65f2f1c200797c8155}
+      \strng{fullhash}{57393373f5cc20e7c11d4492ea5f8cbf}
+      \strng{fullhashraw}{57393373f5cc20e7c11d4492ea5f8cbf}
+      \strng{bibnamehash}{57393373f5cc20e7c11d4492ea5f8cbf}
+      \strng{authorbibnamehash}{57393373f5cc20e7c11d4492ea5f8cbf}
+      \strng{authornamehash}{5834c8289ef67e65f2f1c200797c8155}
+      \strng{authorfullhash}{57393373f5cc20e7c11d4492ea5f8cbf}
+      \strng{authorfullhashraw}{57393373f5cc20e7c11d4492ea5f8cbf}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Mass production of Hermetia illucens insect larvae is now being adopted in many countries and is taking an industrial production approach. Despite abundant literature on factors that affect larvae growth and the optimal static parameters identified in laboratory setup, for an industrial production process it is necessary to identify the trajectories such that the growth as well as the production process is optimal. To achieve this in this work, some of the important requirements and challenges involved thereof are identified and objectives of the automation process are formulated within a model based optimal control setup. Mechanistic models necessary for the optimization framework are derived as differential equations that describe the dynamic variation of resources (feed, water, O2 etc.), energy, and larval biomass. In addition, the elevated metabolic activity of larvae corresponding to the final instar development is identified and also modelled based on the observation from experiments. The mass and energy balance approach used in modelling enables the quantification and distinction of the mass and energy flux components in various levels (e.g. larvae body, growing medium, production environment, and external environment) while holding its applicability for both open and closed/reactor based production setups. Finally, the trajectories generated using the synthesized optimal controller are tested under different scenarios showcasing significant reduction in resource consumption compared to a constant set-point operation of the production setup. Results presented in this work not only showcase the potential of the mechanistic models and their application in identifying the relevant process parameters (e.g. reactor properties such as volume, thermal conductivity, actuator capacities), but most importantly in optimizing the process dynamically and tuning the process objectives as desired (e.g. maximize larvae mass, reduce energy).}
+      \field{issn}{01681699}
+      \field{journaltitle}{Computers and Electronics in Agriculture}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{shortjournal}{Computers and Electronics in Agriculture}
+      \field{title}{Modelling and Optimal Control of Growth, Energy, and Resource Dynamics of {{Hermetia}} Illucens in Mass Production Environment}
+      \field{urlday}{27}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{206}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{107649}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.compag.2023.107649
+      \endverb
+      \verb{file}
+      \verb /home/jjlg/Zotero/storage/ZQ25WQ6N/Padmanabha et al. - 2023 - Modelling and optimal control of growth, energy, and resource dynamics of Hermetia illucens in mass.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0168169923000376
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0168169923000376
+      \endverb
+    \endentry
+    \entry{paulMachineLearningIoT2024}{inbook}{}{}
       \name{author}{2}{}{%
         {{hash=b22a2429c00ede03dbc019e08d6bcc01}{%
            family={Paul},
@@ -5168,13 +6721,16 @@
       }
       \strng{namehash}{662f3cdc206b91d47c20c56dfcdde02d}
       \strng{fullhash}{662f3cdc206b91d47c20c56dfcdde02d}
+      \strng{fullhashraw}{662f3cdc206b91d47c20c56dfcdde02d}
       \strng{bibnamehash}{662f3cdc206b91d47c20c56dfcdde02d}
       \strng{authorbibnamehash}{662f3cdc206b91d47c20c56dfcdde02d}
       \strng{authornamehash}{662f3cdc206b91d47c20c56dfcdde02d}
       \strng{authorfullhash}{662f3cdc206b91d47c20c56dfcdde02d}
+      \strng{authorfullhashraw}{662f3cdc206b91d47c20c56dfcdde02d}
       \strng{editorbibnamehash}{cdf52dadefebd5a5ab690434608cb518}
       \strng{editornamehash}{cdf52dadefebd5a5ab690434608cb518}
       \strng{editorfullhash}{cdf52dadefebd5a5ab690434608cb518}
+      \strng{editorfullhashraw}{cdf52dadefebd5a5ab690434608cb518}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -5198,7 +6754,7 @@
       \verb 10.1007/978-981-97-5624-7_6
       \endverb
     \endentry
-    \entry{rajRealTimeEstimation2023}{article}{}
+    \entry{rajRealTimeEstimation2023}{article}{}{}
       \name{author}{2}{}{%
         {{hash=421c1587f0d31252ea869ae924ec0fc2}{%
            family={Raj},
@@ -5213,10 +6769,12 @@
       }
       \strng{namehash}{ddfb27bc30b817b54295b53e630ff9ea}
       \strng{fullhash}{ddfb27bc30b817b54295b53e630ff9ea}
+      \strng{fullhashraw}{ddfb27bc30b817b54295b53e630ff9ea}
       \strng{bibnamehash}{ddfb27bc30b817b54295b53e630ff9ea}
       \strng{authorbibnamehash}{ddfb27bc30b817b54295b53e630ff9ea}
       \strng{authornamehash}{ddfb27bc30b817b54295b53e630ff9ea}
       \strng{authorfullhash}{ddfb27bc30b817b54295b53e630ff9ea}
+      \strng{authorfullhashraw}{ddfb27bc30b817b54295b53e630ff9ea}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -5241,7 +6799,7 @@
       \verb /home/jjlg/Zotero/storage/8DJE9823/255ff4030d8755b090ee0836904df064.html
       \endverb
     \endentry
-    \entry{rossiEstimatingDynamicsGreenhouse2024}{article}{}
+    \entry{rossiEstimatingDynamicsGreenhouse2024}{article}{}{}
       \name{author}{5}{}{%
         {{hash=58e0c22d5460ce5887ea30b877e48222}{%
            family={Rossi},
@@ -5271,10 +6829,12 @@
       }
       \strng{namehash}{7c8dc12dbcfede88072cc7d24a94d16a}
       \strng{fullhash}{dec95416477a6add39b424ea8c236b56}
+      \strng{fullhashraw}{dec95416477a6add39b424ea8c236b56}
       \strng{bibnamehash}{dec95416477a6add39b424ea8c236b56}
       \strng{authorbibnamehash}{dec95416477a6add39b424ea8c236b56}
       \strng{authornamehash}{7c8dc12dbcfede88072cc7d24a94d16a}
       \strng{authorfullhash}{dec95416477a6add39b424ea8c236b56}
+      \strng{authorfullhashraw}{dec95416477a6add39b424ea8c236b56}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -5303,7 +6863,7 @@
       \verb /home/jjlg/Zotero/storage/RJLPEZ7R/Rossi et al. - 2024 - Estimating the dynamics of greenhouse gas emission during black soldier fly larvae growth under cont.pdf
       \endverb
     \endentry
-    \entry{salamEffectDifferentEnvironmental2022}{article}{}
+    \entry{salamEffectDifferentEnvironmental2022}{article}{}{}
       \name{author}{10}{}{%
         {{hash=c60556bcc9458786837639ac5f043183}{%
            family={Salam},
@@ -5358,10 +6918,12 @@
       }
       \strng{namehash}{7e9bb743b62ec04b3c27867778aec20b}
       \strng{fullhash}{feea997cf3ce6cdadbee2f3b7395dfbe}
+      \strng{fullhashraw}{feea997cf3ce6cdadbee2f3b7395dfbe}
       \strng{bibnamehash}{feea997cf3ce6cdadbee2f3b7395dfbe}
       \strng{authorbibnamehash}{feea997cf3ce6cdadbee2f3b7395dfbe}
       \strng{authornamehash}{7e9bb743b62ec04b3c27867778aec20b}
       \strng{authorfullhash}{feea997cf3ce6cdadbee2f3b7395dfbe}
+      \strng{authorfullhashraw}{feea997cf3ce6cdadbee2f3b7395dfbe}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -5390,7 +6952,79 @@
       \endverb
       \keyw{Bioconversion,Black soldier fly,Environmental factors,Life cycle,Organic waste,Survival rate,Waste management}
     \endentry
-    \entry{sarangiFoodWasteFood2024}{article}{}
+    \entry{santanaChangesChemicalBiological2020}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=e68e3342d0af9a70ed8f3f883ca5178a}{%
+           family={Santana},
+           familyi={S\bibinitperiod},
+           given={Natielo\bibnamedelima Almeida},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e4334670ac3a876e44eefa8416b545db}{%
+           family={Jacques},
+           familyi={J\bibinitperiod},
+           given={Rodrigo\bibnamedelimb Josemar\bibnamedelima Seminoti},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=0e33b8a8d810a6e89b454a4dd68d9f00}{%
+           family={Antoniolli},
+           familyi={A\bibinitperiod},
+           given={Zaida\bibnamedelima Inês},
+           giveni={Z\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=10a328c1969a06581916bb3dc63ea774}{%
+           family={Martínez-Cordeiro},
+           familyi={M\bibinithyphendelim C\bibinitperiod},
+           given={Hugo},
+           giveni={H\bibinitperiod}}}%
+        {{hash=6b9cab531313bb5ba05fc7bcf315c851}{%
+           family={Domínguez},
+           familyi={D\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{bed509de7b4add927760da2e79fe8f2c}
+      \strng{fullhash}{f9d82fabe1bc41b5704924ff74617fea}
+      \strng{fullhashraw}{f9d82fabe1bc41b5704924ff74617fea}
+      \strng{bibnamehash}{f9d82fabe1bc41b5704924ff74617fea}
+      \strng{authorbibnamehash}{f9d82fabe1bc41b5704924ff74617fea}
+      \strng{authornamehash}{bed509de7b4add927760da2e79fe8f2c}
+      \strng{authorfullhash}{f9d82fabe1bc41b5704924ff74617fea}
+      \strng{authorfullhashraw}{f9d82fabe1bc41b5704924ff74617fea}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this study, the changes in the chemical and biological characteristics of a grape marc vermicompost during a two-year production period were studied to determine the time required for completion of the maturation phase and production of stable vermicompost. Grape marc was added to the surface of a vermireactor monthly for two years. At the end of the experiment, the resulting vermicompost was 100 cm deep and consisted of layers of fresh (top) to processed (bottom) grape marc approximately 15, 30, 180, 360, 540 and 720 days old. Several chemical and biological characteristics were measured in each vermicompost layer at the end of the experiment: the moisture content; pH; electrical conductivity; organic matter content; total and dissolved carbon content; C:N ratio; nutrient content; earthworm density; basal respiration; and the activity of 12 enzymes associated with the carbon, nitrogen, phosphorus and sulfur cycles. The earthworm density increased 30-fold during the two-year period. In addition, the pH and electrical conductivity as well as the organic matter, total carbon, dissolved organic nitrogen, phosphorus, potassium and copper contents all decreased, while the calcium, sulfur, zinc and manganese contents increased. Basal respiration and carboxylesterase, peroxidase and catalase activities were highest during the first 30 days. By contrast, the urease, acid phosphatase, alkaline phosphatase and arylsulfatase activities were greater after 30 days. The major changes in vermicompost occurred during the initial phase of vermicomposting. However, the chemical and biological characteristics continued to vary during the maturation phase because of microbial activity. Thus, the quality of vermicompost greatly depended on the duration of the maturation (conditioning) phase; therefore, it was difficult to determine the time required to yield a stable product.}
+      \field{issn}{09291393}
+      \field{journaltitle}{Applied Soil Ecology}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{shortjournal}{Applied Soil Ecology}
+      \field{title}{Changes in the Chemical and Biological Characteristics of Grape Marc Vermicompost during a Two-Year Production Period}
+      \field{urlday}{26}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{154}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{103587}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.apsoil.2020.103587
+      \endverb
+      \verb{file}
+      \verb /home/jjlg/Zotero/storage/85ZA29U3/Santana et al. - 2020 - Changes in the chemical and biological characteristics of grape marc vermicompost during a two-year.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0929139319311953
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0929139319311953
+      \endverb
+    \endentry
+    \entry{sarangiFoodWasteFood2024}{article}{}{}
       \name{author}{5}{}{%
         {{hash=bdd4eae93aa1af4be751d11c32ce278c}{%
            family={Sarangi},
@@ -5423,10 +7057,12 @@
       }
       \strng{namehash}{17837cb5b7aaaa4681d3d54a7bd70336}
       \strng{fullhash}{93a7e3b77ef907ccd9197d45f5440c7d}
+      \strng{fullhashraw}{93a7e3b77ef907ccd9197d45f5440c7d}
       \strng{bibnamehash}{93a7e3b77ef907ccd9197d45f5440c7d}
       \strng{authorbibnamehash}{93a7e3b77ef907ccd9197d45f5440c7d}
       \strng{authornamehash}{17837cb5b7aaaa4681d3d54a7bd70336}
       \strng{authorfullhash}{93a7e3b77ef907ccd9197d45f5440c7d}
+      \strng{authorfullhashraw}{93a7e3b77ef907ccd9197d45f5440c7d}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -5458,7 +7094,7 @@
       \endverb
       \keyw{bioresources,food security,food waste,sustainability,valorization}
     \endentry
-    \entry{satputeREVIEWPAPERWIRELESS2021}{article}{}
+    \entry{satputeREVIEWPAPERWIRELESS2021}{article}{}{}
       \name{author}{4}{}{%
         {{hash=832e146bf237b0ddfedd19a96752d2ec}{%
            family={Satpute},
@@ -5483,10 +7119,12 @@
       }
       \strng{namehash}{0afcfc25ee02147c83d4ee20869f2ea6}
       \strng{fullhash}{c6368ef0e281b7e5c94bbfb02751111e}
+      \strng{fullhashraw}{c6368ef0e281b7e5c94bbfb02751111e}
       \strng{bibnamehash}{c6368ef0e281b7e5c94bbfb02751111e}
       \strng{authorbibnamehash}{c6368ef0e281b7e5c94bbfb02751111e}
       \strng{authornamehash}{0afcfc25ee02147c83d4ee20869f2ea6}
       \strng{authorfullhash}{c6368ef0e281b7e5c94bbfb02751111e}
+      \strng{authorfullhashraw}{c6368ef0e281b7e5c94bbfb02751111e}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -5504,7 +7142,7 @@
       \verb /home/jjlg/Zotero/storage/SAHTMCAT/Satpute et al. - 2021 - REVIEW PAPER ON WIRELESS SENSOR NETWORKS FOR AGRICULTURE.pdf
       \endverb
     \endentry
-    \entry{siddiquiEnhancingBioconversionRate2024}{article}{}
+    \entry{siddiquiEnhancingBioconversionRate2024}{article}{}{}
       \name{author}{7}{}{%
         {{hash=81a299f65e1d96b8cf9226c3f0052ba8}{%
            family={Siddiqui},
@@ -5544,10 +7182,12 @@
       }
       \strng{namehash}{863e5e68b3350fdeb18a0a087543f5bc}
       \strng{fullhash}{767b3c9dfaeb72dcd497b78857ab034f}
+      \strng{fullhashraw}{767b3c9dfaeb72dcd497b78857ab034f}
       \strng{bibnamehash}{767b3c9dfaeb72dcd497b78857ab034f}
       \strng{authorbibnamehash}{767b3c9dfaeb72dcd497b78857ab034f}
       \strng{authornamehash}{863e5e68b3350fdeb18a0a087543f5bc}
       \strng{authorfullhash}{767b3c9dfaeb72dcd497b78857ab034f}
+      \strng{authorfullhashraw}{767b3c9dfaeb72dcd497b78857ab034f}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -5574,7 +7214,7 @@
       \endverb
       \keyw{Consumer acceptance,Environmental pollution,Food security,Organic waste,Waste management}
     \endentry
-    \entry{Smith2014}{inbook}{}
+    \entry{Smith2014}{inbook}{}{}
       \name{author}{44}{}{%
         {{hash=7820adb1d0e47286fa0fc571b8f5cd76}{%
            family={Smith},
@@ -5802,10 +7442,12 @@
       }
       \strng{namehash}{c96c1e67af24fd791d41e0da275c8c07}
       \strng{fullhash}{950957ea735cab2fdde62112e257d9b3}
+      \strng{fullhashraw}{950957ea735cab2fdde62112e257d9b3}
       \strng{bibnamehash}{950957ea735cab2fdde62112e257d9b3}
       \strng{authorbibnamehash}{950957ea735cab2fdde62112e257d9b3}
       \strng{authornamehash}{c96c1e67af24fd791d41e0da275c8c07}
       \strng{authorfullhash}{950957ea735cab2fdde62112e257d9b3}
+      \strng{authorfullhashraw}{950957ea735cab2fdde62112e257d9b3}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -5823,7 +7465,7 @@
       \verb /home/jjlg/Zotero/storage/KLTRZ8ZB/Smith et al. - 11 Agriculture, Forestry and Other Land Use (AFOLU).pdf
       \endverb
     \endentry
-    \entry{Surendra2016}{article}{}
+    \entry{Surendra2016}{article}{}{}
       \name{author}{5}{}{%
         {{hash=b76f99e51da550f96869aa572fb6b2c8}{%
            family={Surendra},
@@ -5853,10 +7495,12 @@
       }
       \strng{namehash}{2623fee76f971e69c1fbd992b423fea1}
       \strng{fullhash}{799f90bce79a802cbfa513d03cc35afc}
+      \strng{fullhashraw}{799f90bce79a802cbfa513d03cc35afc}
       \strng{bibnamehash}{799f90bce79a802cbfa513d03cc35afc}
       \strng{authorbibnamehash}{799f90bce79a802cbfa513d03cc35afc}
       \strng{authornamehash}{2623fee76f971e69c1fbd992b423fea1}
       \strng{authorfullhash}{799f90bce79a802cbfa513d03cc35afc}
+      \strng{authorfullhashraw}{799f90bce79a802cbfa513d03cc35afc}
       \field{extraname}{1}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
@@ -5878,7 +7522,7 @@
       \verb /home/jjlg/Zotero/storage/KMR7YEBP/Surendra et al. - 2016 - Bioconversion of organic wastes into biodiesel and animal feed via insect farming.pdf
       \endverb
     \endentry
-    \entry{surendraRethinkingOrganicWastes2020}{article}{}
+    \entry{surendraRethinkingOrganicWastes2020}{article}{}{}
       \name{author}{6}{}{%
         {{hash=b76f99e51da550f96869aa572fb6b2c8}{%
            family={Surendra},
@@ -5913,10 +7557,12 @@
       }
       \strng{namehash}{2623fee76f971e69c1fbd992b423fea1}
       \strng{fullhash}{bd9e02b380651d65d41d3cb946d27163}
+      \strng{fullhashraw}{bd9e02b380651d65d41d3cb946d27163}
       \strng{bibnamehash}{bd9e02b380651d65d41d3cb946d27163}
       \strng{authorbibnamehash}{bd9e02b380651d65d41d3cb946d27163}
       \strng{authornamehash}{2623fee76f971e69c1fbd992b423fea1}
       \strng{authorfullhash}{bd9e02b380651d65d41d3cb946d27163}
+      \strng{authorfullhashraw}{bd9e02b380651d65d41d3cb946d27163}
       \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
@@ -5946,7 +7592,7 @@
       \verb /home/jjlg/Zotero/storage/3HCQVVGG/Surendra et al. - 2020 - Rethinking organic wastes bioconversion Evaluating the potential of the black soldier fly (Hermetia.pdf
       \endverb
     \endentry
-    \entry{suryatiLauricAcidBlack2023}{article}{}
+    \entry{suryatiLauricAcidBlack2023}{article}{}{}
       \name{author}{5}{}{%
         {{hash=4595a185ef703c99fe1516eaca514e17}{%
            family={Suryati},
@@ -5979,10 +7625,12 @@
       }
       \strng{namehash}{1eed22148a6c609262e82cc59ecc2ab8}
       \strng{fullhash}{80aa64182f4d0d421d8faf7aa20e5dad}
+      \strng{fullhashraw}{80aa64182f4d0d421d8faf7aa20e5dad}
       \strng{bibnamehash}{80aa64182f4d0d421d8faf7aa20e5dad}
       \strng{authorbibnamehash}{80aa64182f4d0d421d8faf7aa20e5dad}
       \strng{authornamehash}{1eed22148a6c609262e82cc59ecc2ab8}
       \strng{authorfullhash}{80aa64182f4d0d421d8faf7aa20e5dad}
+      \strng{authorfullhashraw}{80aa64182f4d0d421d8faf7aa20e5dad}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -6013,7 +7661,69 @@
       \endverb
       \keyw{<i>Hermetia illucens</i>,bioconversion agents,black soldier fly (BSF),lauric acid,organic waste}
     \endentry
-    \entry{vanIntegrationInternetofThingsSustainable2022}{article}{}
+    \entry{tsaabitahDataCommunicationUsing2022}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=5f86f88a318a9bd8d666c991310729a5}{%
+           family={Tsaabitah},
+           familyi={T\bibinitperiod},
+           given={Sarah\bibnamedelima Alyaa},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1ae9c4b29a7ad99cda8ef5c450ed8a07}{%
+           family={Hasanuddin},
+           familyi={H\bibinitperiod},
+           given={Muhammad\bibnamedelima Ogin},
+           giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=21a182074dbc439213a5ea75297e230a}{%
+           family={Burhan},
+           familyi={B\bibinitperiod},
+           given={Khairul\bibnamedelima Hadi},
+           giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=9603c0374737fa2ffca5ad14c169d67f}{%
+           family={Permana},
+           familyi={P\bibinitperiod},
+           given={Agus\bibnamedelima Dana},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=be385607eb52d6b5c457f5df0e164f33}{%
+           family={Trusaji},
+           familyi={T\bibinitperiod},
+           given={Wildan},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{cd429cf586ad4c04e61787bc77d0ecc2}
+      \strng{fullhash}{972369cbf704700640e13a988c477206}
+      \strng{fullhashraw}{972369cbf704700640e13a988c477206}
+      \strng{bibnamehash}{972369cbf704700640e13a988c477206}
+      \strng{authorbibnamehash}{972369cbf704700640e13a988c477206}
+      \strng{authornamehash}{cd429cf586ad4c04e61787bc77d0ecc2}
+      \strng{authorfullhash}{972369cbf704700640e13a988c477206}
+      \strng{authorfullhashraw}{972369cbf704700640e13a988c477206}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Black soldier fly larvae (BSFL) is an emerging insect-based waste management agent as it provides effective biowaste conversion. Though effective, it requires certain environmental conditions that needs to be monitored regularly to make sure the BSFL can process the waste effectively. But, BSFL farmers are not always on site and the human resource is limited. Thus, remote monitoring system is needed to ease the monitoring process. By using the Internet of Things (IoT) for environmental condition monitoring, data collection from the sensors needs to be obtained in real-time. To do so, a scalable IoT messaging protocol called Message Queuing Telemetry Tracking (MQTT) for the data communiction is implemented. As the data will continuously be sent, a cloud server using Amazon Web Service Elastic Computing 2 (AWS EC2) virtual instance will be used to build the MQTT Broker and to run the data processing program that will processed the data before it is saved to a MySQL database. Using this system, data from the sensors located on the farm is succesfully sent to the MQTT broker, and the saved data in database is showing the same result as the sent data. It was also found that the average delay for data transmission is 0.8125 seconds. Thus, the proposed system has succesfully perform real time data communication using the MQTT protocol for BSFL monitoring system.}
+      \field{journaltitle}{2022 8th {{International Conference}} on {{Wireless}} and {{Telematics}} ({{ICWT}})}
+      \field{month}{7}
+      \field{title}{Data {{Communication}} Using {{MQTT}} for {{Black Soldier Fly Larvae Monitoring System}}}
+      \field{urlday}{25}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ICWT55831.2022.9935472
+      \endverb
+      \verb{file}
+      \verb /home/jjlg/Zotero/storage/N9S3KSYD/Tsaabitah et al. - 2022 - Data Communication using MQTT for Black Soldier Fly Larvae Monitoring System.pdf;/home/jjlg/Zotero/storage/PNUY6RMI/9935472.html
+      \endverb
+      \keyw{AWS EC2.,Black Soldier Fly,Databases,Internet of Things,MQTT,Protocols,Real-time systems,Sensors,Waste Management,Web services,Wireless communication,Wireless sensor networks}
+    \endentry
+    \entry{vanIntegrationInternetofThingsSustainable2022}{article}{}{}
       \name{author}{6}{}{%
         {{hash=5e638dc2ef565807535b73a82789aeea}{%
            family={Van},
@@ -6048,10 +7758,12 @@
       }
       \strng{namehash}{1361110345bd6f5a839696d94dece5c8}
       \strng{fullhash}{c7e96ecbe58fa506c048afcda3a613b8}
+      \strng{fullhashraw}{c7e96ecbe58fa506c048afcda3a613b8}
       \strng{bibnamehash}{c7e96ecbe58fa506c048afcda3a613b8}
       \strng{authorbibnamehash}{c7e96ecbe58fa506c048afcda3a613b8}
       \strng{authornamehash}{1361110345bd6f5a839696d94dece5c8}
       \strng{authorfullhash}{c7e96ecbe58fa506c048afcda3a613b8}
+      \strng{authorfullhashraw}{c7e96ecbe58fa506c048afcda3a613b8}
       \field{sortinit}{V}
       \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
       \field{extradatescope}{labelyear}
@@ -6081,7 +7793,7 @@
       \endverb
       \keyw{Black soldier fly,Food waste,Internet-of-Things (IoT),Sensor,Smart farming}
     \endentry
-    \entry{weichertReviewMachineLearning2019}{article}{}
+    \entry{weichertReviewMachineLearning2019}{article}{}{}
       \name{author}{6}{}{%
         {{hash=e05589d9cc1199287c541addb187a578}{%
            family={Weichert},
@@ -6116,10 +7828,12 @@
       }
       \strng{namehash}{2589e0b55911f0d1a9b7145560215676}
       \strng{fullhash}{0c4cb08c13ece92e669f049830e2aa0e}
+      \strng{fullhashraw}{0c4cb08c13ece92e669f049830e2aa0e}
       \strng{bibnamehash}{0c4cb08c13ece92e669f049830e2aa0e}
       \strng{authorbibnamehash}{0c4cb08c13ece92e669f049830e2aa0e}
       \strng{authornamehash}{2589e0b55911f0d1a9b7145560215676}
       \strng{authorfullhash}{0c4cb08c13ece92e669f049830e2aa0e}
+      \strng{authorfullhashraw}{0c4cb08c13ece92e669f049830e2aa0e}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
@@ -6145,7 +7859,84 @@
       \verb /home/jjlg/Zotero/storage/Y4IC7TBC/c1713be4e66d5ba3b4bc28fbbbc3ea2b.html
       \endverb
     \endentry
-    \entry{yavariArtEMonArtificialIntelligence2023}{article}{}
+    \entry{winAnaerobicDigestionBlack2018}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=b7fb95178fb45913980066f72c2a7dae}{%
+           family={Win},
+           familyi={W\bibinitperiod},
+           given={Shwe\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=425db102e558e3f2070facf212ab2804}{%
+           family={Ebner},
+           familyi={E\bibinitperiod},
+           given={Jacqueline\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=ac8de2f4b20b62e40b8241069b3fb645}{%
+           family={Brownell},
+           familyi={B\bibinitperiod},
+           given={Sarah\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=9d9cc320a4c8a30a4a06e9159d219c96}{%
+           family={Pagano},
+           familyi={P\bibinitperiod},
+           given={Susan\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=a4fd95dce09e6737f3caf655466bc4d7}{%
+           family={Cruz-Diloné},
+           familyi={C\bibinithyphendelim D\bibinitperiod},
+           given={Pedro},
+           giveni={P\bibinitperiod}}}%
+        {{hash=db3624ea339d8b328d824d1d3d2ade50}{%
+           family={Trabold},
+           familyi={T\bibinitperiod},
+           given={Thomas\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b93f31b9becec374c169a9c055e64230}
+      \strng{fullhash}{2f6ebca429590248cacfc1329477de76}
+      \strng{fullhashraw}{2f6ebca429590248cacfc1329477de76}
+      \strng{bibnamehash}{2f6ebca429590248cacfc1329477de76}
+      \strng{authorbibnamehash}{2f6ebca429590248cacfc1329477de76}
+      \strng{authornamehash}{b93f31b9becec374c169a9c055e64230}
+      \strng{authorfullhash}{2f6ebca429590248cacfc1329477de76}
+      \strng{authorfullhashraw}{2f6ebca429590248cacfc1329477de76}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Black soldier fly larvae (BSFL) (Hermetia illucens) have been used in a variety of applications including composting, animal feed and biodiesel production. This paper presents the results of bio-methane potential (BMP) assays for BSFL biomass according to several hypothetical biorefinery pathways. The mean biomethane potential (BMP) of BSFL was 671 mL CH4/g VS, while mean BMP of lipid extracted BSFL (LEBSFL) was 334 mL CH4/g VS. Mean BMP of adult flies and chitinous cuticle were 570 and 343 mL CH4/g VS, respectively. The impact of BSFL diet on bio-methane potential and the biomethane potential of BSFL residue was also investigated. This study suggests that anaerobic digestion of BSFL has potential as part of an integrated energy and waste management solution.}
+      \field{issn}{09601481}
+      \field{journaltitle}{Renewable Energy}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{shortjournal}{Renewable Energy}
+      \field{title}{Anaerobic Digestion of Black Solider Fly Larvae ({{BSFL}}) Biomass as Part of an Integrated Biorefinery}
+      \field{urlday}{25}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{127}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{705\bibrangedash 712}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.renene.2018.04.093
+      \endverb
+      \verb{file}
+      \verb /home/jjlg/Zotero/storage/D47UCSEX/Win et al. - 2018 - Anaerobic digestion of black solider fly larvae (BSFL) biomass as part of an integrated biorefinery.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0960148118305184
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0960148118305184
+      \endverb
+    \endentry
+    \entry{yavariArtEMonArtificialIntelligence2023}{article}{}{}
       \name{author}{9}{}{%
         {{hash=7820cdd0fded7b4dc015d3a859c6bb1c}{%
            family={Yavari},
@@ -6198,10 +7989,12 @@
       }
       \strng{namehash}{b393dde4543869fb7fd4a5c9208b1fb5}
       \strng{fullhash}{dbf4abdcce2af9a5c0fecac331bbe814}
+      \strng{fullhashraw}{dbf4abdcce2af9a5c0fecac331bbe814}
       \strng{bibnamehash}{dbf4abdcce2af9a5c0fecac331bbe814}
       \strng{authorbibnamehash}{dbf4abdcce2af9a5c0fecac331bbe814}
       \strng{authornamehash}{b393dde4543869fb7fd4a5c9208b1fb5}
       \strng{authorfullhash}{dbf4abdcce2af9a5c0fecac331bbe814}
+      \strng{authorfullhashraw}{dbf4abdcce2af9a5c0fecac331bbe814}
       \field{sortinit}{Y}
       \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
       \field{extradatescope}{labelyear}
@@ -6233,8 +8026,56 @@
       \endverb
       \keyw{AI,emissions,greenhouse gas,IoT,supply chain,sustainable logistics}
     \endentry
+    \entry{zhangApplicationBigData2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=5eed050459073fa445f43d8a4b477023}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yingbo},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Resources Economics Research Board}%
+      }
+      \strng{namehash}{5eed050459073fa445f43d8a4b477023}
+      \strng{fullhash}{5eed050459073fa445f43d8a4b477023}
+      \strng{fullhashraw}{5eed050459073fa445f43d8a4b477023}
+      \strng{bibnamehash}{5eed050459073fa445f43d8a4b477023}
+      \strng{authorbibnamehash}{5eed050459073fa445f43d8a4b477023}
+      \strng{authornamehash}{5eed050459073fa445f43d8a4b477023}
+      \strng{authorfullhash}{5eed050459073fa445f43d8a4b477023}
+      \strng{authorfullhashraw}{5eed050459073fa445f43d8a4b477023}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Using big data in smart agriculture represents a significant technological revolution in the agricultural sector. This paper delves into the primary application areas of big data in smart agriculture, encompassing precision agriculture, intelligent farming machinery, and sustainable agriculture. To begin with, big data technology offers comprehensive data support for decision-makers in agriculture. Through real-time monitoring and extensive data analysis, agricultural producers can gain more precise insights into soil conditions, crop growth status, and other crucial information. Furthermore, implementing big data in precision agriculture facilitates intelligent agricultural production by integrating precision fertilization, irrigation, and pest and disease monitoring, thereby enhancing production efficiency. The advancement of intelligent farming machinery also plays a pivotal role in enhancing the intelligence and efficiency of field operations. Moreover, big data technology contributes to sustainable agriculture by providing scientific support for agricultural decisions through data analysis on climate change, resource utilization, and other pertinent aspects, thereby promoting the transition towards environmentally friendly agricultural practices. Looking ahead, with continuous innovation and widespread adoption of big data technology, smart agriculture is poised for significant development opportunities.}
+      \field{eprinttype}{Resources Economics Research Board}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{Application of Big Data in Smart Agriculture}
+      \field{urlday}{25}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.50908/arr.4.2_221
+      \endverb
+      \verb{eprint}
+      \verb 2
+      \endverb
+      \verb{file}
+      \verb /home/jjlg/Zotero/storage/77JTB2SI/Zhang - 2024 - Application of big data in smart agriculture.pdf
+      \endverb
+    \endentry
   \enddatalist
-  \missing{Bermudez2023}
+  \missing{ejemploReferencia2023}
+  \missing{otraReferencia2022}
 \endrefsection
 \endinput
 
