@@ -1,28 +1,31 @@
-\chapter{Resultados esperados}
+\chapter{Resultados Esperados}
 
-El presente proyecto tiene como objetivo el diseño e implementación de un sistema tecnológico integral basado en sensores IoT y modelos de aprendizaje automático (AAA) para la medición, validación y reporte de datos ambientales y gases de efecto invernadero (GEI) en procesos de bioconversión con \textit{Hermetia illucens}. 
+Este proyecto tiene como propósito el diseño, desarrollo e implementación de un sistema tecnológico integral e inteligente que integre sensores IoT calibrados, modelos matemáticos y algoritmos de aprendizaje automático (AAA), orientado a la medición, modelado, validación y reporte automatizado de variables ambientales y emisiones de gases de efecto invernadero (GEI), específicamente dióxido de carbono (\ch{CO_2}) y metano (\ch{CH_4}), generadas durante el proceso de bioconversión de residuos orgánicos mediante la acción de la mosca soldado negra (\textit{Hermetia illucens}). Este sistema busca optimizar la eficiencia del proceso, garantizar la trazabilidad de los datos, y facilitar la toma de decisiones sostenibles en el contexto de la economía circular y la mitigación del cambio climático.
+
 \section{Desarrollo e Implementación del Sistema de Sensores IoT}
-Se espera obtener un \textbf{prototipo funcional} de un sistema de adquisición de datos basado en sensores IoT, capaz de medir en tiempo real las concentraciones de \ch{CO2} y \ch{CH4}, así como variables ambientales críticas (temperatura, humedad, pH, iluminación y composición del sustrato). Este sistema deberá garantizar una recopilación de datos con una precisión aceptable y una integración estable con la infraestructura de almacenamiento en la nube.
+Se espera la construcción de un \textbf{prototipo funcional y calibrado} de un sistema de adquisición de datos basado en IoT, capaz de medir en tiempo real las concentraciones de \ch{CO_2} y \ch{CH_4}, así como variables críticas del entorno como temperatura, humedad, pH e iluminación. Este sistema debe integrarse de forma estable a una infraestructura de almacenamiento en la nube, garantizando una recolección de datos confiable con un margen de error menor al 5\%.
 
-\section{Modelos de Aprendizaje Automático para Validación de Datos}
-Se espera desarrollar modelos de aprendizaje automático básicos que permitan mejorar la precisión y la detección de anomalías en las mediciones obtenidas por los sensores. La implementación de estos modelos deberá demostrar su capacidad para identificar tendencias en los datos y generar predicciones a corto plazo con un nivel de error razonable. Sin embargo, no se espera un modelo altamente optimizado, sino un primer esquema funcional que pueda ser refinado en estudios futuros.
+\section{Desarrollo de Modelos Matemáticos y Algoritmos de Aprendizaje Automático}
+Se espera formular un modelo matemático basado en ecuaciones diferenciales ordinarias (EDO) que describa las dinámicas de crecimiento larval y emisión de GEI. Asimismo, se anticipa el desarrollo de modelos de AAA, especialmente de regresión lineal múltiple, árboles de decisión y redes neuronales básicas (MLP), entrenados con los datos recopilados para validar, predecir y corregir las lecturas de los sensores. Aunque los modelos tendrán un carácter exploratorio, se espera que logren métricas aceptables de desempeño (MSE < 0.1; $R^2$ > 0.9).
 
 \section{Infraestructura de Almacenamiento y Visualización de Datos}
-Se espera contar con una plataforma en la nube capaz de almacenar y gestionar los datos recopilados por los sensores IoT. Además, se prevé la implementación de un \textbf{dashboard básico} para la visualización en tiempo real de las mediciones, permitiendo la consulta remota de los datos y su análisis preliminar. Este sistema garantizará la trazabilidad de la información, aunque sin funcionalidades avanzadas de procesamiento.
+Se implementará una \textbf{plataforma en la nube} que almacene los datos generados por la red de sensores IoT. Esta plataforma contará con un \textbf{dashboard web interactivo}, desarrollado con tecnologías modernas (por ejemplo, Next.js y PostgreSQL), que permitirá la visualización en tiempo real y el análisis preliminar de las variables monitoreadas. Aunque en su primera versión será básica, se priorizará su escalabilidad y facilidad de integración con sistemas externos.
 
-\section{Validación Experimental y Evaluación del Sistema}
-Se espera realizar pruebas de laboratorio para la calibración y validación de los sensores IoT, comparando sus mediciones con equipos de referencia. Se prevé que los sensores tengan un desempeño aceptable dentro de un margen de error esperado para su categoría. No obstante, es posible que existan desviaciones en las mediciones que requieran ajustes adicionales en el futuro.
+\section{Validación Experimental y Evaluación Funcional}
+Se llevarán a cabo pruebas controladas en laboratorio para validar la precisión de los sensores frente a equipos de referencia, así como la efectividad de los modelos desarrollados. Se espera confirmar que los sensores operen dentro de rangos aceptables de error, y que el sistema mantenga estabilidad en la transmisión, procesamiento y visualización de datos durante periodos prolongados de operación.
 
-\section{Implementación Parcial del Sistema de Medición, Reporte y Validación (MRV)}
-Se espera una implementación inicial del sistema de Medición, Reporte y Validación (MRV), permitiendo la generación de registros de medición con datos estructurados. No se anticipa un sistema completamente automatizado ni con integración a marcos regulatorios internacionales, sino una versión preliminar que siente las bases para futuras mejoras.
+\section{Implementación Inicial del Sistema de Medición, Reporte y Validación (MRV)}
+Se desarrollará una versión preliminar del sistema MRV digital, capaz de generar registros estructurados de mediciones y asociarlos a condiciones experimentales específicas. Aunque esta primera implementación no estará integrada a marcos regulatorios internacionales, servirá como base para validar protocolos de trazabilidad y consistencia de datos, indispensables en futuras aplicaciones normativas.
 
-\section{Limitaciones y Futuras Mejoras}
-Dado el tiempo y los recursos disponibles, se anticipa que algunos aspectos del sistema requerirán optimización posterior. Entre las principales limitaciones previstas se encuentran:
+\section{Limitaciones Previstas y Oportunidades de Mejora}
+Dado el alcance y los recursos del proyecto, se reconocen ciertas limitaciones inherentes al desarrollo:
+
 \begin{itemize}
-    \item Posibles desviaciones en las mediciones de los sensores, requiriendo ajustes y calibraciones adicionales.
-    \item Limitaciones en la precisión de los modelos de aprendizaje automático, dado que el conjunto de datos inicial puede ser reducido.
-    \item Alcance limitado en la funcionalidad del sistema MRV, el cual podrá registrar datos pero sin capacidades avanzadas de análisis o certificación.
-    \item Infraestructura en la nube funcional pero sin optimización avanzada para grandes volúmenes de datos.
+    \item Posible necesidad de recalibración frecuente de sensores por condiciones ambientales extremas (alta humedad, presencia de compuestos interferentes).
+    \item Volumen inicial limitado de datos para entrenar modelos AAA avanzados, lo cual podría restringir su capacidad predictiva.
+    \item Funcionalidad restringida del sistema MRV en su versión inicial, sin mecanismos de certificación ni automatización completa.
+    \item Plataforma en la nube con infraestructura básica, sin procesamiento distribuido ni capacidades avanzadas de análisis.
 \end{itemize}
 
-A pesar de estas limitaciones, se espera que el proyecto proporcione una base sólida para futuras investigaciones y desarrollos en la optimización del monitoreo de emisiones de GEI en procesos de bioconversión.
+A pesar de estas limitaciones, se espera que los resultados del proyecto constituyan una base sólida para futuras investigaciones interdisciplinarias que fortalezcan la integración entre biotecnología, inteligencia artificial e IoT en el contexto de la economía circular y la mitigación del cambio climático. El desarrollo de un sistema funcional para la medición, modelado y predicción de emisiones de GEI en procesos de bioconversión con \textit{Hermetia illucens} no solo aporta a la sostenibilidad ambiental, sino que también abre nuevas posibilidades para la validación de tecnologías emergentes en escenarios reales. Asimismo, este proyecto podrá ser replicado, escalado y adaptado a otros contextos productivos, contribuyendo al diseño de estrategias más eficientes de gestión de residuos y al cumplimiento de compromisos globales en materia de sostenibilidad, neutralidad de carbono y seguridad ambiental.
+.
