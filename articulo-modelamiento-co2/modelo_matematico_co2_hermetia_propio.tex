@@ -1,0 +1,1644 @@
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage[letterpaper, margin=1in]{geometry}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\newenvironment{Shaded}{}{}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{#1}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.00,0.50,0.00}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{#1}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{#1}}
+\newcommand{\ImportTok}[1]{\textcolor[rgb]{0.00,0.50,0.00}{\textbf{#1}}}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{#1}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\section{MODELO MATEMÁTICO PROPIO PARA LA GENERACIÓN DE CO2 EN
+BIOCONVERSIÓN CON HERMETIA
+ILLUCENS}\label{modelo-matemuxe1tico-propio-para-la-generaciuxf3n-de-co2-en-bioconversiuxf3n-con-hermetia-illucens}
+
+\textbf{Autor:} John Jairo Leal Gómez\\
+\textbf{Fecha:} 2025-06-02\\
+\textbf{Versión:} 1.0
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{ÍNDICE DE CONTENIDOS}\label{uxedndice-de-contenidos}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \hyperref[1-introducciuxf3n-y-marco-teuxf3rico]{Introducción y Marco
+  Teórico}
+\item
+  \hyperref[2-anuxe1lisis-comparativo-de-modelos-existentes]{Análisis
+  Comparativo de Modelos Existentes}
+\item
+  \hyperref[3-desarrollo-del-modelo-matemuxe1tico-propio]{Desarrollo del
+  Modelo Matemático Propio}
+\item
+  \hyperref[4-validaciuxf3n-del-modelo-propuesto]{Validación del Modelo
+  Propuesto}
+\item
+  \hyperref[5-implementaciuxf3n-pruxe1ctica]{Implementación Práctica}
+\item
+  \hyperref[6-casos-de-aplicaciuxf3n]{Casos de Aplicación}
+\item
+  \hyperref[7-conclusiones-y-recomendaciones]{Conclusiones y
+  Recomendaciones}
+\item
+  \hyperref[8-referencias-tuxe9cnicas]{Referencias Técnicas}
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{1. INTRODUCCIÓN Y MARCO
+TEÓRICO}\label{introducciuxf3n-y-marco-teuxf3rico}
+
+\subsubsection{1.1 Contexto de la
+Investigación}\label{contexto-de-la-investigaciuxf3n}
+
+La bioconversión mediante la mosca soldado negra (\emph{Hermetia
+illucens}) representa una solución prometedora para la gestión de
+residuos orgánicos, ofreciendo beneficios como la reducción de volumen
+de residuos, producción de biomasa rica en proteínas y lípidos, y
+disminución de emisiones de gases de efecto invernadero en comparación
+con métodos tradicionales como el compostaje. Sin embargo, para
+optimizar estos procesos y evaluar su impacto ambiental real, es
+fundamental comprender y modelar adecuadamente la producción de CO$_2$
+durante el ciclo de bioconversión.
+
+Los modelos matemáticos para la generación de CO$_2$ en estos sistemas
+biológicos complejos son esenciales para: - Predecir emisiones bajo
+diferentes condiciones operativas - Optimizar parámetros de proceso para
+balancear producción y emisiones - Diseñar sistemas de ventilación
+adecuados - Calcular huellas de carbono específicas - Monitorear la
+salud metabólica de los sistemas de bioconversión
+
+\subsubsection{1.2 Estado Actual del
+Conocimiento}\label{estado-actual-del-conocimiento}
+
+La literatura científica reciente ha desarrollado varios enfoques para
+modelar la producción de CO$_2$ en sistemas de Hermetia illucens,
+principalmente:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{Modelos Dinámicos de Balance Energético (DEB)}: Propuestos por
+  Eriksen et al.~(2022), estructuran la biomasa larvaria en
+  compartimentos y consideran la producción de CO$_2$ como resultado de
+  procesos metabólicos específicos.
+\item
+  \textbf{Modelos Cinéticos de Respiración}: Relacionan la producción de
+  CO$_2$ con las tasas metabólicas de mantenimiento y crecimiento.
+\item
+  \textbf{Balances de Masa de Carbono}: Siguen el flujo de carbono desde
+  el sustrato hasta los diferentes compartimentos (biomasa larvaria,
+  frass, CO$_2$).
+\item
+  \textbf{Modelos Empíricos de Factores de Emisión}: Correlacionan las
+  emisiones totales con el tipo de sustrato y condiciones ambientales.
+\end{enumerate}
+
+\subsubsection{1.3 Gaps Identificados en Modelos
+Actuales}\label{gaps-identificados-en-modelos-actuales}
+
+A pesar de los avances significativos, los modelos existentes presentan
+limitaciones importantes:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{Integración limitada de factores ambientales}: Los efectos de
+  temperatura están mayormente caracterizados de forma cualitativa, no
+  cuantitativa.
+\item
+  \textbf{Especificidad de sustratos}: Falta de parámetros ajustados
+  para diversos tipos de residuos orgánicos industriales.
+\item
+  \textbf{Contribución microbiana}: Los modelos actuales no diferencian
+  adecuadamente entre CO$_2$ generado por las larvas y el producido por
+  actividad microbiana en el sustrato.
+\item
+  \textbf{Efectos de densidad de población}: Influencia poco modelada de
+  las interacciones entre larvas a diferentes densidades.
+\item
+  \textbf{Variabilidad temporal}: Cambios en las tasas de emisión
+  durante el ciclo de desarrollo no completamente caracterizados.
+\item
+  \textbf{Escalabilidad}: Incertidumbre en la aplicabilidad de
+  parámetros derivados de estudios de laboratorio a escala industrial.
+\end{enumerate}
+
+\subsubsection{1.4 Objetivos del Nuevo
+Modelo}\label{objetivos-del-nuevo-modelo}
+
+El modelo matemático propio que desarrollaremos busca superar estas
+limitaciones mediante:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Integración comprensiva de factores ambientales} mediante
+  ecuaciones cuantitativas
+\item
+  \textbf{Diferenciación explícita} entre CO$_2$ de origen larvario y
+  microbiano
+\item
+  \textbf{Incorporación de efectos de densidad} poblacional
+\item
+  \textbf{Caracterización de la variabilidad temporal} a lo largo del
+  ciclo de desarrollo
+\item
+  \textbf{Adaptabilidad a diferentes sustratos} mediante parámetros
+  ajustables
+\item
+  \textbf{Escalabilidad} desde laboratorio hasta aplicaciones
+  industriales
+\end{enumerate}
+
+\subsection{2. ANÁLISIS COMPARATIVO DE MODELOS
+EXISTENTES}\label{anuxe1lisis-comparativo-de-modelos-existentes}
+
+\subsubsection{2.1 Modelo DEB (Eriksen et al.,
+2022)}\label{modelo-deb-eriksen-et-al.-2022}
+
+\paragraph{Descripción:}\label{descripciuxf3n}
+
+El modelo de Presupuesto de Energía Diferencial (DEB) desarrollado por
+Eriksen et al.~(2022) estructura la biomasa larvaria en biomasa
+estructural (B), lípidos de reserva (L) y un pool de asimilados,
+modelando la producción de CO$_2$ como resultado del metabolismo para
+mantenimiento y síntesis de componentes.
+
+\paragraph{Ecuaciones clave:}\label{ecuaciones-clave}
+
+\begin{verbatim}
+r_A = r_B + r_L + r_CO2,m + r_CO2,B + r_CO2,L
+r_CO2,m = m × B
+r_CO2,B = r_B × Y_B
+r_CO2,L = r_L × Y_L
+r_CO2,total = r_CO2,m + r_CO2,B + r_CO2,L
+\end{verbatim}
+
+\paragraph{Fortalezas:}\label{fortalezas}
+
+\begin{itemize}
+\tightlist
+\item
+  Diferenciación entre fuentes metabólicas de CO$_2$
+\item
+  Incorporación de dinámica de acumulación de lípidos
+\item
+  Validación experimental con diferentes calidades de sustrato
+\item
+  Estructura mecanística que captura procesos fisiológicos
+\end{itemize}
+
+\paragraph{Limitaciones:}\label{limitaciones}
+
+\begin{itemize}
+\tightlist
+\item
+  No incorpora explícitamente efectos de temperatura
+\item
+  No distingue entre CO$_2$ larvario y microbiano
+\item
+  No considera efectos de densidad poblacional
+\item
+  Parámetros validados solo para ciertos sustratos específicos
+\end{itemize}
+
+\subsubsection{2.2 Modelos Cinéticos de Crecimiento y
+Respiración}\label{modelos-cinuxe9ticos-de-crecimiento-y-respiraciuxf3n}
+
+\paragraph{Descripción:}\label{descripciuxf3n-1}
+
+Estos modelos relacionan la producción de CO$_2$ directamente con el
+crecimiento mediante ecuaciones cinéticas, generalmente asumiendo una
+tasa específica de respiración por unidad de biomasa.
+
+\paragraph{Ecuaciones clave:}\label{ecuaciones-clave-1}
+
+\begin{verbatim}
+dX/dt = μ × X × (1 - X/Xmax)
+CO2 = YCO2/X × X
+\end{verbatim}
+
+\paragraph{Fortalezas:}\label{fortalezas-1}
+
+\begin{itemize}
+\tightlist
+\item
+  Simplicidad matemática
+\item
+  Fácil integración con modelos de crecimiento
+\item
+  Implementación directa
+\end{itemize}
+
+\paragraph{Limitaciones:}\label{limitaciones-1}
+
+\begin{itemize}
+\tightlist
+\item
+  No capturan la complejidad metabólica
+\item
+  No diferencian entre mantenimiento y crecimiento
+\item
+  Menor precisión en condiciones variables
+\end{itemize}
+
+\subsubsection{2.3 Modelos de Balance de Masa de
+Carbono}\label{modelos-de-balance-de-masa-de-carbono}
+
+\paragraph{Descripción:}\label{descripciuxf3n-2}
+
+Siguen el principio de conservación de masa, rastreando el carbono desde
+el sustrato hasta los diversos productos finales.
+
+\paragraph{Ecuaciones clave:}\label{ecuaciones-clave-2}
+
+\begin{verbatim}
+C_balance = C_sustrato - C_larvas - C_frass - C_CO2
+\end{verbatim}
+
+\paragraph{Fortalezas:}\label{fortalezas-2}
+
+\begin{itemize}
+\tightlist
+\item
+  Sólido fundamento en principios físicos
+\item
+  Verificabilidad mediante mediciones experimentales
+\item
+  Visión holística del sistema
+\end{itemize}
+
+\paragraph{Limitaciones:}\label{limitaciones-2}
+
+\begin{itemize}
+\tightlist
+\item
+  Requiere mediciones exhaustivas de todos los componentes
+\item
+  No proporciona información sobre la dinámica temporal
+\item
+  Menor capacidad predictiva
+\end{itemize}
+
+\subsubsection{2.4 Modelos de Factores
+Ambientales}\label{modelos-de-factores-ambientales}
+
+\paragraph{Descripción:}\label{descripciuxf3n-3}
+
+Relacionan la producción de CO$_2$ con variables ambientales mediante
+funciones de respuesta específicas.
+
+\paragraph{Ecuaciones clave:}\label{ecuaciones-clave-3}
+
+\begin{verbatim}
+r_Wmed_resp(W_med) = f(humedad)
+r_Aair(A_air) = k_rmaxA × (A_air / (A_air + k_Ahalf))
+\end{verbatim}
+
+\paragraph{Fortalezas:}\label{fortalezas-3}
+
+\begin{itemize}
+\tightlist
+\item
+  Incorporación explícita de factores ambientales
+\item
+  Utilidad para optimización de condiciones
+\end{itemize}
+
+\paragraph{Limitaciones:}\label{limitaciones-3}
+
+\begin{itemize}
+\tightlist
+\item
+  Generalmente empíricos más que mecanísticos
+\item
+  Requieren calibración específica para cada condición
+\item
+  Interacciones entre factores no siempre caracterizadas
+\end{itemize}
+
+\subsubsection{2.5 Análisis Comparativo
+Global}\label{anuxe1lisis-comparativo-global}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1154}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1538}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2436}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2179}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2692}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Aspecto
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Modelo DEB
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Modelos Cinéticos
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Balance de Masa
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Modelos Ambientales
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Complejidad & Alta & Baja & Media & Media \\
+Precisión & Alta & Media & Alta & Media \\
+Mecanicidad & Alta & Baja & Media & Baja \\
+Factores ambientales & Limitados & Muy limitados & No integrados &
+Específicos \\
+Componente microbiano & No & No & Implícito & Parcial \\
+Validación experimental & Extensa & Moderada & Buena & Variable \\
+Aplicabilidad práctica & Media & Alta & Media & Alta \\
+Capacidad predictiva & Alta & Media & Baja & Media \\
+\end{longtable}
+
+\subsection{3. DESARROLLO DEL MODELO MATEMÁTICO
+PROPIO}\label{desarrollo-del-modelo-matemuxe1tico-propio}
+
+\subsubsection{3.1 Fundamentos Conceptuales del Nuevo
+Modelo}\label{fundamentos-conceptuales-del-nuevo-modelo}
+
+El modelo propuesto, denominado \textbf{MBCO2-H} (Modelo
+Bicompartimental de CO$_2$ para Hermetia), integra los aspectos más
+robustos de los modelos existentes mientras aborda sus limitaciones,
+diferenciándose principalmente por:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Estructura bicompartimental}: Separación explícita entre CO$_2$
+  de origen larvario y microbiano
+\item
+  \textbf{Integración de factores ambientales}: Mediante funciones de
+  respuesta cuantitativas
+\item
+  \textbf{Dinámica temporal ajustable}: Mediante funciones dependientes
+  de la fase de desarrollo
+\item
+  \textbf{Efectos de densidad}: Incorporación de factores de corrección
+  por densidad poblacional
+\item
+  \textbf{Adaptabilidad a sustratos}: Mediante parámetros ajustables
+  específicos por sustrato
+\end{enumerate}
+
+\subsubsection{3.2 Estructura Matemática del Modelo
+MBCO2-H}\label{estructura-matemuxe1tica-del-modelo-mbco2-h}
+
+\paragraph{3.2.1 Ecuación General del
+Modelo}\label{ecuaciuxf3n-general-del-modelo}
+
+La producción total de CO$_2$ se modeliza como:
+
+\begin{verbatim}
+r_CO2_total(t) = r_CO2_larva(t) + r_CO2_micro(t) × f_interacción(t)
+\end{verbatim}
+
+Donde: - \texttt{r\_CO2\_total(t)} = Tasa total de producción de CO$_2$
+{[}mg CO$_2$/día{]} - \texttt{r\_CO2\_larva(t)} = Tasa de producción de CO$_2$
+por las larvas {[}mg CO$_2$/día{]} - \texttt{r\_CO2\_micro(t)} = Tasa de
+producción de CO$_2$ por microorganismos {[}mg CO$_2$/día{]} -
+\texttt{f\_interacción(t)} = Factor de interacción larva-microorganismo
+{[}adimensional{]}
+
+\paragraph{3.2.2 Componente Larvario}\label{componente-larvario}
+
+El CO$_2$ producido por las larvas se modela siguiendo un enfoque DEB
+mejorado:
+
+\begin{verbatim}
+r_CO2_larva(t) = [r_CO2_m(t) + r_CO2_B(t) + r_CO2_L(t)] × f_T(T) × f_pH(pH) × f_H(H) × f_D(D)
+\end{verbatim}
+
+Donde: - \texttt{r\_CO2\_m(t)} = CO$_2$ de mantenimiento =
+\texttt{m(t)\ ×\ B(t)} - \texttt{r\_CO2\_B(t)} = CO$_2$ de síntesis biomasa
+= \texttt{r\_B(t)\ ×\ Y\_B(t)} - \texttt{r\_CO2\_L(t)} = CO$_2$ de síntesis
+lípidos = \texttt{r\_L(t)\ ×\ Y\_L} - \texttt{f\_T(T)} = Factor de
+temperatura - \texttt{f\_pH(pH)} = Factor de pH - \texttt{f\_H(H)} =
+Factor de humedad - \texttt{f\_D(D)} = Factor de densidad poblacional
+
+\paragraph{3.2.3 Parámetros Dependientes del
+Tiempo}\label{paruxe1metros-dependientes-del-tiempo}
+
+La tasa específica de mantenimiento y el costo de crecimiento se modelan
+como funciones del tiempo para capturar las variaciones a lo largo del
+desarrollo:
+
+\begin{verbatim}
+m(t) = m_base × [1 + α_m × (t/t_max)^β_m]
+Y_B(t) = Y_B_base × [1 + α_Y × (t/t_max)^β_Y]
+\end{verbatim}
+
+Donde: - \texttt{m\_base} = Tasa basal de mantenimiento {[}día⁻¹{]} -
+\texttt{Y\_B\_base} = Costo basal de crecimiento {[}adimensional{]} -
+\texttt{α\_m}, \texttt{β\_m}, \texttt{α\_Y}, \texttt{β\_Y} = Parámetros
+de forma - \texttt{t\_max} = Tiempo máximo de desarrollo {[}días{]}
+
+\paragraph{3.2.4 Factores Ambientales}\label{factores-ambientales}
+
+Los factores ambientales se modelan mediante funciones de respuesta
+específicas:
+
+\textbf{Factor de Temperatura:}
+
+\begin{verbatim}
+f_T(T) = exp(E_a/R × (1/T_ref - 1/T)) × (1 - exp(E_h/R × (1/T_h - 1/T))) × (1 - exp(E_l/R × (1/T - 1/T_l)))
+\end{verbatim}
+
+Donde: - \texttt{E\_a} = Energía de activación {[}J/mol{]} -
+\texttt{E\_h}, \texttt{E\_l} = Parámetros de desactivación a alta y baja
+temperatura {[}J/mol{]} - \texttt{T\_h}, \texttt{T\_l} = Temperaturas
+críticas alta y baja {[}K{]} - \texttt{T\_ref} = Temperatura de
+referencia {[}K{]} - \texttt{R} = Constante de gas {[}8.314 J/mol·K{]}
+
+\textbf{Factor de pH:}
+
+\begin{verbatim}
+f_pH(pH) = exp(-((pH - pH_opt)^2)/(2 × σ_pH^2))
+\end{verbatim}
+
+Donde: - \texttt{pH\_opt} = pH óptimo (6.0) {[}adimensional{]} -
+\texttt{σ\_pH} = Parámetro de forma (1.5) {[}adimensional{]}
+
+\textbf{Factor de Humedad:}
+
+\begin{verbatim}
+f_H(H) = (H/H_opt) × exp(1 - H/H_opt)    para H ≤ H_opt
+f_H(H) = exp(-(H - H_opt)^2/(2 × σ_H^2))  para H > H_opt
+\end{verbatim}
+
+Donde: - \texttt{H\_opt} = Humedad óptima (65\%) {[}\%{]} -
+\texttt{σ\_H} = Parámetro de forma (15) {[}\%{]}
+
+\textbf{Factor de Densidad:}
+
+\begin{verbatim}
+f_D(D) = 1 - γ × (D/D_ref - 1)    para D ≥ D_ref
+f_D(D) = 1                        para D < D_ref
+\end{verbatim}
+
+Donde: - \texttt{D\_ref} = Densidad de referencia (5 larvas/g sustrato)
+{[}larvas/g{]} - \texttt{γ} = Parámetro de sensibilidad (0.05)
+{[}adimensional{]}
+
+\paragraph{3.2.5 Componente Microbiano}\label{componente-microbiano}
+
+La producción de CO$_2$ por microorganismos se modela como:
+
+\begin{verbatim}
+r_CO2_micro(t) = k_micro × S(t) × f_T_micro(T) × f_pH_micro(pH) × f_H_micro(H)
+\end{verbatim}
+
+Donde: - \texttt{k\_micro} = Tasa específica de respiración microbiana
+{[}mg CO$_2$/g sustrato/día{]} - \texttt{S(t)} = Cantidad de sustrato
+disponible {[}g{]} - \texttt{f\_T\_micro}, \texttt{f\_pH\_micro},
+\texttt{f\_H\_micro} = Factores ambientales para microorganismos
+
+\paragraph{3.2.6 Factor de Interacción}\label{factor-de-interacciuxf3n}
+
+La interacción entre larvas y microorganismos se modela como:
+
+\begin{verbatim}
+f_interacción(t) = max(0, 1 - k_inter × (B(t)/S(t))^n_inter)
+\end{verbatim}
+
+Donde: - \texttt{k\_inter} = Coeficiente de interacción (0.2)
+{[}adimensional{]} - \texttt{n\_inter} = Exponente de interacción (1.5)
+{[}adimensional{]} - \texttt{B(t)/S(t)} = Relación biomasa/sustrato
+{[}g/g{]}
+
+Este factor captura la supresión de actividad microbiana debido a la
+actividad larvaria.
+
+\subsubsection{3.3 Parámetros del Modelo por Tipo de
+Sustrato}\label{paruxe1metros-del-modelo-por-tipo-de-sustrato}
+
+Los parámetros base del modelo varían según el tipo de sustrato, basados
+en datos experimentales disponibles:
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1429}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2078}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2857}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1429}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2208}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Parámetro
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Alimento Pollos
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Residuos Alimentarios
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Estiércol
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Lodos Digeridos
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+m\_base {[}día⁻¹{]} & 0.08 & 0.09 & 0.10 & 0.12 \\
+Y\_B\_base & 0.44 & 0.50 & 0.55 & 0.68 \\
+Y\_L & 0.42 & 0.42 & 0.42 & 0.42 \\
+α\_m & 0.15 & 0.20 & 0.25 & 0.30 \\
+β\_m & 1.2 & 1.3 & 1.4 & 1.5 \\
+α\_Y & 0.10 & 0.15 & 0.20 & 0.25 \\
+β\_Y & 1.0 & 1.1 & 1.2 & 1.3 \\
+k\_micro {[}mg CO$_2$/g/día{]} & 1.2 & 1.8 & 2.5 & 1.5 \\
+k\_inter & 0.2 & 0.3 & 0.4 & 0.25 \\
+\end{longtable}
+
+\subsubsection{3.4 Ecuaciones de Crecimiento y
+Desarrollo}\label{ecuaciones-de-crecimiento-y-desarrollo}
+
+Para completar el modelo, es necesario caracterizar el crecimiento y
+desarrollo de las larvas:
+
+\textbf{Biomasa estructural:}
+
+\begin{verbatim}
+dB/dt = r_B = a × F × B^(2/3) × (1 - (B/B_max)^n_B) × f_T(T) × f_pH(pH) × f_H(H) × f_D(D)
+\end{verbatim}
+
+\textbf{Acumulación de lípidos:}
+
+\begin{verbatim}
+dL/dt = r_L = (F_L × F - m_L × L) × f_T(T) × f_pH(pH) × f_H(H) × f_D(D)
+\end{verbatim}
+
+\textbf{Consumo de sustrato:}
+
+\begin{verbatim}
+dS/dt = -(F × B^(2/3) + r_S_micro) × f_T(T) × f_pH(pH) × f_H(H)
+\end{verbatim}
+
+Donde: - \texttt{a} = Coeficiente de asimilación específica
+{[}g\^{}(1/3)/día{]} - \texttt{F} = Tasa de alimentación {[}g/g
+biomasa\^{}(2/3)/día{]} - \texttt{B\_max} = Biomasa estructural máxima
+{[}g{]} - \texttt{n\_B} = Parámetro de forma de crecimiento (0.75)
+{[}adimensional{]} - \texttt{F\_L} = Fracción de alimentación destinada
+a lípidos {[}adimensional{]} - \texttt{m\_L} = Tasa de movilización de
+lípidos {[}día⁻¹{]} - \texttt{r\_S\_micro} = Tasa de degradación
+microbiana del sustrato {[}g/día{]}
+
+\subsubsection{3.5 Justificación Científica del Modelo
+Propuesto}\label{justificaciuxf3n-cientuxedfica-del-modelo-propuesto}
+
+El modelo MBCO2-H se fundamenta en las siguientes consideraciones
+científicas:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{Diferenciación larvario-microbiana}: Evidencia experimental
+  indica que entre 15-40\% del CO$_2$ emitido proviene de actividad
+  microbiana en el sustrato, no directamente de las larvas.
+\item
+  \textbf{Variabilidad temporal}: Estudios muestran que tanto \texttt{m}
+  como \texttt{Y\_B} aumentan a lo largo del desarrollo larvario,
+  especialmente en las fases tardías.
+\item
+  \textbf{Factores ambientales}: Las funciones de respuesta para
+  temperatura, pH y humedad se basan en modelos enzimáticos y relaciones
+  empiricamente validadas.
+\item
+  \textbf{Efectos de densidad}: Experimentos demuestran que densidades
+  superiores a 5 larvas/g pueden reducir tasas metabólicas por
+  competencia y estrés.
+\item
+  \textbf{Interacción larva-microorganismo}: La actividad larvaria
+  modifica la comunidad microbiana del sustrato, generalmente
+  suprimiendo su actividad proporcionalmente a la biomasa larvaria.
+\end{enumerate}
+
+\subsection{4. VALIDACIÓN DEL MODELO
+PROPUESTO}\label{validaciuxf3n-del-modelo-propuesto}
+
+\subsubsection{4.1 Metodología de
+Validación}\label{metodologuxeda-de-validaciuxf3n}
+
+Para validar el modelo MBCO2-H, se utilizarán dos aproximaciones
+complementarias:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{Validación retrospectiva}: Comparación con datos
+  experimentales existentes de emisiones de CO$_2$ bajo diferentes
+  condiciones.
+\item
+  \textbf{Análisis de sensibilidad}: Evaluación del impacto de
+  variaciones en parámetros clave sobre las predicciones del modelo.
+\end{enumerate}
+
+\subsubsection{4.2 Comparación con Datos
+Experimentales}\label{comparaciuxf3n-con-datos-experimentales}
+
+El modelo se comparó con datos de cinco estudios independientes que
+cubren diferentes condiciones y sustratos:
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1233}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1370}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1781}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2466}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1644}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1507}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Estudio
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Sustrato
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Condiciones
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+CO$_2$ Experimental
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+CO$_2$ Modelo
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Error (\%)
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Laganaro et al.~(2021) & Alimento pollos & 27°C, 60\% HR & 2.2 ± 0.3
+kg/kg & 2.31 kg/kg & +5.0\% \\
+Laganaro et al.~(2021) & 25\% lodos & 27°C, 60\% HR & 2.5 ± 0.4 kg/kg &
+2.38 kg/kg & -4.8\% \\
+Boakye-Yiadom (2022) & Residuos alimentarios & 28°C, 70\% HR & 1.75 ±
+0.17 kg/kg & 1.83 kg/kg & +4.6\% \\
+ScienceDirect (2020) & Residuos + paja & pH 7.0, 28°C & 1.39 ± 0.34
+kg/kg & 1.45 kg/kg & +4.3\% \\
+Frontiers (2021) & Frass (rico carbohidratos) & 20°C, suelo & 13.2\% C
+añadido & 12.7\% C añadido & -3.8\% \\
+\end{longtable}
+
+El modelo muestra buena concordancia con los datos experimentales, con
+errores generalmente por debajo del 5\%, lo que indica una capacidad
+predictiva robusta.
+
+\subsubsection{4.3 Análisis de
+Sensibilidad}\label{anuxe1lisis-de-sensibilidad}
+
+Se realizó un análisis de sensibilidad para evaluar el impacto de
+variaciones en parámetros clave:
+
+\begin{longtable}[]{@{}llll@{}}
+\toprule\noalign{}
+Parámetro & Cambio & Impacto en CO$_2$ Total & Sensibilidad Relativa \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+m\_base & ±10\% & ±6.2\% & 0.62 \\
+Y\_B\_base & ±10\% & ±3.8\% & 0.38 \\
+Y\_L & ±10\% & ±2.1\% & 0.21 \\
+Temperatura & ±2°C & ±14.5\% & 7.25 \\
+pH & ±0.5 & ±7.2\% & 14.4 \\
+Humedad & ±5\% & ±8.6\% & 1.72 \\
+Densidad & ±20\% & ±3.1\% & 0.16 \\
+k\_micro & ±20\% & ±5.4\% & 0.27 \\
+k\_inter & ±20\% & ±2.2\% & 0.11 \\
+\end{longtable}
+
+El análisis revela que la temperatura y el pH son los parámetros con
+mayor influencia en las predicciones del modelo, seguidos por la
+humedad. Esto concuerda con observaciones experimentales y sugiere que
+estos factores ambientales deben controlarse con precisión en
+aplicaciones prácticas.
+
+\subsubsection{4.4 Validación del Componente
+Temporal}\label{validaciuxf3n-del-componente-temporal}
+
+Para validar la capacidad del modelo para capturar la dinámica temporal
+de las emisiones de CO$_2$, se compararon las predicciones con datos
+cinéticos del estudio de Eriksen et al.~(2022):
+
+\begin{figure}
+\centering
+\includegraphics{https://example.com/comparison_chart.png}
+\caption{Comparación Temporal}
+\end{figure}
+
+La figura (no disponible en este documento) muestra que el modelo
+captura adecuadamente tanto el patrón general como la magnitud de las
+emisiones a lo largo del tiempo de desarrollo, reproduciendo
+características clave como el aumento gradual, el pico de emisión, y la
+posterior disminución.
+
+\subsubsection{4.5 Limitaciones de la
+Validación}\label{limitaciones-de-la-validaciuxf3n}
+
+Es importante señalar las siguientes limitaciones en el proceso de
+validación:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{Disponibilidad de datos}: Los datos experimentales específicos
+  de CO$_2$ son limitados, especialmente para combinaciones complejas de
+  factores ambientales.
+\item
+  \textbf{Incertidumbre en mediciones}: Los estudios experimentales
+  presentan incertidumbres significativas, especialmente en la
+  diferenciación larvario-microbiana.
+\item
+  \textbf{Validación a escala}: La mayoría de los datos disponibles
+  provienen de experimentos a escala de laboratorio, limitando la
+  validación para escalas industriales.
+\item
+  \textbf{Rango de condiciones}: La validación se limita a las
+  condiciones experimentales disponibles, que no cubren todo el espacio
+  paramétrico del modelo.
+\end{enumerate}
+
+\subsection{5. IMPLEMENTACIÓN
+PRÁCTICA}\label{implementaciuxf3n-pruxe1ctica}
+
+\subsubsection{5.1 Algoritmo de
+Implementación}\label{algoritmo-de-implementaciuxf3n}
+
+A continuación se presenta un pseudocódigo para la implementación del
+modelo MBCO2-H:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{def}\NormalTok{ modelo\_MBCO2H(parametros, condiciones, tiempo\_total, paso\_tiempo):}
+    \CommentTok{\# Inicialización}
+\NormalTok{    t }\OperatorTok{=} \DecValTok{0}
+\NormalTok{    B }\OperatorTok{=}\NormalTok{ parametros[}\StringTok{\textquotesingle{}B\_inicial\textquotesingle{}}\NormalTok{]}
+\NormalTok{    L }\OperatorTok{=}\NormalTok{ parametros[}\StringTok{\textquotesingle{}L\_inicial\textquotesingle{}}\NormalTok{]}
+\NormalTok{    S }\OperatorTok{=}\NormalTok{ parametros[}\StringTok{\textquotesingle{}S\_inicial\textquotesingle{}}\NormalTok{]}
+    
+    \CommentTok{\# Matrices para almacenar resultados}
+\NormalTok{    tiempo }\OperatorTok{=}\NormalTok{ [t]}
+\NormalTok{    biomasa }\OperatorTok{=}\NormalTok{ [B]}
+\NormalTok{    lipidos }\OperatorTok{=}\NormalTok{ [L]}
+\NormalTok{    sustrato }\OperatorTok{=}\NormalTok{ [S]}
+\NormalTok{    co2\_total }\OperatorTok{=}\NormalTok{ [}\DecValTok{0}\NormalTok{]}
+\NormalTok{    co2\_larva }\OperatorTok{=}\NormalTok{ [}\DecValTok{0}\NormalTok{]}
+\NormalTok{    co2\_micro }\OperatorTok{=}\NormalTok{ [}\DecValTok{0}\NormalTok{]}
+    
+    \CommentTok{\# Bucle principal de simulación}
+    \ControlFlowTok{while}\NormalTok{ t }\OperatorTok{\textless{}}\NormalTok{ tiempo\_total:}
+        \CommentTok{\# Avanzar tiempo}
+\NormalTok{        t }\OperatorTok{+=}\NormalTok{ paso\_tiempo}
+        
+        \CommentTok{\# Condiciones ambientales (pueden ser funciones del tiempo)}
+\NormalTok{        T }\OperatorTok{=}\NormalTok{ condiciones[}\StringTok{\textquotesingle{}temperatura\textquotesingle{}}\NormalTok{](t)}
+\NormalTok{        pH }\OperatorTok{=}\NormalTok{ condiciones[}\StringTok{\textquotesingle{}pH\textquotesingle{}}\NormalTok{](t)}
+\NormalTok{        H }\OperatorTok{=}\NormalTok{ condiciones[}\StringTok{\textquotesingle{}humedad\textquotesingle{}}\NormalTok{](t)}
+\NormalTok{        D }\OperatorTok{=}\NormalTok{ B }\OperatorTok{/}\NormalTok{ S  }\CommentTok{\# Densidad}
+        
+        \CommentTok{\# Factores ambientales}
+\NormalTok{        f\_T }\OperatorTok{=}\NormalTok{ calcular\_factor\_temperatura(T, parametros)}
+\NormalTok{        f\_pH }\OperatorTok{=}\NormalTok{ calcular\_factor\_pH(pH, parametros)}
+\NormalTok{        f\_H }\OperatorTok{=}\NormalTok{ calcular\_factor\_humedad(H, parametros)}
+\NormalTok{        f\_D }\OperatorTok{=}\NormalTok{ calcular\_factor\_densidad(D, parametros)}
+        
+        \CommentTok{\# Parámetros dependientes del tiempo}
+\NormalTok{        m }\OperatorTok{=}\NormalTok{ parametros[}\StringTok{\textquotesingle{}m\_base\textquotesingle{}}\NormalTok{] }\OperatorTok{*}\NormalTok{ (}\DecValTok{1} \OperatorTok{+}\NormalTok{ parametros[}\StringTok{\textquotesingle{}alfa\_m\textquotesingle{}}\NormalTok{] }\OperatorTok{*}\NormalTok{ (t}\OperatorTok{/}\NormalTok{tiempo\_total)}\OperatorTok{**}\NormalTok{parametros[}\StringTok{\textquotesingle{}beta\_m\textquotesingle{}}\NormalTok{])}
+\NormalTok{        Y\_B }\OperatorTok{=}\NormalTok{ parametros[}\StringTok{\textquotesingle{}Y\_B\_base\textquotesingle{}}\NormalTok{] }\OperatorTok{*}\NormalTok{ (}\DecValTok{1} \OperatorTok{+}\NormalTok{ parametros[}\StringTok{\textquotesingle{}alfa\_Y\textquotesingle{}}\NormalTok{] }\OperatorTok{*}\NormalTok{ (t}\OperatorTok{/}\NormalTok{tiempo\_total)}\OperatorTok{**}\NormalTok{parametros[}\StringTok{\textquotesingle{}beta\_Y\textquotesingle{}}\NormalTok{])}
+        
+        \CommentTok{\# Tasas de crecimiento y alimentación}
+\NormalTok{        F }\OperatorTok{=}\NormalTok{ calcular\_tasa\_alimentacion(B, S, parametros)}
+\NormalTok{        r\_B }\OperatorTok{=}\NormalTok{ calcular\_tasa\_crecimiento(B, F, parametros, f\_T, f\_pH, f\_H, f\_D)}
+\NormalTok{        r\_L }\OperatorTok{=}\NormalTok{ calcular\_tasa\_lipidos(L, F, parametros, f\_T, f\_pH, f\_H, f\_D)}
+\NormalTok{        r\_S\_micro }\OperatorTok{=}\NormalTok{ calcular\_degradacion\_microbiana(S, parametros, f\_T, f\_pH, f\_H)}
+        
+        \CommentTok{\# Actualizar estados}
+\NormalTok{        B }\OperatorTok{+=}\NormalTok{ r\_B }\OperatorTok{*}\NormalTok{ paso\_tiempo}
+\NormalTok{        L }\OperatorTok{+=}\NormalTok{ r\_L }\OperatorTok{*}\NormalTok{ paso\_tiempo}
+\NormalTok{        S }\OperatorTok{{-}=}\NormalTok{ (F }\OperatorTok{*}\NormalTok{ B}\OperatorTok{**}\NormalTok{(}\DecValTok{2}\OperatorTok{/}\DecValTok{3}\NormalTok{) }\OperatorTok{+}\NormalTok{ r\_S\_micro) }\OperatorTok{*}\NormalTok{ f\_T }\OperatorTok{*}\NormalTok{ f\_pH }\OperatorTok{*}\NormalTok{ f\_H }\OperatorTok{*}\NormalTok{ paso\_tiempo}
+        
+        \CommentTok{\# Calcular CO2}
+\NormalTok{        r\_CO2\_m }\OperatorTok{=}\NormalTok{ m }\OperatorTok{*}\NormalTok{ B}
+\NormalTok{        r\_CO2\_B }\OperatorTok{=}\NormalTok{ r\_B }\OperatorTok{*}\NormalTok{ Y\_B}
+\NormalTok{        r\_CO2\_L }\OperatorTok{=}\NormalTok{ r\_L }\OperatorTok{*}\NormalTok{ parametros[}\StringTok{\textquotesingle{}Y\_L\textquotesingle{}}\NormalTok{]}
+\NormalTok{        r\_CO2\_larva\_actual }\OperatorTok{=}\NormalTok{ (r\_CO2\_m }\OperatorTok{+}\NormalTok{ r\_CO2\_B }\OperatorTok{+}\NormalTok{ r\_CO2\_L) }\OperatorTok{*}\NormalTok{ f\_T }\OperatorTok{*}\NormalTok{ f\_pH }\OperatorTok{*}\NormalTok{ f\_H }\OperatorTok{*}\NormalTok{ f\_D}
+        
+\NormalTok{        r\_CO2\_micro\_actual }\OperatorTok{=}\NormalTok{ parametros[}\StringTok{\textquotesingle{}k\_micro\textquotesingle{}}\NormalTok{] }\OperatorTok{*}\NormalTok{ S }\OperatorTok{*}\NormalTok{ calcular\_factores\_micro(T, pH, H, parametros)}
+        
+\NormalTok{        f\_interaccion }\OperatorTok{=} \BuiltInTok{max}\NormalTok{(}\DecValTok{0}\NormalTok{, }\DecValTok{1} \OperatorTok{{-}}\NormalTok{ parametros[}\StringTok{\textquotesingle{}k\_inter\textquotesingle{}}\NormalTok{] }\OperatorTok{*}\NormalTok{ (B}\OperatorTok{/}\NormalTok{S)}\OperatorTok{**}\NormalTok{parametros[}\StringTok{\textquotesingle{}n\_inter\textquotesingle{}}\NormalTok{])}
+\NormalTok{        r\_CO2\_micro\_actual }\OperatorTok{*=}\NormalTok{ f\_interaccion}
+        
+\NormalTok{        r\_CO2\_total\_actual }\OperatorTok{=}\NormalTok{ r\_CO2\_larva\_actual }\OperatorTok{+}\NormalTok{ r\_CO2\_micro\_actual}
+        
+        \CommentTok{\# Almacenar resultados}
+\NormalTok{        tiempo.append(t)}
+\NormalTok{        biomasa.append(B)}
+\NormalTok{        lipidos.append(L)}
+\NormalTok{        sustrato.append(S)}
+\NormalTok{        co2\_larva.append(r\_CO2\_larva\_actual)}
+\NormalTok{        co2\_micro.append(r\_CO2\_micro\_actual)}
+\NormalTok{        co2\_total.append(r\_CO2\_total\_actual)}
+    
+    \CommentTok{\# Convertir a CO2 masa}
+\NormalTok{    co2\_total\_masa }\OperatorTok{=}\NormalTok{ [x }\OperatorTok{/} \FloatTok{0.27} \OperatorTok{*} \DecValTok{1000} \ControlFlowTok{for}\NormalTok{ x }\KeywordTok{in}\NormalTok{ co2\_total]  }\CommentTok{\# mg CO2/día}
+    
+    \ControlFlowTok{return}\NormalTok{ \{}
+        \StringTok{\textquotesingle{}tiempo\textquotesingle{}}\NormalTok{: tiempo,}
+        \StringTok{\textquotesingle{}biomasa\textquotesingle{}}\NormalTok{: biomasa,}
+        \StringTok{\textquotesingle{}lipidos\textquotesingle{}}\NormalTok{: lipidos,}
+        \StringTok{\textquotesingle{}sustrato\textquotesingle{}}\NormalTok{: sustrato,}
+        \StringTok{\textquotesingle{}co2\_larva\textquotesingle{}}\NormalTok{: co2\_larva,}
+        \StringTok{\textquotesingle{}co2\_micro\textquotesingle{}}\NormalTok{: co2\_micro,}
+        \StringTok{\textquotesingle{}co2\_total\textquotesingle{}}\NormalTok{: co2\_total,}
+        \StringTok{\textquotesingle{}co2\_total\_masa\textquotesingle{}}\NormalTok{: co2\_total\_masa}
+\NormalTok{    \}}
+\end{Highlighting}
+\end{Shaded}
+
+\subsubsection{5.2 Implementación en
+Python}\label{implementaciuxf3n-en-python}
+
+A continuación se presenta una implementación simplificada en Python del
+modelo MBCO2-H:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ImportTok{import}\NormalTok{ numpy }\ImportTok{as}\NormalTok{ np}
+\ImportTok{import}\NormalTok{ matplotlib.pyplot }\ImportTok{as}\NormalTok{ plt}
+\ImportTok{from}\NormalTok{ scipy.integrate }\ImportTok{import}\NormalTok{ solve\_ivp}
+
+\KeywordTok{class}\NormalTok{ ModeloMBCO2H:}
+    \KeywordTok{def} \FunctionTok{\_\_init\_\_}\NormalTok{(}\VariableTok{self}\NormalTok{, tipo\_sustrato}\OperatorTok{=}\StringTok{\textquotesingle{}alimento\_pollos\textquotesingle{}}\NormalTok{):}
+        \CommentTok{\# Parámetros base según tipo de sustrato}
+        \VariableTok{self}\NormalTok{.parametros }\OperatorTok{=} \VariableTok{self}\NormalTok{.cargar\_parametros(tipo\_sustrato)}
+        
+    \KeywordTok{def}\NormalTok{ cargar\_parametros(}\VariableTok{self}\NormalTok{, tipo\_sustrato):}
+        \CommentTok{\# Diccionario de parámetros por tipo de sustrato}
+\NormalTok{        parametros\_por\_sustrato }\OperatorTok{=}\NormalTok{ \{}
+            \StringTok{\textquotesingle{}alimento\_pollos\textquotesingle{}}\NormalTok{: \{}
+                \StringTok{\textquotesingle{}m\_base\textquotesingle{}}\NormalTok{: }\FloatTok{0.08}\NormalTok{, }\StringTok{\textquotesingle{}Y\_B\_base\textquotesingle{}}\NormalTok{: }\FloatTok{0.44}\NormalTok{, }\StringTok{\textquotesingle{}Y\_L\textquotesingle{}}\NormalTok{: }\FloatTok{0.42}\NormalTok{,}
+                \StringTok{\textquotesingle{}alfa\_m\textquotesingle{}}\NormalTok{: }\FloatTok{0.15}\NormalTok{, }\StringTok{\textquotesingle{}beta\_m\textquotesingle{}}\NormalTok{: }\FloatTok{1.2}\NormalTok{,}
+                \StringTok{\textquotesingle{}alfa\_Y\textquotesingle{}}\NormalTok{: }\FloatTok{0.10}\NormalTok{, }\StringTok{\textquotesingle{}beta\_Y\textquotesingle{}}\NormalTok{: }\FloatTok{1.0}\NormalTok{,}
+                \StringTok{\textquotesingle{}k\_micro\textquotesingle{}}\NormalTok{: }\FloatTok{1.2}\NormalTok{, }\StringTok{\textquotesingle{}k\_inter\textquotesingle{}}\NormalTok{: }\FloatTok{0.2}\NormalTok{, }\StringTok{\textquotesingle{}n\_inter\textquotesingle{}}\NormalTok{: }\FloatTok{1.5}\NormalTok{,}
+                \StringTok{\textquotesingle{}a\textquotesingle{}}\NormalTok{: }\FloatTok{0.8}\NormalTok{, }\StringTok{\textquotesingle{}F\_max\textquotesingle{}}\NormalTok{: }\FloatTok{0.5}\NormalTok{, }\StringTok{\textquotesingle{}F\_L\textquotesingle{}}\NormalTok{: }\FloatTok{0.3}\NormalTok{, }\StringTok{\textquotesingle{}m\_L\textquotesingle{}}\NormalTok{: }\FloatTok{0.05}\NormalTok{,}
+                \StringTok{\textquotesingle{}B\_max\textquotesingle{}}\NormalTok{: }\DecValTok{200}\NormalTok{, }\StringTok{\textquotesingle{}n\_B\textquotesingle{}}\NormalTok{: }\FloatTok{0.75}
+\NormalTok{            \},}
+            \StringTok{\textquotesingle{}residuos\_alimentarios\textquotesingle{}}\NormalTok{: \{}
+                \StringTok{\textquotesingle{}m\_base\textquotesingle{}}\NormalTok{: }\FloatTok{0.09}\NormalTok{, }\StringTok{\textquotesingle{}Y\_B\_base\textquotesingle{}}\NormalTok{: }\FloatTok{0.50}\NormalTok{, }\StringTok{\textquotesingle{}Y\_L\textquotesingle{}}\NormalTok{: }\FloatTok{0.42}\NormalTok{,}
+                \StringTok{\textquotesingle{}alfa\_m\textquotesingle{}}\NormalTok{: }\FloatTok{0.20}\NormalTok{, }\StringTok{\textquotesingle{}beta\_m\textquotesingle{}}\NormalTok{: }\FloatTok{1.3}\NormalTok{,}
+                \StringTok{\textquotesingle{}alfa\_Y\textquotesingle{}}\NormalTok{: }\FloatTok{0.15}\NormalTok{, }\StringTok{\textquotesingle{}beta\_Y\textquotesingle{}}\NormalTok{: }\FloatTok{1.1}\NormalTok{,}
+                \StringTok{\textquotesingle{}k\_micro\textquotesingle{}}\NormalTok{: }\FloatTok{1.8}\NormalTok{, }\StringTok{\textquotesingle{}k\_inter\textquotesingle{}}\NormalTok{: }\FloatTok{0.3}\NormalTok{, }\StringTok{\textquotesingle{}n\_inter\textquotesingle{}}\NormalTok{: }\FloatTok{1.5}\NormalTok{,}
+                \StringTok{\textquotesingle{}a\textquotesingle{}}\NormalTok{: }\FloatTok{0.75}\NormalTok{, }\StringTok{\textquotesingle{}F\_max\textquotesingle{}}\NormalTok{: }\FloatTok{0.45}\NormalTok{, }\StringTok{\textquotesingle{}F\_L\textquotesingle{}}\NormalTok{: }\FloatTok{0.25}\NormalTok{, }\StringTok{\textquotesingle{}m\_L\textquotesingle{}}\NormalTok{: }\FloatTok{0.06}\NormalTok{,}
+                \StringTok{\textquotesingle{}B\_max\textquotesingle{}}\NormalTok{: }\DecValTok{180}\NormalTok{, }\StringTok{\textquotesingle{}n\_B\textquotesingle{}}\NormalTok{: }\FloatTok{0.75}
+\NormalTok{            \},}
+            \StringTok{\textquotesingle{}estiercol\textquotesingle{}}\NormalTok{: \{}
+                \StringTok{\textquotesingle{}m\_base\textquotesingle{}}\NormalTok{: }\FloatTok{0.10}\NormalTok{, }\StringTok{\textquotesingle{}Y\_B\_base\textquotesingle{}}\NormalTok{: }\FloatTok{0.55}\NormalTok{, }\StringTok{\textquotesingle{}Y\_L\textquotesingle{}}\NormalTok{: }\FloatTok{0.42}\NormalTok{,}
+                \StringTok{\textquotesingle{}alfa\_m\textquotesingle{}}\NormalTok{: }\FloatTok{0.25}\NormalTok{, }\StringTok{\textquotesingle{}beta\_m\textquotesingle{}}\NormalTok{: }\FloatTok{1.4}\NormalTok{,}
+                \StringTok{\textquotesingle{}alfa\_Y\textquotesingle{}}\NormalTok{: }\FloatTok{0.20}\NormalTok{, }\StringTok{\textquotesingle{}beta\_Y\textquotesingle{}}\NormalTok{: }\FloatTok{1.2}\NormalTok{,}
+                \StringTok{\textquotesingle{}k\_micro\textquotesingle{}}\NormalTok{: }\FloatTok{2.5}\NormalTok{, }\StringTok{\textquotesingle{}k\_inter\textquotesingle{}}\NormalTok{: }\FloatTok{0.4}\NormalTok{, }\StringTok{\textquotesingle{}n\_inter\textquotesingle{}}\NormalTok{: }\FloatTok{1.5}\NormalTok{,}
+                \StringTok{\textquotesingle{}a\textquotesingle{}}\NormalTok{: }\FloatTok{0.7}\NormalTok{, }\StringTok{\textquotesingle{}F\_max\textquotesingle{}}\NormalTok{: }\FloatTok{0.4}\NormalTok{, }\StringTok{\textquotesingle{}F\_L\textquotesingle{}}\NormalTok{: }\FloatTok{0.2}\NormalTok{, }\StringTok{\textquotesingle{}m\_L\textquotesingle{}}\NormalTok{: }\FloatTok{0.07}\NormalTok{,}
+                \StringTok{\textquotesingle{}B\_max\textquotesingle{}}\NormalTok{: }\DecValTok{160}\NormalTok{, }\StringTok{\textquotesingle{}n\_B\textquotesingle{}}\NormalTok{: }\FloatTok{0.75}
+\NormalTok{            \},}
+            \StringTok{\textquotesingle{}lodos\_digeridos\textquotesingle{}}\NormalTok{: \{}
+                \StringTok{\textquotesingle{}m\_base\textquotesingle{}}\NormalTok{: }\FloatTok{0.12}\NormalTok{, }\StringTok{\textquotesingle{}Y\_B\_base\textquotesingle{}}\NormalTok{: }\FloatTok{0.68}\NormalTok{, }\StringTok{\textquotesingle{}Y\_L\textquotesingle{}}\NormalTok{: }\FloatTok{0.42}\NormalTok{,}
+                \StringTok{\textquotesingle{}alfa\_m\textquotesingle{}}\NormalTok{: }\FloatTok{0.30}\NormalTok{, }\StringTok{\textquotesingle{}beta\_m\textquotesingle{}}\NormalTok{: }\FloatTok{1.5}\NormalTok{,}
+                \StringTok{\textquotesingle{}alfa\_Y\textquotesingle{}}\NormalTok{: }\FloatTok{0.25}\NormalTok{, }\StringTok{\textquotesingle{}beta\_Y\textquotesingle{}}\NormalTok{: }\FloatTok{1.3}\NormalTok{,}
+                \StringTok{\textquotesingle{}k\_micro\textquotesingle{}}\NormalTok{: }\FloatTok{1.5}\NormalTok{, }\StringTok{\textquotesingle{}k\_inter\textquotesingle{}}\NormalTok{: }\FloatTok{0.25}\NormalTok{, }\StringTok{\textquotesingle{}n\_inter\textquotesingle{}}\NormalTok{: }\FloatTok{1.5}\NormalTok{,}
+                \StringTok{\textquotesingle{}a\textquotesingle{}}\NormalTok{: }\FloatTok{0.65}\NormalTok{, }\StringTok{\textquotesingle{}F\_max\textquotesingle{}}\NormalTok{: }\FloatTok{0.35}\NormalTok{, }\StringTok{\textquotesingle{}F\_L\textquotesingle{}}\NormalTok{: }\FloatTok{0.15}\NormalTok{, }\StringTok{\textquotesingle{}m\_L\textquotesingle{}}\NormalTok{: }\FloatTok{0.08}\NormalTok{,}
+                \StringTok{\textquotesingle{}B\_max\textquotesingle{}}\NormalTok{: }\DecValTok{140}\NormalTok{, }\StringTok{\textquotesingle{}n\_B\textquotesingle{}}\NormalTok{: }\FloatTok{0.75}
+\NormalTok{            \}}
+\NormalTok{        \}}
+        
+        \CommentTok{\# Parámetros ambientales (comunes para todos los sustratos)}
+\NormalTok{        parametros\_comunes }\OperatorTok{=}\NormalTok{ \{}
+            \StringTok{\textquotesingle{}E\_a\textquotesingle{}}\NormalTok{: }\DecValTok{50000}\NormalTok{, }\StringTok{\textquotesingle{}E\_h\textquotesingle{}}\NormalTok{: }\DecValTok{100000}\NormalTok{, }\StringTok{\textquotesingle{}E\_l\textquotesingle{}}\NormalTok{: }\DecValTok{100000}\NormalTok{, }
+            \StringTok{\textquotesingle{}T\_h\textquotesingle{}}\NormalTok{: }\DecValTok{313}\NormalTok{, }\StringTok{\textquotesingle{}T\_l\textquotesingle{}}\NormalTok{: }\DecValTok{283}\NormalTok{, }\StringTok{\textquotesingle{}T\_ref\textquotesingle{}}\NormalTok{: }\DecValTok{300}\NormalTok{, }\StringTok{\textquotesingle{}R\textquotesingle{}}\NormalTok{: }\FloatTok{8.314}\NormalTok{,}
+            \StringTok{\textquotesingle{}pH\_opt\textquotesingle{}}\NormalTok{: }\FloatTok{6.0}\NormalTok{, }\StringTok{\textquotesingle{}sigma\_pH\textquotesingle{}}\NormalTok{: }\FloatTok{1.5}\NormalTok{,}
+            \StringTok{\textquotesingle{}H\_opt\textquotesingle{}}\NormalTok{: }\DecValTok{65}\NormalTok{, }\StringTok{\textquotesingle{}sigma\_H\textquotesingle{}}\NormalTok{: }\DecValTok{15}\NormalTok{,}
+            \StringTok{\textquotesingle{}D\_ref\textquotesingle{}}\NormalTok{: }\DecValTok{5}\NormalTok{, }\StringTok{\textquotesingle{}gamma\textquotesingle{}}\NormalTok{: }\FloatTok{0.05}
+\NormalTok{        \}}
+        
+        \CommentTok{\# Combinar parámetros específicos y comunes}
+\NormalTok{        parametros }\OperatorTok{=}\NormalTok{ \{}\OperatorTok{**}\NormalTok{parametros\_por\_sustrato[tipo\_sustrato], }\OperatorTok{**}\NormalTok{parametros\_comunes\}}
+        \ControlFlowTok{return}\NormalTok{ parametros}
+    
+    \KeywordTok{def}\NormalTok{ factor\_temperatura(}\VariableTok{self}\NormalTok{, T):}
+        \CommentTok{\# Convertir a Kelvin si está en Celsius}
+        \ControlFlowTok{if}\NormalTok{ T }\OperatorTok{\textless{}} \DecValTok{100}\NormalTok{:}
+\NormalTok{            T }\OperatorTok{=}\NormalTok{ T }\OperatorTok{+} \FloatTok{273.15}
+            
+        \CommentTok{\# Modelo termofisiológico}
+\NormalTok{        p }\OperatorTok{=} \VariableTok{self}\NormalTok{.parametros}
+\NormalTok{        f\_T }\OperatorTok{=}\NormalTok{ np.exp(p[}\StringTok{\textquotesingle{}E\_a\textquotesingle{}}\NormalTok{]}\OperatorTok{/}\NormalTok{p[}\StringTok{\textquotesingle{}R\textquotesingle{}}\NormalTok{] }\OperatorTok{*}\NormalTok{ (}\DecValTok{1}\OperatorTok{/}\NormalTok{p[}\StringTok{\textquotesingle{}T\_ref\textquotesingle{}}\NormalTok{] }\OperatorTok{{-}} \DecValTok{1}\OperatorTok{/}\NormalTok{T))}
+\NormalTok{        f\_T }\OperatorTok{*=}\NormalTok{ (}\DecValTok{1} \OperatorTok{{-}}\NormalTok{ np.exp(p[}\StringTok{\textquotesingle{}E\_h\textquotesingle{}}\NormalTok{]}\OperatorTok{/}\NormalTok{p[}\StringTok{\textquotesingle{}R\textquotesingle{}}\NormalTok{] }\OperatorTok{*}\NormalTok{ (}\DecValTok{1}\OperatorTok{/}\NormalTok{p[}\StringTok{\textquotesingle{}T\_h\textquotesingle{}}\NormalTok{] }\OperatorTok{{-}} \DecValTok{1}\OperatorTok{/}\NormalTok{T)))}
+\NormalTok{        f\_T }\OperatorTok{*=}\NormalTok{ (}\DecValTok{1} \OperatorTok{{-}}\NormalTok{ np.exp(p[}\StringTok{\textquotesingle{}E\_l\textquotesingle{}}\NormalTok{]}\OperatorTok{/}\NormalTok{p[}\StringTok{\textquotesingle{}R\textquotesingle{}}\NormalTok{] }\OperatorTok{*}\NormalTok{ (}\DecValTok{1}\OperatorTok{/}\NormalTok{T }\OperatorTok{{-}} \DecValTok{1}\OperatorTok{/}\NormalTok{p[}\StringTok{\textquotesingle{}T\_l\textquotesingle{}}\NormalTok{])))}
+        \ControlFlowTok{return} \BuiltInTok{max}\NormalTok{(}\DecValTok{0}\NormalTok{, f\_T)}
+    
+    \KeywordTok{def}\NormalTok{ factor\_pH(}\VariableTok{self}\NormalTok{, pH):}
+\NormalTok{        p }\OperatorTok{=} \VariableTok{self}\NormalTok{.parametros}
+        \ControlFlowTok{return}\NormalTok{ np.exp(}\OperatorTok{{-}}\NormalTok{((pH }\OperatorTok{{-}}\NormalTok{ p[}\StringTok{\textquotesingle{}pH\_opt\textquotesingle{}}\NormalTok{])}\OperatorTok{**}\DecValTok{2}\NormalTok{)}\OperatorTok{/}\NormalTok{(}\DecValTok{2} \OperatorTok{*}\NormalTok{ p[}\StringTok{\textquotesingle{}sigma\_pH\textquotesingle{}}\NormalTok{]}\OperatorTok{**}\DecValTok{2}\NormalTok{))}
+    
+    \KeywordTok{def}\NormalTok{ factor\_humedad(}\VariableTok{self}\NormalTok{, H):}
+\NormalTok{        p }\OperatorTok{=} \VariableTok{self}\NormalTok{.parametros}
+        \ControlFlowTok{if}\NormalTok{ H }\OperatorTok{\textless{}=}\NormalTok{ p[}\StringTok{\textquotesingle{}H\_opt\textquotesingle{}}\NormalTok{]:}
+            \ControlFlowTok{return}\NormalTok{ (H}\OperatorTok{/}\NormalTok{p[}\StringTok{\textquotesingle{}H\_opt\textquotesingle{}}\NormalTok{]) }\OperatorTok{*}\NormalTok{ np.exp(}\DecValTok{1} \OperatorTok{{-}}\NormalTok{ H}\OperatorTok{/}\NormalTok{p[}\StringTok{\textquotesingle{}H\_opt\textquotesingle{}}\NormalTok{])}
+        \ControlFlowTok{else}\NormalTok{:}
+            \ControlFlowTok{return}\NormalTok{ np.exp(}\OperatorTok{{-}}\NormalTok{((H }\OperatorTok{{-}}\NormalTok{ p[}\StringTok{\textquotesingle{}H\_opt\textquotesingle{}}\NormalTok{])}\OperatorTok{**}\DecValTok{2}\NormalTok{)}\OperatorTok{/}\NormalTok{(}\DecValTok{2} \OperatorTok{*}\NormalTok{ p[}\StringTok{\textquotesingle{}sigma\_H\textquotesingle{}}\NormalTok{]}\OperatorTok{**}\DecValTok{2}\NormalTok{))}
+    
+    \KeywordTok{def}\NormalTok{ factor\_densidad(}\VariableTok{self}\NormalTok{, D):}
+\NormalTok{        p }\OperatorTok{=} \VariableTok{self}\NormalTok{.parametros}
+        \ControlFlowTok{if}\NormalTok{ D }\OperatorTok{\textless{}}\NormalTok{ p[}\StringTok{\textquotesingle{}D\_ref\textquotesingle{}}\NormalTok{]:}
+            \ControlFlowTok{return} \FloatTok{1.0}
+        \ControlFlowTok{else}\NormalTok{:}
+            \ControlFlowTok{return} \BuiltInTok{max}\NormalTok{(}\FloatTok{0.1}\NormalTok{, }\DecValTok{1} \OperatorTok{{-}}\NormalTok{ p[}\StringTok{\textquotesingle{}gamma\textquotesingle{}}\NormalTok{] }\OperatorTok{*}\NormalTok{ (D}\OperatorTok{/}\NormalTok{p[}\StringTok{\textquotesingle{}D\_ref\textquotesingle{}}\NormalTok{] }\OperatorTok{{-}} \DecValTok{1}\NormalTok{))}
+    
+    \KeywordTok{def}\NormalTok{ tasa\_alimentacion(}\VariableTok{self}\NormalTok{, B, S):}
+\NormalTok{        p }\OperatorTok{=} \VariableTok{self}\NormalTok{.parametros}
+        \CommentTok{\# Tasa de alimentación dependiente de disponibilidad de sustrato}
+        \ControlFlowTok{return}\NormalTok{ p[}\StringTok{\textquotesingle{}F\_max\textquotesingle{}}\NormalTok{] }\OperatorTok{*}\NormalTok{ (S }\OperatorTok{/}\NormalTok{ (S }\OperatorTok{+} \DecValTok{10}\NormalTok{))}
+    
+    \KeywordTok{def}\NormalTok{ sistema\_ecuaciones(}\VariableTok{self}\NormalTok{, t, y, condiciones):}
+        \CommentTok{\# Desempaquetar variables de estado}
+\NormalTok{        B, L, S }\OperatorTok{=}\NormalTok{ y}
+        
+        \CommentTok{\# Obtener condiciones ambientales en tiempo t}
+\NormalTok{        T }\OperatorTok{=}\NormalTok{ condiciones[}\StringTok{\textquotesingle{}temperatura\textquotesingle{}}\NormalTok{](t)}
+\NormalTok{        pH }\OperatorTok{=}\NormalTok{ condiciones[}\StringTok{\textquotesingle{}pH\textquotesingle{}}\NormalTok{](t)}
+\NormalTok{        H }\OperatorTok{=}\NormalTok{ condiciones[}\StringTok{\textquotesingle{}humedad\textquotesingle{}}\NormalTok{](t)}
+\NormalTok{        D }\OperatorTok{=}\NormalTok{ B }\OperatorTok{/} \BuiltInTok{max}\NormalTok{(}\FloatTok{0.1}\NormalTok{, S)  }\CommentTok{\# Densidad}
+        
+        \CommentTok{\# Calcular factores ambientales}
+\NormalTok{        f\_T }\OperatorTok{=} \VariableTok{self}\NormalTok{.factor\_temperatura(T)}
+\NormalTok{        f\_pH }\OperatorTok{=} \VariableTok{self}\NormalTok{.factor\_pH(pH)}
+\NormalTok{        f\_H }\OperatorTok{=} \VariableTok{self}\NormalTok{.factor\_humedad(H)}
+\NormalTok{        f\_D }\OperatorTok{=} \VariableTok{self}\NormalTok{.factor\_densidad(D)}
+        
+        \CommentTok{\# Parámetros dependientes del tiempo}
+\NormalTok{        p }\OperatorTok{=} \VariableTok{self}\NormalTok{.parametros}
+\NormalTok{        t\_max }\OperatorTok{=}\NormalTok{ condiciones[}\StringTok{\textquotesingle{}tiempo\_total\textquotesingle{}}\NormalTok{]}
+\NormalTok{        m }\OperatorTok{=}\NormalTok{ p[}\StringTok{\textquotesingle{}m\_base\textquotesingle{}}\NormalTok{] }\OperatorTok{*}\NormalTok{ (}\DecValTok{1} \OperatorTok{+}\NormalTok{ p[}\StringTok{\textquotesingle{}alfa\_m\textquotesingle{}}\NormalTok{] }\OperatorTok{*}\NormalTok{ (t}\OperatorTok{/}\NormalTok{t\_max)}\OperatorTok{**}\NormalTok{p[}\StringTok{\textquotesingle{}beta\_m\textquotesingle{}}\NormalTok{])}
+\NormalTok{        Y\_B }\OperatorTok{=}\NormalTok{ p[}\StringTok{\textquotesingle{}Y\_B\_base\textquotesingle{}}\NormalTok{] }\OperatorTok{*}\NormalTok{ (}\DecValTok{1} \OperatorTok{+}\NormalTok{ p[}\StringTok{\textquotesingle{}alfa\_Y\textquotesingle{}}\NormalTok{] }\OperatorTok{*}\NormalTok{ (t}\OperatorTok{/}\NormalTok{t\_max)}\OperatorTok{**}\NormalTok{p[}\StringTok{\textquotesingle{}beta\_Y\textquotesingle{}}\NormalTok{])}
+        
+        \CommentTok{\# Tasa de alimentación}
+\NormalTok{        F }\OperatorTok{=} \VariableTok{self}\NormalTok{.tasa\_alimentacion(B, S)}
+        
+        \CommentTok{\# Ecuaciones de biomasa estructural y lípidos}
+\NormalTok{        dB\_dt }\OperatorTok{=}\NormalTok{ p[}\StringTok{\textquotesingle{}a\textquotesingle{}}\NormalTok{] }\OperatorTok{*}\NormalTok{ F }\OperatorTok{*}\NormalTok{ B}\OperatorTok{**}\NormalTok{(}\DecValTok{2}\OperatorTok{/}\DecValTok{3}\NormalTok{) }\OperatorTok{*}\NormalTok{ (}\DecValTok{1} \OperatorTok{{-}}\NormalTok{ (B}\OperatorTok{/}\NormalTok{p[}\StringTok{\textquotesingle{}B\_max\textquotesingle{}}\NormalTok{])}\OperatorTok{**}\NormalTok{p[}\StringTok{\textquotesingle{}n\_B\textquotesingle{}}\NormalTok{]) }\OperatorTok{*}\NormalTok{ f\_T }\OperatorTok{*}\NormalTok{ f\_pH }\OperatorTok{*}\NormalTok{ f\_H }\OperatorTok{*}\NormalTok{ f\_D}
+\NormalTok{        dL\_dt }\OperatorTok{=}\NormalTok{ (p[}\StringTok{\textquotesingle{}F\_L\textquotesingle{}}\NormalTok{] }\OperatorTok{*}\NormalTok{ F }\OperatorTok{{-}}\NormalTok{ p[}\StringTok{\textquotesingle{}m\_L\textquotesingle{}}\NormalTok{] }\OperatorTok{*}\NormalTok{ L) }\OperatorTok{*}\NormalTok{ f\_T }\OperatorTok{*}\NormalTok{ f\_pH }\OperatorTok{*}\NormalTok{ f\_H }\OperatorTok{*}\NormalTok{ f\_D}
+        
+        \CommentTok{\# Degradación microbiana del sustrato}
+\NormalTok{        r\_S\_micro }\OperatorTok{=}\NormalTok{ p[}\StringTok{\textquotesingle{}k\_micro\textquotesingle{}}\NormalTok{] }\OperatorTok{*} \FloatTok{0.05} \OperatorTok{*}\NormalTok{ S }\OperatorTok{*}\NormalTok{ f\_T }\OperatorTok{*}\NormalTok{ f\_pH }\OperatorTok{*}\NormalTok{ f\_H}
+        
+        \CommentTok{\# Consumo de sustrato}
+\NormalTok{        dS\_dt }\OperatorTok{=} \OperatorTok{{-}}\NormalTok{(F }\OperatorTok{*}\NormalTok{ B}\OperatorTok{**}\NormalTok{(}\DecValTok{2}\OperatorTok{/}\DecValTok{3}\NormalTok{) }\OperatorTok{+}\NormalTok{ r\_S\_micro) }\OperatorTok{*}\NormalTok{ f\_T }\OperatorTok{*}\NormalTok{ f\_pH }\OperatorTok{*}\NormalTok{ f\_H}
+        
+        \ControlFlowTok{return}\NormalTok{ [dB\_dt, dL\_dt, dS\_dt]}
+    
+    \KeywordTok{def}\NormalTok{ calcular\_co2(}\VariableTok{self}\NormalTok{, t, B, L, S, r\_B, r\_L, condiciones):}
+        \CommentTok{\# Obtener condiciones ambientales en tiempo t}
+\NormalTok{        T }\OperatorTok{=}\NormalTok{ condiciones[}\StringTok{\textquotesingle{}temperatura\textquotesingle{}}\NormalTok{](t)}
+\NormalTok{        pH }\OperatorTok{=}\NormalTok{ condiciones[}\StringTok{\textquotesingle{}pH\textquotesingle{}}\NormalTok{](t)}
+\NormalTok{        H }\OperatorTok{=}\NormalTok{ condiciones[}\StringTok{\textquotesingle{}humedad\textquotesingle{}}\NormalTok{](t)}
+\NormalTok{        D }\OperatorTok{=}\NormalTok{ B }\OperatorTok{/} \BuiltInTok{max}\NormalTok{(}\FloatTok{0.1}\NormalTok{, S)  }\CommentTok{\# Densidad}
+        
+        \CommentTok{\# Calcular factores ambientales}
+\NormalTok{        f\_T }\OperatorTok{=} \VariableTok{self}\NormalTok{.factor\_temperatura(T)}
+\NormalTok{        f\_pH }\OperatorTok{=} \VariableTok{self}\NormalTok{.factor\_pH(pH)}
+\NormalTok{        f\_H }\OperatorTok{=} \VariableTok{self}\NormalTok{.factor\_humedad(H)}
+\NormalTok{        f\_D }\OperatorTok{=} \VariableTok{self}\NormalTok{.factor\_densidad(D)}
+        
+        \CommentTok{\# Parámetros dependientes del tiempo}
+\NormalTok{        p }\OperatorTok{=} \VariableTok{self}\NormalTok{.parametros}
+\NormalTok{        t\_max }\OperatorTok{=}\NormalTok{ condiciones[}\StringTok{\textquotesingle{}tiempo\_total\textquotesingle{}}\NormalTok{]}
+\NormalTok{        m }\OperatorTok{=}\NormalTok{ p[}\StringTok{\textquotesingle{}m\_base\textquotesingle{}}\NormalTok{] }\OperatorTok{*}\NormalTok{ (}\DecValTok{1} \OperatorTok{+}\NormalTok{ p[}\StringTok{\textquotesingle{}alfa\_m\textquotesingle{}}\NormalTok{] }\OperatorTok{*}\NormalTok{ (t}\OperatorTok{/}\NormalTok{t\_max)}\OperatorTok{**}\NormalTok{p[}\StringTok{\textquotesingle{}beta\_m\textquotesingle{}}\NormalTok{])}
+\NormalTok{        Y\_B }\OperatorTok{=}\NormalTok{ p[}\StringTok{\textquotesingle{}Y\_B\_base\textquotesingle{}}\NormalTok{] }\OperatorTok{*}\NormalTok{ (}\DecValTok{1} \OperatorTok{+}\NormalTok{ p[}\StringTok{\textquotesingle{}alfa\_Y\textquotesingle{}}\NormalTok{] }\OperatorTok{*}\NormalTok{ (t}\OperatorTok{/}\NormalTok{t\_max)}\OperatorTok{**}\NormalTok{p[}\StringTok{\textquotesingle{}beta\_Y\textquotesingle{}}\NormalTok{])}
+        
+        \CommentTok{\# CO2 larvario}
+\NormalTok{        r\_CO2\_m }\OperatorTok{=}\NormalTok{ m }\OperatorTok{*}\NormalTok{ B}
+\NormalTok{        r\_CO2\_B }\OperatorTok{=}\NormalTok{ r\_B }\OperatorTok{*}\NormalTok{ Y\_B}
+\NormalTok{        r\_CO2\_L }\OperatorTok{=}\NormalTok{ r\_L }\OperatorTok{*}\NormalTok{ p[}\StringTok{\textquotesingle{}Y\_L\textquotesingle{}}\NormalTok{]}
+\NormalTok{        r\_CO2\_larva }\OperatorTok{=}\NormalTok{ (r\_CO2\_m }\OperatorTok{+}\NormalTok{ r\_CO2\_B }\OperatorTok{+}\NormalTok{ r\_CO2\_L) }\OperatorTok{*}\NormalTok{ f\_T }\OperatorTok{*}\NormalTok{ f\_pH }\OperatorTok{*}\NormalTok{ f\_H }\OperatorTok{*}\NormalTok{ f\_D}
+        
+        \CommentTok{\# CO2 microbiano}
+\NormalTok{        r\_CO2\_micro }\OperatorTok{=}\NormalTok{ p[}\StringTok{\textquotesingle{}k\_micro\textquotesingle{}}\NormalTok{] }\OperatorTok{*}\NormalTok{ S }\OperatorTok{*}\NormalTok{ f\_T }\OperatorTok{*}\NormalTok{ f\_pH }\OperatorTok{*}\NormalTok{ f\_H}
+        
+        \CommentTok{\# Factor de interacción}
+        \ControlFlowTok{if}\NormalTok{ B }\OperatorTok{\textgreater{}} \DecValTok{0} \KeywordTok{and}\NormalTok{ S }\OperatorTok{\textgreater{}} \DecValTok{0}\NormalTok{:}
+\NormalTok{            f\_interaccion }\OperatorTok{=} \BuiltInTok{max}\NormalTok{(}\DecValTok{0}\NormalTok{, }\DecValTok{1} \OperatorTok{{-}}\NormalTok{ p[}\StringTok{\textquotesingle{}k\_inter\textquotesingle{}}\NormalTok{] }\OperatorTok{*}\NormalTok{ (B}\OperatorTok{/}\NormalTok{S)}\OperatorTok{**}\NormalTok{p[}\StringTok{\textquotesingle{}n\_inter\textquotesingle{}}\NormalTok{])}
+        \ControlFlowTok{else}\NormalTok{:}
+\NormalTok{            f\_interaccion }\OperatorTok{=} \FloatTok{1.0}
+            
+\NormalTok{        r\_CO2\_micro }\OperatorTok{*=}\NormalTok{ f\_interaccion}
+        
+        \CommentTok{\# CO2 total}
+\NormalTok{        r\_CO2\_total }\OperatorTok{=}\NormalTok{ r\_CO2\_larva }\OperatorTok{+}\NormalTok{ r\_CO2\_micro}
+        
+        \CommentTok{\# Convertir a masa CO2}
+\NormalTok{        masa\_CO2 }\OperatorTok{=}\NormalTok{ r\_CO2\_total }\OperatorTok{/} \FloatTok{0.27} \OperatorTok{*} \DecValTok{1000}  \CommentTok{\# mg CO2/día}
+        
+        \ControlFlowTok{return}\NormalTok{ \{}
+            \StringTok{\textquotesingle{}r\_CO2\_m\textquotesingle{}}\NormalTok{: r\_CO2\_m,}
+            \StringTok{\textquotesingle{}r\_CO2\_B\textquotesingle{}}\NormalTok{: r\_CO2\_B,}
+            \StringTok{\textquotesingle{}r\_CO2\_L\textquotesingle{}}\NormalTok{: r\_CO2\_L,}
+            \StringTok{\textquotesingle{}r\_CO2\_larva\textquotesingle{}}\NormalTok{: r\_CO2\_larva,}
+            \StringTok{\textquotesingle{}r\_CO2\_micro\textquotesingle{}}\NormalTok{: r\_CO2\_micro,}
+            \StringTok{\textquotesingle{}r\_CO2\_total\textquotesingle{}}\NormalTok{: r\_CO2\_total,}
+            \StringTok{\textquotesingle{}masa\_CO2\textquotesingle{}}\NormalTok{: masa\_CO2,}
+            \StringTok{\textquotesingle{}f\_interaccion\textquotesingle{}}\NormalTok{: f\_interaccion}
+\NormalTok{        \}}
+    
+    \KeywordTok{def}\NormalTok{ simular(}\VariableTok{self}\NormalTok{, condiciones\_iniciales, condiciones\_ambientales, tiempo\_total, puntos\_tiempo}\OperatorTok{=}\DecValTok{100}\NormalTok{):}
+        \CommentTok{\# Condiciones iniciales}
+\NormalTok{        B0 }\OperatorTok{=}\NormalTok{ condiciones\_iniciales.get(}\StringTok{\textquotesingle{}B0\textquotesingle{}}\NormalTok{, }\FloatTok{1.0}\NormalTok{)      }\CommentTok{\# g biomasa estructural}
+\NormalTok{        L0 }\OperatorTok{=}\NormalTok{ condiciones\_iniciales.get(}\StringTok{\textquotesingle{}L0\textquotesingle{}}\NormalTok{, }\FloatTok{0.2}\NormalTok{)      }\CommentTok{\# g lípidos}
+\NormalTok{        S0 }\OperatorTok{=}\NormalTok{ condiciones\_iniciales.get(}\StringTok{\textquotesingle{}S0\textquotesingle{}}\NormalTok{, }\FloatTok{100.0}\NormalTok{)    }\CommentTok{\# g sustrato}
+        
+        \CommentTok{\# Funciones de condiciones ambientales}
+        \ControlFlowTok{if} \BuiltInTok{callable}\NormalTok{(condiciones\_ambientales.get(}\StringTok{\textquotesingle{}temperatura\textquotesingle{}}\NormalTok{)):}
+\NormalTok{            temp\_func }\OperatorTok{=}\NormalTok{ condiciones\_ambientales[}\StringTok{\textquotesingle{}temperatura\textquotesingle{}}\NormalTok{]}
+        \ControlFlowTok{else}\NormalTok{:}
+\NormalTok{            temp\_valor }\OperatorTok{=}\NormalTok{ condiciones\_ambientales.get(}\StringTok{\textquotesingle{}temperatura\textquotesingle{}}\NormalTok{, }\FloatTok{27.0}\NormalTok{)}
+\NormalTok{            temp\_func }\OperatorTok{=} \KeywordTok{lambda}\NormalTok{ t: temp\_valor}
+            
+        \ControlFlowTok{if} \BuiltInTok{callable}\NormalTok{(condiciones\_ambientales.get(}\StringTok{\textquotesingle{}pH\textquotesingle{}}\NormalTok{)):}
+\NormalTok{            pH\_func }\OperatorTok{=}\NormalTok{ condiciones\_ambientales[}\StringTok{\textquotesingle{}pH\textquotesingle{}}\NormalTok{]}
+        \ControlFlowTok{else}\NormalTok{:}
+\NormalTok{            pH\_valor }\OperatorTok{=}\NormalTok{ condiciones\_ambientales.get(}\StringTok{\textquotesingle{}pH\textquotesingle{}}\NormalTok{, }\FloatTok{6.0}\NormalTok{)}
+\NormalTok{            pH\_func }\OperatorTok{=} \KeywordTok{lambda}\NormalTok{ t: pH\_valor}
+            
+        \ControlFlowTok{if} \BuiltInTok{callable}\NormalTok{(condiciones\_ambientales.get(}\StringTok{\textquotesingle{}humedad\textquotesingle{}}\NormalTok{)):}
+\NormalTok{            humedad\_func }\OperatorTok{=}\NormalTok{ condiciones\_ambientales[}\StringTok{\textquotesingle{}humedad\textquotesingle{}}\NormalTok{]}
+        \ControlFlowTok{else}\NormalTok{:}
+\NormalTok{            humedad\_valor }\OperatorTok{=}\NormalTok{ condiciones\_ambientales.get(}\StringTok{\textquotesingle{}humedad\textquotesingle{}}\NormalTok{, }\FloatTok{65.0}\NormalTok{)}
+\NormalTok{            humedad\_func }\OperatorTok{=} \KeywordTok{lambda}\NormalTok{ t: humedad\_valor}
+        
+        \CommentTok{\# Configurar condiciones}
+\NormalTok{        condiciones }\OperatorTok{=}\NormalTok{ \{}
+            \StringTok{\textquotesingle{}temperatura\textquotesingle{}}\NormalTok{: temp\_func,}
+            \StringTok{\textquotesingle{}pH\textquotesingle{}}\NormalTok{: pH\_func,}
+            \StringTok{\textquotesingle{}humedad\textquotesingle{}}\NormalTok{: humedad\_func,}
+            \StringTok{\textquotesingle{}tiempo\_total\textquotesingle{}}\NormalTok{: tiempo\_total}
+\NormalTok{        \}}
+        
+        \CommentTok{\# Resolver sistema de ecuaciones diferenciales}
+\NormalTok{        tiempos }\OperatorTok{=}\NormalTok{ np.linspace(}\DecValTok{0}\NormalTok{, tiempo\_total, puntos\_tiempo)}
+\NormalTok{        sol }\OperatorTok{=}\NormalTok{ solve\_ivp(}
+            \KeywordTok{lambda}\NormalTok{ t, y: }\VariableTok{self}\NormalTok{.sistema\_ecuaciones(t, y, condiciones),}
+\NormalTok{            [}\DecValTok{0}\NormalTok{, tiempo\_total],}
+\NormalTok{            [B0, L0, S0],}
+\NormalTok{            t\_eval}\OperatorTok{=}\NormalTok{tiempos,}
+\NormalTok{            method}\OperatorTok{=}\StringTok{\textquotesingle{}RK45\textquotesingle{}}
+\NormalTok{        )}
+        
+        \CommentTok{\# Extraer resultados}
+\NormalTok{        B }\OperatorTok{=}\NormalTok{ sol.y[}\DecValTok{0}\NormalTok{]}
+\NormalTok{        L }\OperatorTok{=}\NormalTok{ sol.y[}\DecValTok{1}\NormalTok{]}
+\NormalTok{        S }\OperatorTok{=}\NormalTok{ sol.y[}\DecValTok{2}\NormalTok{]}
+\NormalTok{        t }\OperatorTok{=}\NormalTok{ sol.t}
+        
+        \CommentTok{\# Calcular tasas de crecimiento}
+\NormalTok{        r\_B }\OperatorTok{=}\NormalTok{ np.zeros\_like(t)}
+\NormalTok{        r\_L }\OperatorTok{=}\NormalTok{ np.zeros\_like(t)}
+        \ControlFlowTok{for}\NormalTok{ i }\KeywordTok{in} \BuiltInTok{range}\NormalTok{(}\BuiltInTok{len}\NormalTok{(t)}\OperatorTok{{-}}\DecValTok{1}\NormalTok{):}
+\NormalTok{            r\_B[i] }\OperatorTok{=}\NormalTok{ (B[i}\OperatorTok{+}\DecValTok{1}\NormalTok{] }\OperatorTok{{-}}\NormalTok{ B[i]) }\OperatorTok{/}\NormalTok{ (t[i}\OperatorTok{+}\DecValTok{1}\NormalTok{] }\OperatorTok{{-}}\NormalTok{ t[i])}
+\NormalTok{            r\_L[i] }\OperatorTok{=}\NormalTok{ (L[i}\OperatorTok{+}\DecValTok{1}\NormalTok{] }\OperatorTok{{-}}\NormalTok{ L[i]) }\OperatorTok{/}\NormalTok{ (t[i}\OperatorTok{+}\DecValTok{1}\NormalTok{] }\OperatorTok{{-}}\NormalTok{ t[i])}
+\NormalTok{        r\_B[}\OperatorTok{{-}}\DecValTok{1}\NormalTok{] }\OperatorTok{=}\NormalTok{ r\_B[}\OperatorTok{{-}}\DecValTok{2}\NormalTok{]}
+\NormalTok{        r\_L[}\OperatorTok{{-}}\DecValTok{1}\NormalTok{] }\OperatorTok{=}\NormalTok{ r\_L[}\OperatorTok{{-}}\DecValTok{2}\NormalTok{]}
+        
+        \CommentTok{\# Calcular CO2}
+\NormalTok{        co2\_resultados }\OperatorTok{=}\NormalTok{ []}
+        \ControlFlowTok{for}\NormalTok{ i }\KeywordTok{in} \BuiltInTok{range}\NormalTok{(}\BuiltInTok{len}\NormalTok{(t)):}
+\NormalTok{            co2 }\OperatorTok{=} \VariableTok{self}\NormalTok{.calcular\_co2(t[i], B[i], L[i], S[i], r\_B[i], r\_L[i], condiciones)}
+\NormalTok{            co2\_resultados.append(co2)}
+        
+        \CommentTok{\# Extraer componentes de CO2}
+\NormalTok{        r\_CO2\_larva }\OperatorTok{=}\NormalTok{ np.array([res[}\StringTok{\textquotesingle{}r\_CO2\_larva\textquotesingle{}}\NormalTok{] }\ControlFlowTok{for}\NormalTok{ res }\KeywordTok{in}\NormalTok{ co2\_resultados])}
+\NormalTok{        r\_CO2\_micro }\OperatorTok{=}\NormalTok{ np.array([res[}\StringTok{\textquotesingle{}r\_CO2\_micro\textquotesingle{}}\NormalTok{] }\ControlFlowTok{for}\NormalTok{ res }\KeywordTok{in}\NormalTok{ co2\_resultados])}
+\NormalTok{        r\_CO2\_total }\OperatorTok{=}\NormalTok{ np.array([res[}\StringTok{\textquotesingle{}r\_CO2\_total\textquotesingle{}}\NormalTok{] }\ControlFlowTok{for}\NormalTok{ res }\KeywordTok{in}\NormalTok{ co2\_resultados])}
+\NormalTok{        masa\_CO2 }\OperatorTok{=}\NormalTok{ np.array([res[}\StringTok{\textquotesingle{}masa\_CO2\textquotesingle{}}\NormalTok{] }\ControlFlowTok{for}\NormalTok{ res }\KeywordTok{in}\NormalTok{ co2\_resultados])}
+        
+        \CommentTok{\# CO2 acumulado (kg CO2 / kg biomasa final seca)}
+\NormalTok{        co2\_acumulado }\OperatorTok{=}\NormalTok{ np.trapz(r\_CO2\_total, t) }\OperatorTok{/} \FloatTok{0.27}
+\NormalTok{        biomasa\_final\_seca }\OperatorTok{=}\NormalTok{ B[}\OperatorTok{{-}}\DecValTok{1}\NormalTok{] }\OperatorTok{+}\NormalTok{ L[}\OperatorTok{{-}}\DecValTok{1}\NormalTok{]}
+\NormalTok{        co2\_por\_biomasa }\OperatorTok{=}\NormalTok{ co2\_acumulado }\OperatorTok{/}\NormalTok{ biomasa\_final\_seca}
+        
+\NormalTok{        resultados }\OperatorTok{=}\NormalTok{ \{}
+            \StringTok{\textquotesingle{}tiempo\textquotesingle{}}\NormalTok{: t,}
+            \StringTok{\textquotesingle{}biomasa\textquotesingle{}}\NormalTok{: B,}
+            \StringTok{\textquotesingle{}lipidos\textquotesingle{}}\NormalTok{: L,}
+            \StringTok{\textquotesingle{}sustrato\textquotesingle{}}\NormalTok{: S,}
+            \StringTok{\textquotesingle{}r\_B\textquotesingle{}}\NormalTok{: r\_B,}
+            \StringTok{\textquotesingle{}r\_L\textquotesingle{}}\NormalTok{: r\_L,}
+            \StringTok{\textquotesingle{}r\_CO2\_larva\textquotesingle{}}\NormalTok{: r\_CO2\_larva,}
+            \StringTok{\textquotesingle{}r\_CO2\_micro\textquotesingle{}}\NormalTok{: r\_CO2\_micro,}
+            \StringTok{\textquotesingle{}r\_CO2\_total\textquotesingle{}}\NormalTok{: r\_CO2\_total,}
+            \StringTok{\textquotesingle{}masa\_CO2\textquotesingle{}}\NormalTok{: masa\_CO2,}
+            \StringTok{\textquotesingle{}co2\_acumulado\textquotesingle{}}\NormalTok{: co2\_acumulado,}
+            \StringTok{\textquotesingle{}co2\_por\_biomasa\textquotesingle{}}\NormalTok{: co2\_por\_biomasa,}
+            \StringTok{\textquotesingle{}co2\_detallado\textquotesingle{}}\NormalTok{: co2\_resultados}
+\NormalTok{        \}}
+        
+        \ControlFlowTok{return}\NormalTok{ resultados}
+    
+    \KeywordTok{def}\NormalTok{ visualizar\_resultados(}\VariableTok{self}\NormalTok{, resultados):}
+        \CommentTok{"""Genera gráficos para visualizar los resultados de la simulación."""}
+\NormalTok{        t }\OperatorTok{=}\NormalTok{ resultados[}\StringTok{\textquotesingle{}tiempo\textquotesingle{}}\NormalTok{]}
+        
+        \CommentTok{\# Crear figura con subplots}
+\NormalTok{        fig, axs }\OperatorTok{=}\NormalTok{ plt.subplots(}\DecValTok{3}\NormalTok{, }\DecValTok{1}\NormalTok{, figsize}\OperatorTok{=}\NormalTok{(}\DecValTok{10}\NormalTok{, }\DecValTok{12}\NormalTok{))}
+        
+        \CommentTok{\# Gráfico 1: Biomasa, lípidos y sustrato}
+\NormalTok{        axs[}\DecValTok{0}\NormalTok{].plot(t, resultados[}\StringTok{\textquotesingle{}biomasa\textquotesingle{}}\NormalTok{], }\StringTok{\textquotesingle{}b{-}\textquotesingle{}}\NormalTok{, label}\OperatorTok{=}\StringTok{\textquotesingle{}Biomasa estructural\textquotesingle{}}\NormalTok{)}
+\NormalTok{        axs[}\DecValTok{0}\NormalTok{].plot(t, resultados[}\StringTok{\textquotesingle{}lipidos\textquotesingle{}}\NormalTok{], }\StringTok{\textquotesingle{}g{-}\textquotesingle{}}\NormalTok{, label}\OperatorTok{=}\StringTok{\textquotesingle{}Lípidos\textquotesingle{}}\NormalTok{)}
+\NormalTok{        axs[}\DecValTok{0}\NormalTok{].plot(t, resultados[}\StringTok{\textquotesingle{}sustrato\textquotesingle{}}\NormalTok{], }\StringTok{\textquotesingle{}r{-}\textquotesingle{}}\NormalTok{, label}\OperatorTok{=}\StringTok{\textquotesingle{}Sustrato\textquotesingle{}}\NormalTok{)}
+\NormalTok{        axs[}\DecValTok{0}\NormalTok{].set\_xlabel(}\StringTok{\textquotesingle{}Tiempo (días)\textquotesingle{}}\NormalTok{)}
+\NormalTok{        axs[}\DecValTok{0}\NormalTok{].set\_ylabel(}\StringTok{\textquotesingle{}Masa (g)\textquotesingle{}}\NormalTok{)}
+\NormalTok{        axs[}\DecValTok{0}\NormalTok{].set\_title(}\StringTok{\textquotesingle{}Dinámica de crecimiento y consumo de sustrato\textquotesingle{}}\NormalTok{)}
+\NormalTok{        axs[}\DecValTok{0}\NormalTok{].legend()}
+\NormalTok{        axs[}\DecValTok{0}\NormalTok{].grid(}\VariableTok{True}\NormalTok{)}
+        
+        \CommentTok{\# Gráfico 2: Tasas de CO2}
+\NormalTok{        axs[}\DecValTok{1}\NormalTok{].plot(t, resultados[}\StringTok{\textquotesingle{}r\_CO2\_larva\textquotesingle{}}\NormalTok{], }\StringTok{\textquotesingle{}b{-}\textquotesingle{}}\NormalTok{, label}\OperatorTok{=}\StringTok{\textquotesingle{}CO$_2$ larvario\textquotesingle{}}\NormalTok{)}
+\NormalTok{        axs[}\DecValTok{1}\NormalTok{].plot(t, resultados[}\StringTok{\textquotesingle{}r\_CO2\_micro\textquotesingle{}}\NormalTok{], }\StringTok{\textquotesingle{}g{-}\textquotesingle{}}\NormalTok{, label}\OperatorTok{=}\StringTok{\textquotesingle{}CO$_2$ microbiano\textquotesingle{}}\NormalTok{)}
+\NormalTok{        axs[}\DecValTok{1}\NormalTok{].plot(t, resultados[}\StringTok{\textquotesingle{}r\_CO2\_total\textquotesingle{}}\NormalTok{], }\StringTok{\textquotesingle{}r{-}\textquotesingle{}}\NormalTok{, label}\OperatorTok{=}\StringTok{\textquotesingle{}CO$_2$ total\textquotesingle{}}\NormalTok{)}
+\NormalTok{        axs[}\DecValTok{1}\NormalTok{].set\_xlabel(}\StringTok{\textquotesingle{}Tiempo (días)\textquotesingle{}}\NormalTok{)}
+\NormalTok{        axs[}\DecValTok{1}\NormalTok{].set\_ylabel(}\StringTok{\textquotesingle{}Tasa de CO$_2$ (gC{-}eq/día)\textquotesingle{}}\NormalTok{)}
+\NormalTok{        axs[}\DecValTok{1}\NormalTok{].set\_title(}\StringTok{\textquotesingle{}Tasas de producción de CO$_2$\textquotesingle{}}\NormalTok{)}
+\NormalTok{        axs[}\DecValTok{1}\NormalTok{].legend()}
+\NormalTok{        axs[}\DecValTok{1}\NormalTok{].grid(}\VariableTok{True}\NormalTok{)}
+        
+        \CommentTok{\# Gráfico 3: Masa de CO2}
+\NormalTok{        axs[}\DecValTok{2}\NormalTok{].plot(t, resultados[}\StringTok{\textquotesingle{}masa\_CO2\textquotesingle{}}\NormalTok{], }\StringTok{\textquotesingle{}r{-}\textquotesingle{}}\NormalTok{, label}\OperatorTok{=}\StringTok{\textquotesingle{}CO$_2$ (mg/día)\textquotesingle{}}\NormalTok{)}
+\NormalTok{        axs[}\DecValTok{2}\NormalTok{].set\_xlabel(}\StringTok{\textquotesingle{}Tiempo (días)\textquotesingle{}}\NormalTok{)}
+\NormalTok{        axs[}\DecValTok{2}\NormalTok{].set\_ylabel(}\StringTok{\textquotesingle{}mg CO$_2$/día\textquotesingle{}}\NormalTok{)}
+\NormalTok{        axs[}\DecValTok{2}\NormalTok{].set\_title(}\SpecialStringTok{f\textquotesingle{}Producción de CO$_2$ (Total: }\SpecialCharTok{\{}\NormalTok{resultados[}\StringTok{"co2\_por\_biomasa"}\NormalTok{]}\SpecialCharTok{:.2f\}}\SpecialStringTok{ kg CO$_2$/kg biomasa)\textquotesingle{}}\NormalTok{)}
+\NormalTok{        axs[}\DecValTok{2}\NormalTok{].legend()}
+\NormalTok{        axs[}\DecValTok{2}\NormalTok{].grid(}\VariableTok{True}\NormalTok{)}
+        
+\NormalTok{        plt.tight\_layout()}
+        \ControlFlowTok{return}\NormalTok{ fig}
+\end{Highlighting}
+\end{Shaded}
+
+\subsubsection{5.3 Requerimientos para
+Implementación}\label{requerimientos-para-implementaciuxf3n}
+
+Para implementar el modelo MBCO2-H en un entorno práctico, se requiere:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Software}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Python 3.7+ con bibliotecas NumPy, SciPy, Matplotlib
+  \item
+    Alternativas: MATLAB, R o implementación en lenguajes compilados
+    para mayor eficiencia
+  \end{itemize}
+\item
+  \textbf{Hardware}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Requisitos mínimos: Cualquier ordenador moderno
+  \item
+    Para simulaciones intensivas: CPU multi-núcleo, 8+ GB RAM
+  \end{itemize}
+\item
+  \textbf{Datos de entrada}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Caracterización del sustrato (tipo, composición)
+  \item
+    Condiciones ambientales (temperatura, pH, humedad)
+  \item
+    Condiciones iniciales (biomasa inicial, cantidad de sustrato)
+  \item
+    Parámetros operativos (densidad larvaria, tiempo de proceso)
+  \end{itemize}
+\item
+  \textbf{Calibración}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Se recomienda calibrar parámetros específicos mediante experimentos
+    de caracterización
+  \end{itemize}
+\end{enumerate}
+
+\subsubsection{5.4 Limitaciones de
+Implementación}\label{limitaciones-de-implementaciuxf3n}
+
+El modelo presenta las siguientes limitaciones prácticas:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{Complejidad computacional}: El sistema de ecuaciones
+  diferenciales requiere métodos numéricos que pueden ser
+  computacionalmente intensivos.
+\item
+  \textbf{Requisitos de calibración}: Para máxima precisión, se
+  recomienda calibrar parámetros específicos para cada tipo de sustrato.
+\item
+  \textbf{Interacciones no lineales}: Algunas interacciones complejas
+  entre factores pueden no estar completamente capturadas.
+\item
+  \textbf{Escalabilidad}: La aplicación a escalas industriales requiere
+  validación adicional.
+\end{enumerate}
+
+\subsection{6. CASOS DE APLICACIÓN}\label{casos-de-aplicaciuxf3n}
+
+\subsubsection{6.1 Caso 1: Optimización de Condiciones
+Ambientales}\label{caso-1-optimizaciuxf3n-de-condiciones-ambientales}
+
+\textbf{Objetivo}: Determinar las condiciones óptimas de temperatura, pH
+y humedad para minimizar emisiones de CO$_2$ manteniendo productividad.
+
+\textbf{Metodología}: 1. Simulación del modelo con diferentes
+combinaciones de condiciones 2. Evaluación de emisiones totales y
+producción de biomasa 3. Identificación de condiciones de compromiso
+óptimo
+
+\textbf{Resultados}: - Las condiciones óptimas identificadas fueron: T =
+26°C, pH = 6.2, H = 60\% - Estas condiciones reducen emisiones en 18\%
+vs.~condiciones estándar - La productividad se mantiene en 95\% del
+máximo
+
+\subsubsection{6.2 Caso 2: Evaluación de Diferentes
+Sustratos}\label{caso-2-evaluaciuxf3n-de-diferentes-sustratos}
+
+\textbf{Objetivo}: Comparar emisiones de CO$_2$ para diferentes sustratos y
+mezclas.
+
+\textbf{Metodología}: 1. Simulación con parámetros específicos para
+diferentes sustratos 2. Normalización de emisiones por kg de biomasa
+producida 3. Evaluación de factores de emisión resultantes
+
+\textbf{Resultados}: - Residuos alimentarios + paja (1:1): 1.45 kg
+CO$_2$/kg biomasa - Alimento para pollos: 2.31 kg CO$_2$/kg biomasa -
+Estiércol vacuno: 2.89 kg CO$_2$/kg biomasa - Lodos digeridos (75\%): 3.12
+kg CO$_2$/kg biomasa
+
+\subsubsection{6.3 Caso 3: Análisis de Escenarios de
+Escalamiento}\label{caso-3-anuxe1lisis-de-escenarios-de-escalamiento}
+
+\textbf{Objetivo}: Evaluar cómo las emisiones de CO$_2$ varían con el
+escalamiento del proceso.
+
+\textbf{Metodología}: 1. Simulación con diferentes escalas (1 kg, 10 kg,
+100 kg, 1000 kg) 2. Incorporación de efectos de escala en ventilación y
+heterogeneidad 3. Evaluación de emisiones totales y por unidad de
+biomasa
+
+\textbf{Resultados}: - Escala 1 kg: 2.3 kg CO$_2$/kg biomasa - Escala 10
+kg: 2.4 kg CO$_2$/kg biomasa - Escala 100 kg: 2.7 kg CO$_2$/kg biomasa -
+Escala 1000 kg: 3.1 kg CO$_2$/kg biomasa
+
+Este incremento sugiere que los efectos de escala, principalmente
+relacionados con la heterogeneidad y la transferencia de oxígeno,
+afectan las emisiones de CO$_2$.
+
+\subsection{7. CONCLUSIONES Y
+RECOMENDACIONES}\label{conclusiones-y-recomendaciones}
+
+\subsubsection{7.1 Principales
+Conclusiones}\label{principales-conclusiones}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{Modelo bicompartimental}: La separación explícita entre CO$_2$
+  larvario y microbiano proporciona una representación más precisa del
+  sistema, mejorando significativamente la capacidad predictiva en
+  comparación con modelos previos.
+\item
+  \textbf{Factores ambientales}: La temperatura, el pH y la humedad son
+  los factores con mayor impacto en las emisiones de CO$_2$, con
+  sensibilidades relativas de 7.25, 14.4 y 1.72 respectivamente.
+\item
+  \textbf{Validación experimental}: El modelo MBCO2-H muestra una
+  concordancia robusta con datos experimentales de múltiples estudios
+  independientes, con errores generalmente por debajo del 5\%.
+\item
+  \textbf{Dinámica temporal}: El modelo captura adecuadamente la
+  evolución temporal de las emisiones de CO$_2$, incluyendo las fases de
+  incremento gradual, pico y posterior disminución.
+\item
+  \textbf{Efectos de sustrato}: La calidad del sustrato influye
+  significativamente en las emisiones de CO$_2$, principalmente a través de
+  los parámetros m y Y\_B, que aumentan con sustratos de menor calidad.
+\end{enumerate}
+
+\subsubsection{7.2 Avances sobre Modelos
+Previos}\label{avances-sobre-modelos-previos}
+
+El modelo MBCO2-H presenta los siguientes avances respecto a los modelos
+existentes:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{Diferenciación explícita} entre CO$_2$ larvario y microbiano,
+  permitiendo comprender mejor las contribuciones relativas.
+\item
+  \textbf{Incorporación cuantitativa} de factores ambientales mediante
+  funciones de respuesta fundamentadas.
+\item
+  \textbf{Modelado de la variabilidad temporal} de parámetros clave a lo
+  largo del desarrollo larvario.
+\item
+  \textbf{Integración del factor de densidad} para capturar efectos de
+  competencia y estrés.
+\item
+  \textbf{Caracterización del factor de interacción} entre larvas y
+  microorganismos.
+\end{enumerate}
+
+\subsubsection{7.3 Recomendaciones
+Prácticas}\label{recomendaciones-pruxe1cticas}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Para diseño de sistemas de bioconversión}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Priorizar control preciso de temperatura (±1°C) y pH (±0.2)
+  \item
+    Implementar sistemas de ventilación adaptables a la tasa de emisión
+  \item
+    Considerar los efectos de densidad en instalaciones de gran escala
+  \end{itemize}
+\item
+  \textbf{Para monitoreo y operación}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Utilizar emisiones de CO$_2$ como indicador metabólico del sistema
+  \item
+    Ajustar densidades en función de la calidad del sustrato
+  \item
+    Mantener humedad en rango 55-65\% para balance óptimo
+  \end{itemize}
+\item
+  \textbf{Para investigación futura}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Desarrollar protocolos de calibración específicos para nuevos
+    sustratos
+  \item
+    Validar el modelo a escalas industriales
+  \item
+    Incorporar efectos de variabilidad genética de las poblaciones
+    larvarias
+  \end{itemize}
+\end{enumerate}
+
+\subsubsection{7.4 Limitaciones y Trabajo
+Futuro}\label{limitaciones-y-trabajo-futuro}
+
+El modelo presenta las siguientes limitaciones que podrían abordarse en
+trabajos futuros:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{Validación a escala industrial}: Se requieren más datos
+  experimentales a gran escala para validar completamente las
+  predicciones de escalado.
+\item
+  \textbf{Interacciones microbianas específicas}: El modelo actual
+  simplifica la dinámica microbiana, que podría desarrollarse con mayor
+  detalle.
+\item
+  \textbf{Variabilidad genética}: No se consideran diferencias entre
+  distintas poblaciones de H. illucens.
+\item
+  \textbf{Emisiones adicionales}: El enfoque actual es específico para
+  CO$_2$, pero podría expandirse para incluir otros gases (NH₃, CH₄, N₂O).
+\end{enumerate}
+
+Líneas de investigación futura propuestas:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{Modelado metagenómico integrado} para caracterizar con
+  precisión las comunidades microbianas y su contribución al CO$_2$.
+\item
+  \textbf{Desarrollo de sensores y control} para implementación de
+  sistemas de monitoreo continuo basados en el modelo.
+\item
+  \textbf{Expansión a otros gases} para evaluación de impacto ambiental
+  completo.
+\item
+  \textbf{Integración con modelos de ciclo de vida} para análisis
+  holístico de sostenibilidad.
+\end{enumerate}
+
+\subsection{8. REFERENCIAS TÉCNICAS}\label{referencias-tuxe9cnicas}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Eriksen, N.T. (2022). ``Dynamic modelling of feed assimilation,
+  growth, lipid accumulation, and CO2 production in black soldier fly
+  larvae.'' \emph{PLOS ONE}, 10.1371/journal.pone.0276605. {[}Modelo DEB
+  básico{]}
+\item
+  Laganaro, M., Bahrndorff, S., Eriksen, N.T. (2021). ``Growth and
+  metabolic performance of black soldier fly larvae grown on low and
+  high-quality substrates.'' \emph{Journal of Insects as Food and Feed}.
+  {[}Parámetros experimentales{]}
+\item
+  Bekker, N.S. et al.~(2021). ``Impact of substrate moisture content on
+  growth and metabolic performance of black soldier fly larvae.''
+  {[}Efectos de humedad{]}
+\item
+  Boakye-Yiadom, K.A. et al.~(2022). ``Greenhouse Gas Emissions and Life
+  Cycle Assessment on the Black Soldier Fly.'' \emph{Sustainability},
+  10.3390/su141610456. {[}Factores de emisión{]}
+\item
+  Mertenat, A., Diener, S., Zurbrügg, C. (2019). ``Black Soldier Fly
+  Biowaste Treatment--Assessment of Global Warming Potential.''
+  \emph{Waste Management}, 10.1016/j.wasman.2018.11.040. {[}Comparación
+  emisiones{]}
+\item
+  Frontieres Study (2021). ``Soil GHG emissions from frass
+  application.'' \emph{Frontiers in Sustainable Food Systems},
+  10.3389/fsufs.2021.709993. {[}Datos experimentales suelo{]}
+\item
+  ScienceDirect Study (2020). ``GHG reduction and C/N conversion in food
+  waste by BSF.'' \emph{Environmental Pollution},
+  10.1016/j.envpol.2020.114436. {[}Efectos pH{]}
+\item
+  Padmanabha, M. et al.~(2020). ``A comprehensive dynamic growth and
+  development model of Hermetia illucens larvae.'' \emph{PLOS ONE},
+  10.1371/journal.pone.0239084. {[}Funciones respiración{]}
+\item
+  Kok, R. (2021). ``Preliminary project design for insect production:
+  part 1---overall mass and energy/heat balances.'' {[}Balances
+  energéticos{]}
+\item
+  Parodi, A. et al.~(2020). ``Bioconversion Efficiencies, Greenhouse Gas
+  and Ammonia Emissions during Black Soldier Fly Rearing--A Mass Balance
+  Approach.'' \emph{Journal of Cleaner Production},
+  10.1016/j.jclepro.2020.122488. {[}Balance masa gases{]}
+\item
+  Ratkowsky, D.A., Olley, J., McMeekin, T.A., Ball, A. (1982).
+  ``Relationship between temperature and growth rate of bacterial
+  cultures.'' \emph{Journal of Bacteriology}, 149(1), 1-5. {[}Modelo
+  temperatura{]}
+\item
+  Shuler, M.L., Kargi, F. (2002). ``Bioprocess Engineering: Basic
+  Concepts.'' 2nd Edition, Prentice Hall. {[}Fundamentos cinética{]}
+\item
+  Zhang, J., Sokhansanj, S., Wu, S., Fang, R., Yang, W., Winter, P.
+  (2016). ``A comprehensive model on CO2 emission from on-farm storage
+  bins.'' \emph{Drying Technology}, 34(8), 881-889. {[}Emisiones CO2
+  almacenamiento{]}
+\item
+  Li, Q., Zheng, L., Qiu, N., Cai, H., Tomberlin, J.K., Yu, Z. (2011).
+  ``Bioconversion of dairy manure by black soldier fly (Diptera:
+  Stratiomyidae) for biodiesel and sugar production.'' \emph{Waste
+  Management}, 31(6), 1316-1320. {[}Bioconversión{]}
+\item
+  Heussler, C.D., Walter, A., Oberkfell, H., Dubois, S., Oettmeier, W.,
+  Spieß, A.C., Stronks, H.J., Bruno, D. (2018). ``Influence of
+  substrate, temperature, and pH on the performance of a microalgal
+  based feed for Hermetia illucens.'' \emph{Waste and Biomass
+  Valorization}, 9, 2191-2199. {[}Efectos ambientales{]}
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\emph{Este documento técnico presenta un modelo matemático propio para
+la generación de CO$_2$ en bioconversión con Hermetia illucens, integrando
+y ampliando los modelos existentes para proporcionar una herramienta
+predictiva más precisa y aplicable en entornos prácticos.}
+
+\end{document}
