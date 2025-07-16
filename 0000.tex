@@ -74,6 +74,7 @@
 \usepackage{chemformula}
 \usepackage{chemfig}
 \usepackage{chemmacros}
+\usepackage{csquotes}
 
 %Genera los comandos de la página de autoría
 \newcommand{\studentname}{}
@@ -98,23 +99,23 @@
 %Información de la tesis
 %Diligenciar aquí los datos para su carga automática donde se requiera en el documento
 \renewcommand{\studentname}{John Jairo Leal Gómez}
-\renewcommand{\thesisname}{Sistema Inteligente para el Modelado y Predicción de Emisiones de GEI en la Bioconversión de Residuos con Hermetia illucens}
+\renewcommand{\thesisname}{Sistema Inteligente para el Modelado y Predicción de Emisiones de GEI en la Bioconversión de Residuos con \textit{Hermetia illucens}}
 \renewcommand{\issuedate}{2025}
 \renewcommand{\submissiondate}{Abril}
 \renewcommand{\director}{Director Dr. Luis Octavio González Salcedo}
 \renewcommand{\codirector}{Codirector Dr. Luis Fernando Mejía Rodríguez }
-\renewcommand{\codirectora}{Codirector Dr. Sorany Milena Barrientos Grajales }
+\renewcommand{\codirectora}{Codirector Dra. Sorany Milena Barrientos Grajales }
 \renewcommand{\academictitle}{Doctor (PhD)  }
 \renewcommand{\resgroupone}{Grupo A (Sigla Grupo Investigación 01) }
 \renewcommand{\resgrouptwo}{Grupo B (Sigla Grupo Investigación 02) }
 \renewcommand{\researchtopic}{Línea}
 \renewcommand{\sede}{Sede Palmira} 
-\renewcommand{\department}{Departamento de Ciencias Básicas}
+\renewcommand{\department}{Doctorado en Estudios Ambientales}
 \renewcommand{\faculty}{Facultad de Ingeniería y Administración}
 
 %Palabras clave del documento - Tener presente los Theasurus https://www.thesaurus.com/
 %Disponible en 3 idiomas aunque se puede extender a francés o otro idioma
-\renewcommand{\palabrasclave}{Modelamiento matemático, Hermetia Illucens, IOT, Algoritmos de Aprendizaje Automático} 
+\renewcommand{\palabrasclave}{Modelamiento matemático, \textit{Hermetia Illucens}, IOT, Algoritmos de Aprendizaje Automático} 
 \renewcommand{\keywords}{Use keywords available in Theasaurus}
 %\renewcommand{\schlusselworter}{}
 %\renewcommand{\palavraschave}{}
@@ -280,7 +281,8 @@ myedge/.style={->, -{Latex[#1]}}
 Ambientales.}} \\[2cm]
 
 % Información del director y codirector
-{\large \textbf{\director}} \\%[2.5cm]
+{\large \textbf{\director}} \\[2.5cm]
+{\large \textbf{Codirectores}}\\
 {\large \textbf{\codirector}} \\
 {\large \textbf{\codirectora}} \\[2.5cm]
 
@@ -294,7 +296,7 @@ Ambientales.}} \\[2cm]
 %\rule{\textwidth}{0.8pt} \\[0.5cm]
 
 % Fecha de emisión
-{\large \textbf{\issuedate}} \\[0.5cm]
+{\large \textbf{Julio, \issuedate}} \\[0.5cm]
 \end{center}
 }
 % \newpage
@@ -411,6 +413,5 @@ Ambientales.}} \\[2cm]
 % Nombre del documento donde se almacenan las referencias
 \printbibliography
 %\nocite{*} % Incluye todas las referencias, incluso las no citadas
-
 
 \end{document}

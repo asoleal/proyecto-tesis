@@ -2,9 +2,11 @@
 
 \section{Ubicación}
 
-Palmira, ubicada en el departamento de Valle del Cauca, Colombia, se encuentra a una altitud de aproximadamente 1,001 metros sobre el nivel del mar y cuenta con un clima cálido tropical de sabana, con una temperatura promedio anual de 27°C. La ciudad es un centro clave para la investigación agrícola y el desarrollo de tecnologías sostenibles, albergando múltiples iniciativas científicas enfocadas en la mitigación del cambio climático y la eficiencia en el uso de recursos naturales.
+El experimento se desarrollará en la sede Palmira de la Universidad Nacional de Colombia, ubicada en el municipio de Palmira, Valle del Cauca, ver figura \ref{fig:localizacion}. La ciudad se encuentra en la zona suroriental del departamento, a una altitud aproximada de 1.000 metros sobre el nivel del mar (msnm). Su clima corresponde a un ecosistema de bosque tropical seco, con una temperatura media anual de $24^\circ C$ y una precipitación que varía entre $900$ y $1.000$ mm.
 
-El proyecto se desarrollará principalmente en las instalaciones del Centro Internacional de Agricultura Tropical (CIAT), ubicado en Palmira. Dentro del CIAT, las actividades estarán concentradas en el laboratorio de Economía Circular, donde se realizarán las pruebas y validaciones del sistema de medición de gases de efecto invernadero (GEI), ver figura \ref{fig:localizacion}.
+La localización de la sede universitaria en la zona plana del municipio ofrece condiciones climáticas, geográficas y agrícolas, adecuadas para el desarrollo de experimentos con procesos de bioconversión, lo cual favorece la representatividad de los resultados en contextos agroindustriales de clima cálido.
+
+%El proyecto se desarrollará principalmente en las instalaciones del Centro Internacional de Agricultura Tropical (CIAT), ubicado en Palmira. Dentro del CIAT, las actividades estarán concentradas en el laboratorio de Economía Circular, donde se realizarán las pruebas y validaciones del sistema de medición de gases de efecto invernadero (GEI), ver figura \ref{fig:localizacion}.
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{00Figuras/localizacion.png}
@@ -12,35 +14,32 @@ El proyecto se desarrollará principalmente en las instalaciones del Centro Inte
     \label{fig:localizacion}
 \end{figure}
 
-
-Adicionalmente, se llevarán a cabo pruebas de campo en áreas agrícolas cercanas con el objetivo de validar el sistema en condiciones reales de emisión de GEI y evaluar su desempeño en distintos escenarios agroambientales. Estas pruebas permitirán recopilar datos clave para analizar el impacto de la tecnología en la reducción de emisiones y en la mejora de la gestión ambiental del sector agrícola.
-
 \section{Enfoque y Tipo de Investigación}
 
-Este estudio se enmarca dentro de una investigación \textbf{aplicada, experimental, tecnológica e interdisciplinaria}, orientada al diseño, desarrollo y validación de un sistema inteligente para la medición, modelado y predicción de emisiones de gases de efecto invernadero (GEI), particularmente dióxido de carbono (CO$_2$) y metano (CH$_4$), durante el proceso de bioconversión de residuos orgánicos mediante \textit{Hermetia illucens}.
+Este estudio se enmarca dentro de una investigación \textbf{aplicada, experimental, tecnológica e interdisciplinaria}, orientada al diseño, desarrollo y validación de un sistema inteligente para la medición, modelado y predicción de emisiones de gases de efecto invernadero (GEI), particularmente dióxido de carbono CO$_2$ y metano CH$_4$, durante el proceso de bioconversión de residuos orgánicos mediante \textit{BSF}.
 
-El enfoque de la investigación es \textbf{cuantitativo y deductivo}, ya que se fundamenta en la recopilación sistemática de datos numéricos a través de sensores IoT, el análisis de dichos datos mediante algoritmos de aprendizaje automático (AAA) y la formulación de modelos matemáticos basados en ecuaciones diferenciales ordinarias (EDO). Esta combinación de técnicas permite tanto la descripción como la predicción del comportamiento del sistema bajo diferentes condiciones ambientales.
+El enfoque de la investigación es \textbf{cuantitativo y deductivo}, ya que se fundamenta en la recopilación sistemática de datos numéricos a través de sensores con IoT, el análisis de dichos datos mediante algoritmos de aprendizaje automático (AAA) y la formulación de modelos matemáticos basados en ecuaciones diferenciales ordinarias (EDO). Esta combinación de técnicas permite tanto la descripción como la predicción del comportamiento del sistema bajo diferentes condiciones ambientales.
 
 La metodología se estructura en \textbf{tres fases principales}:
 \begin{enumerate}
-    \item \textbf{Diseño e implementación} de una red de sensores IoT para el monitoreo en tiempo real de variables ambientales críticas como temperatura, humedad, pH y concentraciones de GEI.
+    \item \textbf{Diseño e implementación} de una red de sensores con IoT para el monitoreo en tiempo real de variables ambientales críticas como temperatura, humedad y concentraciones de GEI.
     \item \textbf{Desarrollo de modelos híbridos} que integren ecuaciones diferenciales y algoritmos de aprendizaje automático, con el objetivo de simular y predecir dinámicas de emisión durante el proceso de bioconversión.
     \item \textbf{Validación experimental y evaluación del sistema}, mediante ensayos controlados que permitan calibrar los modelos, verificar la confiabilidad del sistema y demostrar su aplicabilidad en contextos agrícolas y agroindustriales.
 \end{enumerate}
 
-De esta manera, el estudio adopta una perspectiva \textbf{tecnocientífica}, en la que convergen elementos de la ingeniería ambiental, la biotecnología, la inteligencia artificial y el modelamiento matemático, con el fin de aportar soluciones innovadoras para la gestión sostenible de residuos y la mitigación del cambio climático.
+De esta manera, el estudio se presenta desde una perspectiva \textbf{tecnocientífica}, en la que integra saberes como la ingeniería ambiental, la biotecnología, la inteligencia artificial y el modelamiento matemático, con el fin de aportar soluciones innovadoras para la gestión sostenible de residuos y aportar a la mitigación del cambio climático.
 
 \section{Materiales y Métodos}
 
 El proyecto se desarrollará en \textit{tres fases interconectadas}, cada una diseñada para abordar componentes clave del sistema propuesto:
 
-\subsection{Fase I: Diseño e Implementación del Sistema de Sensores IoT}
+\subsection{Fase I: Diseño e Implementación del Sistema de sensores con IoT}
 
-En esta fase se diseñará e implementará una red de sensores basada en Internet de las Cosas (IoT) para medir en tiempo real variables ambientales críticas como temperatura, humedad, pH y las concentraciones de gases de efecto invernadero ($CO_2$ y $CH_4$) durante el proceso de bioconversión con \textit{Hermetia illucens}. Los sensores seleccionados serán calibrados y evaluados en términos de precisión, estabilidad y confiabilidad, asegurando su integración con una plataforma de almacenamiento en la nube. Esta fase proporcionará la base de datos necesaria para entrenar y validar los modelos de aprendizaje automático en la Fase II.
+En esta fase se diseñará e implementará una red de sensores basada en Internet de las Cosas (IoT) para medir en tiempo real variables ambientales críticas como temperatura, humedad y las concentraciones de GEI como CO$_2$ y CH$_4$ durante el proceso de bioconversión con \textit{BSF}. Los sensores seleccionados serán calibrados y evaluados en términos de precisión, estabilidad y confiabilidad, asegurando su integración con una plataforma de almacenamiento en la nube. Esta fase proporcionará la base de datos necesaria para entrenar y validar los modelos de aprendizaje automático en la Fase II.
 
 \textbf{Actividades:}
 \begin{itemize}
-    \item Diseño e implementación de la red de sensores IoT para capturar variables ambientales y gases GEI.
+    \item Diseño e implementación de la red de sensores con IoT para capturar variables ambientales y gases GEI.
     \item Selección, calibración y validación de los sensores en condiciones controladas.
     \item Configuración de la comunicación segura entre los sensores y la plataforma de almacenamiento en la nube.
     \item Realización de pruebas iniciales de integración del sistema completo de adquisición de datos.
@@ -55,21 +54,11 @@ Como parte del sistema de adquisición de datos, se diseñará un conjunto de di
 Se utilizarán sensores infrarrojos no dispersivos (NDIR) por su alta selectividad y estabilidad frente a interferencias ambientales. Los sensores seleccionados son:
 
 \begin{itemize}
-    \item \textbf{Sensor de dióxido de carbono (\ch{CO2})}: Winsen MH-410D, con un rango de detección de 0--5000 ppm y resolución de ±50 ppm.
-    \item \textbf{Sensor de metano (\ch{CH4})}: Winsen MH-441D, con un rango de detección de 0--10\% en volumen y resolución de 0.01\%.
+    \item \textbf{Sensor de dióxido de carbono CO$_2$}: Winsen MH-410D, con un rango de detección de 0-5000 ppm y resolución de ±50 ppm.
+    \item \textbf{Sensor de metano CH$_4$}: Winsen MH-441D, con un rango de detección de 0-10\% en volumen y resolución de 0.01\%.
 \end{itemize}
 
-Estos sensores permitirán cuantificar en tiempo real las emisiones de GEI generadas durante el proceso de descomposición y metabolización de residuos por las larvas de \textit{Hermetia illucens}.
-
-\subsubsection{Sensores para la Medición de Variables Ambientales}
-
-Para completar el monitoreo del entorno, se incorporarán sensores que permitan evaluar condiciones clave para la eficiencia del proceso:
-
-\begin{itemize}
-    \item \textbf{Temperatura y humedad}: Sensor DHT22, con precisión de ±0.5$^\circ$C para temperatura y ±2\% para humedad relativa.
-    \item \textbf{Iluminación}: Sensor BH1750, rango de detección de 1--65535 lux.
-    \item \textbf{pH y nutrientes (NPK)}: Sensor CWT Soil Sensor, útil para evaluar la calidad y características químicas del sustrato.
-\end{itemize}
+Estos sensores permitirán cuantificar en tiempo real las emisiones de GEI generadas durante el proceso de descomposición y metabolización de residuos por las larvas de \textit{BSF}.
 
 \subsubsection{Microcontroladores y Diseño Electrónico}
 
@@ -87,36 +76,15 @@ Se implementará una red de comunicaciones eficiente, adaptable a distintos esce
 Los dispositivos estarán configurados para enviar datos en tiempo real a una plataforma centralizada en la nube, lo que permitirá su análisis, almacenamiento y visualización mediante interfaces de control y monitoreo.
 \subsection{Fase II: Desarrollo e Implementación de Modelos Matemáticos de Predicción}
 
-Esta fase tiene como objetivo construir modelos matemáticos que permitan describir y predecir el comportamiento dinámico del proceso de bioconversión de residuos orgánicos mediado por \textit{Hermetia illucens}, particularmente en lo relacionado con la generación de gases de efecto invernadero (GEI), como $CO_2$ y $CH_4$. Se empleará un enfoque de modelamiento mecanístico basado en ecuaciones diferenciales ordinarias (EDO), que será complementado posteriormente con modelos híbridos alimentados por datos empíricos obtenidos en la Fase I.
+Esta fase tiene como objetivo construir modelos matemáticos que permitan describir y predecir el comportamiento dinámico del proceso de bioconversión de residuos orgánicos mediado por \textit{BSF}, particularmente en lo relacionado con la generación de GEI, como CO$_2$ y CH$_4$. Se empleará un enfoque de modelamiento matemático basado en ecuaciones diferenciales ordinarias (EDO), que será complementado posteriormente con modelos híbridos alimentados por datos obtenidos en la Fase I.
 
 \textbf{Actividades:}
 \begin{itemize}
     \item Revisión crítica de modelos existentes en la literatura (Monod, Haldane, DEB, etc.) aplicables al metabolismo larval y la descomposición de materia orgánica.
-    \item Formulación de modelos EDO que describan las tasas de generación de $CO_2$ y $CH_4$ como función del tiempo, la biomasa larval, el tipo de sustrato, la humedad y la temperatura.
-    \item Definición de condiciones iniciales y parámetros del sistema con base en datos empíricos recolectados por los sensores IoT.
+    \item Revisión de los modelos con EDOs que describan las tasas de generación de CO$_2$ y CH$_4$ como función del tiempo, la biomasa larval, el tipo de sustrato, la humedad y la temperatura.
+    \item Definición de condiciones iniciales y parámetros del sistema con base en datos empíricos recolectados por los sensores con IoT y la literatura.
     \item Implementación computacional del modelo utilizando software como Python (SciPy, NumPy) o MATLAB.
     \item Calibración y validación del modelo mediante comparación con datos experimentales.
-\end{itemize}
-
-\subsubsection{Modelo Propuesto}
-
-Se propondrá un sistema de ecuaciones diferenciales del tipo:
-
-\begin{align}
-    \frac{dB(t)}{dt} &= \mu(T, H, S) \cdot B(t) - \delta \cdot B(t) \\
-    \frac{dC_{CO_2}(t)}{dt} &= \alpha_1 \cdot B(t) + \beta_1 \cdot M(t) \\
-    \frac{dC_{CH_4}(t)}{dt} &= \alpha_2 \cdot M(t)
-\end{align}
-
-Donde:
-
-\begin{itemize}
-    \item $B(t)$: biomasa larval en el tiempo $t$.
-    \item $M(t)$: masa de sustrato disponible.
-    \item $\mu(T, H, S)$: función de crecimiento dependiente de temperatura ($T$), humedad ($H$) y tipo de sustrato ($S$).
-    \item $\delta$: tasa de mortalidad o conversión no efectiva.
-    \item $C_{CO_2}(t)$ y $C_{CH_4}(t)$: concentraciones acumuladas de gases.
-    \item $\alpha_1$, $\alpha_2$, $\beta_1$: coeficientes de emisión a calibrar experimentalmente.
 \end{itemize}
 
 \subsubsection{Análisis y Simulación}
@@ -127,18 +95,17 @@ Los resultados de esta fase permitirán:
 
 \begin{itemize}
     \item Simular diferentes escenarios de operación (e.g., cambios de temperatura, humedad o tipo de residuo).
-    \item Determinar condiciones óptimas para maximizar la eficiencia de la bioconversión y minimizar las emisiones de GEI.
-    \item Generar datos sintéticos para mejorar el entrenamiento de modelos de aprendizaje automático en la Fase III.
+    \item Determinar condiciones para mejorar la eficiencia en el proceso de bioconversión y determinar las emisiones de GEI.
+    \item Generar datos para mejorar el entrenamiento de modelos de aprendizaje automático en la Fase III.
 \end{itemize}
 
-\textbf{Resultado esperado:} un modelo matemático predictivo validado, capaz de estimar la evolución de emisiones de $CO_2$ y $CH_4$ en función de las condiciones del proceso, y que pueda ser integrado a una arquitectura de monitoreo inteligente.
+\textbf{Resultado esperado:} un modelo matemático predictivo validado, capaz de estimar la evolución de emisiones de CO$_2$ y CH$_4$ en función de las condiciones del proceso, y que pueda ser integrado a una arquitectura de monitoreo inteligente.
 
 
 \subsection{Fase III: Integración de Modelos Matemáticos y de Aprendizaje Automático para Predicción y Control}
 
-En esta fase se integrarán los modelos matemáticos desarrollados en la Fase II con técnicas de aprendizaje automático (AAA), conformando un sistema híbrido de predicción y análisis diseñado para optimizar el proceso de bioconversión de residuos orgánicos mediante \textit{Hermetia illucens}. Esta integración permitirá validar la coherencia de las predicciones frente a datos experimentales, además de mejorar la capacidad adaptativa del sistema ante condiciones ambientales cambiantes en tiempo real.
+En esta fase se integrarán los modelos matemáticos formulados en la Fase II con técnicas de aprendizaje automático (AAA), conformando un sistema híbrido orientado a la predicción y control del proceso de bioconversión de residuos orgánicos mediante \textit{BSF}. Esta integración busca validar la consistencia de las predicciones frente a datos experimentales, así como mejorar la capacidad adaptativa del sistema ante variaciones ambientales en tiempo real.
 
-El modelo matemático, basado en ecuaciones diferenciales ordinarias (EDO), describe la dinámica de crecimiento de la biomasa larval y la generación de gases como funciones dependientes de variables críticas tales como temperatura, humedad, tipo de sustrato y concentración de oxígeno. Estas ecuaciones estructuradas se alimentarán con datos empíricos obtenidos por los sensores IoT implementados en la Fase I. A partir de estos datos, se entrenarán modelos de aprendizaje automático que permitirán robustecer las predicciones, facilitar la detección de patrones y habilitar mecanismos de control inteligente del sistema.
 
 \textbf{Actividades principales:}
 \begin{itemize}
@@ -147,7 +114,7 @@ El modelo matemático, basado en ecuaciones diferenciales ordinarias (EDO), desc
     \item Evaluación de modelos de aprendizaje automático seleccionados bajo criterios de eficiencia, interpretabilidad y adecuación al tipo de datos recolectados. En particular, se emplearán:
     \begin{itemize}
         \item \textbf{Regresión lineal múltiple}, para modelar relaciones cuantitativas entre variables ambientales y emisiones.
-        \item \textbf{Árboles de decisión}, por su capacidad de capturar relaciones no lineales y generar reglas de decisión comprensibles.
+       % \item \textbf{Árboles de decisión}, por su capacidad de capturar relaciones no lineales y generar reglas de decisión comprensibles.
         \item \textbf{Redes neuronales multicapa (MLP)}, utilizadas únicamente si se cuenta con una base de datos amplia y representativa, con el fin de mejorar la capacidad de predicción bajo condiciones complejas y dinámicas.
     \end{itemize}
     \item Entrenamiento y validación de los modelos utilizando métricas estadísticas como el error cuadrático medio (MSE).
@@ -159,11 +126,11 @@ El modelo matemático, basado en ecuaciones diferenciales ordinarias (EDO), desc
 Los modelos híbridos se implementarán utilizando una arquitectura que combine:
 
 \begin{itemize}
-    \item \textbf{Modelos mecanísticos} (de base matemática): permiten la simulación detallada de las relaciones causales en el proceso.
+    \item \textbf{Modelos mecanicistas} (de base matemática): permiten la simulación detallada de las relaciones causales en el proceso.
     \item \textbf{Modelos empíricos} (AAA): capturan patrones en datos complejos y permiten predicciones rápidas bajo nuevas condiciones.
 \end{itemize}
 
-Los datos generados por los sensores IoT serán utilizados como entradas para ambos modelos, los cuales operarán de manera paralela y complementaria. El modelo matemático proporcionará una simulación inicial de referencia, mientras que el AAA ajustará sus predicciones con base en datos históricos y en tiempo real.
+Los datos generados por los sensores con IoT serán utilizados como entradas para ambos modelos, los cuales operarán de manera paralela y complementaria. El modelo matemático proporcionará una simulación inicial de referencia, mientras que el AAA ajustará sus predicciones con base en datos históricos y en tiempo real.
 
 \subsubsection*{Evaluación Comparativa}
 
@@ -179,58 +146,51 @@ Se utilizará validación cruzada k-fold y ajuste de hiperparámetros con búsqu
 
 \subsubsection*{Resultado esperado}
 
-El resultado de esta fase será un sistema inteligente de predicción y control, basado en la integración de modelamiento matemático con algoritmos de aprendizaje automático. Este sistema permitirá realizar ajustes en tiempo real en las condiciones del proceso, facilitando una gestión más eficiente, robusta y sostenible de la bioconversión de residuos con \textit{Hermetia illucens}, así como una estimación más precisa de las emisiones de GEI.
+El resultado de esta fase será un sistema inteligente de predicción y control, basado en la integración de modelamiento matemático con algoritmos de aprendizaje automático. Este sistema permitirá realizar ajustes en tiempo real en las condiciones del proceso, facilitando una gestión más eficiente, robusta y sostenible de la bioconversión de residuos con \textit{BSF}, así como una estimación más precisa de las emisiones de GEI.
 
 \subsection{Fase IV: Implementación y Validación del Sistema de Reporte y MRV}
-Esta fase final está orientada a la implementación operativa del sistema inteligente desarrollado en las fases anteriores, centrado en la visualización, trazabilidad y validación de datos ambientales y de emisiones de GEI. Se desarrollará e integrará un sistema de Medición, Reporte y Verificación (MRV) conforme a estándares internacionales, que permita cuantificar de forma precisa y transparente las emisiones generadas durante el proceso de bioconversión con Hermetia illucens.
-
-Este sistema estará sustentado en los modelos matemáticos y de aprendizaje automático previamente validados, alimentado por los datos en tiempo real provenientes de la red de sensores IoT, y desplegado mediante una plataforma web de visualización y análisis. La validación experimental del sistema incluirá ensayos en condiciones reales, análisis de coherencia entre predicción y medición, y pruebas de estabilidad del sistema de reporte.
+Esta fase final se centrará en la implementación operativa del sistema inteligente, mediante un módulo de Medición, Reporte y Verificación (MRV) o plataforma web, los sensores con IoT, el modelo matemático con EDO, y los algoritmos de aprendizaje automático.  
 
 Actividades:
 \begin{itemize}
 \item Desarrollo de una interfaz digital interactiva para la visualización en tiempo real de variables críticas y emisiones estimadas.
 \item Integración del sistema MRV con los modelos híbridos de predicción (matemático + AAA), garantizando la consistencia y trazabilidad de los datos.
 \item Ejecución de pruebas para evaluar el rendimiento del sistema.
-\item Validación del sistema mediante comparación entre emisiones estimadas y mediciones de referencia, con análisis estadístico de desempeño.
-\item Documentación de resultados, ajustes finales al sistema y recomendaciones para su escalabilidad y replicabilidad en otras aplicaciones productivas.
+\item Validación del sistema mediante comparación entre emisiones estimadas y mediciones de referencia.
+\item Documentación de resultados, ajustes finales al sistema y recomendaciones para desarrollar otras aplicaciones.
 \end{itemize}
 
-Esta fase permitirá demostrar la eficacia y aplicabilidad del sistema completo, no solo como una herramienta de monitoreo y control, sino como una base tecnológica para la formulación de estrategias de mitigación climática, en el marco de una economía circular y sostenible.
+Esta fase permitirá mostrar la eficacia y aplicabilidad del sistema completo, no solo como una herramienta de monitoreo, sino como una base tecnológica para la formulación de estrategias de mitigación climática, en el marco de una economía circular y sostenible.
 
 
 \section{Diseño e Implementación del Sistema de Captura y Análisis de Datos}
-Como componente central de esta investigación, se diseñará e implementará un sistema inteligente de captura, almacenamiento y análisis de datos, fundamentado en tecnologías IoT, modelos matemáticos y algoritmos de aprendizaje automático (AAA). Este sistema permitirá el monitoreo continuo y en tiempo real de variables ambientales clave —como temperatura, humedad, pH y concentración de GEI (CO$_2$ y CH$_4$)— durante el proceso de bioconversión con Hermetia illucens.
+Como eje central de la tesis, se diseñará e implementará un sistema inteligente de captura, almacenamiento y análisis de datos, fundamentado en tecnologías IoT, modelos matemáticos y algoritmos de aprendizaje automático (AAA). El cual permitirá el monitoreo continuo y en tiempo real de variables ambientales clave, como temperatura, humedad y concentración de GEI CO$_2$ y CH$_4$, durante el proceso de bioconversión con \textit{BSF}.
 
 La arquitectura del sistema estará compuesta por:
+\begin{itemize}
+\item Sensores con IoT calibrados para la adquisición de datos ambientales y de emisiones de gases.
 
-Sensores IoT calibrados para la adquisición de datos ambientales y de emisiones de gases.
+\item Microcontroladores embebidos (ESP32) para el procesamiento inicial de datos y su transmisión inalámbrica.
 
-Microcontroladores embebidos (ESP32) para el procesamiento inicial de datos y su transmisión inalámbrica.
+\item Plataforma de almacenamiento en la nube para la estructuración y respaldo de datos históricos.
 
-Plataforma de almacenamiento en la nube para la estructuración y respaldo de datos históricos.
+\item Módulos de análisis de datos donde se ejecutarán los modelos matemáticos y los algoritmos AAA para predecir y ajustar condiciones de operación en tiempo real.
 
-Módulos de análisis de datos donde se ejecutarán los modelos matemáticos y los algoritmos AAA para predecir y ajustar condiciones de operación en tiempo real.
+\item Interfaz web de visualización y control, que facilitará la supervisión del sistema, generación de alertas y la toma de decisiones informadas.
+\end{itemize}
 
-Interfaz web de visualización y control, que facilitará la supervisión del sistema, generación de alertas y la toma de decisiones informadas.
-
-Los modelos de aprendizaje automático serán entrenados utilizando las bases de datos generadas por los propios sensores, asegurando así que los algoritmos se ajusten a las condiciones específicas del entorno experimental. Estos modelos se evaluarán con base en métricas como el error cuadrático medio (MSE) y el coeficiente de determinación ($R^2$), lo que permitirá seleccionar las configuraciones más precisas y robustas.
-
-Además, la validación del sistema se llevará a cabo en condiciones controladas, comparando los resultados obtenidos con métodos de referencia. Esto permitirá no solo verificar la eficacia del sistema para la cuantificación precisa de emisiones de GEI, sino también evaluar su aplicabilidad práctica y potencial de escalabilidad en contextos productivos reales.
-
-Esta integración tecnológica contribuirá al desarrollo de un sistema de medición autónomo, confiable y replicable, que pueda servir como base para la formulación de políticas de mitigación, estrategias de economía circular y mecanismos de compensación de emisiones.
+Dado que se utilizará un entorno controlado, los algoritmos de aprendizaje automático serán entrenados con los datos generados directamente por los sensores, lo que permitirá ajustar los modelos a las condiciones reales del sistema. La evaluación del desempeño se hará utilizando métricas como el error cuadrático medio (MSE) y el coeficiente de determinación ($R^2$), con el fin de seleccionar mejores configuraciones. La validación se complementará mediante la comparación con métodos de referencia, lo que permitirá verificar que tan exacta es la medición del sistema diseñado en la estimación de emisiones de GEI y su aplicabilidad en escenarios productivos. 
 
 \section{Criterios de Validación}
 Para garantizar la robustez, precisión y aplicabilidad del sistema de medición y modelamiento propuesto, se establecerán criterios de validación específicos en cada uno de sus componentes. Estos criterios permitirán verificar tanto la calidad de los datos obtenidos como el desempeño de los modelos y la confiabilidad general del sistema.
 
 \begin{itemize}
-\item \textbf{Precisión y calibración de sensores IoT}: Se evaluará la exactitud de los sensores mediante comparación directa con equipos de laboratorio certificados (método de referencia), aplicando pruebas de reproducibilidad y repetibilidad. Se considerará satisfactorio un error relativo inferior al 5\% en la medición de variables como temperatura, humedad, pH y concentraciones de CO$_2$ y CH$_4$.
-\item \textbf{Desempeño predictivo de modelos AAA}: Los modelos de aprendizaje automático serán validados con técnicas de validación cruzada (\textit{k-fold}), usando métricas estadísticas como el \textbf{Error Cuadrático Medio (MSE)}, el \textbf{Coeficiente de Determinación ($R^2$)} y la \textbf{Precisión Global}. Se establecerán como umbrales de aceptación un $MSE < 0.1$, un $R^2 > 0.9$ y una precisión superior al 90\% para los modelos aplicados a series de tiempo y clasificación de eventos.
+\item \textbf{Precisión y calibración de sensores con IoT}: Se evaluará la exactitud de los sensores mediante comparación directa con equipos de laboratorio certificados (método de referencia), aplicando pruebas de reproducibilidad y repetibilidad. Se considerará satisfactorio un error relativo inferior al 5\% en la medición de variables como temperatura, humedad y concentraciones de CO$_2$ y CH$_4$.
+\item \textbf{Desempeño predictivo de modelos AAA}:  Los modelos de aprendizaje automático serán validados utilizando métricas como el Error Cuadrático Medio (MSE) y el Coeficiente de Determinación ($R^2$), con umbrales de aceptación de $MSE < 0{,}1$ y $R^2 > 0{,}9$. 
 
-\item \textbf{Consistencia del sistema MRV}: Se analizará la robustez del sistema de Medición, Reporte y Validación (MRV) a través de pruebas prolongadas de laboratorio, evaluando la integridad, redundancia y sincronización de los datos. La pérdida de paquetes, latencia de transmisión y coherencia temporal serán métricas clave en esta validación.
+\item \textbf{Impacto en la estimación de emisiones de GEI}: Se verificará la capacidad del sistema para estimar las emisiones de gases de efecto invernadero comparando los resultados obtenidos con métodos estándar (por ejemplo, cromatografía o sensores certificados). Se considerará válido un nivel de correlación superior al 90\% entre las emisiones estimadas por el sistema híbrido (IoT + modelos) y los valores obtenidos en condiciones de referencia.
 
-\item \textbf{Impacto en la estimación de emisiones de GEI}: Se verificará la capacidad del sistema para estimar con precisión las emisiones de gases de efecto invernadero comparando los resultados obtenidos con métodos estándar (por ejemplo, cromatografía o sensores certificados). Se considerará válido un nivel de correlación superior al 90\% entre las emisiones estimadas por el sistema híbrido (IoT + modelos) y los valores obtenidos en condiciones de referencia.
-
-\item \textbf{Escalabilidad y replicabilidad}: Se documentará la facilidad de adaptación del sistema a otras condiciones agroindustriales y su replicabilidad en distintas escalas de operación, con base en parámetros técnicos, económicos y ambientales.
+\item \textbf{Escalabilidad y replicabilidad}: Se documentará la adaptabilidad del sistema diferentes condiciones agroindustriales y su replicabilidad en distintas escalas de operación, con base en parámetros técnicos, económicos y ambientales.
 \end{itemize}
 
 Estos criterios permitirán validar de forma integral el desempeño del sistema propuesto y asegurar su utilidad como herramienta efectiva para el monitoreo inteligente de procesos de bioconversión y la gestión de emisiones en el marco de una economía circular.
@@ -238,25 +198,24 @@ Estos criterios permitirán validar de forma integral el desempeño del sistema 
 
 \subsection{Descripción General}
 
-El sistema de monitoreo propuesto para la medición de gases de efecto invernadero (GEI) y variables ambientales sigue una arquitectura modular basada en IoT, en la cual un dispositivo sensor recolecta datos y los transmite a través del protocolo MQTT hacia un backend que gestiona la información, permitiendo su almacenamiento en una base de datos o su visualización en tiempo real en una plataforma web.
+El sistema de monitoreo propuesto para la medición de gases de efecto invernadero GEI y variables ambientales sigue una arquitectura modular basada en IoT, en la cual un dispositivo sensor recolecta datos y los transmite a través del protocolo MQTT hacia un backend que gestiona la información, permitiendo su almacenamiento en una base de datos o su visualización en tiempo real en una plataforma web.
 
 \subsection{Adquisición de Datos}
 
-El dispositivo sensor, desarrollado con tecnología embebida, está compuesto por múltiples sensores capaces de medir concentraciones de CO$_2$, CH$_4$, temperatura, humedad relativa y presión atmosférica. El hardware se encuentra dentro de una carcasa de protección, como se muestra en la Figura~\ref{fig:dispositivo}, con interfaces de comunicación inalámbrica.
+El dispositivo sensor, basado en tecnología embebida, integra múltiples sensores para la medición de temperatura, humedad y concentraciones de CO$_2$ y CH$_4$. Todo el sistema se encuentra encapsulado en una carcasa protectora, equipada con interfaces de comunicación inalámbrica que permiten la transmisión de datos en tiempo real. En la Figura~\ref{fig:dispositivos} se presenta el prototipo del dispositivo, junto con una visualización del proceso de medición y captura de datos.
 
 \begin{itemize}
     \item \textbf{Sensores}: Incluyen sensores electroquímicos y NDIR para gases, así como sensores de temperatura y humedad de alta precisión.
     \item \textbf{Procesamiento local}: La unidad de control preprocesa los datos, aplicando calibraciones y filtros de ruido.
     \item \textbf{Comunicación}: Los datos son transmitidos a un broker MQTT mediante conectividad WiFi o LoRa.
 \end{itemize}
-En la figura \ref{fig:diagrama_flujo}, se puede apreciar el proceso:
 \begin{figure}[h!]
     \centering
     \includegraphics[width=1.0\textwidth]{00Figuras/DG_FLUJO_GENERAL.png}
     \caption{Diagrama de flujo general diseñado para la medición de gases efecto invernadero y variables ambientales.}
-    \label{fig:diagrama_flujo}
+    \label{fig:dispositivos}
 \end{figure}
-cd 
+
 %\caption{Cronograma de Ejecución del Proyecto}
 %\label{tab:cronograma}
 \begin{landscape}  % TODO lo dentro de este bloque estará en landscape
@@ -298,18 +257,16 @@ Los datos pueden visualizarse en tiempo real a través de una interfaz desarroll
     \item Exportar datos para análisis adicionales.
 \end{itemize}
 
-Este sistema modular basado en IoT permite una integración eficiente entre sensores, backend y visualización web, optimizando la recolección y análisis de datos ambientales en tiempo real. La combinación de MQTT, PostgreSQL y Next.js proporciona una solución escalable y flexible para monitoreo de gases de efecto invernadero en entornos agrícolas e industriales.
+Este sistema modular basado en IoT permite una integración eficiente entre sensores, backend y visualización web, apoyando la recolección y análisis de datos ambientales en tiempo real. La combinación de MQTT, PostgreSQL y Next.js proporciona una solución escalable y flexible para monitoreo de gases de efecto invernadero en entornos agrícolas e industriales.
 
 
 \section{Consideraciones Éticas y Ambientales}
-Este proyecto se desarrolla bajo principios de sostenibilidad y ética en la experimentación, asegurando que el proceso de bioconversión con \textit{Hermetia illucens} no genere impactos negativos en el ecosistema. Además, se garantiza la trazabilidad y transparencia en la medición de emisiones de GEI mediante el uso de sistemas MRV estandarizados. El diseño modular del sistema permite su escalabilidad, facilitando su implementación en diferentes sectores industriales y productivos, contribuyendo así a una economía circular más eficiente.
+Este proyecto se desarrolla bajo principios de sostenibilidad y ética en la experimentación, asegurando que el proceso de bioconversión con \textit{BSF} no genere impactos negativos en el ecosistema. Además, se garantiza la trazabilidad y transparencia en la medición de emisiones de GEI mediante el uso de sistemas MRV estandarizados. El diseño modular del sistema permite su escalabilidad, facilitando su implementación en diferentes sectores industriales y productivos, contribuyendo así a una economía circular más eficiente.
 
 \section{Síntesis metodológica y proyección del sistema}
 
-La metodología desarrollada en este estudio responde a una necesidad crítica: mejorar la medición, modelado y predicción de emisiones de gases de efecto invernadero (GEI) en procesos de bioconversión de residuos orgánicos, utilizando \textit{Hermetia illucens} como agente transformador. A través de una estrategia estructurada en cuatro fases, se integra el diseño de sensores IoT, el desarrollo de modelos matemáticos, la aplicación de algoritmos de aprendizaje automático (AAA) y la validación mediante un sistema de Medición, Reporte y Verificación (MRV), todo articulado en un marco experimental riguroso.
+La metodología desarrollada en este estudio responde a una necesidad crítica: mejorar la medición, modelado y predicción de emisiones de gases de efecto invernadero (GEI) en procesos de bioconversión de residuos orgánicos, utilizando \textit{BSF} como agente transformador. A través de una estrategia estructurada en cuatro fases, se integra el diseño de sensores con IoT, el desarrollo de modelos matemáticos, la aplicación de algoritmos de aprendizaje automático (AAA) y la validación mediante un sistema de Medición, Reporte y Verificación (MRV), todo articulado en un marco experimental riguroso.
 
 La Fase I aborda la instrumentación del sistema mediante sensores calibrados para la recolección de datos en tiempo real. La Fase II introduce el modelado matemático de las dinámicas del proceso, empleando ecuaciones diferenciales ordinarias (EDO) para representar las relaciones entre variables críticas como temperatura, humedad, crecimiento larval y generación de GEI. En la Fase III, estos modelos son complementados con algoritmos AAA que permiten predicciones dinámicas, mejorando la capacidad adaptativa del sistema ante variaciones en las condiciones operativas. Finalmente, la Fase IV consolida el sistema a través de una interfaz digital y una plataforma MRV que facilita la visualización, trazabilidad y validación de las emisiones generadas.
 
-Este enfoque integral no solo permite capturar la complejidad biológica del proceso de bioconversión, sino que también sienta las bases para una solución tecnológica robusta, replicable y escalable en contextos agrícolas y agroindustriales. Al articular herramientas provenientes de la ingeniería electrónica, la biotecnología, la inteligencia artificial y el modelado matemático, la metodología propuesta avanza en la dirección de una economía circular baja en carbono.
-
-Los resultados obtenidos a partir de esta metodología permitirán evaluar el desempeño del sistema bajo diferentes escenarios experimentales, así como formular recomendaciones para su aplicación en la mitigación de emisiones en procesos reales. El siguiente capítulo presentará los hallazgos experimentales y computacionales, con el fin de validar la efectividad y aplicabilidad del sistema propuesto.
+Éste enfoque integra biotecnología, electrónica, inteligencia artificial y modelado matemático para desarrollar una solución replicable y escalable en contextos agroindustriales, alineada con los principios de economía circular. Los resultados permitirán evaluar su desempeño y generar recomendaciones para aportar en la mitigación de emisiones.
