@@ -1,0 +1,127 @@
+\chapter{Marco Teórico}
+
+El desarrollo de soluciones tecnológicas para la gestión sostenible de residuos orgánicos exige una comprensión integrada de los procesos biológicos, ambientales y computacionales involucrados. Este capítulo ofrece la base teórica que sustenta la propuesta de un sistema inteligente híbrido para la predicción de emisiones de gases de efecto invernadero (GEI) en la bioconversión con BSF. Se articulan dos ejes interdependientes: (i) la bioconversión como estrategia de valorización de residuos en contextos agroindustriales; (ii) los enfoques de modelado matemático y sistemas inteligentes para la estimación dinámica de emisiones.
+
+\section{Residuos orgánicos y bioconversión con \textit{Hermetia illucens}}
+
+En contextos agroindustriales del sur global —como el Valle del Cauca—, los residuos orgánicos provenientes de cultivos como café, caña y frutas se generan de forma dispersa, en picos estacionales y con alta carga biodegradable, lo que incrementa el riesgo de emisiones de CH\textsubscript{4} cuando su gestión es inadecuada \parencite{FAO2021,Leddin2024}. Frente a las limitaciones de las estrategias convencionales —rellenos sanitarios, digestión anaerobia y compostaje—, que suelen ser inviables técnica o económicamente en estos entornos \parencite{kongEvaluatingGreenhouseGas2012,nordahlGreenhouseGasAir2023}, la bioconversión con BSF se ha adoptado crecientemente como una alternativa de economía circular.
+
+Esta tecnología transforma residuos en biomasa larval rica en proteínas y lípidos, y en \textit{frass}, un fertilizante orgánico de alta calidad, generando valor en lugar de desechos \parencite{Surendra2016,bermudezComprehensiveUtilizationBlack2023,singhInclusiveApproachOrganic2019}. Aunque estudios preliminares sugieren que reduce emisiones de CH\textsubscript{4} y N\textsubscript{2}O frente al compostaje \parencite{jenkinsProcessingPoultryManure2025}, su implementación carece de sistemas rigurosos para cuantificar y predecir las emisiones asociadas en tiempo real, lo que limita su validación como solución climática verificable.
+
+
+Durante la bioconversión de residuos orgánicos, la generación de dióxido de carbono (CO\textsubscript{2}) proviene principalmente de la respiración metabólica tanto de las larvas  como de la microbiota asociada al sustrato. Las larvas ingieren materia orgánica y, mediante procesos catabólicos aeróbicos, oxidan los compuestos carbonados para obtener energía, liberando CO\textsubscript{2} como subproducto principal. Estudios indican que hasta un tercio del carbono ingerido puede ser emitido como CO\textsubscript{2} \parencite{dienerConversionOrganicMaterial2009}. Adicionalmente, la actividad microbiana en el sustrato —especialmente durante las fases iniciales de degradación— contribuye significativamente a las emisiones gaseosas. Factores como la composición del sustrato, la densidad larval, la temperatura, la humedad y la oxigenación influyen directamente en la tasa de respiración y, por tanto, en las emisiones totales de CO\textsubscript{2} \parencite{rossiEstimatingDynamicsGreenhouse2024,bekkerImpactSubstrateMoisture2021a,eriksenDynamicModellingFeed2022}. A diferencia del metano (CH\textsubscript{4}), el CO\textsubscript{2} generado en este proceso proviene mayoritariamente de rutas aeróbicas, lo que lo convierte en un indicador sensible de la actividad biológica en tiempo real.
+
+La aptitud de los residuos para la bioconversión varía significativamente según su composición. Como se resume en la Tabla~\ref{tab:residuos_BSF}, subproductos agroindustriales como la pulpa de café o cáscaras de frutas son altamente adecuados, mientras que residuos lignocelulósicos o lodos orgánicos requieren pretratamiento o presentan riesgos sanitarios \parencite{elsayedConversionProteinrichWaste2024,brunoValorizationOrganicWaste2025}. Esta heterogeneidad —común en el Valle del Cauca— subraya la necesidad de sistemas de monitoreo adaptables, capaces de caracterizar el proceso en función del sustrato y las condiciones locales.
+
+La evidencia cuantitativa disponible es fragmentada: se reportan emisiones de CO\textsubscript{2} entre 7.76 y 11.88\,g por gramo de larva seca \parencite{rossiEstimatingDynamicsGreenhouse2024}, o 96.5\,g de CO\textsubscript{2} por kg de residuo tratado \parencite{fuhrmannComprehensiveIndustryrelevantBlack2025}, pero sin protocolos estandarizados ni mediciones continuas. Esta incertidumbre impide comparar tecnologías, diseñar políticas públicas informadas o acceder a mecanismos de mercado basados en la mitigación climática.
+
+\begin{table}[H]
+\centering
+\caption{Clasificación de residuos orgánicos y su aptitud para bioconversión con \textit{Hermetia illucens}}
+\label{tab:residuos_BSF}
+\begin{tabular}{|p{4cm}|p{5cm}|p{5cm}|}
+\hline
+\textbf{Tipo de residuo} & \textbf{Origen común} & \textbf{Aptitud para \textit{BSF}} \\ \hline
+Residuos agrícolas & Restos de cosecha, podas, hojas secas & Moderada. Requieren pretratamiento por bajo contenido proteico. \\ \hline
+Residuos alimentarios & Sobras de cocina, frutas, verduras, pan & Alta. Contenido balanceado de lípidos y carbohidratos. \\ \hline
+Subproductos agroindustriales & Pulpa de café, cáscaras de frutas, bagazo de caña & Alta. Composición variable, pero generalmente adecuada. \\ \hline
+Grasas y aceites residuales & Aceites usados, residuos grasos de cocina & Media. Requieren mezcla con otros residuos para evitar inhibición. \\ \hline
+Lodos orgánicos & Lodos de depuradoras, biosólidos & Baja. Riesgo sanitario y composición inconsistente. \\ \hline
+\end{tabular}
+\end{table}
+
+\textbf{Hacia sistemas de monitoreo adaptable en contextos heterogéneos:}
+
+La heterogeneidad de residuos agroindustriales documentada en la Tabla~\ref{tab:residuos_BSF} 
+—desde pulpa de café (alta aptitud) hasta lodos orgánicos (baja aptitud)— refleja una realidad 
+común en el Valle del Cauca: los productores raramente procesan un único tipo de residuo de forma 
+consistente. En su lugar, enfrentan mezclas variables según la estacionalidad, disponibilidad local 
+y dinámicas de producción \parencite{elsayedConversionProteinrichWaste2024,brunoValorizationOrganicWaste2025}. 
+Adicionalmente, variables ambientales críticas —temperatura, humedad del sustrato, oxigenación— 
+fluctúan durante el ciclo de bioconversión, particularmente en contextos rurales donde el control 
+es limitado \parencite{bekkerImpactSubstrateMoisture2021a,rossiEstimatingDynamicsGreenhouse2024}. 
+
+Esta variabilidad operativa implica que los métodos de medición estática o puntual —como 
+muestreos puntuales con cromatografía de gases— son insuficientes para caracterizar emisiones 
+de manera confiable. Se requieren sistemas de monitoreo que sean: (i) \textbf{continuos en tiempo 
+real}, capaces de capturar dinámicas horarias y diarias; (ii) \textbf{adaptables a diferentes tipos 
+de residuos}, disminuyendo la necesidad de recalibración manual frecuentemente; (iii) \textbf{interpretables}, 
+permitiendo a productores locales comprender qué sucede en el sistema y tomar decisiones operativas 
+informadas. Es precisamente esta necesidad la que motiva un enfoque integrado que combine 
+modelación matemática dinámica, sensores de bajo costo y calibración automática mediante algoritmos 
+de aprendizaje automático, tema de la siguiente sección.
+
+\section{Modelación de emisiones y sistemas inteligentes}
+
+La cuantificación dinámica de emisiones en procesos biológicos requiere 
+herramientas que combinen comprensión mecanística y adaptabilidad empírica. 
+En este sentido, el modelado matemático basado en ecuaciones diferenciales 
+ordinarias (EDO) ha facilitado avances significativos. Por ejemplo, modelos 
+de crecimiento larval como el de Eriksen (2022) integran balances energéticos 
+y cinética logística para simular biomasa y producción de CO\textsubscript{2}, 
+combinando principios del \textit{Dynamic Energy Budget} con eventos clave del 
+ciclo de vida larval (muda y metamorfosis) \parencite{eriksenDynamicModellingFeed2022}. 
+Similarmente, funciones cinéticas tipo Monod y Haldane —adaptadas de modelos 
+de digestión anaerobia— han permitido describir degradación de sustrato y 
+crecimiento microbiano en sistemas con insectos \parencite{winAnaerobicDigestionBlack2018,
+ahlamineMathematicalAnalysisAnaerobic2024}. 
+
+Sin embargo, estos modelos presentan limitaciones críticas cuando se implementan 
+en contextos operativos reales: (i) la mayoría fue validada en condiciones 
+de laboratorio controladas, sin integración de datos en tiempo real; (ii) generalmente 
+no capturan el efecto simultáneo y dinámico de múltiples variables ambientales 
+(temperatura fluctuante, humedad variable, oxigenación heterogénea) sobre las 
+emisiones de CO\textsubscript{2} y CH\textsubscript{4}; (iii) dependen de parámetros 
+que requieren calibración manual y periódica, sin mecanismo de actualización automática 
+\parencite{bekkerImpactSubstrateMoisture2021a,rossiEstimatingDynamicsGreenhouse2024}. 
+Estas limitaciones impiden que los modelos actuales predigan con confianza el 
+comportamiento del sistema bajo variaciones operativas típicas en contextos 
+agroindustriales rurales.
+
+Paralelamente, los avances en sensores de bajo costo y plataformas IoT han 
+facilitado el monitoreo continuo de variables críticas —CO\textsubscript{2}, 
+CH\textsubscript{4}, temperatura, humedad— en entornos operativos reales 
+\parencite{rajRealTimeEstimation2023,duobieneDevelopmentWirelessSensor2022,
+yavariArtEMonArtificialIntelligence2023}. Estos datos, procesados mediante 
+algoritmos de aprendizaje automático (AAA), permiten identificar patrones 
+complejos y no lineales que serían difíciles de capturar mediante reglas 
+explícitas \parencite{weichertReviewMachineLearning2019,chenOptimizationModelProcess2021}. 
+
+En particular, la integración de modelos mecanísticos (EDO) con AAA ha demostrado 
+potencial en sistemas biotecnológicos complejos: mientras el modelo EDO proporciona 
+una estructura interpretable y basada en principios físicos, el AAA permite calibración 
+dinámica de parámetros a partir de datos en tiempo real, mejorando predicciones cuando 
+las condiciones operativas se desvían del escenario de entrenamiento 
+\parencite{kobelskiModelbasedProcessOptimization2024a,guillaumeAsymptoticEstimatedDigestibility2023}. 
+
+Sin embargo, esta integración enfrenta desafíos prácticos: (i) los algoritmos de AAA 
+requieren suficientes datos históricos para entrenar sin riesgo de \textit{overfitting}, 
+pero ciclos de bioconversión típicos generan pocas muestras por evento; (ii) la validación 
+cruzada y selección de hiperparámetros requieren cuidado especial en contextos con datos 
+limitados; (iii) la elección entre arquitecturas simples (regresión lineal múltiple) versus 
+complejas (redes neuronales) dependerá del volumen y calidad de datos disponibles. Por ello, 
+esta tesis adopta un enfoque escalonado: comenzar con modelos interpretables (regresión múltiple), 
+evaluar redes neuronales multicapa solo si se dispone de base de datos amplia, y validar todas 
+las predicciones contra mediciones de referencia de laboratorio.
+
+En síntesis, el marco teórico desarrollado en este capítulo fundamenta un enfoque 
+técnico híbrido que integra tres componentes interdependientes: (i) un modelo mecanístico 
+basado en ecuaciones diferenciales ordinarias que captura la dinámica biológica del proceso 
+de bioconversión; (ii) sensores IoT de bajo costo que permiten monitoreo continuo de emisiones 
+de CO\textsubscript{2} y CH\textsubscript{4} en tiempo real; (iii) algoritmos de aprendizaje 
+automático que facilitan calibración dinámica y predicción adaptativa bajo variaciones 
+operativas. Esta integración es particularmente relevante para contextos agroindustriales 
+del sur global, donde la falta de infraestructura costosa y la necesidad de soluciones 
+escalables hacen que un sistema de bajo costo y mantenible sea más viable que tecnologías 
+convencionales.
+
+Operacionalmente, la ``inteligencia'' del sistema reside en su capacidad para: (1) generar 
+predicciones con fundamento mecanístico (interpretables, no cajas negras); (2) actualizar 
+predicciones automáticamente a partir de datos en tiempo real; (3) proporcionar información 
+clara a productores locales para que tomen decisiones informadas sobre condiciones operativas 
+(temperatura, humedad, manejo de residuos). No obstante, esta investigación reconoce 
+explícitamente que la mera disponibilidad de datos técnicos no garantiza equidad o sostenibilidad. 
+La verdadera gobernanza de un sistema como este requiere —más allá del alcance de esta tesis— 
+decisiones sobre acceso a datos, beneficios compartidos, y co-diseño con usuarios finales. 
+Estas dimensiones ético-políticas constituyen un campo de investigación complementario 
+igualmente importante.
