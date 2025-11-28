@@ -1,36 +1,23 @@
 \chapter{Pregunta de Investigación}
 
-¿Cómo puede integrarse un modelo matemático basado en ecuaciones diferenciales ordinarias, sensores IoT de bajo costo y algoritmos de aprendizaje automático para desarrollar un sistema híbrido que estime en tiempo real las emisiones de CO\textsubscript{2} y CH\textsubscript{4} durante la bioconversión de residuos orgánicos con Hermetia illucens? 
+¿En qué medida la integración de un modelo matemático basado en ecuaciones diferenciales ordinarias, sensores IoT de bajo costo y algoritmos de aprendizaje automático permite desarrollar un sistema híbrido que no solo estime con precisión las emisiones de \ce{CO2} y \ce{CH4}, sino que constituya una herramienta de monitoreo dinámico para fundamentar la toma de decisiones operativas y generar métricas verificables del desempeño ambiental en la bioconversión de residuos agroindustriales con \textit{Hermetia illucens}?
 
 \chapter{Hipótesis de Investigación}
 
 \section{Hipótesis General}
 
-Un sistema híbrido que integre modelamiento matemático (EDO), sensores IoT de bajo costo y algoritmos de aprendizaje automático puede estimar emisiones de CO\textsubscript{2} y CH\textsubscript{4} en tiempo real con un error promedio absoluto (MAPE) inferior al 10 \% respecto a mediciones de referencia por cromatografía de gases.
+Un sistema híbrido que integre modelamiento matemático basado en ecuaciones diferenciales ordinarias (EDO), sensores IoT de bajo costo y algoritmos de aprendizaje automático permite estimar las emisiones de \ce{CO2} y \ce{CH4} en tiempo real con un error absoluto medio porcentual (MAPE) inferior al 10\,\% respecto a mediciones de referencia. Esta capacidad de monitoreo continuo proporciona, a su vez, indicadores dinámicos sobre la eficiencia metabólica del proceso, permitiendo identificar ineficiencias operativas (como la anaerobiosis) y cuantificar el desempeño ambiental del sistema más allá de las estimaciones estáticas tradicionales.
 
 \section{Hipótesis Específicas}
+\subsection{H1: Precisión instrumental de bajo costo}
+Los sensores NDIR de bajo costo, sometidos a protocolos de calibración y preacondicionamiento de señal, permiten medir concentraciones de \ce{CO2} y \ce{CH4} en el entorno de bioconversión con una desviación (MAPE) $\leq 8$\,\% respecto a equipos certificados de laboratorio.
 
-\subsection{H1: Precisión de Sensores IoT}
+\subsection{H2: Capacidad predictiva del modelo mecanístico}
+El modelo de EDO, fundamentado en la bioenergética del crecimiento larval y parametrizado con datos locales, es capaz de describir la tendencia base de las emisiones de \ce{CO2} y \ce{CH4} en ventanas temporales de 30 minutos con un MAPE $\leq 15$\,\%, capturando la dinámica biológica subyacente.
 
-Los sensores NDIR de bajo costo, calibrados en condiciones de laboratorio, miden 
-concentraciones de CO\textsubscript{2} y CH\textsubscript{4} con MAPE $\leq 8\%$ respecto a equipos certificados.
+\subsection{H3: Refinamiento por aprendizaje automático}
+La integración de una capa de corrección mediante algoritmos de aprendizaje automático reduce el error residual del modelo de EDO en al menos un 30\,\%, logrando que el sistema híbrido alcance un MAPE $< 10$\,\% ante perturbaciones no modeladas.
+\subsection{H4: Valor para la gestión operativa}
+El sistema híbrido integrado es capaz de identificar patrones de emisión anómalos (como picos imprevistos de \ce{CH4} indicativos de anaerobiosis) que no son detectables mediante modelado estático, proporcionando indicadores de desempeño ambiental en tiempo real útiles para la toma de decisiones de manejo.
 
-\subsection{H2: Capacidad Predictiva del Modelo Matemático}
-
-El modelo EDO parametrizado con datos locales predice emisiones de CO\textsubscript{2} y CH\textsubscript{4} 
-en ventanas de 30 minutos con MAPE $\leq 15\%$.
-
-\subsection{H3: Mejora por Aprendizaje Automático}
-
-La integración de algoritmos de aprendizaje automático reduce el MAPE del modelo EDO 
-en al menos 30\%, alcanzando MAPE final $< 10\%$.
-
-\subsection{H4: Integración Efectiva del Sistema Híbrido}
-
-El sistema híbrido integrado, en operación conjunta, logra MAPE $\leq 10\%$, 
-representando una mejora de al menos 25\% respecto al mejor componente aislado 
-(modelo EDO, sensores sin corrección, o AAA sin restricciones físicas).
-
-
-\emph{Nota: Las hipótesis se evalúan bajo condiciones experimentales controladas 
-   en laboratorio, con temperaturas 30°C ± 2°C y humedad relativa 60-70\%.}
+\emph{Nota: Las métricas de precisión (H1--H3) se evaluarán bajo condiciones experimentales controladas en laboratorio (30\,°C $\pm$ 2\,°C, HR 60--70\,\%), mientras que la H4 se validará mediante análisis de escenarios operativos.}

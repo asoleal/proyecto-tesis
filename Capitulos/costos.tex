@@ -1,122 +1,127 @@
-\chapter{Estimación de Costos}
+\chapter{Estimación de Costos y Presupuesto}
 
-\section{Resumen de Costos del Proyecto}
-El desarrollo de este proyecto implica la implementación de un sistema tecnológico basado en sensores con IoT y modelos de aprendizaje automático (AAA) para la medición, validación y reporte de datos ambientales y gases de efecto invernadero (GEI) en procesos de bioconversión con \textit{BSF}. 
+\section{Resumen Financiero del Proyecto}
+El desarrollo de esta investigación implica la implementación de una arquitectura híbrida de hardware y software para la validación de métricas ambientales. La estructura de costos se ha diseñado bajo el principio de eficiencia, priorizando el desarrollo de capital intelectual y la validación experimental sobre la adquisición de activos fijos costosos.
 
-El costo total estimado del proyecto es de \textbf{267 millones de pesos colombianos}, distribuido en diferentes áreas clave como se detalla en las siguientes secciones.
+El presupuesto global estimado asciende a $267$ millones de pesos colombianos (COP), ejecutados a lo largo de 4 años. Este monto cubre desde la fase de diseño conceptual hasta la validación en campo y la divulgación científica.
+\section{Desglose de Costos de Desarrollo Tecnológico}
 
-\section{Desglose de Costos por Categoría}
+A continuación se detalla la inversión específica requerida para la construcción del prototipo funcional (TRL 5-6), diferenciando componentes físicos y servicios digitales.
 
-A continuación, se presentan los principales componentes del presupuesto:
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{7cm}|c|c|}
+        \hline
+        \textbf{Componente Tecnológico} & \textbf{Unidades} & \textbf{Costo (MM COP)} \\ \hline
+        \multicolumn{3}{|l|}{\textit{\textbf{1. Hardware y Sensórica (Nodo IoT)}}} \\ \hline
+        Sensores de \ce{CO2} (NDIR Grado Industrial) & 3 & 0.6 \\ \hline
+        Sensores de Gases Traza (\ce{CH4}, VOCs) & 3 & 0.72 \\ \hline
+        Sensores Ambientales (Temp/Humedad de alta precisión) & 3 & 1.2 \\ \hline
+        Sensores Auxiliares (Luz, pH, NPK) & 3 & 0.6 \\ \hline
+        Unidades de Procesamiento (ESP32 + LoRa) & 5 & 4.0 \\ \hline
+        Manufactura de PCB y Carcasas IP65 & 3 & 0.8 \\ \hline
+        \multicolumn{3}{|l|}{\textit{\textbf{2. Software e Infraestructura de Datos}}} \\ \hline
+        Desarrollo de Algoritmos Híbridos (Licenciamiento) & Global & 4.0 \\ \hline
+        Interfaz de Visualización (Dashboard Web) & Global & 2.0 \\ \hline
+        Infraestructura Cloud (Hosting + DB - 12 meses) & Global & 2.4 \\ \hline
+        \multicolumn{3}{|l|}{\textit{\textbf{3. Validación y Transferencia}}} \\ \hline
+        Equipos Patrón de Referencia (Alquiler/Uso) & Global & 2.0 \\ \hline
+        Insumos para Ensayos Experimentales & Global & 2.8 \\ \hline
+        Kit de Comunicaciones (Gateway LoRaWAN + Antenas) & 1 & 1.8 \\ \hline
+        \multicolumn{3}{|l|}{\textit{\textbf{4. Servicios Especializados}}} \\ \hline
+        Consultoría Técnica Externa & Global & 6.0 \\ \hline
+        Capacitación y Formación Especializada & Global & 3.2 \\ \hline
+        \textbf{SUBTOTAL DESARROLLO TECNOLÓGICO} & & \textbf{\$ 32.12} \\ \hline
+    \end{tabular}
+    \caption{Estimación de costos directos de desarrollo e implementación.}
+    \label{tab:costos_desarrollo}
+\end{table}
 
-\begin{itemize}
-    \item \textbf{Diseño y desarrollo de hardware}: Integración de sensores con IoT con microcontroladores, desarrollo de circuitos electrónicos y pruebas de calibración.
-    \item \textbf{Diseño e implementación de software}: Desarrollo de algoritmos de procesamiento de datos e integración con modelos AAA.
-    \item \textbf{Infraestructura de almacenamiento y cómputo}: Implementación de servicios en la nube para almacenamiento y análisis de datos.
-    \item \textbf{Validación de sensores}: Evaluación y calibración para garantizar precisión en la medición de variables ambientales.
-    \item \textbf{Pruebas de laboratorio y experimentación}: Ensayos en entornos controlados y comparación con equipos de referencia.
-    \item \textbf{Desarrollo e integración de red IoT}: Implementación de comunicación mediante Wi-Fi y LoRa.
-    \item \textbf{Implementación de un sistema de Medición, Reporte y Validación (MRV)}: Desarrollo de herramientas digitales para asegurar la trazabilidad de las mediciones.
-    \item \textbf{Recursos humanos y capacitación}: Personal especializado en electrónica, software, IA y procesamiento de datos.
-\end{itemize}
+\section{Cronograma de Ejecución Financiera}
 
-\section{Cronograma y Distribución de Costos}
+La siguiente tabla detalla la distribución de recursos por actividad estratégica, indicando el estado actual de avance y la valoración económica de los entregables (recursos humanos, técnicos y operativos).
 
-El proyecto se ejecutará en un período de 4 años distribuidos en distintas fases. En la siguiente tabla, se presentan las actividades, su nivel de avance y los costos estimados en pesos Colombianos:
-
-\begin{longtable}{|p{4cm}|p{5cm}|c|c|}
+\begin{longtable}{|p{5cm}|p{6cm}|c|c|}
     \hline
-    \textbf{Actividad} & \textbf{Descripción} & \textbf{\% Avance} & \textbf{Costo (COP)} \\
+    \textbf{Actividad} & \textbf{Descripción del Rubro} & \textbf{\% Avance} & \textbf{Costo (MM COP)*} \\
     \hline
     \endfirsthead
     \multicolumn{4}{c}{\textit{Continúa de la página anterior}} \\
     \hline
-    \textbf{Actividad} & \textbf{Descripción} & \textbf{\% Avance} & \textbf{Costo (COP)} \\
+    \textbf{Actividad} & \textbf{Descripción} & \textbf{\% Avance} & \textbf{Costo (MM COP)} \\
     \hline
     \endhead
     \hline
-    \multicolumn{4}{r}{\textit{Continúa en la siguiente página}} \\
+    \multicolumn{4}{r}{\textit{*MM COP: Millones de Pesos Colombianos}} \\
     \endfoot
     \hline
     \endlastfoot
-    Revisión bibliográfica & Investigación de antecedentes científicos y tecnológicos. & 50\% & 6 \\
+    
+    Revisión bibliográfica & Acceso a bases de datos y análisis del estado del arte. & 50\% & 6.0 \\
     \hline
-    Uso del computador & Desarrollo de software, simulaciones y análisis de datos. & 70\% & 8 \\
+    Infraestructura Computacional & Uso de equipos de cómputo, licencias de software y simulación. & 70\% & 8.0 \\
     \hline
-    Ingeniero de software & Implementación de algoritmos de procesamiento de datos. & 45\% & 20 \\
+    Ingeniería de Software & Desarrollo de algoritmos de backend y procesamiento (4 años). & 45\% & 20.0 \\
     \hline
-    Ingeniero de hardware & Diseño e integración de sensores con IoT y PCB. & 100\% & 20 \\
+    Ingeniería de Hardware & Diseño PCB, integración de sensores y manufactura de nodos. & 100\% & 20.0 \\
     \hline
-    Estudio doctoral & Desarrollo del proyecto de tesis, redacción y validación. & 45\% & 80 \\
+    \textbf{Estudio Doctoral} & \textbf{Dedicación del investigador (Matrícula + Manutención 4 años).} & 45\% & 80.0 \\
     \hline
-    Validación experimental & Evaluación en campo y comparación con métodos tradicionales. & 0\% & 16 \\
+    Validación Experimental & Logística de campo, insumos biológicos (larvas) y sustratos. & 0\% & 16.0 \\
     \hline
-    Desarrollo de IA & Modelos de aprendizaje automático para predicción de emisiones. & 10\% & 24 \\
+    Desarrollo de IA & Entrenamiento de modelos y horas de procesamiento en GPU. & 10\% & 24.0 \\
     \hline
-    Implementación de MRV & Diseño de un sistema de reporte y validación de emisiones. & 60\% & 12 \\
+    Sistema MRV & Diseño de la plataforma de reporte y validación ambiental. & 60\% & 12.0 \\
     \hline
-    Infraestructura en la nube & Plataforma para almacenamiento y visualización de datos. & 50\% & 10 \\
+    Servicios en la Nube & Costos operativos de almacenamiento y despliegue (AWS/Azure). & 50\% & 10.0 \\
     \hline
-    Publicaciones científicas & Artículos en revistas y congresos especializados. & 25\% & 8 \\
+    Divulgación Científica & Publicación en revistas y asistencia a congresos. & 25\% & 8.0 \\
     \hline
-    Gestión del proyecto & Administración de recursos y planificación de actividades. & 60\% & 8 \\
+    Gestión del Proyecto & Administración, papelería y costos indirectos. & 60\% & 8.0 \\
     \hline
-    Costos asociados a mediciones & Insumos, calibraciones y análisis de laboratorio. & 40\% & 12 \\
+    Metrología y Calibración & Servicios de laboratorio certificado para validación de sensores. & 40\% & 12.0 \\
     \hline
-    Escritos & Elaboración de anteproyecto y proyecto final & 20\% &8\\
+    Escritura y Edición & Elaboración de documentos, traducción y corrección de estilo. & 20\% & 8.0 \\
     \hline 
-    \textbf{Total estimado} & \textbf{Costo total del proyecto en 4 años.} & \textbf{-} & \textbf{232} \\
+    \textbf{TOTAL ESTIMADO} &  & \textbf{-} & \textbf{\$ 232.0} \\
     \hline
 \end{longtable}
-\newpage
-\section{Tabla de Costos Estimados}
-A continuación se relacionan los costos para el diseño de los sistemas que se utilizarán:
 
-\begin{table}[H]
-    \centering
-    \begin{tabular}{|p{6cm}|c|c|}
-        \hline
-        \textbf{Concepto} & \textbf{Cantidad} & \textbf{Costo (USD)} \\ \hline
-        \textbf{Diseño y desarrollo de hardware} & & \\ \hline
-        Sensores de \ch{CO2} (MH-410D) & 3 & 0.6 \\ \hline
-        Sensores de \ch{CH4} (MH-441D) & 3 & 0.72 \\ \hline
-        Sensores de temperatura y humedad (DHT22) & 3 & 1.2 \\ \hline
-        Sensores de luz (BH1750) & 3 & 0.3 \\ \hline
-        Sensores de pH y nutrientes (NPK) & 3 & 0.3 \\ \hline
-        Microcontroladores ESP32 & 5 & 4 \\ \hline
-        Diseño y fabricación de PCB & 3 & 0.8 \\ \hline
-        \textbf{Desarrollo de software y procesamiento de datos} & & \\ \hline
-        Desarrollo de algoritmos AAA y procesamiento de datos & 1 & 4 \\ \hline
-        Plataforma web para visualización de datos & 1 & 2 \\ \hline
-        \textbf{Infraestructura en la nube y almacenamiento} & & \\ \hline
-        Servicios en la nube (AWS/GCP/Azure) & 12 meses & 2.4 \\ \hline
-        \textbf{Validación y pruebas de laboratorio} & & \\ \hline
-        Equipos de referencia para calibración & 1 & 2 \\ \hline
-        Pruebas experimentales y ajustes & - & 2.8 \\ \hline
-        \textbf{Implementación de red IoT} & & \\ \hline
-        Módulos LoRa & 5 & 1 \\ \hline
-        Antenas y repetidores & 2 & 0.8 \\ \hline
-        \textbf{Recursos Humanos y Capacitación} & & \\ \hline
-        Consultoría y soporte técnico & - & 6 \\ \hline
-        Capacitación en procesamiento de datos & - & 3.2 \\ \hline
-        \textbf{Total Estimado para Desarrollo} & & \textbf{35} \\ \hline
-    \end{tabular}
-    \caption{Estimación de costos de desarrollo del proyecto}
-    \label{tab:costos}
-\end{table}
+\section{Estrategia de Financiamiento}
 
-\section{Financiamiento del Proyecto}
-
-El financiamiento para la ejecución de este proyecto proviene de tres fuentes principales:
+La viabilidad financiera del proyecto se sustenta en un modelo mixto de financiación:
 
 \begin{itemize}
-    \item \textbf{Universidad Nacional de Colombia}: Una parte de los recursos será aportada por la universidad en la financiación de matrícula y el apoyo de dinero para proyectos de investigación, aparte de los medios logísticos que se requieran.
-    
-    \item \textbf{Recursos propios}: Se destinarán fondos personales para complementar el desarrollo del proyecto, principalmente en lo relacionado con la compra de insumos especializados, componentes electrónicos y costos asociados a pruebas de medición y validación.
+    \item \textbf{Aporte Institucional (UNAL):} Cubre principalmente los costos de capital humano (dirección de tesis), acceso a laboratorios, infraestructura física y recursos bibliográficos, valorados como contrapartida en especie.
+    \item \textbf{Recursos Propios:} El investigador asume los costos directos de adquisición de componentes electrónicos importados, insumos de experimentación y gastos operativos de campo no cubiertos por convocatorias institucionales.
 \end{itemize}
-    
-Esta combinación de fuentes de financiamiento permitirá asegurar la viabilidad del proyecto, garantizando la adquisición de los recursos necesarios para su implementación y éxito a largo plazo.
+\section{Cronograma de Actividades}
 
-\section{Justificación de la Inversión}
-La inversión en este proyecto permitirá el desarrollo de un sistema de medición y reporte de emisiones de GEI con datos en tiempo real y alta precisión. La integración de hardware y software especializado asegurará la escalabilidad y confiabilidad del sistema. Además, la capacitación del personal y la validación experimental garantizarán la replicabilidad de los resultados.
+El plan de trabajo se estructura en un horizonte temporal de cuatro años (48 meses), organizado en cuatro fases secuenciales e interdependientes que garantizan el cumplimiento de los objetivos específicos. La distribución temporal de las actividades, detallada en la Figura \ref{fig:cronograma}, sigue una lógica incremental de desarrollo tecnológico y validación científica:
+
+\begin{description}
+    \item[Fase 1: Fundamentación y Diseño (Meses 1-12):] 
+    Se centra en la revisión sistemática del estado del arte y la definición de la arquitectura del sistema. Incluye el diseño conceptual de los nodos IoT y el despliegue inicial de la infraestructura en la nube para asegurar la capacidad de almacenamiento de datos.
+    
+    \item[Fase 2: Desarrollo Tecnológico e Instrumentación (Meses 12-24):] 
+    Etapa de ingeniería intensiva. Comprende la manufactura de los nodos sensores, la programación del firmware (Edge) y el desarrollo de la plataforma de software (Backend/Frontend). Finaliza con la puesta a punto de los protocolos de calibración de sensores.
+    
+    \item[Fase 3: Modelado e Inteligencia Híbrida (Meses 24-36):] 
+    Núcleo científico de la tesis. Con los datos recolectados por los prototipos, se parametrizan los modelos mecanísticos (EDO) y se entrenan los algoritmos de aprendizaje automático para la corrección de errores y detección de anomalías.
+    
+    \item[Fase 4: Validación, MRV y Cierre (Meses 36-48):] 
+    Ejecución de los ensayos experimentales finales para validar la precisión del sistema híbrido. Se consolida el módulo de reporte ambiental (MRV), se redactan los artículos científicos de alto impacto y se finaliza el documento de tesis doctoral.
+\end{description}
+
+De manera transversal, se contemplan actividades permanentes de gestión del proyecto y costos asociados a mediciones, asegurando la viabilidad operativa durante todo el ciclo de investigación.
+
+\begin{sidewaysfigure}
+    \centering
+    \includegraphics[width=1.0\textwidth]{00Figuras/gant.png}
+    \caption{Cronograma detallado de actividades de investigación (2023-2027).}
+    \label{fig:cronograma}
+\end{sidewaysfigure}
+
+\section{Retorno de la Inversión (Justificación)}
+Más allá del aporte académico, la inversión en este sistema genera valor tangible al reducir la incertidumbre en la medición de emisiones. Un sistema MRV validado habilita el acceso a mercados de carbono, cuyo potencial económico para una planta de bioconversión de 10 toneladas/día podría superar los costos de implementación tecnológica en menos de 2 años de operación, demostrando la sostenibilidad financiera de la propuesta a escala industrial.
 

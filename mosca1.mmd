@@ -1,0 +1,145 @@
+graph TD
+    %% --- BLOQUE 1: EL CICLO DE VIDA (EL MOTOR) ---
+    subgraph "Ciclo de Vida Activo (3-4 Semanas)"
+    L1[L1-L2: Fase Inicial] -->|Bajo consumo| L3
+    L3[<b>L3 - L5: FASE VORAZ</b><br/>Máxima Actividad Metabólica] -->|Consumo masivo| P[Prepupa: Cese de Alimentación]
+    
+    %% Nota visual sobre L3-L5
+    style L3 fill:#ffe6cc,stroke:#d79b00,stroke-width:3px
+    end
+
+    %% --- BLOQUE 2: EL MECANISMO DE TRANSFORMACIÓN ---
+    subgraph "Mecanismo de Transformación en el Sustrato"
+    L3 -- "Acción Física" --> FRAG[<b>Fragmentación Mecánica</b><br/>(Aparato bucal tritura partículas)]
+    L3 -- "Acción Química" --> ENZ[<b>Digestión Enzimática</b><br/>(Microbiota intestinal + Bacterias exógenas)]
+    
+    FRAG --> MICRO[Modificación del Microambiente<br/>(Cambio de porosidad, pH y Temperatura)]
+    ENZ --> MICRO
+    end
+
+    %% --- BLOQUE 3: RUTAS METABÓLICAS Y GASES ---
+    subgraph "Generación de Gases (Causa-Efecto)"
+    MICRO --> COND{¿Condición del Sustrato?}
+    
+    %% RUTA AEROBIA (LA DESEADA)
+    COND -- "Aireado + Actividad Alta" --> AERO[Ruta AEROBIA<br/>(Respiración Larval + Microbiana)]
+    AERO --> CO2((<b>CO₂</b><br/>Indicador de Eficiencia))
+    AERO --> HEAT(Calor Metabólico)
+    
+    %% RUTA ANAEROBIA (LA INDESEADA)
+    COND -- "Compactado + Exceso Agua" --> ANAERO[Ruta ANAEROBIA<br/>(Fermentación Bacteriana)]
+    ANAERO --> CH4((<b>CH₄</b><br/>Indicador de Problema))
+    ANAERO --> VOCs(Malos Olores)
+    end
+
+    %% Estilos para resaltar los gases
+    style CO2 fill:#e6ffcc,stroke:#4d9900,stroke-width:2px
+    style CH4 fill:#ffcccc,stroke:#cc0000,stroke-width:2pxgraph TD
+    %% --- BLOQUE 1: EL CICLO DE VIDA (EL MOTOR) ---
+    subgraph "Ciclo de Vida Activo (3-4 Semanas)"
+    L1[L1-L2: Fase Inicial] -->|Bajo consumo| L3
+    L3[<b>L3 - L5: FASE VORAZ</b><br/>Máxima Actividad Metabólica] -->|Consumo masivo| P[Prepupa: Cese de Alimentación]
+    
+    %% Nota visual sobre L3-L5
+    style L3 fill:#ffe6cc,stroke:#d79b00,stroke-width:3px
+    end
+
+    %% --- BLOQUE 2: EL MECANISMO DE TRANSFORMACIÓN ---
+    subgraph "Mecanismo de Transformación en el Sustrato"
+    L3 -- "Acción Física" --> FRAG[<b>Fragmentación Mecánica</b><br/>(Aparato bucal tritura partículas)]
+    L3 -- "Acción Química" --> ENZ[<b>Digestión Enzimática</b><br/>(Microbiota intestinal + Bacterias exógenas)]
+    
+    FRAG --> MICRO[Modificación del Microambiente<br/>(Cambio de porosidad, pH y Temperatura)]
+    ENZ --> MICRO
+    end
+
+    %% --- BLOQUE 3: RUTAS METABÓLICAS Y GASES ---
+    subgraph "Generación de Gases (Causa-Efecto)"
+    MICRO --> COND{¿Condición del Sustrato?}
+    
+    %% RUTA AEROBIA (LA DESEADA)
+    COND -- "Aireado + Actividad Alta" --> AERO[Ruta AEROBIA<br/>(Respiración Larval + Microbiana)]
+    AERO --> CO2((<b>CO₂</b><br/>Indicador de Eficiencia))
+    AERO --> HEAT(Calor Metabólico)
+    
+    %% RUTA ANAEROBIA (LA INDESEADA)
+    COND -- "Compactado + Exceso Agua" --> ANAERO[Ruta ANAEROBIA<br/>(Fermentación Bacteriana)]
+    ANAERO --> CH4((<b>CH₄</b><br/>Indicador de Problema))
+    ANAERO --> VOCs(Malos Olores)
+    end
+
+    %% Estilos para resaltar los gases
+    style CO2 fill:#e6ffcc,stroke:#4d9900,stroke-width:2px
+    style CH4 fill:#ffcccc,stroke:#cc0000,stroke-width:2pxgraph TD
+    %% --- BLOQUE 1: EL CICLO DE VIDA (EL MOTOR) ---
+    subgraph "Ciclo de Vida Activo (3-4 Semanas)"
+    L1[L1-L2: Fase Inicial] -->|Bajo consumo| L3
+    L3[<b>L3 - L5: FASE VORAZ</b><br/>Máxima Actividad Metabólica] -->|Consumo masivo| P[Prepupa: Cese de Alimentación]
+    
+    %% Nota visual sobre L3-L5
+    style L3 fill:#ffe6cc,stroke:#d79b00,stroke-width:3px
+    end
+
+    %% --- BLOQUE 2: EL MECANISMO DE TRANSFORMACIÓN ---
+    subgraph "Mecanismo de Transformación en el Sustrato"
+    L3 -- "Acción Física" --> FRAG[<b>Fragmentación Mecánica</b><br/>(Aparato bucal tritura partículas)]
+    L3 -- "Acción Química" --> ENZ[<b>Digestión Enzimática</b><br/>(Microbiota intestinal + Bacterias exógenas)]
+    
+    FRAG --> MICRO[Modificación del Microambiente<br/>(Cambio de porosidad, pH y Temperatura)]
+    ENZ --> MICRO
+    end
+
+    %% --- BLOQUE 3: RUTAS METABÓLICAS Y GASES ---
+    subgraph "Generación de Gases (Causa-Efecto)"
+    MICRO --> COND{¿Condición del Sustrato?}
+    
+    %% RUTA AEROBIA (LA DESEADA)
+    COND -- "Aireado + Actividad Alta" --> AERO[Ruta AEROBIA<br/>(Respiración Larval + Microbiana)]
+    AERO --> CO2((<b>CO₂</b><br/>Indicador de Eficiencia))
+    AERO --> HEAT(Calor Metabólico)
+    
+    %% RUTA ANAEROBIA (LA INDESEADA)
+    COND -- "Compactado + Exceso Agua" --> ANAERO[Ruta ANAEROBIA<br/>(Fermentación Bacteriana)]
+    ANAERO --> CH4((<b>CH₄</b><br/>Indicador de Problema))
+    ANAERO --> VOCs(Malos Olores)
+    end
+
+    %% Estilos para resaltar los gases
+    style CO2 fill:#e6ffcc,stroke:#4d9900,stroke-width:2px
+    style CH4 fill:#ffcccc,stroke:#cc0000,stroke-width:2pxgraph TD
+    %% --- BLOQUE 1: EL CICLO DE VIDA (EL MOTOR) ---
+    subgraph "Ciclo de Vida Activo (3-4 Semanas)"
+    L1[L1-L2: Fase Inicial] -->|Bajo consumo| L3
+    L3[<b>L3 - L5: FASE VORAZ</b><br/>Máxima Actividad Metabólica] -->|Consumo masivo| P[Prepupa: Cese de Alimentación]
+    
+    %% Nota visual sobre L3-L5
+    style L3 fill:#ffe6cc,stroke:#d79b00,stroke-width:3px
+    end
+
+    %% --- BLOQUE 2: EL MECANISMO DE TRANSFORMACIÓN ---
+    subgraph "Mecanismo de Transformación en el Sustrato"
+    L3 -- "Acción Física" --> FRAG[<b>Fragmentación Mecánica</b><br/>(Aparato bucal tritura partículas)]
+    L3 -- "Acción Química" --> ENZ[<b>Digestión Enzimática</b><br/>(Microbiota intestinal + Bacterias exógenas)]
+    
+    FRAG --> MICRO[Modificación del Microambiente<br/>(Cambio de porosidad, pH y Temperatura)]
+    ENZ --> MICRO
+    end
+
+    %% --- BLOQUE 3: RUTAS METABÓLICAS Y GASES ---
+    subgraph "Generación de Gases (Causa-Efecto)"
+    MICRO --> COND{¿Condición del Sustrato?}
+    
+    %% RUTA AEROBIA (LA DESEADA)
+    COND -- "Aireado + Actividad Alta" --> AERO[Ruta AEROBIA<br/>(Respiración Larval + Microbiana)]
+    AERO --> CO2((<b>CO₂</b><br/>Indicador de Eficiencia))
+    AERO --> HEAT(Calor Metabólico)
+    
+    %% RUTA ANAEROBIA (LA INDESEADA)
+    COND -- "Compactado + Exceso Agua" --> ANAERO[Ruta ANAEROBIA<br/>(Fermentación Bacteriana)]
+    ANAERO --> CH4((<b>CH₄</b><br/>Indicador de Problema))
+    ANAERO --> VOCs(Malos Olores)
+    end
+
+    %% Estilos para resaltar los gases
+    style CO2 fill:#e6ffcc,stroke:#4d9900,stroke-width:2px
+    style CH4 fill:#ffcccc,stroke:#cc0000,stroke-width:2px

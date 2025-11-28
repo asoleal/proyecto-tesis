@@ -1,55 +1,57 @@
 \documentclass{article}
-\usepackage{pgfgantt} % Paquete para diagramas de Gantt
+\usepackage{pgfgantt}
 \usepackage{xcolor}
-\usepackage[landscape, left=0.5cm, right=1cm, top=1cm, bottom=1cm]{geometry} % Márgenes personalizados
+\usepackage[landscape, left=1cm, right=1cm, top=2cm, bottom=2cm]{geometry}
 
 \begin{document}
 
-\section{Diagrama de Gantt - Desarrollo de Proyecto (2023-2 a 2027-1)}
+\section*{Cronograma General de Investigación (2023 - 2027)}
+
 \begin{center}
     \begin{ganttchart}[
-        x unit=0.3cm, % Reducir el ancho de cada unidad en el eje X
-        y unit title=0.6cm, % Altura del título
-        y unit chart=0.8cm, % Altura de cada fila
-        vgrid, % Líneas verticales
-        hgrid, % Líneas horizontales
-        title/.style={draw, fill=blue!20}, % Estilo del título
-        bar/.style={draw, fill=blue!30}, % Estilo de las barras
-        bar height=0.6, % Altura de las barras
-        milestone/.style={fill=red, rounded corners=2pt}, % Estilo de los hitos
-        progress label text={}, % Texto de progreso
-        time slot format=isodate, % Formato de fecha
-        bar incomplete/.style={fill=gray!20} % Estilo para barras incompletas
-    ]{2023-08-01}{2027-01-31} % Rango de fechas corregido (hasta 2027-1)
+        % CONFIGURACION SIN LINEAS EN BLANCO
+        vgrid={*5{draw=none}, *1{black!30, dashed}},
+        hgrid,
+        time slot format=isodate,
+        time slot unit=month,
+        x unit=0.55cm,
+        y unit title=0.7cm,
+        y unit chart=0.6cm,
+        title/.style={draw=black!40, fill=blue!10, inner sep=4pt},
+        title label font=\bfseries\footnotesize,
+        include title in canvas=false,
+        bar/.style={draw=blue!60, fill=blue!40, rounded corners=3pt},
+        bar height=0.5,
+        bar label font=\tiny,
+        group right shift=0,
+        group top shift=0.7,
+        group height=.3
+    ]{2023-08-01}{2027-02-28}
 
-    % Título del gráfico (definido manualmente)
-        \gantttitle{2023}{4} % 4 unidades para 2023
-        \gantttitle{2024}{12} % 12 unidades para 2024
-        \gantttitle{2025}{12} % 12 unidades para 2025
-        \gantttitle{2026}{12} % 12 unidades para 2026
-        \gantttitle{2027}{6} \\ % 2 unidades para 2027
+    % --- CABECERAS SEMESTRALES ---
+    \gantttitle{2023 (Semestre II)}{5}
+    \gantttitle{2024-I}{6}
+    \gantttitle{2024-II}{6}
+    \gantttitle{2025-I}{6}
+    \gantttitle{2025-II}{6}
+    \gantttitle{2026-I}{6}
+    \gantttitle{2026-II}{6}
+    \gantttitle{2027-I}{2} \\
 
-        % Actividades ajustadas correctamente
-        \ganttbar{Revisión Bibliográfica}{2023-08-01}{2024-01-31} \\
-        \ganttbar{Ingeniero de Software}{2024-08-01}{2025-06-30} \\
-        \ganttbar{Ingeniero de Hardware}{2024-08-01}{2025-02-28} \\
-        \ganttbar{Estudio Doctoral}{2023-08-01}{2026-12-31} \\
-        \ganttbar{Diseño de Sensores IoT}{2024-09-01}{2025-06-30} \\
-        \ganttbar{Validación Experimental}{2025-06-01}{2026-06-30} \\
-        \ganttbar{Desarrollo de IA}{2025-01-01}{2026-12-31} \\
-        \ganttbar{Implementación de MRV}{2026-06-01}{2026-12-31} \\
-        \ganttbar{Infraestructura en la Nube}{2023-09-01}{2025-12-31} \\
-        \ganttbar{Publicaciones Científicas}{2025-06-01}{2026-12-31} \\
-        \ganttbar{Gestión del Proyecto}{2023-08-01}{2026-12-31} \\
-        \ganttbar{Costos Asociados a Mediciones}{2025-01-01}{2026-12-31} \\
+    % --- ACTIVIDADES ---
+    \ganttbar{Revisión Bibliográfica}{2023-08-01}{2024-01-31} \\
+    \ganttbar{Ingeniería de Software}{2024-08-01}{2025-06-30} \\
+    \ganttbar{Ingeniería de Hardware}{2024-08-01}{2025-02-28} \\
+    \ganttbar{Diseño de Sensores IoT}{2024-09-01}{2025-06-30} \\
+    \ganttbar{Infraestructura Nube}{2023-09-01}{2025-12-31} \\
+    \ganttbar{Desarrollo de IA}{2025-01-01}{2026-12-31} \\
+    \ganttbar{Validación Experimental}{2025-06-01}{2026-06-30} \\
+    \ganttbar{Implementación MRV}{2026-06-01}{2026-12-31} \\
+    \ganttbar{Publicaciones}{2025-06-01}{2026-12-31} \\
+    \ganttbar{Estudio Doctoral}{2023-08-01}{2026-12-31} \\
+    \ganttbar{Gestión del Proyecto}{2023-08-01}{2026-12-31} \\
+    \ganttbar{Costos de Medición}{2025-01-01}{2026-12-31}
 
-        % Leyenda corregida (opcional)
-        \node[anchor=north west] at (current bounding box.south west) {
-            \begin{tabular}{@{}ll@{}}
-                \colorbox{blue!30}{\textcolor{black}{Barra}} & Investigación y Desarrollo \\
-                \colorbox{red}{\textcolor{white}{Hito}} & Evento importante \\
-            \end{tabular}
-        };
     \end{ganttchart}
 \end{center}
 

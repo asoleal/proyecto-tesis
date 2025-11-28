@@ -1,272 +1,167 @@
 \chapter{Marco Metodológico}
 
-\section{Ubicación}
+\section{Arquitectura del sistema híbrido}
 
-El experimento se desarrollará en la sede Palmira de la Universidad Nacional de Colombia, ubicada en el municipio de Palmira, Valle del Cauca, ver figura \ref{fig:localizacion}. La ciudad se encuentra en la zona suroriental del departamento, a una altitud aproximada de 1.000 metros sobre el nivel del mar (msnm). Su clima corresponde a un ecosistema de bosque tropical seco, con una temperatura media anual de $24^\circ C$ y una precipitación que varía entre $900$ y $1.000$ mm.
+El sistema propuesto se basa en una arquitectura híbrida que combina modelado mecanístico y aprendizaje automático para superar las limitaciones de los enfoques puramente empíricos o puramente físicos. Esta arquitectura opera en tres niveles funcionales:
 
-La localización de la sede universitaria en la zona plana del municipio ofrece condiciones climáticas, geográficas y agrícolas, adecuadas para el desarrollo de experimentos con procesos de bioconversión, lo cual favorece la representatividad de los resultados en contextos agroindustriales de clima cálido.
+\section{Justificación de la Arquitectura Híbrida Inteligente}
 
-%El proyecto se desarrollará principalmente en las instalaciones del Centro Internacional de Agricultura Tropical (CIAT), ubicado en Palmira. Dentro del CIAT, las actividades estarán concentradas en el laboratorio de Economía Circular, donde se realizarán las pruebas y validaciones del sistema de medición de gases de efecto invernadero (GEI), ver figura \ref{fig:localizacion}.
+El sistema se fundamenta en una arquitectura de procesamiento en tres etapas, diseñada para extraer información de valor a partir de sensores de bajo costo, sin requerir una infraestructura de control industrial compleja:
+
+\textbf{1. Estimación de variables latentes (Sensor Virtual):} El modelo mecanístico (EDO), alimentado con las series de tiempo de los sensores IoT (temperatura, \ce{CO2}, humedad) durante las ventanas de medición, permite inferir variables biológicas no medibles directamente, como la tasa metabólica instantánea. Esta funcionalidad, conocida como \textit{soft-sensor}, busca convertir el dato físico crudo (ppm de gas) en una representación dinámica del estado de actividad larval \parencite{liuOptimizingDataPipelines2023}.
+
+\textbf{2. Corrección dinámica mediante aprendizaje automático:} Reconociendo que los modelos teóricos son sensibles a la heterogeneidad del residuo (variabilidad no modelada), el sistema implementa una corrección aditiva del error. Un algoritmo de aprendizaje ligero (ej. Regresión o Random Forest) estima el \textit{residuo} o discrepancia entre la curva teórica del EDO y la medición real del sensor. Este valor se suma a la predicción base para ajustar el resultado final sin alterar los parámetros fisiológicos del modelo. Este enfoque híbrido mejora la precisión local manteniendo la interpretabilidad biológica del modelo global.
+
+\textbf{3. Soporte preventivo a la decisión (Alerta Temprana):} Mediante la proyección a corto plazo (15–30 minutos) de la tendencia de \ce{CO2} y su correlación con la humedad, el sistema busca identificar patrones de estancamiento o saturación que preceden a la formación de focos anaerobios (generadores de \ce{CH4}). Esta capacidad de anticipación habilita una gestión preventiva: el sistema puede generar alertas de \textit{Riesgo de Anaerobiosis} para sugerir intervenciones manuales (como el volteo), optimizando el desempeño ambiental antes de que se consoliden emisiones significativas.
+
+\section{Ubicación y Contexto Experimental}
+
+El componente experimental se desarrollará en la sede Palmira de la Universidad Nacional de Colombia, ver Figura \ref{fig:localizacion}). La zona se caracteriza por corresponder a un ecosistema de bosque tropical seco, con una temperatura media anual de $24^\circ C$, condiciones que favorecen el desarrollo natural de \textit{Hermetia illucens}. El montaje se realizará en condiciones de laboratorio controlado (mesocosmos) para garantizar la reproducibilidad de los datos de calibración.
+
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.8\textwidth]{00Figuras/localizacion.png}
+    \includegraphics[width=0.8\textwidth]{00Figuras/localizacion.jpg} % Asegúrate de que la ruta sea correcta
     \caption{Ubicación del proyecto en Palmira, Valle del Cauca, Colombia.}
     \label{fig:localizacion}
 \end{figure}
 
 \section{Enfoque y Tipo de Investigación}
 
-Este estudio se enmarca dentro de una investigación \textbf{aplicada, experimental, tecnológica e interdisciplinaria}, orientada al diseño, desarrollo y validación de un sistema inteligente para la medición, modelado y predicción de emisiones de gases de efecto invernadero (GEI), particularmente dióxido de carbono CO$_2$ y metano CH$_4$, durante el proceso de bioconversión de residuos orgánicos mediante \textit{BSF}.
+Este estudio se enmarca dentro de una investigación aplicada, experimental, tecnocientífica e interdisciplinaria, orientada al desarrollo y validación de un sistema híbrido para la caracterización dinámica de emisiones de gases de efecto invernadero (GEI).
 
-El enfoque de la investigación es \textbf{cuantitativo y deductivo}, ya que se fundamenta en la recopilación sistemática de datos numéricos a través de sensores con IoT, el análisis de dichos datos mediante algoritmos de aprendizaje automático (AAA) y la formulación de modelos matemáticos basados en ecuaciones diferenciales ordinarias (EDO). Esta combinación de técnicas permite tanto la descripción como la predicción del comportamiento del sistema bajo diferentes condiciones ambientales.
+El enfoque es cuantitativo, fundamentado en la recolección sistemática de series de tiempo mediante sensores IoT, el modelado determinista (EDO) y el análisis estadístico predictivo (Machine Learning). La metodología se estructura en cuatro fases secuenciales e integradas que van desde la instrumentación física hasta la validación de la utilidad ambiental del sistema.
 
-La metodología se estructura en \textbf{tres fases principales}:
-\begin{enumerate}
-    \item \textbf{Diseño e implementación} de una red de sensores con IoT para el monitoreo en tiempo real de variables ambientales críticas como temperatura, humedad y concentraciones de GEI.
-    \item \textbf{Desarrollo de modelos híbridos} que integren ecuaciones diferenciales y algoritmos de aprendizaje automático, con el objetivo de simular y predecir dinámicas de emisión durante el proceso de bioconversión.
-    \item \textbf{Validación experimental y evaluación del sistema}, mediante ensayos controlados que permitan calibrar los modelos, verificar la confiabilidad del sistema y demostrar su aplicabilidad en contextos agrícolas y agroindustriales.
-\end{enumerate}
+\section{Diseño Experimental y Desarrollo (Materiales y Métodos)}
 
-De esta manera, el estudio se presenta desde una perspectiva \textbf{tecnocientífica}, en la que integra saberes como la ingeniería ambiental, la biotecnología, la inteligencia artificial y el modelamiento matemático, con el fin de aportar soluciones innovadoras para la gestión sostenible de residuos y aportar a la mitigación del cambio climático.
+\subsection{Fase I: Diseño e Implementación del Sistema IoT y Aseguramiento de Datos}
 
-\section{Materiales y Métodos}
+El objetivo de esta fase es garantizar la calidad del dato de entrada. Dada la naturaleza agresiva del entorno de bioconversión (alta humedad relativa $>80\%$), se implementarán protocolos de robustez instrumental.
 
-El proyecto se desarrollará en \textit{tres fases interconectadas}, cada una diseñada para abordar componentes clave del sistema propuesto:
-
-\subsection{Fase I: Diseño e Implementación del Sistema de sensores con IoT}
-
-En esta fase se diseñará e implementará una red de sensores basada en Internet de las Cosas (IoT) para medir en tiempo real variables ambientales críticas como temperatura, humedad y las concentraciones de GEI como CO$_2$ y CH$_4$ durante el proceso de bioconversión con \textit{BSF}. Los sensores seleccionados serán calibrados y evaluados en términos de precisión, estabilidad y confiabilidad, asegurando su integración con una plataforma de almacenamiento en la nube. Esta fase proporcionará la base de datos necesaria para entrenar y validar los modelos de aprendizaje automático en la Fase II.
-
-\textbf{Actividades:}
+\textbf{Actividades Clave:}
 \begin{itemize}
-    \item Diseño e implementación de la red de sensores con IoT para capturar variables ambientales y gases GEI.
-    \item Selección, calibración y validación de los sensores en condiciones controladas.
-    \item Configuración de la comunicación segura entre los sensores y la plataforma de almacenamiento en la nube.
-    \item Realización de pruebas iniciales de integración del sistema completo de adquisición de datos.
+    \item \textbf{Implementación de Hardware:} Diseño de un nodo de sensores basado en microcontroladores (tipo ESP32), integrando sensores NDIR para \ce{CO2} y semiconductores/electroquímicos para \ce{CH4}.
+    \item \textbf{Protocolos de Calibración:} Ejecución de curvas de calibración frente a concentraciones patrón y desarrollo de algoritmos de \textbf{compensación cruzada} para corregir la deriva del sensor causada por las fluctuaciones de temperatura y humedad inherentes al proceso exotérmico.
+    \item \textbf{Captura de Datos:} Despliegue de la red IoT para la recolección de datos en ciclos de bioconversión (14-20 días), generando el \textit{dataset} experimental necesario para el entrenamiento de los modelos.
 \end{itemize}
 
-\subsubsection{Diseño y Desarrollo de Componentes Electrónicos (IoT)}
+\subsection{Fase II: Parametrización del Modelo Mecanístico (Línea Base)}
 
-Como parte del sistema de adquisición de datos, se diseñará un conjunto de dispositivos electrónicos embebidos con sensores especializados para la medición continua de variables ambientales y de gases de efecto invernadero. Estos dispositivos permitirán la recolección y transmisión remota de datos críticos del proceso de bioconversión, garantizando trazabilidad, escalabilidad y bajo consumo energético.
+Se formulará un modelo matemático basado en Ecuaciones Diferenciales Ordinarias (EDO) bajo el marco del \textit{Dynamic Energy Budget} (DEB) simplificado. Este modelo tendrá como función exclusiva describir la tendencia ideal aerobia del proceso.
 
-\subsubsection{Sensores para la Medición de Gases}
-
-Se utilizarán sensores infrarrojos no dispersivos (NDIR) por su alta selectividad y estabilidad frente a interferencias ambientales. Los sensores seleccionados son:
-
+\textbf{Enfoque de Modelado:}
 \begin{itemize}
-    \item \textbf{Sensor de dióxido de carbono CO$_2$}: Winsen MH-410D, con un rango de detección de 0-5000 ppm y resolución de ±50 ppm.
-    \item \textbf{Sensor de metano CH$_4$}: Winsen MH-441D, con un rango de detección de 0-10\% en volumen y resolución de 0.01\%.
+    \item El modelo EDO describirá el crecimiento larval y la producción respiratoria de \ce{CO2} asumiendo condiciones óptimas de operación.
+    \item Se asume que el \ce{CH4} responde a anomalías estocásticas (focos anaerobios) que escapan a la cinética determinista estándar, por lo que su modelado se delega a la fase híbrida.
+    \item \textbf{Resultado:} Una curva teórica de referencia ($Y_{modelo}$) que servirá de línea base para detectar desviaciones operativas.
 \end{itemize}
 
-Estos sensores permitirán cuantificar en tiempo real las emisiones de GEI generadas durante el proceso de descomposición y metabolización de residuos por las larvas de \textit{BSF}.
+\subsection{Fase III: Desarrollo del Sistema Híbrido (Detección y Corrección)}
 
-\subsubsection{Microcontroladores y Diseño Electrónico}
+En esta fase se integra la Inteligencia Artificial para cerrar la brecha entre la teoría (Fase II) y la realidad observada (Fase I).
 
-Los sensores estarán conectados a microcontroladores ESP32, elegidos por su bajo costo, capacidad de procesamiento eficiente y conectividad Wi-Fi nativa. Estos microcontroladores ejecutarán rutinas de lectura, preprocesamiento y transmisión de datos. El diseño electrónico será realizado mediante software CAD como Eagle, permitiendo una integración funcional y estructural robusta del sistema.
-
-\subsubsection{Configuración de la Red IoT}
-
-Se implementará una red de comunicaciones eficiente, adaptable a distintos escenarios de conectividad:
-
+\textbf{Estrategia Híbrida:}
 \begin{itemize}
-    \item \textbf{Wi-Fi}: Para entornos con infraestructura de red estable y alta capacidad de transmisión.
-    \item \textbf{LoRa}: Para ambientes rurales o remotos donde se requiere transmisión de largo alcance con bajo consumo energético.
+    \item \textbf{Cálculo del Residual:} Se calculará la diferencia instantánea entre el dato del sensor y la predicción del modelo EDO ($\epsilon = Y_{sensor} - Y_{modelo}$).
+    \item \textbf{Entrenamiento de Algoritmos:} Se entrenarán modelos de regresión (ej. Random Forest o Redes Neuronales ligeras) para predecir este error residual en función de las variables ambientales, ajustando así la estimación final.
+    \item \textbf{Detección de Anomalías (\ce{CH4}):} Se implementará un clasificador para identificar patrones de "firma espectral" (ej. estancamiento de \ce{CO2} acoplado a alta humedad) que correlacionen con picos de \ce{CH4}, permitiendo una detección indirecta o "soft-sensing" de la anaerobiosis.
 \end{itemize}
 
-Los dispositivos estarán configurados para enviar datos en tiempo real a una plataforma centralizada en la nube, lo que permitirá su análisis, almacenamiento y visualización mediante interfaces de control y monitoreo.
-\subsection{Fase II: Desarrollo e Implementación de Modelos Matemáticos de Predicción}
+\subsection{Fase IV: Validación Ambiental y Soporte a la Decisión}
 
-Esta fase tiene como objetivo construir modelos matemáticos que permitan describir y predecir el comportamiento dinámico del proceso de bioconversión de residuos orgánicos mediado por \textit{BSF}, particularmente en lo relacionado con la generación de GEI, como CO$_2$ y CH$_4$. Se empleará un enfoque de modelamiento matemático basado en ecuaciones diferenciales ordinarias (EDO), que será complementado posteriormente con modelos híbridos alimentados por datos obtenidos en la Fase I.
+La fase final busca validar la utilidad de la información generada para la gestión operativa y el reporte ambiental.
 
-\textbf{Actividades:}
+\textbf{Validación:}
 \begin{itemize}
-    \item Revisión crítica de modelos existentes en la literatura (Monod, Haldane, DEB, etc.) aplicables al metabolismo larval y la descomposición de materia orgánica.
-    \item Revisión de los modelos con EDOs que describan las tasas de generación de CO$_2$ y CH$_4$ como función del tiempo, la biomasa larval, el tipo de sustrato, la humedad y la temperatura.
-    \item Definición de condiciones iniciales y parámetros del sistema con base en datos empíricos recolectados por los sensores con IoT y la literatura.
-    \item Implementación computacional del modelo utilizando software como Python (SciPy, NumPy) o MATLAB.
-    \item Calibración y validación del modelo mediante comparación con datos experimentales.
-\end{itemize}
+    \item \textbf{Comparativa de Escenarios:} Se analizará el desempeño del sistema procesando datos de sustratos contrastantes para verificar su sensibilidad en la discriminación de perfiles de emisión.
+    \item \textbf{Validación del Reporte:} Se cuantificarán las emisiones totales del ciclo para obtener un indicador de desempeño ambiental. Este resultado se comparará con la literatura para confirmar que la medición en sitio mejora la calidad del reporte.\end{itemize}
 
-\subsubsection{Análisis y Simulación}
+\section{Arquitectura Tecnológica del Sistema}
 
-Los modelos serán evaluados numéricamente mediante esquemas de integración como Euler explícito o Runge-Kutta de cuarto orden. Se emplearán criterios de ajuste como el error cuadrático medio (MSE), coeficiente de determinación ($R^2$) y validación cruzada con datos experimentales obtenidos en distintas condiciones ambientales.
+El sistema sigue una arquitectura modular de tres capas, diseñada bajo el paradigma IoT para garantizar la integridad, disponibilidad y trazabilidad del dato científico (Ver Figura \ref{fig:arquitectura}):
 
-Los resultados de esta fase permitirán:
+\subsection{Capa de Percepción (Edge Computing)} Compuesta por el nodo sensor (Hardware basado en ESP32). Su función principal es la digitalización de variables físicas. Para garantizar la robustez del dato experimental, esta capa implementa: \begin{itemize} \item Adquisición y Filtrado: Lectura de sensores y aplicación de filtros digitales (media móvil) para atenuar el ruido eléctrico. \item Resiliencia: Almacenamiento temporal en memoria local (SD/Flash) para evitar pérdida de datos ante fallos de conectividad (buffer circular). \item Telemetría: Transmisión asíncrona de la trama de datos mediante protocolo ligero MQTT hacia el servidor de procesamiento. \end{itemize}
 
-\begin{itemize}
-    \item Simular diferentes escenarios de operación (e.g., cambios de temperatura, humedad o tipo de residuo).
-    \item Determinar condiciones para mejorar la eficiencia en el proceso de bioconversión y determinar las emisiones de GEI.
-    \item Generar datos para mejorar el entrenamiento de modelos de aprendizaje automático en la Fase III.
-\end{itemize}
+\subsection{Capa de Procesamiento (Core/Cloud)} Módulo de software centralizado donde reside la lógica científica del sistema. \begin{itemize} \item Gestor de Datos (Ingesta): Recibe la telemetría, realiza una validación de rangos (sanitización de datos) y la almacena en una base de datos relacional para garantizar la persistencia histórica. \item Motor Híbrido de Estimación: Ejecuta secuencialmente el modelo matemático: primero resuelve la cinética base (EDO) y posteriormente invoca el algoritmo de aprendizaje automático para corregir el error residual, generando la "Variable Estimada"\ final. \end{itemize}
 
-\textbf{Resultado esperado:} un modelo matemático predictivo validado, capaz de estimar la evolución de emisiones de CO$_2$ y CH$_4$ en función de las condiciones del proceso, y que pueda ser integrado a una arquitectura de monitoreo inteligente.
+\subsection{Capa de Aplicación (Interfaz de Decisión)} Interfaz de visualización orientada al usuario final y al soporte de decisiones operativas. Sus funcionalidades clave incluyen: \begin{itemize} \item Monitorización Dinámica: Visualización de las curvas de tendencia (Real vs. Estimada) en tiempo real. \item Auditoría Ambiental: Módulo de descarga de reportes consolidados del ciclo para procesos de MRV. \item Gestión de Alertas: Semáforo de riesgo que notifica visualmente la detección de patrones compatibles con anaerobiosis incipiente. \end{itemize}
 
+\begin{figure}[h!] \centering \includegraphics[width=1.0\textwidth]{00Figuras/DG_FLUJO_GENERAL.png} \caption{Diagrama de la arquitectura funcional del sistema de monitoreo y predicción híbrido, detallando el flujo de datos desde la percepción física hasta la toma de decisiones.} \label{fig:arquitectura} \end{figure}
 
-\subsection{Fase III: Integración de Modelos Matemáticos y de Aprendizaje Automático para Predicción y Control}
+\section{Criterios de Validación y Métricas de Éxito}
 
-En esta fase se integrarán los modelos matemáticos formulados en la Fase II con técnicas de aprendizaje automático (AAA), conformando un sistema híbrido orientado a la predicción y control del proceso de bioconversión de residuos orgánicos mediante \textit{BSF}. Esta integración busca validar la consistencia de las predicciones frente a datos experimentales, así como mejorar la capacidad adaptativa del sistema ante variaciones ambientales en tiempo real.
-
-
-\textbf{Actividades principales:}
-\begin{itemize}
-    \item Integración de las salidas del modelo EDO con los conjuntos de datos experimentales para alimentar los algoritmos de AAA.
-    \item Recolección, limpieza, transformación y normalización de datos generados por la red de sensores.
-    \item Evaluación de modelos de aprendizaje automático seleccionados bajo criterios de eficiencia, interpretabilidad y adecuación al tipo de datos recolectados. En particular, se emplearán:
-    \begin{itemize}
-        \item \textbf{Regresión lineal múltiple}, para modelar relaciones cuantitativas entre variables ambientales y emisiones.
-       % \item \textbf{Árboles de decisión}, por su capacidad de capturar relaciones no lineales y generar reglas de decisión comprensibles.
-        \item \textbf{Redes neuronales multicapa (MLP)}, utilizadas únicamente si se cuenta con una base de datos amplia y representativa, con el fin de mejorar la capacidad de predicción bajo condiciones complejas y dinámicas.
-    \end{itemize}
-    \item Entrenamiento y validación de los modelos utilizando métricas estadísticas como el error cuadrático medio (MSE).
-    \item Implementación de validación cruzada para evaluar la capacidad generalizadora de cada modelo.
-    \item Selección del modelo híbrido con mejor desempeño y despliegue en el sistema de monitoreo inteligente para realizar inferencias en tiempo real.
-\end{itemize}
-\subsubsection*{Implementación de Modelos Híbridos}
-
-Los modelos híbridos se implementarán utilizando una arquitectura que combine:
+Para evaluar el cumplimiento de los objetivos, se establecen los siguientes umbrales de desempeño:
 
 \begin{itemize}
-    \item \textbf{Modelos mecanicistas} (de base matemática): permiten la simulación detallada de las relaciones causales en el proceso.
-    \item \textbf{Modelos empíricos} (AAA): capturan patrones en datos complejos y permiten predicciones rápidas bajo nuevas condiciones.
+    \item \textbf{Robustez Instrumental:} Se aceptará una correlación de Pearson ($R > 0.85$) entre la señal del sensor y la tendencia esperada, con un error porcentual medio (MAPE) $< 15\%$, considerando las limitaciones técnicas de los sensores \textit{low-cost} en ambientes de saturación hídrica.
+    
+    \item \textbf{Mejora Híbrida:} El sistema híbrido (EDO + IA) se considerará exitoso si logra reducir el error de predicción (RMSE) en al menos un 20\% en comparación con el uso del modelo mecanístico (EDO) por sí solo.
+    
+    \item \textbf{Sensibilidad a Anomalías:} Se validará la capacidad del sistema para identificar correctamente los eventos de pico de metano (Clasificación Binaria: Presencia/Ausencia de Anaerobiosis) con una métrica de Sensibilidad (\textit{Recall}) $> 80\%$, priorizando la minimización de falsos negativos.
+    
+    \item \textbf{Utilidad MRV:} El sistema deberá ser capaz de generar automáticamente un reporte de emisiones acumuladas al final del ciclo, coherente con los balances de masa teóricos calculados por métodos de referencia.
 \end{itemize}
 
-Los datos generados por los sensores con IoT serán utilizados como entradas para ambos modelos, los cuales operarán de manera paralela y complementaria. El modelo matemático proporcionará una simulación inicial de referencia, mientras que el AAA ajustará sus predicciones con base en datos históricos y en tiempo real.
+\section{Alineación de Objetivos y Estrategia Experimental}
+A modo de síntesis, la Tabla~\ref{tab:resumen_metodologia} presenta la matriz de coherencia que articula los objetivos específicos con sus respectivas fases de ejecución y criterios de validación. Esta estructura evidencia que el diseño metodológico no opera como un conjunto de técnicas aisladas, sino como un sistema integrado en el que la calidad de las mediciones instrumentales (Fase I), la solidez del modelo mecanístico (Fase II) y la capacidad de corrección basada en datos (Fase III) se articulan de manera coherente. Este enfoque permite que cada fase contribuya de forma directa y cuantificable al desarrollo de una herramienta de gestión ambiental (Fase IV), asegurando la trazabilidad científica desde la captura de la señal hasta la toma de decisiones operativas.
 
-\subsubsection*{Evaluación Comparativa}
+\begin{table}[h]
+\centering
+\caption{Matriz de Coherencia Metodológica}
+\label{tab:resumen_metodologia}
+\begin{tabular}{|p{3cm}|p{4cm}|p{4cm}|p{3cm}|}
+\hline
+\textbf{Objetivo Específico} & \textbf{Método / Fase} & \textbf{Entregable Clave} & \textbf{Criterio de Éxito} \\ \hline
+1. Hardware IoT & Fase I: Diseño e Implementación & Dataset experimental (14 días) & $R > 0.85$ (coeficiente de Pearson vs. referencia) \\ \hline
+2. Modelo EDO & Fase II: Parametrización & Simulación de referencia de \ce{CO2} & MAPE $< 15\%$ en ventana de 30 min \\ \hline
+3. Sistema Híbrido & Fase III: Desarrollo Algorítmico & Motor de corrección de error & Reducción del RMSE $\geq 20\%$ frente al modelo EDO \\ \hline
+4. Validación & Fase IV: Evaluación Ambiental & Reporte MRV y sistema de alertas & Recall $> 80\%$ en detección de eventos de estrés metabólico \\ \hline
+\end{tabular}
+\end{table}
 
-Cada algoritmo será evaluado con métricas cuantitativas de desempeño, tales como:
+\section{Análisis Crítico: Limitaciones, Riesgos y Desafíos de Implementación}
+
+Si bien la integración de tecnologías digitales promete optimizar la bioconversión, este estudio adopta una postura \textit{tecno-realista}, reconociendo que la digitalización no es neutral ni está exenta de externalidades. En respuesta a la necesidad de un análisis riguroso sobre la viabilidad técnica y socioambiental, a continuación se detallan las tensiones éticas, ambientales, epistémicas y operativas inherentes a la propuesta, junto con las estrategias de mitigación integradas en su diseño.
+
+\subsection{Tensión socioecológica: impacto de la materialidad digital}
+Existe una tensión entre la sostenibilidad del proceso biológico (bioconversión) y la huella ecológica asociada a la infraestructura digital. La implementación de redes IoT conlleva impactos en la extracción de minerales críticos, el consumo energético y la generación futura de residuos electrónicos (\textit{e-waste}).
 
 \begin{itemize}
-    \item \textbf{Error Cuadrático Medio (MSE)}: para evaluar precisión en predicción continua.
-    \item \textbf{Coeficiente de determinación ($R^2$)}: para evaluar correlación entre valores predichos y reales.
-
+    \item \textbf{Riesgo (Degradación prematura):} La exposición prolongada a condiciones agresivas —humedad relativa $>80\%$, amoniaco y compuestos volátiles corrosivos— puede acortar drásticamente la vida útil de los sensores, incrementando la frecuencia de reemplazos y la generación de residuos tecnológicos.
+    \item \textbf{Mitigación (Diseño para mantenimiento):} El sistema se basa en una arquitectura modular que permite reemplazar únicamente el elemento sensible (sensor), preservando la unidad de procesamiento (ESP32) y comunicación. Esta estrategia, combinada con el uso de microcontroladores de bajo consumo, reduce tanto la huella operativa como la tasa de generación de \textit{e-waste} \parencite{dharCarbonImpactArtificial2020}.
 \end{itemize}
 
-Se utilizará validación cruzada k-fold y ajuste de hiperparámetros con búsqueda en malla (grid search) para garantizar la generalización de los modelos.
-
-\subsubsection*{Resultado esperado}
-
-El resultado de esta fase será un sistema inteligente de predicción y control, basado en la integración de modelamiento matemático con algoritmos de aprendizaje automático. Este sistema permitirá realizar ajustes en tiempo real en las condiciones del proceso, facilitando una gestión más eficiente, robusta y sostenible de la bioconversión de residuos con \textit{BSF}, así como una estimación más precisa de las emisiones de GEI.
-
-\subsection{Fase IV: Implementación y Validación del Sistema de Reporte y MRV}
-Esta fase final se centrará en la implementación operativa del sistema inteligente, mediante un módulo de Medición, Reporte y Verificación (MRV) o plataforma web, los sensores con IoT, el modelo matemático con EDO, y los algoritmos de aprendizaje automático.  
-
-Actividades:
-\begin{itemize}
-\item Desarrollo de una interfaz digital interactiva para la visualización en tiempo real de variables críticas y emisiones estimadas.
-\item Integración del sistema MRV con los modelos híbridos de predicción (matemático + AAA), garantizando la consistencia y trazabilidad de los datos.
-\item Ejecución de pruebas para evaluar el rendimiento del sistema.
-\item Validación del sistema mediante comparación entre emisiones estimadas y mediciones de referencia.
-\item Documentación de resultados, ajustes finales al sistema y recomendaciones para desarrollar otras aplicaciones.
-\end{itemize}
-
-Esta fase permitirá mostrar la eficacia y aplicabilidad del sistema completo, no solo como una herramienta de monitoreo, sino como una base tecnológica para la formulación de estrategias de mitigación climática, en el marco de una economía circular y sostenible.
+\subsection{Riesgos epistémicos: opacidad algorítmica y sobreajuste}
+La dependencia de algoritmos de aprendizaje automático introduce incertidumbres sobre la interpretabilidad y la capacidad de generalización del modelo en entornos no estacionarios.
 
 
-\section{Diseño e Implementación del Sistema de Captura y Análisis de Datos}
-Como eje central de la tesis, se diseñará e implementará un sistema inteligente de captura, almacenamiento y análisis de datos, fundamentado en tecnologías IoT, modelos matemáticos y algoritmos de aprendizaje automático (AAA). El cual permitirá el monitoreo continuo y en tiempo real de variables ambientales clave, como temperatura, humedad y concentración de GEI CO$_2$ y CH$_4$, durante el proceso de bioconversión con \textit{BSF}.
 
-La arquitectura del sistema estará compuesta por:
-\begin{itemize}
-\item Sensores con IoT calibrados para la adquisición de datos ambientales y de emisiones de gases.
+%[Image of data processing flowchart]
 
-\item Microcontroladores embebidos (ESP32) para el procesamiento inicial de datos y su transmisión inalámbrica.
-
-\item Plataforma de almacenamiento en la nube para la estructuración y respaldo de datos históricos.
-
-\item Módulos de análisis de datos donde se ejecutarán los modelos matemáticos y los algoritmos AAA para predecir y ajustar condiciones de operación en tiempo real.
-
-\item Interfaz web de visualización y control, que facilitará la supervisión del sistema, generación de alertas y la toma de decisiones informadas.
-\end{itemize}
-
-Dado que se utilizará un entorno controlado, los algoritmos de aprendizaje automático serán entrenados con los datos generados directamente por los sensores, lo que permitirá ajustar los modelos a las condiciones reales del sistema. La evaluación del desempeño se hará utilizando métricas como el error cuadrático medio (MSE) y el coeficiente de determinación ($R^2$), con el fin de seleccionar mejores configuraciones. La validación se complementará mediante la comparación con métodos de referencia, lo que permitirá verificar que tan exacta es la medición del sistema diseñado en la estimación de emisiones de GEI y su aplicabilidad en escenarios productivos. 
-
-\section{Criterios de Validación}
-Para garantizar la robustez, precisión y aplicabilidad del sistema de medición y modelamiento propuesto, se establecerán criterios de validación específicos en cada uno de sus componentes. Estos criterios permitirán verificar tanto la calidad de los datos obtenidos como el desempeño de los modelos y la confiabilidad general del sistema.
 
 \begin{itemize}
-\item \textbf{Precisión y calibración de sensores con IoT}: Se evaluará la exactitud de los sensores mediante comparación directa con equipos de laboratorio certificados (método de referencia), aplicando pruebas de reproducibilidad y repetibilidad. Se considerará satisfactorio un error relativo inferior al 5\% en la medición de variables como temperatura, humedad y concentraciones de CO$_2$ y CH$_4$.
-\item \textbf{Desempeño predictivo de modelos AAA}:  Los modelos de aprendizaje automático serán validados utilizando métricas como el Error Cuadrático Medio (MSE) y el Coeficiente de Determinación ($R^2$), con umbrales de aceptación de $MSE < 0{,}1$ y $R^2 > 0{,}9$. 
-
-\item \textbf{Impacto en la estimación de emisiones de GEI}: Se verificará la capacidad del sistema para estimar las emisiones de gases de efecto invernadero comparando los resultados obtenidos con métodos estándar (por ejemplo, cromatografía o sensores certificados). Se considerará válido un nivel de correlación superior al 90\% entre las emisiones estimadas por el sistema híbrido (IoT + modelos) y los valores obtenidos en condiciones de referencia.
-
-\item \textbf{Escalabilidad y replicabilidad}: Se documentará la adaptabilidad del sistema diferentes condiciones agroindustriales y su replicabilidad en distintas escalas de operación, con base en parámetros técnicos, económicos y ambientales.
+    \item \textbf{Limitación (Sobreajuste a condiciones de laboratorio):} Los modelos de aprendizaje automático puros pueden ajustarse excesivamente a las condiciones controladas del prototipo, perdiendo robustez al enfrentarse a la variabilidad de sustratos y microclimas en operación real.
+    \item \textbf{Estrategia (Modelado híbrido con restricciones físicas):} Se adopta un enfoque de inteligencia artificial explicable (XAI) mediante la integración con un modelo mecanístico (EDO) basado en el marco del \textit{Dynamic Energy Budget} (DEB). Esta integración no solo corrige el error residual, sino que impone restricciones biológicas en la función de pérdida del algoritmo, evitando predicciones no realistas (e.g., tasas de crecimiento negativas o emisiones superiores al carbono disponible) y manteniendo la interpretabilidad para el operario.
 \end{itemize}
 
-Estos criterios permitirán validar de forma integral el desempeño del sistema propuesto y asegurar su utilidad como herramienta efectiva para el monitoreo inteligente de procesos de bioconversión y la gestión de emisiones en el marco de una economía circular.
-\section[Arquitectura general]{Arquitectura del Sistema de Monitoreo de Gases de Efecto Invernadero y Variables Ambientales}
+\subsection{Retos de escalamiento y brecha digital en contextos rurales}
+La transición del prototipo (TRL 4) a una implementación a escala (TRL 7–9) enfrenta barreras estructurales en contextos latinoamericanos, donde la conectividad y el acceso a infraestructura digital son desiguales.
 
-\subsection{Descripción General}
 
-El sistema de monitoreo propuesto para la medición de gases de efecto invernadero GEI y variables ambientales sigue una arquitectura modular basada en IoT, en la cual un dispositivo sensor recolecta datos y los transmite a través del protocolo MQTT hacia un backend que gestiona la información, permitiendo su almacenamiento en una base de datos o su visualización en tiempo real en una plataforma web.
 
-\subsection{Adquisición de Datos}
+%[Image of edge computing architecture diagram]
 
-El dispositivo sensor, basado en tecnología embebida, integra múltiples sensores para la medición de temperatura, humedad y concentraciones de CO$_2$ y CH$_4$. Todo el sistema se encuentra encapsulado en una carcasa protectora, equipada con interfaces de comunicación inalámbrica que permiten la transmisión de datos en tiempo real. En la Figura~\ref{fig:dispositivos} se presenta el prototipo del dispositivo, junto con una visualización del proceso de medición y captura de datos.
 
 \begin{itemize}
-    \item \textbf{Sensores}: Incluyen sensores electroquímicos y NDIR para gases, así como sensores de temperatura y humedad de alta precisión.
-    \item \textbf{Procesamiento local}: La unidad de control preprocesa los datos, aplicando calibraciones y filtros de ruido.
-    \item \textbf{Comunicación}: Los datos son transmitidos a un broker MQTT mediante conectividad WiFi o LoRa.
+    \item \textbf{Desafío de conectividad:} Las arquitecturas centralizadas en la nube excluyen a productores en zonas con baja o nula cobertura móvil ("zonas grises"), potencialmente exacerbando inequidades tecnológicas.
+    \item \textbf{Oportunidad (Computación en el borde):} La arquitectura propuesta descentraliza la inteligencia mediante \textit{edge computing}, ejecutando los algoritmos críticos directamente en el nodo IoT. Esto permite operación autónoma y sincronización asíncrona de datos, garantizando funcionalidad incluso sin conexión continua.
+    \item \textbf{Accesibilidad económica:} El escalamiento depende de que el costo del sistema sea marginal respecto al valor del producto. El uso de plataformas embebidas de bajo costo (ESP32) y sensores comerciales busca democratizar el acceso para pequeños y medianos productores agroindustriales.
 \end{itemize}
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=1.0\textwidth]{00Figuras/DG_FLUJO_GENERAL.png}
-    \caption{Diagrama de flujo general diseñado para la medición de gases efecto invernadero y variables ambientales.}
-    \label{fig:dispositivos}
-\end{figure}
 
-%\caption{Cronograma de Ejecución del Proyecto}
-%\label{tab:cronograma}
-\begin{landscape}  % TODO lo dentro de este bloque estará en landscape
-    \section{Diagrama de Gantt - Cronograma de actividades (2023-2 a 2027-1)}
-    \includegraphics[scale=0.5]{00Figuras/gant.png} 
-\end{landscape}
-
-
-\subsection{Transmisión de Datos}
-
-El protocolo MQTT es utilizado para el envío de datos desde el dispositivo sensor hacia un \textit{broker} central basado en EMQX, el cual gestiona las publicaciones y suscripciones a los tópicos de los sensores. Esta arquitectura permite una comunicación eficiente y en tiempo real.
+\subsection{Bioseguridad y gobernanza de datos}
+El proyecto se alinea con principios de innovación responsable y transparencia climática, cumpliendo con marcos regulatorios emergentes.
 
 \begin{itemize}
-    \item \textbf{Publicador}: El dispositivo sensor envía datos periódicamente al broker en tópicos estructurados (\textit{topics}).
-    \item \textbf{Broker}: Se encarga de distribuir los datos a los clientes suscritos (backend y dashboard).
-    \item \textbf{Backend}: Desarrollado en \textbf{Node.js}, recibe los datos y los procesa antes de almacenarlos o visualizarlos.
+    \item \textbf{Bioseguridad:} Aunque \textit{Hermetia illucens} no es vector de patógenos humanos, el diseño del sistema refuerza los protocolos de contención biológica. Mediante la detección temprana de anomalías en los parámetros ambientales (fugas o cambios térmicos súbitos), el sistema genera alertas críticas para la intervención manual inmediata, apoyando el cumplimiento de normativas fitosanitarias (ICA/UE) sin depender exclusivamente de barreras pasivas.
+    
+    \item \textbf{Integridad MRV:} Los registros de emisiones se gestionan bajo principios de trazabilidad digital y sellado de tiempo (\textit{timestamping}), garantizando que los datos sean auditables y consistentes con los requisitos de Medición, Reporte y Verificación (MRV) de estándares internacionales (IPCC, Verra). Esto mitiga el riesgo de \textit{greenwashing digital} y sienta las bases técnicas para la futura certificación de créditos de carbono.
 \end{itemize}
-
-\subsection{Procesamiento y Almacenamiento}
-
-El backend, desarrollado con Node.js, recibe los datos de los sensores y los somete a procesamiento adicional, incluyendo:
-
-\begin{itemize}
-    \item Conversión de unidades y correcciones en función de la calibración del sensor.
-    \item Aplicación de algoritmos de detección de anomalías y filtros de ruido.
-    \item Almacenamiento condicional en una base de datos PostgreSQL, en caso de que el usuario presione un botón de guardado.
-\end{itemize}
-
-El almacenamiento en PostgreSQL permite la gestión estructurada de los datos históricos, facilitando análisis avanzados y visualización de tendencias.
-
-\subsection{Visualización en Dashboard Web}
-
-Los datos pueden visualizarse en tiempo real a través de una interfaz desarrollada en \textbf{Next.js}, que proporciona un dashboard interactivo donde el usuario puede:
-
-\begin{itemize}
-    \item Ver las mediciones en tiempo real de cada sensor.
-    \item Consultar registros históricos almacenados en la base de datos.
-    \item Configurar alertas y umbrales de seguridad.
-    \item Exportar datos para análisis adicionales.
-\end{itemize}
-
-Este sistema modular basado en IoT permite una integración eficiente entre sensores, backend y visualización web, apoyando la recolección y análisis de datos ambientales en tiempo real. La combinación de MQTT, PostgreSQL y Next.js proporciona una solución escalable y flexible para monitoreo de gases de efecto invernadero en entornos agrícolas e industriales.
-
-
-\section{Consideraciones Éticas y Ambientales}
-Este proyecto se desarrolla bajo principios de sostenibilidad y ética en la experimentación, asegurando que el proceso de bioconversión con \textit{BSF} no genere impactos negativos en el ecosistema. Además, se garantiza la trazabilidad y transparencia en la medición de emisiones de GEI mediante el uso de sistemas MRV estandarizados. El diseño modular del sistema permite su escalabilidad, facilitando su implementación en diferentes sectores industriales y productivos, contribuyendo así a una economía circular más eficiente.
-
-\section{Síntesis metodológica y proyección del sistema}
-
-La metodología desarrollada en este estudio responde a una necesidad crítica: mejorar la medición, modelado y predicción de emisiones de gases de efecto invernadero (GEI) en procesos de bioconversión de residuos orgánicos, utilizando \textit{BSF} como agente transformador. A través de una estrategia estructurada en cuatro fases, se integra el diseño de sensores con IoT, el desarrollo de modelos matemáticos, la aplicación de algoritmos de aprendizaje automático (AAA) y la validación mediante un sistema de Medición, Reporte y Verificación (MRV), todo articulado en un marco experimental riguroso.
-
-La Fase I aborda la instrumentación del sistema mediante sensores calibrados para la recolección de datos en tiempo real. La Fase II introduce el modelado matemático de las dinámicas del proceso, empleando ecuaciones diferenciales ordinarias (EDO) para representar las relaciones entre variables críticas como temperatura, humedad, crecimiento larval y generación de GEI. En la Fase III, estos modelos son complementados con algoritmos AAA que permiten predicciones dinámicas, mejorando la capacidad adaptativa del sistema ante variaciones en las condiciones operativas. Finalmente, la Fase IV consolida el sistema a través de una interfaz digital y una plataforma MRV que facilita la visualización, trazabilidad y validación de las emisiones generadas.
-
-Éste enfoque integra biotecnología, electrónica, inteligencia artificial y modelado matemático para desarrollar una solución replicable y escalable en contextos agroindustriales, alineada con los principios de economía circular. Los resultados permitirán evaluar su desempeño y generar recomendaciones para aportar en la mitigación de emisiones.
