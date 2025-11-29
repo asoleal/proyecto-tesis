@@ -4,8 +4,6 @@
 
 El sistema propuesto se basa en una arquitectura híbrida que combina modelado mecanístico y aprendizaje automático para superar las limitaciones de los enfoques puramente empíricos o puramente físicos. Esta arquitectura opera en tres niveles funcionales:
 
-\section{Justificación de la Arquitectura Híbrida Inteligente}
-
 El sistema se fundamenta en una arquitectura de procesamiento en tres etapas, diseñada para extraer información de valor a partir de sensores de bajo costo, sin requerir una infraestructura de control industrial compleja:
 
 \textbf{1. Estimación de variables latentes (Sensor Virtual):} El modelo mecanístico (EDO), alimentado con las series de tiempo de los sensores IoT (temperatura, \ce{CO2}, humedad) durante las ventanas de medición, permite inferir variables biológicas no medibles directamente, como la tasa metabólica instantánea. Esta funcionalidad, conocida como \textit{soft-sensor}, busca convertir el dato físico crudo (ppm de gas) en una representación dinámica del estado de actividad larval \parencite{liuOptimizingDataPipelines2023}.
