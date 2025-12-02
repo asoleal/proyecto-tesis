@@ -13,11 +13,10 @@ Un sistema híbrido que integre modelamiento matemático basado en ecuaciones di
 Los sensores NDIR de bajo costo, sometidos a protocolos de calibración y preacondicionamiento de señal, permiten medir concentraciones de \ce{CO2} y \ce{CH4} en el entorno de bioconversión con una desviación (MAPE) $\leq 10$\,\% respecto a equipos certificados de laboratorio.
 
 \subsection{H2: Capacidad predictiva del modelo mecanístico}
-El modelo de EDO, fundamentado en la bioenergética del crecimiento larval y parametrizado con datos locales, es capaz de describir la tendencia base de las emisiones de \ce{CO2} y \ce{CH4} en ventanas temporales de 30 minutos con un MAPE $\leq 15$\,\%, capturando la dinámica biológica subyacente.
+El modelo de EDO, fundamentado en la bioenergética del crecimiento larval y parametrizado con datos locales, es capaz de predecir la tasa de producción de \ce{CO2} durante el ciclo experimental de 15 días con un error porcentual absoluto medio (MAPE) $\leq 15$,\%. Esta validación, realizada en ventanas de observación de 30 minutos cada dos días, demuestra que el modelo captura correctamente la dinámica metabólica subyacente del sistema.
 
 \subsection{H3: Refinamiento por aprendizaje automático}
 La integración de una capa de corrección mediante algoritmos de aprendizaje automático reduce el error residual del modelo de EDO en al menos un 30\,\%, logrando que el sistema híbrido alcance un MAPE $< 10$\,\% ante perturbaciones no modeladas.
-\subsection{H4: Valor para la gestión operativa}
-El sistema híbrido integrado es capaz de identificar patrones de emisión anómalos (como picos imprevistos de \ce{CH4} indicativos de anaerobiosis) que no son detectables mediante modelado estático, proporcionando indicadores de desempeño ambiental en tiempo real útiles para la toma de decisiones de manejo.
+\subsection{H4: Valor para la gestión operativa} La incorporación de medición directa de \ce{CH4} en el esquema de monitoreo permite la detección inmediata de eventos transitorios de anaerobiosis (picos de emisión) que los modelos estáticos basados en factores de emisión promedio omiten. Esto proporciona indicadores dinámicos que habilitan acciones correctivas en tiempo real, reduciendo la incertidumbre operativa frente a las estimaciones puramente teóricas.
 
-\emph{Nota: Las métricas de precisión (H1--H3) se evaluarán bajo condiciones experimentales controladas en laboratorio (30\,°C $\pm$ 2\,°C, HR 60--70\,\%), mientras que la H4 se validará mediante análisis de escenarios operativos.}
+\emph{Nota: Las métricas de precisión (H1--H3) se evaluarán bajo condiciones experimentales de laboratorio (30\,°C $\pm$ 2\,°C, HR 60--70\,\%), mientras que la H4 se validará mediante análisis de escenarios operativos.}

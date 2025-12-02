@@ -3073,7 +3073,7 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1" intorder="1">allanSummaryPolicymakers2023</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">ak-bhdWMOGreenhouseGas2021</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">wmoWMOGreenhouseGas2025</bcf:citekey>
     <bcf:citekey order="3" intorder="1">ginerFoodLossWaste2025a</bcf:citekey>
     <bcf:citekey order="4" intorder="1">kongEvaluatingGreenhouseGas2012</bcf:citekey>
     <bcf:citekey order="4" intorder="2">nordahlGreenhouseGasAir2023</bcf:citekey>
@@ -3169,8 +3169,11 @@
     <bcf:citekey order="70" intorder="1">fuhrmannComprehensiveIndustryrelevantBlack2025</bcf:citekey>
     <bcf:citekey order="71" intorder="1">kobelskiModelbasedProcessOptimization2024a</bcf:citekey>
     <bcf:citekey order="71" intorder="2">liuOptimizingDataPipelines2023</bcf:citekey>
-    <bcf:citekey order="72" intorder="1">liuOptimizingDataPipelines2023</bcf:citekey>
-    <bcf:citekey order="73" intorder="1">dharCarbonImpactArtificial2020</bcf:citekey>
+    <bcf:citekey order="72" intorder="1">eriksenDynamicModellingFeed2022</bcf:citekey>
+    <bcf:citekey order="73" intorder="1">eriksenDynamicModellingFeed2022</bcf:citekey>
+    <bcf:citekey order="74" intorder="1">eriksenDynamicModellingFeed2022</bcf:citekey>
+    <bcf:citekey order="75" intorder="1">eriksenDynamicModellingFeed2022</bcf:citekey>
+    <bcf:citekey order="76" intorder="1">dharCarbonImpactArtificial2020</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

@@ -2,16 +2,15 @@
 
 \section{Objetivo General}
 
-Desarrollar un sistema híbrido inteligente —integrado por un modelo mecanístico (EDO), sensores IoT de bajo costo y algoritmos de aprendizaje automático— para el monitoreo continuo de los flujos de \ce{CO2} y \ce{CH4} durante ciclos de bioconversión, que permita detectar en tiempo real ineficiencias metabólicas (como la anaerobiosis) y genere métricas trazables del desempeño ambiental en el tratamiento de residuos agroindustriales con \textit{Hermetia illucens}.
+Desarrollar un sistema híbrido a escala de laboratorio —integrado por modelado mecanístico (EDO), sensores IoT de bajo costo y algoritmos de aprendizaje automático— para la estimación de la tasa de producción de \ce{CO2} y la detección de eventos de emisión de \ce{CH4} en la bioconversión de residuos con \textit{Hermetia illucens}, con el fin de generar métricas de desempeño ambiental aplicables a la gestión de residuos agroindustriales.
 
 \section{Objetivos Específicos}
 
-\begin{enumerate}
-    \item \textbf{Diseñar e implementar un sistema híbrido} con sensores IoT de bajo costo para la medición continua de \ce{CO2} y variables ambientales (temperatura, humedad), desarrollando y validando procedimientos de calibración y \textbf{compensación cruzada} que garanticen precisión en las condiciones húmedas y dinámicas del proceso de bioconversión.
-    
-    \item \textbf{Formular y parametrizar un modelo mecanístico} basado en ecuaciones diferenciales ordinarias (EDO) que represente los balances de masa y energía del sistema, integrando la cinética larval, la degradación microbiana del sustrato y la producción base de \ce{CO2}, bajo el marco teórico del \textit{Dynamic Energy Budget} (DEB).
-    
-    \item \textbf{Desarrollar una capa de corrección híbrida} mediante algoritmos de aprendizaje automático que, a partir de los datos de los sensores, estime el error residual del modelo mecanístico y refine la predicción de los flujos de \ce{CO2} y la \textbf{detección indirecta} de \ce{CH4} ante perturbaciones del sistema.
-    
-    \item \textbf{Validar el sistema híbrido} frente a mediciones de referencia (cámaras de flujo cerrado y balances de masa), evaluando su desempeño mediante métricas cuantitativas (MAPE, RMSE) y su capacidad para detectar anomalías operativas (e.g., picos de anaerobiosis) y generar indicadores ambientales verificables.
+\begin{enumerate} \item \textbf{Instrumentación:} Configurar y calibrar un módulo de sensores NDIR de bajo costo para la medición de \ce{CO2} y \ce{CH4}, determinando su precisión y desviación (MAPE) frente a un instrumento de referencia bajo las condiciones de temperatura y humedad propias del cultivo de larvas.
+
+\item \textbf{Modelado Matemático:} Adaptar y parametrizar un modelo de EDO basado en la bioenergética de \textit{Hermetia illucens} para estimar la tasa de respiración (\ce{CO2}), evaluando su capacidad predictiva en ventanas temporales durante un ciclo de bioconversión de 15 días.
+
+\item \textbf{Integración Híbrida:} Desarrollar un algoritmo de estimación de estados mediante redes neuronales que infiera la biomasa larval a partir de datos operativos, integrando esta variable como entrada dinámica al modelo mecanístico para mejorar la precisión de la estimación de \ce{CO2}.
+
+\item \textbf{Métricas Ambientales:} Validar la utilidad del sistema para la gestión ambiental mediante la detección de eventos de anaerobiosis (\ce{CH4}) y la cuantificación del carbono emitido, contrastando estos indicadores dinámicos frente a estimaciones estáticas tradicionales.
 \end{enumerate}

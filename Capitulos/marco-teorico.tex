@@ -62,17 +62,7 @@ de aprendizaje automático, tema de la siguiente sección.
 
 La cuantificación dinámica de emisiones en procesos biológicos exige herramientas que articulen una base mecanística con capacidad de adaptación empírica. En este contexto, el modelado matemático basado en ecuaciones diferenciales ordinarias (EDO) ha impulsado avances significativos. Por ejemplo, el modelo de crecimiento larval propuesto por Eriksen (2022) integra balances energéticos y cinética logística para simular simultáneamente la acumulación de biomasa y la producción de \ce{CO2}, combinando los principios del enfoque \textit{Dynamic Energy Budget} (DEB) con eventos biológicos clave del ciclo larval, como las mudas y la metamorfosis. De manera análoga, funciones cinéticas de tipo Monod y Haldane —originalmente desarrolladas para digestión anaerobia— han sido adaptadas con éxito para describir la degradación del sustrato y el crecimiento microbiano en sistemas de bioconversión con insectos \parencite{winAnaerobicDigestionBlack2018, ahlamineMathematicalAnalysisAnaerobic2024}. 
 
-Sin embargo, estos modelos presentan limitaciones críticas cuando se implementan 
-en contextos operativos reales: (i) la mayoría fue validada en condiciones 
-de laboratorio controladas, sin integración de datos en tiempo real; (ii) generalmente 
-no capturan el efecto simultáneo y dinámico de múltiples variables ambientales 
-(temperatura fluctuante, humedad variable, oxigenación heterogénea) sobre las 
-emisiones de CO\textsubscript{2} y CH\textsubscript{4}; (iii) dependen de parámetros 
-que requieren calibración manual y periódica, sin mecanismo de actualización automática 
-\parencite{bekkerImpactSubstrateMoisture2021a,rossiEstimatingDynamicsGreenhouse2024}. 
-Estas limitaciones impiden que los modelos actuales predigan con confianza el 
-comportamiento del sistema bajo variaciones operativas típicas en contextos 
-agroindustriales rurales.
+Si bien los modelos mecanicistas actuales proporcionan una base teórica indispensable, su aplicación directa en entornos operativos dinámicos puede presentar limitaciones de alcance. La literatura \parencite{bekkerImpactSubstrateMoisture2021a,rossiEstimatingDynamicsGreenhouse2024} sugiere que, al validarse principalmente bajo condiciones controladas, las formulaciones clásicas a menudo requieren simplificaciones sobre las interacciones simultáneas de variables (temperatura, humedad, oxigenación). Asimismo, el uso de parámetros fijos podría restringir la capacidad del modelo para responder a la variabilidad estocástica del sustrato en campo. Esta diferencia entre las condiciones controladas y la operación real sugiere la conveniencia de explorar enfoques híbridos o basados en datos que complementen la teoría existente con información en tiempo real.
 
 Paralelamente, los avances en sensores de bajo costo y plataformas IoT han 
 facilitado el monitoreo continuo de variables críticas —CO\textsubscript{2}, 

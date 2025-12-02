@@ -1,52 +1,16 @@
 \chapter{Resultados Esperados}
 
-De acuerdo con el alcance definido y la ventana de ejecución experimental, este proyecto se compromete con la entrega de un sistema tecnológico funcional a escala de laboratorio. El propósito central es validar la arquitectura híbrida (Sensores + EDO + IA) no solo como herramienta de medición, sino como un instrumento activo para la **gestión sostenible**, estableciendo las bases para la reducción de la huella de carbono en implementaciones industriales.
+Conforme al alcance definido y la ventana de ejecución experimental, el proyecto se orienta a la validación de un sistema tecnológico funcional a escala de laboratorio. El propósito central no es solo la medición instrumental, sino la demostración de que una arquitectura híbrida (Sensores + IA + Bioenergética) puede reducir la incertidumbre en el monitoreo de procesos biológicos complejos, estableciendo bases técnicas para la gestión basada en datos y la reducción de la huella de carbono en la agroindustria.A continuación, se detallan los productos técnicos, científicos y ambientales comprometidos:
 
-A continuación se detallan los entregables técnicos, científicos y ambientales comprometidos:
+\section{Prototipo Funcional de Monitoreo IoT}Se entregará un sistema de adquisición de datos operativo y caracterizado, diseñado para mantener la integridad de la señal en el entorno agresivo de la bioconversión (alta humedad relativa y presencia de gases corrosivos).\begin{itemize}\item \textbf{Entregable:} Nodo de sensores integrado (basado en ESP32 u homólogo) capaz de registrar y transmitir telemetría de \ce{CO2}, \ce{CH4}, temperatura y humedad con alta resolución temporal. El hardware incluirá estrategias de preacondicionamiento de señal para mitigar el ruido electrónico inherente al entorno.\item \textbf{Criterio de Éxito:} Continuidad operativa documentada durante ciclos completos de 14 días, con una tasa de pérdida de paquetes de datos $< 5\%$. Se validará la calidad del dato mediante una correlación de Pearson ($R > 0.85$) y un error medio ($MAPE \leq 15\%$) frente a instrumentos de referencia, demostrando la viabilidad del bajo costo pese a la deriva instrumental.\end{itemize}
 
-\section{Prototipo Funcional de Monitoreo IoT}
-Se entregará un \textbf{sistema de adquisición de datos operativo y calibrado}, diseñado específicamente para resistir las condiciones del entorno de bioconversión.
-\begin{itemize}
-    \item \textbf{Entregable:} Nodo de sensores integrado (ESP32) capaz de transmitir telemetría continua de \ce{CO2}, \ce{CH4}, temperatura y humedad, en los intervalos de medición, permitiendo la correlación de variables ambientales con la actividad metabólica.
-    \item \textbf{Criterio de Éxito:} El sistema garantizará la continuidad de la transmisión de datos durante intervalos de tiempo definidos en ciclos completos (14 días), con protocolos de reconexión automática ante fallos de red y una caracterización documentada de la deriva instrumental (se aceptará un MAPE $\leq 15$\,\% respecto a la tendencia de equipos de referencia, considerando la saturación de los sensores \textit{low-cost}).
-\end{itemize}
+\section{Modelo Híbrido de Estimación de Estados}Se desarrollará un motor de cómputo que integre la inteligencia artificial con la teoría biológica para superar la imposibilidad de medir la biomasa larval en tiempo real.\begin{itemize}\item \textbf{Entregable:} Un algoritmo validado de Arquitectura en Cascada, compuesto por:\begin{enumerate}\item Un estimador basado en Redes Neuronales que infiera la biomasa larval ($W_w$) a partir de las variables ambientales históricas.\item Un modelo mecanístico (EDO-DEB) que utilice dicha biomasa para predecir la tasa de respiración (\ce{CO2}) esperada.\end{enumerate}\item \textbf{Criterio de Éxito:} El sistema híbrido deberá superar la precisión de una línea base estática (modelo de crecimiento lineal), logrando un coeficiente de determinación ($R^2 \geq 0.70$) en la predicción de la tendencia de \ce{CO2}, demostrando que el sistema captura efectivamente la dinámica de crecimiento de \textit{Hermetia illucens}.\end{itemize}
 
-\section{Modelos Matemáticos y Algorítmicos (Arquitectura Híbrida)}
-Se formulará y validará un esquema de modelado dual que combine principios biológicos con inteligencia computacional.
-\begin{itemize}
-    \item \textbf{Componente Mecanístico:} Un modelo EDO parametrizado que describa la curva teórica de emisiones de \ce{CO2} basada en el crecimiento larval ideal.
-    \item \textbf{Componente de IA:} Un algoritmo de aprendizaje automático (evaluando regresión, árboles de decisión y redes neuronales ligeras) entrenado con datos experimentales para corregir las discrepancias del modelo teórico y detectar anomalías.
-    \item \textbf{Criterio de Éxito:} Demostración estadística de que el modelo híbrido reduce el error de estimación en comparación con el uso del modelo teórico por sí solo (reducción del RMSE $\geq 15$\,\%).
-\end{itemize}
+\section{Herramienta de Diagnóstico Ambiental}Se entregará una metodología validada para transformar los datos crudos en indicadores de gestión, útiles para la toma de decisiones operativas y el reporte de sostenibilidad.\begin{itemize}\item \textbf{Entregable (Sistema de Alertas):} Un módulo de detección lógica capaz de identificar eventos de Anaerobiosis mediante la lectura directa de \ce{CH4} y el análisis de divergencia entre el modelo y el sensor.\item \textbf{Entregable (Inventario Dinámico):} Un reporte automatizado que cuantifique la masa total de carbono emitida ($C_{total}$), explicitando la discrepancia ($\Delta$) entre la medición real y la estimación teórica tradicional.\item \textbf{Criterio de Éxito:} Una sensibilidad (\textit{Recall}) $> 80\%$ en la clasificación correcta de eventos de pico de metano, asegurando que el sistema actúe como una barrera efectiva contra emisiones fugitivas no reportadas.\end{itemize}
 
-\section{Plataforma de Datos y Visualización}
-Implementación de una infraestructura digital básica pero escalable para la gestión de la información experimental.
-\begin{itemize}
-    \item \textbf{Entregable:} Despliegue de una base de datos y un tablero de control (\textit{Dashboard}) web.
-    \item \textbf{Funcionalidad:} La plataforma permitirá la visualización de curvas de tendencia en tiempo real, el almacenamiento histórico seguro y la descarga de reportes estructurados para análisis posterior.
-\end{itemize}
+\section{Activo de Información Científica}Como resultado transversal, se consolidará un Dataset Experimental Estructurado sobre la dinámica de emisiones en la cría de \textit{Hermetia illucens}.\begin{itemize}\item \textbf{Entregable:} Base de datos curada y etiquetada que correlaciona variables ambientales, crecimiento de biomasa (ground truth) y emisiones de GEI (\ce{CO2}/\ce{CH4}) en alta frecuencia. Este activo servirá como insumo para futuras investigaciones o para el re-entrenamiento de algoritmos más complejos.\end{itemize}
 
-\section{Piloto de Sistema MRV (Medición, Reporte y Verificación)}
-Desarrollo de un protocolo digital preliminar para la trazabilidad ambiental.
-\begin{itemize}
-    \item \textbf{Alcance:} El sistema generará reportes de Emisión por Lote, calculando las emisiones directas de GEI (\ce{CO2-eq}/kg residuo procesado) basadas en los datos procesados.
-    \item \textbf{Limitación Declarada:} Esta versión no constituirá una certificación legal, sino una herramienta de validación interna para demostrar la viabilidad técnica del monitoreo continuo frente a los métodos de estimación estáticos.
-\end{itemize}
 
-\section{Generación de Estrategias para la Mitigación de GEI}
-Como aporte directo a la sostenibilidad del proceso, se derivarán lineamientos operativos a partir del análisis de datos.
-\begin{itemize}
-    \item \textbf{Entregable:} Identificación de "Ventanas Operativas Limpias". Se documentarán los rangos críticos de temperatura y humedad que correlacionan con la aparición de picos de metano (\ce{CH4}) en el sustrato específico evaluado.
-    \item \textbf{Impacto Ambiental:} Esta caracterización permitirá proponer recomendaciones de manejo (ej. frecuencia de volteo o aireación) orientadas a \textbf{prevenir} la anaerobiosis, transformando el sistema de una herramienta pasiva de monitoreo a un instrumento activo para la mitigación de emisiones.
-\end{itemize}
+\section{Interfaz de Visualización y Soporte Operativo}Para garantizar que la información técnica sea accesible para la toma de decisiones, se implementará una capa de visualización de datos de bajo costo computacional.\begin{itemize}\item \textbf{Entregable:} Un Dashboard de Control (basado en plataformas \textit{open-source} como Grafana, Streamlit o ThingsBoard) que despliegue en tiempo real:\begin{enumerate}\item Las curvas de concentración de \ce{CO2} y \ce{CH4}.\item El estado semafórico del sistema (Verde: Eficiente / Rojo: Alerta de Anaerobiosis).\item El valor acumulado de emisiones estimada vs. real.\end{enumerate}\item \textbf{Criterio de Éxito:} La interfaz deberá actualizarse automáticamente con una latencia $< 1$ minuto respecto a la transmisión del sensor, permitiendo la interpretación visual inmediata de las anomalías por parte de un operador no experto.\end{itemize}
 
-\section{Delimitación del Alcance y Restricciones Técnicas}
-Con el fin de garantizar la rigurosidad académica, se declaran explícitamente las siguientes fronteras operativas del proyecto:
-
-\begin{itemize}
-    \item \textbf{Precisión Instrumental:} Dado el uso de sensores de bajo costo en ambientes de alta saturación hídrica, se aceptarán márgenes de tolerancia superiores a los de equipos analíticos de laboratorio, compensados mediante algoritmos de software.
-    \item \textbf{Escala de Datos:} Los modelos de Inteligencia Artificial tendrán un carácter exploratorio, entrenados con un volumen de datos limitado a los ciclos experimentales del proyecto, lo cual podría restringir su capacidad de generalización inmediata a otros sustratos no testeados.
-    \item \textbf{Nivel de Automatización:} El sistema se centrará en el monitoreo y la generación de alertas (lazo abierto); no se implementará control automático de actuadores (ventiladores/riego) en esta fase.
-\end{itemize}
-
-Esta propuesta de resultados busca equilibrar la innovación tecnológica con la factibilidad operativa, entregando una solución sólida, validada experimentalmente y documentada, que cumple con los requisitos de una tesis doctoral sin exceder las capacidades logísticas disponibles.
+\section{Producción Intelectual y Divulgación}Como validación externa de la calidad científica del desarrollo.\begin{itemize}\item \textbf{Entregable:} Un manuscrito científico (tipo \textit{Conference Paper} o artículo de revista indexada) que documente la metodología de calibración de sensores \textit{low-cost} en ambientes de alta humedad o la validación del modelo híbrido para \textit{Hermetia illucens}.\item \textbf{Criterio de Éxito:} Sometimiento o aceptación del trabajo en un evento académico o revista del área de Ingeniería Ambiental, Electrónica o Bioeconomía.\end{itemize}
